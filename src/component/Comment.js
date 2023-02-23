@@ -6,6 +6,12 @@ function Comment() {
   return (
     <div className="Comment">
       <h1>Haroun The Great</h1>
+      <div class="flex-container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+      </div>
       <div className="comm">
         <Tabb trump_object={trump} />
         gfddf
@@ -19,7 +25,8 @@ const Tabb = ({ trump_object }) => {
   console.log(trump_object);
   const matList = trump_object.map((line) => (
     <div className="box">
-      {line.N} {line.an}
+      <div className="box_element">{line.N}</div>
+      <div className="box_element">{line.comment}</div>
     </div>
   ));
   return <div className="card">{matList}</div>;
