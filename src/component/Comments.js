@@ -1,7 +1,7 @@
 import trump from "../data/data";
-import "../component/comment.css";
+import "../component/comments.css";
 import React, { useState } from "react";
-function Comment() {
+function Comments() {
   console.log(trump[0].comment);
   const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
   return (
@@ -14,7 +14,7 @@ function Comment() {
     </div>
   );
 }
-export default Comment;
+export default Comments;
 
 const Tabb = ({ trump_object }) => {
   const [readMore, setReadMore] = useState(false);
@@ -24,7 +24,7 @@ const Tabb = ({ trump_object }) => {
       <div className="item-1">{line.N}</div>
       <div className="item-2">
         <p>{readMore ? line.comment : `${line.comment.substring(0, 100)}`}</p>
-        <button onClick={() => setReadMore(!readMore)}>
+        <button className="learn-more" onClick={() => setReadMore(!readMore)}>
           {readMore ? "show less" : "show More"}
         </button>
       </div>
