@@ -1,34 +1,25 @@
 .box {
+  /* position: absolute; */
   box-shadow: 2px 2px 2px 2px;
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 2%;
-}
-.comment_number {
-  text-align: left;
-  color: red;
-}
-.flex-container {
-  height: 300px;
   display: flex;
-  border: 1px solid black;
-  padding: 10px;
+  gap: 1em;
+  align-items: center;
 }
-.item {
-  flex: auto;
-  background: #b4bac0;
-  margin: 10px;
+.box:hover {
+  transform: scale(1.2);
 }
-
-/* ------------------------------------- */
-
-.box {
-  height: 200px;
-  display: flex;
-  padding: 10px;
+.item-1 {
+  flex-basis: 20%;
+  background-color: aqua;
 }
-.box_element {
-  flex: auto;
-  background: #b4bac0;
-  margin: 10px;
+.item-2 {
+  flex-basis: 50%;
+  background-color: rgb(206, 253, 253);
+}
+.item-3 {
+  flex-basis: 30%;
+  background-color: rgb(66, 90, 90);
 }
