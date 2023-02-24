@@ -12,16 +12,3 @@ function Comments() {
   );
 }
 export default Comments;
-
-// const matList = trump_object.map((line) => (
-//   <div className="box">
-//     <div className="item-1">{line.N}</div>
-//     <div className="item-2">
-//       <p>{readMore ? line.comment : `${line.comment.substring(0, 100)}`}</p>
-//       <button className="learn-more" onClick={() => setReadMore(!readMore)}>
-//         {readMore ? "show less" : "show More"}
-//       </button>
-//     </div>
-//     <div className="item-3">{line.Year}</div>
-//   </div>
-// ));
