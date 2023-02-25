@@ -2,7 +2,7 @@ import trump from "./data";
 import "./comments.css";
 import Comment from "../comment/comment";
 import React, { useState } from "react";
-function Comments() {
+function Comments({ trump }) {
   return (
     <div className="comments">
       {trump.map((one_comment) => {

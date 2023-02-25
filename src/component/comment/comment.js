@@ -13,7 +13,6 @@ function Comment({ id, N, comment, Year, hour_z_time, an, Language }) {
     operator = "netural";
   }
 
-  console.log(operator);
   return (
     <div className="box">
       <div className="item-1">{N}</div>
