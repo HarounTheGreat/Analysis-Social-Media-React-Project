@@ -12,21 +12,25 @@ function Comment({ id, N, comment, Year, hour_z_time, an, Language }) {
   } else {
     operator = "netural";
   }
+
   console.log(operator);
   return (
     <div className="box">
       <div className="item-1">{N}</div>
       <div className={operator}>
         <div className="item-2">
-          {readMore ? comment : `${comment.substring(0, 200)}...`}
-          <button
-            className="btn"
-            onClick={() => {
-              setReadMore(!readMore);
-            }}
-          >
-            {readMore ? "Read Less" : "Read More"}
-          </button>
+          {/* <p>{readMore ? comment : `${comment.substring(0, 200)}...`}</p> */}
+          <p>{affiche(readMore, comment)}</p>
+          {comment.length > 200 && (
+            <button
+              className="btn"
+              onClick={() => {
+                setReadMore(!readMore);
+              }}
+            >
+              {readMore ? "Read Less" : "Read More"}
+            </button>
+          )}
         </div>
         <div className="item-3">{Year}</div>
       </div>
@@ -35,3 +39,19 @@ function Comment({ id, N, comment, Year, hour_z_time, an, Language }) {
 }
 
 export default Comment;
+
+const Read = (readMore, comment) => {
+  return readMore ? comment : `${comment.substring(0, 200)}...`;
+};
+
+const affiche = (readMore, comment) => {
+  if (readMore) {
+    return comment;
+  } else {
+    if (comment.length > 200) {
+      return `${comment.substring(0, 200)}...`;
+    } else {
+      return `${comment.substring(0, 200)}`;
+    }
+  }
+};
