@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Recherche from "./component/recherche/recherche";
-import trump from "./component/comments/data";
+import Recherche from "./component/first_comments/recherche/recherche";
+import trump from "./component/first_comments/comments/data";
 function App() {
   return (
     <div className="App">
