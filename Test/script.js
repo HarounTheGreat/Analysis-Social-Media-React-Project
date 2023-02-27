@@ -12,7 +12,6 @@ export default function MyForm() {
 
     // Or you can work with it as a plain object:
     const formJson = Object.fromEntries(formData.entries());
-    console.log(formJson);
   }
 
   return (
