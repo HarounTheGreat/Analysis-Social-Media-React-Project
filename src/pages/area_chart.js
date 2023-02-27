@@ -1,39 +1,59 @@
+import "./chart.css";
 import React from "react";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Pie } from "react-chartjs-2";
 ChartJS.register(ArcElement, Tooltip, Legend);
-const data = {
-  labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
-  datasets: [
-    {
-      label: "# of Votes",
-      data: [12, 19, 3, 5, 2, 3],
-      backgroundColor: [
-        "rgba(255, 99, 132, 0.2)",
-        "rgba(54, 162, 235, 0.2)",
-        "rgba(255, 206, 86, 0.2)",
-        "rgba(75, 192, 192, 0.2)",
-        "rgba(153, 102, 255, 0.2)",
-        "rgba(255, 159, 64, 0.2)",
-      ],
-      borderColor: [
-        "rgba(255, 99, 132, 1)",
-        "rgba(54, 162, 235, 1)",
-        "rgba(255, 206, 86, 1)",
-        "rgba(75, 192, 192, 1)",
-        "rgba(153, 102, 255, 1)",
-        "rgba(255, 159, 64, 1)",
-      ],
-      borderWidth: 1,
-    },
-  ],
+
+const numbers = (X) => {
+  let a = 0;
+  let b = 0;
+  let c = 0;
+  let R = [];
+  for (let i = 0; i < X.length; i++) {
+    if (X[i].an === "O") {
+      a = a + 1;
+    } else if (X[i].an === "P") {
+      b = b + 1;
+    } else {
+      c = c + 1;
+    }
+  }
+  R.push(a);
+  R.push(b);
+  R.push(c);
+  return R;
 };
-const Area_chart = () => {
+
+const Area_chart = ({ trump_data }) => {
+  let array;
+  array = numbers(trump_data);
+  const data = {
+    labels: ["Netural", "Positive", "Negative"],
+    datasets: [
+      {
+        label: "# of Votes",
+        data: array,
+        backgroundColor: [
+          "rgb(83, 127, 231)",
+          "rgb(3, 201, 136)",
+          "rgb(235, 69, 95)",
+        ],
+        borderColor: [
+          "rgb(83, 127, 231,1)",
+          "rgba(54, 162, 235, 1)",
+          "rgba(255, 206, 86, 1)",
+        ],
+        borderWidth: 1,
+      },
+    ],
+  };
   return (
-    <div className="area_chart">
-      <h1>YO_Bro</h1>
-      <Pie data={data} />
-    </div>
+    <>
+      <h1>Area Chart</h1>
+      <div className="area_chart">
+        <Pie data={data} />
+      </div>
+    </>
   );
 };
 export default Area_chart;
