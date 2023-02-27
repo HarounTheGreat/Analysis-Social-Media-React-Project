@@ -1,0 +1,15 @@
+.navbar {
+  /* position: absolute; */
+  box-shadow: 1px 2px 1px 1px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  display: flex;
+  gap: 2em;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid;
+  background-color: rgb(247, 247, 255);
+  font-weight: bold;
+}

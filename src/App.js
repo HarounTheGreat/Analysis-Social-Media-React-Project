@@ -1,12 +1,17 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Recherche from "./component/first_comments/recherche/recherche";
-import trump from "./component/first_comments/comments/data";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Error from "./component/error/error";
+import Home from "./pages/home";
 function App() {
   return (
     <div className="App">
-      <h1>Haroun The Great</h1>
-      <Recherche trump={trump} />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="*" element={<Error />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

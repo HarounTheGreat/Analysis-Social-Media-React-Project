@@ -1,4 +1,3 @@
-import trump from "./data";
 import "./comments.css";
 import Comment from "../comment/comment";
 import React, { useState } from "react";
