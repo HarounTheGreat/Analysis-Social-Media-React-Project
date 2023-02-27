@@ -1,51 +1,38 @@
-export default function MyForm() {
-  function handleSubmit(e) {
-    // Prevent the browser from reloading the page
-    e.preventDefault();
+let arr = [20, 30, 40];
+console.log("before", arr);
 
-    // Read the form data
-    const form = e.target;
-    const formData = new FormData(form);
-
-    // You can pass formData as a fetch body directly:
-    fetch("/some-api", { method: form.method, body: formData });
-
-    // Or you can work with it as a plain object:
-    const formJson = Object.fromEntries(formData.entries());
-  }
-
-  return (
-    <form method="post" onSubmit={handleSubmit}>
-      <label>
-        Text input: <input name="myInput" defaultValue="Some initial value" />
-      </label>
-      <hr />
-      <label>
-        Checkbox:{" "}
-        <input type="checkbox" name="myCheckbox" defaultChecked={true} />
-      </label>
-      <hr />
-      <p>
-        Radio buttons:
-        <label>
-          <input type="radio" name="myRadio" value="option1" /> Option 1
-        </label>
-        <label>
-          <input
-            type="radio"
-            name="myRadio"
-            value="option2"
-            defaultChecked={true}
-          />{" "}
-          Option 2
-        </label>
-        <label>
-          <input type="radio" name="myRadio" value="option3" /> Option 3
-        </label>
-      </p>
-      <hr />
-      <button type="reset">Reset form</button>
-      <button type="submit">Submit form</button>
-    </form>
-  );
+arr[0] = arr[0] + 5;
+console.log("after", arr);
+let ss;
+ss = "2021-12-20";
+let p = "";
+p = ss.substring(5, 7);
+console.log(p);
+let day;
+let a;
+a = parseInt(p);
+switch (a) {
+  case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+    day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case 12:
+    day = "Saturday";
+    break;
+  default:
 }
+console.log(day);

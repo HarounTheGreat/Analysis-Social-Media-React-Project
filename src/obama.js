@@ -12439,3 +12439,4 @@ const obama = [
     Language: "en",
   },
 ];
+export default obama;

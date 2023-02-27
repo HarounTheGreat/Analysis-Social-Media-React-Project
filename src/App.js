@@ -5,6 +5,7 @@ import Error from "./component/error/error";
 import Home from "./pages/home";
 import Area_chart from "./pages/area_chart";
 import trump_data from "./data";
+import obama_data from "./obama";
 import Bar_chart from "./pages/bar_chart";
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
           />
           <Route
             path="/bar_chart"
-            element={<Bar_chart trump_data={trump_data} />}
+            element={
+              <Bar_chart trump_data={trump_data} obama_data={obama_data} />
+            }
           />
           <Route path="*" element={<Error />} />
         </Routes>

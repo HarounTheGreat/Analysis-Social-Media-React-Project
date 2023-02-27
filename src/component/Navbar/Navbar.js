@@ -5,14 +5,14 @@ const Navbar = () => {
     <nav className="navbar">
       <p></p>
       <Link to="/">Home</Link>
-      <Link to="/Area_Chart">Area Chart</Link>
-      <Link to="/Bar Chart">Bar Chart</Link>
-      <Link to="/Bubble Chart">Bubble Chart</Link>
-      <Link to="/Column Chart">Column Chart</Link>
-      <Link to="/Doughnut Chart">Doughnut Chart</Link>
-      <Link to="/Line Chart">Line Chart</Link>
-      <Link to="/Pie Chart">Pie Chart</Link>
-      <Link to="/Stacked Bar Charts">Stacked Bar Charts</Link>
+      <Link to="/area_chart">Area Chart</Link>
+      <Link to="/bar_chart">Bar Chart</Link>
+      <Link to="/bubble_chart">Bubble Chart</Link>
+      <Link to="/column_chart">Column Chart</Link>
+      <Link to="/doughnut_chart">Doughnut Chart</Link>
+      <Link to="/line_chart">Line Chart</Link>
+      <Link to="/pie_chart">Pie Chart</Link>
+      <Link to="/stacked_bar_charts">Stacked Bar Charts</Link>
       <p></p>
     </nav>
   );
