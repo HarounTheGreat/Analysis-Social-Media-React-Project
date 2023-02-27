@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="navbar">
       <p></p>
       <Link to="/">Home</Link>
-      <Link to="/Area Chart">Area Chart</Link>
+      <Link to="/Area_Chart">Area Chart</Link>
       <Link to="/Bar Chart">Bar Chart</Link>
       <Link to="/Bubble Chart">Bubble Chart</Link>
       <Link to="/Column Chart">Column Chart</Link>

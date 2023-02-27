@@ -1,5 +1,3 @@
-import { react } from "react-router-dom";
-
 const Error = () => {
   return (
     <div className="error">
