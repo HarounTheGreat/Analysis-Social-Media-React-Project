@@ -4,7 +4,7 @@ import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Pie } from "react-chartjs-2";
 ChartJS.register(ArcElement, Tooltip, Legend);
 
-const numbers = (X) => {
+const Numbers = (X) => {
   let a = 0;
   let b = 0;
   let c = 0;
@@ -26,7 +26,7 @@ const numbers = (X) => {
 
 const Area_chart = ({ trump_data }) => {
   let array;
-  array = numbers(trump_data);
+  array = Numbers(trump_data);
   const data = {
     labels: ["Netural", "Positive", "Negative"],
     datasets: [
