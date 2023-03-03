@@ -9,6 +9,7 @@ import obama_data from "./obama";
 import Bar_chart from "./pages/bar_chart";
 import Bubble_chart from "./pages/bubble_chart";
 import Doughnut_chart from "./pages/doughnut_chart";
+import Line_chart from "./pages/line_chart";
 
 function App() {
   return (
@@ -30,6 +31,12 @@ function App() {
           <Route
             path="/Doughnut_chart"
             element={<Doughnut_chart trump_data={trump_data} />}
+          />
+          <Route
+            path="/line_chart"
+            element={
+              <Line_chart trump_data={trump_data} obama_data={obama_data} />
+            }
           />
           <Route path="*" element={<Error />} />
         </Routes>
