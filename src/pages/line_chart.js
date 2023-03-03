@@ -113,11 +113,10 @@ const Languages_used = (Y) => {
 };
 const comment_by_language = (data, labels) => {
   let res = [];
+  let position;
   for (let h = 0; h < labels.length; h++) {
     res.push(0);
   }
-  let position;
-  let index;
   for (let i = 0; i < data.length; i++) {
     position = labels.indexOf(data[i].Language);
     res[position] = res[position] + 1;
