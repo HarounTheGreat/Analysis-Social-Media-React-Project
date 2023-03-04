@@ -1,15 +1,17 @@
 import React from "react";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Pie } from "react-chartjs-2";
+import Calcul from "../component/clacul";
 import "./chart.css";
 const Pie_chart = ({ trump_data }) => {
   ChartJS.register(ArcElement, Tooltip, Legend);
+  let d = Calcul(trump_data);
   const data = {
     labels: ["Netural", "Positive", "Negative"],
     datasets: [
       {
-        label: "# of Votes",
-        data: [12, 19, 3],
+        label: "# of Comments",
+        data: d,
         backgroundColor: [
           "rgb(83, 127, 231)",
           "rgb(3, 201, 136)",
@@ -26,7 +28,6 @@ const Pie_chart = ({ trump_data }) => {
   };
   return (
     <div className="pie_chart">
-      <h1>Pie Chart</h1>
       <Pie data={data} />
     </div>
   );

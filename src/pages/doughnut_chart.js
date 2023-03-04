@@ -4,7 +4,8 @@ import { Doughnut } from "react-chartjs-2";
 import "./chart.css";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import Calcul from "../component/clacul";
-import filtring_function from "./filtring_function";
+import { filtring_by_date } from "./filtring_function";
+let language = undefined;
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 const Doughnut_chart = ({ trump_data }) => {
@@ -19,7 +20,7 @@ const Doughnut_chart = ({ trump_data }) => {
   }
   const submitHandler = (event) => {
     event.preventDefault();
-    let arr = filtring_function(trump_data, from_Date, to_Date);
+    let arr = filtring_by_date(trump_data, from_Date, to_Date, language);
     // ---------------- call function
     setFiltred_data(Calcul(arr));
   };

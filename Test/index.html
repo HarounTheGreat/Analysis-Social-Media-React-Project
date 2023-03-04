@@ -1,24 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-family: Arial;
+        color: white;
+      }
+
+      .split {
+        height: 100%;
+        width: 50%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        overflow-x: hidden;
+        padding-top: 20px;
+      }
+
+      .left {
+        background-color: #111;
+      }
+
+      .right {
+        right: 0;
+        background-color: red;
+      }
+
+      .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      .centered img {
+        width: 150px;
+        border-radius: 50%;
+      }
+    </style>
   </head>
   <body>
-    <div class="container">
-      <div class="card">
-        <span>Hover me</span>
+    <div class="split left">
+      <div class="centered">
+        <img src="img_avatar2.png" alt="Avatar woman" />
+        <h2>Jane Flex</h2>
+        <p>Some text.</p>
       </div>
-      <div class="card">
-        <span>Hover me</span>
-      </div>
-      <div class="card">
-        <span>Hover me</span>
+    </div>
+
+    <div class="split right">
+      <div class="centered">
+        <img src="img_avatar.png" alt="Avatar man" />
+        <h2>John Doe</h2>
+        <p>Some text here too.</p>
       </div>
     </div>
   </body>
-  <script src="script.js"></script>
 </html>

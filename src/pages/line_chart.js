@@ -1,5 +1,6 @@
 import React from "react";
 import "./chart.css";
+import { Languages_used, Comment_by_language } from "./filtring_function";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -33,7 +34,7 @@ const Line_chart = ({ trump_data, obama_data }) => {
     },
   };
   const labels = Languages_used(trump_data);
-  const dataset1 = comment_by_language(trump_data, labels);
+  const dataset1 = Comment_by_language(trump_data, labels);
   const data = {
     labels,
     datasets: [
@@ -99,28 +100,5 @@ const months = (X) => {
       default:
     }
   }
-  return res;
-};
-
-const Languages_used = (Y) => {
-  let R = [];
-  for (let i = 0; i < Y.length; i++) {
-    R.push(Y[i].Language);
-  }
-  let res;
-  res = R.filter((item, index) => R.indexOf(item) === index);
-  return res;
-};
-const comment_by_language = (data, labels) => {
-  let res = [];
-  let position;
-  for (let h = 0; h < labels.length; h++) {
-    res.push(0);
-  }
-  for (let i = 0; i < data.length; i++) {
-    position = labels.indexOf(data[i].Language);
-    res[position] = res[position] + 1;
-  }
-  "RES=", res;
   return res;
 };
