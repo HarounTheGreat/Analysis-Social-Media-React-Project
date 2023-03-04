@@ -15,7 +15,6 @@ const Calcul = (X) => {
   R.push(a);
   R.push(b);
   R.push(c);
-  console.log("R=", R);
   return R;
 };
 export default Calcul;

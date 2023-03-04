@@ -20,22 +20,20 @@ const Bubble_chart = () => {
   const data = {
     datasets: [
       {
-        label: "Red dataset",
-        data: Array.from({ length: 50 }, () => ({
-          x: [20, 13, 54, 28, 26, 97, 42, 14],
-          y: [200, 113, 554, 228, 226, 997, 442, 114],
-          r: [200, 133, 544, 288, 266, 977, 422, 144],
-        })),
-        backgroundColor: "rgba(255, 99, 132, 0.5)",
-      },
-      {
-        label: "Blue dataset",
-        data: Array.from({ length: 50 }, () => ({
-          x: [20, 13, 54, 28, 26, 97, 42, 14],
-          y: [200, 113, 554, 228, 226, 997, 442, 114],
-          r: [200, 133, 544, 288, 266, 977, 422, 144],
-        })),
-        backgroundColor: "rgba(53, 162, 235, 0.5)",
+        label: "First Dataset",
+        data: [
+          {
+            x: 20,
+            y: 30,
+            r: 15,
+          },
+          {
+            x: 40,
+            y: 10,
+            r: 10,
+          },
+        ],
+        backgroundColor: "rgb(255, 99, 132)",
       },
     ],
   };

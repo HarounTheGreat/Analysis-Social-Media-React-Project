@@ -13,6 +13,7 @@ const Navbar = () => {
       <Link to="/line_chart">Line Chart</Link>
       <Link to="/pie_chart">Pie Chart</Link>
       <Link to="/stacked_bar_charts">Stacked Bar Charts</Link>
+      <Link to="/analyse_by_language">Analyse by Language</Link>
       <p></p>
     </nav>
   );

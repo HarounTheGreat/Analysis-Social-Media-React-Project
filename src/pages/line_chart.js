@@ -121,6 +121,6 @@ const comment_by_language = (data, labels) => {
     position = labels.indexOf(data[i].Language);
     res[position] = res[position] + 1;
   }
-  console.log("RES=", res);
+  "RES=", res;
   return res;
 };

@@ -48,9 +48,6 @@ const Bar_chart = ({ trump_data, obama_data }) => {
   ];
   const dataset1 = months(trump_data);
   const dataset2 = months(obama_data);
-  console.log("trump_data=====", trump_data);
-  console.log("===================", months(trump_data));
-  //   const dataset2 = months(obama_data);
   const data = {
     labels,
     datasets: [
@@ -76,7 +73,6 @@ const Bar_chart = ({ trump_data, obama_data }) => {
 export default Bar_chart;
 
 const months = (X) => {
-  console.log("X===================================================", X);
   let p = "";
   let a = 0;
   let res = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
