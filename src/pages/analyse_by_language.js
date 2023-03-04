@@ -14,24 +14,18 @@ const Analyse_by_language = ({ trump_data }) => {
   console.log("result \n", result[0][0]);
   return (
     <div>
-      {/* <h1> Analysis By Language</h1>
-      <div>
+      <h1> Analysis By Language</h1>
+      <div className="analyse_by_language">
         {result.map((one_table) => {
           return (
-            <div className="analyse_by_language">
-              <h1>{one_table[0].Language}</h1>
-              <Pie_chart key={one_table.N} trump_data={one_table}></Pie_chart>
+            <div className="chart-item">
+              <p>
+                <h1>{one_table[0].Language}</h1>
+                <Pie_chart key={one_table.N} trump_data={one_table}></Pie_chart>
+              </p>
             </div>
           );
         })}
-      </div> */}
-      <div>
-        <div className="analyse_by_language">
-          <h1> Engish </h1>
-          <Pie_chart trump_data={result[0]}></Pie_chart>
-          <h1> Italian </h1>
-          <Pie_chart trump_data={result[1]}></Pie_chart>
-        </div>
       </div>
     </div>
   );
