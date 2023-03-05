@@ -39,3 +39,10 @@
 .chart-item:hover {
   transform: scale(1.1);
 }
+
+.multiaxis_line_chart {
+  width: 80%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}

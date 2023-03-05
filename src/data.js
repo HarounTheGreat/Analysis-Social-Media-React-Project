@@ -1,14 +1,5 @@
 export const trump = [
   {
-    N: 2,
-    comment:
-      '❤️ You can download our FREE English eBooks, the full TRANSCRIPT, and the AUDIO of this speech on our website:&lt;br&gt;&lt;a href="https://www.englishspeecheschannel.com/"&gt;https://www.englishspeecheschannel.com&lt;/a&gt;&lt;br&gt;⭐️ Become a channel member. Sponsor English Speeches (includes exclusive rewards):&lt;br&gt;&lt;a href="https://www.youtube.com/englishspeeches/join"&gt;https://www.youtube.com/englishspeeches/join&lt;/a&gt;&lt;br&gt;❤️ Thanks!',
-    Year: "2020-06-25",
-    hour_z_time: "15",
-    an: "P",
-    Language: "en",
-  },
-  {
     N: 3,
     comment: "Come one on one in misstion ok 👍",
     Year: "2022-10-26",

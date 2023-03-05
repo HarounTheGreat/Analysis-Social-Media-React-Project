@@ -18,7 +18,7 @@ export const filtring_by_date = (data, from_Date, to_Date, language) => {
       }
     }
   } else {
-    filtring_data = [];
+    filtring_data = [0];
   }
   return filtring_data;
 };
@@ -66,6 +66,61 @@ export const Filter_data_by_language = (data, Languages_used) => {
   for (let i = 0; i < data.length; i++) {
     position = Languages_used.indexOf(data[i].Language);
     res[position].push(data[i]);
+  }
+  return res;
+};
+
+export const calculate_data_by_type = (X) => {
+  console.log("X=\n", X);
+  let res = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+  let p = "";
+  let a = 0;
+  let type = "O";
+  for (let i = 0; i < X.length; i++) {
+    type = X[i].an;
+    if (type === "P") {
+      p = X[i].Year.substring(5, 7);
+      a = parseInt(p);
+      switch (a) {
+        case 1:
+          res[0] = res[0] + 1;
+          break;
+        case 2:
+          res[1] = res[1] + 1;
+          break;
+        case 3:
+          res[2] = res[2] + 1;
+          break;
+        case 4:
+          res[3] = res[3] + 1;
+          break;
+        case 5:
+          res[4] = res[4] + 1;
+          break;
+        case 6:
+          res[5] = res[5] + 1;
+          break;
+        case 7:
+          res[6] = res[6] + 1;
+          break;
+        case 8:
+          res[7] = res[7] + 1;
+          break;
+        case 9:
+          res[8] = res[8] + 1;
+          break;
+        case 10:
+          res[9] = res[9] + 1;
+          break;
+        case 11:
+          res[10] = res[10] + 1;
+          break;
+        case 12:
+          res[11] = res[11] + 1;
+          break;
+        default:
+      }
+    }
   }
   return res;
 };
