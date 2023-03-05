@@ -12,6 +12,7 @@ import Doughnut_chart from "./pages/doughnut_chart";
 import Line_chart from "./pages/line_chart";
 import Analyse_by_language from "./pages/analyse_by_language";
 import Pie_chart from "./pages/pie_chart";
+import Multiaxis_line_chart from "./pages/multiaxis_line_chart";
 function App() {
   return (
     <div className="App">
@@ -46,6 +47,15 @@ function App() {
           <Route
             path="/pie_chart"
             element={<Pie_chart trump_data={trump_data} />}
+          />
+          <Route
+            path="/multiaxis_line_chart"
+            element={
+              <Multiaxis_line_chart
+                trump_data={trump_data}
+                obama_data={obama_data}
+              />
+            }
           />
           <Route path="*" element={<Error />} />
         </Routes>

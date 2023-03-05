@@ -14,6 +14,7 @@ const Navbar = () => {
       <Link to="/pie_chart">Pie Chart</Link>
       <Link to="/stacked_bar_charts">Stacked Bar Charts</Link>
       <Link to="/analyse_by_language">Analyse by Language</Link>
+      <Link to="/multiaxis_line_chart">Multiaxis Line Chart</Link>
       <p></p>
     </nav>
   );
