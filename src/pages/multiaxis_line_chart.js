@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { calculate_data_by_type_and_month } from "./filtring_function";
 import Select from "react-select";
+import Navbar from "../component/Navbar/Navbar";
+
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -117,18 +119,19 @@ const Multiaxis_line_chart = ({ trump_data, obama_data }) => {
 
   return (
     <div className="multiaxis_line_chart">
-      <h1>Hello you are in multiaxis_line_chart</h1>
+      <Navbar />
+      <h1>Trump vs Obama </h1>
       <div className="year_selection">
-        <div className="item item-1">From</div>
-        <div className="item item-2">
+        <div className="cell cell-1">From</div>
+        <div className="cell cell-2">
           <Select
             defaultValue={fromYear}
             onChange={setFromYear}
             options={selection_options}
           />
         </div>
-        <div className="item item-3">to</div>
-        <div className="item item-4">
+        <div className="cell cell-3">to</div>
+        <div className="cell cell-4">
           <Select
             defaultValue={toYear}
             onChange={setToYear}

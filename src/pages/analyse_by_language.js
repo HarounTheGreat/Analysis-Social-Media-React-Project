@@ -3,6 +3,7 @@ import {
   Filter_data_by_language,
   Languages_used,
 } from "./filtring_function";
+import Navbar from "../component/Navbar/Navbar";
 import React from "react";
 import Pie_chart from "./pie_chart";
 import "./chart.css";
@@ -14,6 +15,7 @@ const Analyse_by_language = ({ trump_data }) => {
   console.log("result \n", result[0][0]);
   return (
     <div>
+      <Navbar />
       <h1> Analysis By Language</h1>
       <div className="analyse_by_language">
         {result.map((one_table) => {

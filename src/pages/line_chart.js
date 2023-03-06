@@ -1,5 +1,7 @@
 import React from "react";
 import "./chart.css";
+import Navbar from "../component/Navbar/Navbar";
+
 import { Languages_used, Comment_by_language } from "./filtring_function";
 import {
   Chart as ChartJS,
@@ -47,6 +49,7 @@ const Line_chart = ({ trump_data, obama_data }) => {
   };
   return (
     <div className="line_chart">
+      <Navbar />
       <Bar options={options} data={data} />
     </div>
   );

@@ -6,5 +6,10 @@
 }
 .year_selection {
   display: grid;
-  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-columns: 20% 30% 20% 30%;
+}
+.cell {
+  margin-top: 2%;
+  margin-bottom: 5%;
+  font-weight: bold;
 }

@@ -1,5 +1,7 @@
 import React from "react";
 import "./chart.css";
+import Navbar from "../component/Navbar/Navbar";
+
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -65,6 +67,7 @@ const Bar_chart = ({ trump_data, obama_data }) => {
   };
   return (
     <div className="bar_chart">
+      <Navbar />
       <h1>Bar chart</h1>
       <Bar options={options} data={data} />
     </div>

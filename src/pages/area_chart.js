@@ -1,5 +1,7 @@
 import "./chart.css";
 import React from "react";
+import Navbar from "../component/Navbar/Navbar";
+
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Pie } from "react-chartjs-2";
 ChartJS.register(ArcElement, Tooltip, Legend);
@@ -49,6 +51,7 @@ const Area_chart = ({ trump_data }) => {
   };
   return (
     <>
+      <Navbar />
       <h1>Area Chart</h1>
       <div className="area_chart">
         <Pie data={data} />
