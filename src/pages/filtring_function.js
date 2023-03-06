@@ -71,7 +71,6 @@ export const Filter_data_by_language = (data, Languages_used) => {
 };
 
 export const calculate_data_by_type = (X) => {
-  console.log("X=\n", X);
   let res = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
   let p = "";
   let a = 0;
@@ -121,6 +120,22 @@ export const calculate_data_by_type = (X) => {
         default:
       }
     }
+  }
+  return res;
+};
+
+export const calculate_data_by_type_and_month = (
+  trump_data,
+  from_date,
+  to_date
+) => {
+  let data1;
+  let d1 = [];
+  let res = [];
+  data1 = filtring_by_date(trump_data, from_date, to_date, undefined);
+  d1 = calculate_data_by_type(data1);
+  for (let i = 0; i < d1.length; i++) {
+    res.push({ x: 10, y: d1[i], r: 10 });
   }
   return res;
 };

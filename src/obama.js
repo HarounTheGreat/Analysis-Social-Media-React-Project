@@ -1,10 +1,10 @@
-const obama = [
+export const obama = [
   {
     N: 2,
     comment: "IdlikelastmanyoudroppedofyouwhatbrbrThewhiteisit",
     Year: "2022-10-26",
     Hour_z_time: 1,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -12,7 +12,7 @@ const obama = [
     comment: "SwaggiestprezweeverhadMisshim",
     Year: "2022-10-25",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "af",
   },
   {
@@ -20,7 +20,7 @@ const obama = [
     comment: "FOREVERMYPRESIDENTbrIwishedwecouldhavekepthimformoreyrs",
     Year: "2022-10-25",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -29,7 +29,7 @@ const obama = [
       "ImyearsoldAndIcanconfirmthatMrObamawasthebestpresidenttheUSAhadduringthesedecades",
     Year: "2022-10-25",
     Hour_z_time: 18,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -38,7 +38,7 @@ const obama = [
       "RedWeddingBereadyforwhatthissickeviltraitorisalreadydoingandwhatheisabouttodoEvil",
     Year: "2022-10-25",
     Hour_z_time: 16,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -46,7 +46,7 @@ const obama = [
     comment: "MrObamabrAreyouwithusorwithMullas",
     Year: "2022-10-25",
     Hour_z_time: 13,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -54,7 +54,7 @@ const obama = [
     comment: "POSTraitor",
     Year: "2022-10-25",
     Hour_z_time: 12,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -62,7 +62,7 @@ const obama = [
     comment: "California",
     Year: "2022-10-25",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -70,7 +70,7 @@ const obama = [
     comment: "Surcarlina",
     Year: "2022-10-25",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "ro",
   },
   {
@@ -78,7 +78,7 @@ const obama = [
     comment: "Merilan",
     Year: "2022-10-25",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "tr",
   },
   {
@@ -86,7 +86,7 @@ const obama = [
     comment: "Miyoneenpresamadonaartitamichigan",
     Year: "2022-10-25",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "es",
   },
   {
@@ -94,7 +94,7 @@ const obama = [
     comment: "Hoguimadona",
     Year: "2022-10-25",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "pt",
   },
   {
@@ -102,7 +102,7 @@ const obama = [
     comment: "Gogle",
     Year: "2022-10-25",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "cy",
   },
   {
@@ -110,7 +110,7 @@ const obama = [
     comment: "Masachuseeboton",
     Year: "2022-10-25",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -118,7 +118,7 @@ const obama = [
     comment: "Texa",
     Year: "2022-10-25",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "so",
   },
   {
@@ -126,7 +126,7 @@ const obama = [
     comment: "Lasoni",
     Year: "2022-10-25",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "it",
   },
   {
@@ -134,7 +134,7 @@ const obama = [
     comment: "Bronbruklin",
     Year: "2022-10-25",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "af",
   },
   {
@@ -142,7 +142,7 @@ const obama = [
     comment: "Canada",
     Year: "2022-10-24",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "so",
   },
   {
@@ -150,7 +150,7 @@ const obama = [
     comment: "Florida",
     Year: "2022-10-24",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "pt",
   },
   {
@@ -158,7 +158,7 @@ const obama = [
     comment: "Filaderfia",
     Year: "2022-10-24",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "es",
   },
   {
@@ -166,7 +166,7 @@ const obama = [
     comment: "Living",
     Year: "2022-10-24",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -174,7 +174,7 @@ const obama = [
     comment: "Wormanhirirlebron",
     Year: "2022-10-24",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -182,7 +182,7 @@ const obama = [
     comment: "Hatlantabiden",
     Year: "2022-10-24",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "tr",
   },
   {
@@ -190,7 +190,7 @@ const obama = [
     comment: "Minesota",
     Year: "2022-10-24",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "fi",
   },
   {
@@ -198,7 +198,7 @@ const obama = [
     comment: "Yanki",
     Year: "2022-10-24",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "tr",
   },
   {
@@ -206,7 +206,7 @@ const obama = [
     comment: "Wsintonhobams",
     Year: "2022-10-24",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -214,7 +214,7 @@ const obama = [
     comment: "Hobamabiden",
     Year: "2022-10-24",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "so",
   },
   {
@@ -222,7 +222,7 @@ const obama = [
     comment: "ThankusomuchbarrackObamaumakemehappyandwantcomemeetme",
     Year: "2022-10-24",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -230,7 +230,7 @@ const obama = [
     comment: "quotPresidentquotOmonkey",
     Year: "2022-10-24",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "ca",
   },
   {
@@ -239,7 +239,7 @@ const obama = [
       "ObamamentionsrepeatedlyhowimportantafreepressistohonestAmericandemocracyOfcourseObamaistalkingabouthonestreportersdoingthehardworkofshininglightintocornersacrosstheglobeincludingIranandSyriaTuckerCarlsonatFoxwillnotbeconsideredhonestforheisapropagandistspreadingeveryfaketalethatfarrightfolkwishtospreadhereinAmerica",
     Year: "2022-10-24",
     Hour_z_time: 5,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -247,7 +247,7 @@ const obama = [
     comment: "Missthattimesobadly",
     Year: "2022-10-24",
     Hour_z_time: 5,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -255,7 +255,7 @@ const obama = [
     comment: "WishhewouldrunforPresidentagain",
     Year: "2022-10-24",
     Hour_z_time: 5,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -263,7 +263,7 @@ const obama = [
     comment: "GodblesspresidentObamainthewholefamily",
     Year: "2022-10-24",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -271,7 +271,7 @@ const obama = [
     comment: "VeryproudsupporteroflgbtqdfdiheardhemarriedintoitHesointelligent",
     Year: "2022-10-23",
     Hour_z_time: 16,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -279,7 +279,7 @@ const obama = [
     comment: "GodImissthisman",
     Year: "2022-10-23",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -288,7 +288,7 @@ const obama = [
       "ThenafterthisfoundoutevenmoreaboutRussiagateFBIDOJHunterBoyToyandmorebrWonderiftheplansalreadyinplacewhiletryingtobefunnyherebrThennotfunnyandthemoreweknowevenmoresobrAhhhMerrickGarlandourcurrentUSAGafriendthenbrThecurrentPrezboappointedPrezboAGsureyouallrealizebrDifficultquottransitionandyettodayknowObawaatheremanytimesoverbrNoleavingbrSeewhathappenedtoCNNbrOHwhatashame",
     Year: "2022-10-23",
     Hour_z_time: 8,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -297,7 +297,7 @@ const obama = [
       "SogladtoonceagainrevelintheLEAVINGofObawaaandeveryoneelsebrTurnsoutmanyleftoversinthePREZBOdisgustingincompetentquotadministrationbrCantwaittoseetheUSAHelicoptertakePrezboandtheFirstLadyoutofanywhereneartheUSCapitolbrAlwaysadigwithObawaabrThenRussiaRussiaRussiakeptgoingonbrLoveyouPresidentTrumpbrMelaniabrUSAbrLGBbrMAGA",
     Year: "2022-10-23",
     Hour_z_time: 8,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -305,7 +305,7 @@ const obama = [
     comment: "Yeahweknowabautbathroomyoulikethat",
     Year: "2022-10-23",
     Hour_z_time: 2,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -313,7 +313,7 @@ const obama = [
     comment: "BestPresidenteverIvewatchedthisseveraltimesIlovehim",
     Year: "2022-10-22",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -322,7 +322,7 @@ const obama = [
       "WhenpresidentswererespectedathomeandabroadOurlastrealpresidentnotarealitytvjoke",
     Year: "2022-10-22",
     Hour_z_time: 10,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -330,7 +330,7 @@ const obama = [
     comment: "ZEROINDICTMENTSZEROPEOPLEGOINGTOPRISONgreatPOTUS",
     Year: "2022-10-22",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -339,7 +339,7 @@ const obama = [
       "obamaeselPEORhombredelmundoenterotuytodostuscomplicesdelmalCAÈNalaprofundidaddelabismoxquéalliessulugar",
     Year: "2022-10-21",
     Hour_z_time: 7,
-    Analysis: "N",
+    an: "N",
     Language: "es",
   },
   {
@@ -347,7 +347,7 @@ const obama = [
     comment: "WorstPresidenteverSodivisive",
     Year: "2022-10-20",
     Hour_z_time: 23,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -356,7 +356,7 @@ const obama = [
       "ThismanputusninetrilliondollarsindebtNoticetheprejudicewayhetalks",
     Year: "2022-10-20",
     Hour_z_time: 21,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -365,7 +365,7 @@ const obama = [
       "OfcourseMichellelooksyoungerherhusbandwasthePresidentShewaschoosingwhichmostexpensivewallpaperstheywanttodecoratetheirwallswith",
     Year: "2022-10-20",
     Hour_z_time: 11,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -373,7 +373,7 @@ const obama = [
     comment: "HishusbandMichaelHecandoplanksImsureLookathim",
     Year: "2022-10-20",
     Hour_z_time: 1,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -382,7 +382,7 @@ const obama = [
       "GoodriddenswiththisfoolPeoplereallythinkhesfunnyIthinkitsfunnythathesmarriedtoadudeNowletsgetCreepyJoeout",
     Year: "2022-10-20",
     Hour_z_time: 1,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -391,7 +391,7 @@ const obama = [
       "HehasthegreatestpersonalityandisagreatdancerandagreatsingerhessorelatablethatswhyIalwayslovedhimIwasntscaredwhenhewaspresidentonlynowIamjustthinkDonaldTrumpmaywinwhichIdoubt",
     Year: "2022-10-20",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -399,7 +399,7 @@ const obama = [
     comment: "TheKenyanisinhisrdtermrightnowHeislikeasorethatwontheal",
     Year: "2022-10-19",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -407,14 +407,14 @@ const obama = [
     comment: "AlwaystoocuteforthesituationbrPleasestayretired",
     Year: "2022-10-19",
     Hour_z_time: 7,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
     N: 52,
     Year: "2022-10-18",
     Hour_z_time: 14,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -422,7 +422,7 @@ const obama = [
     comment: "Thepeoplelaughingthemostoftenknowthemostsecrets",
     Year: "2022-10-18",
     Hour_z_time: 1,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -430,7 +430,7 @@ const obama = [
     comment: "EvenObamathoughtHillarywouldwinthatagedwell",
     Year: "2022-10-18",
     Hour_z_time: 1,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -438,7 +438,7 @@ const obama = [
     comment: "Isthisaroastoranexitspeechlmao",
     Year: "2022-10-17",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -446,7 +446,7 @@ const obama = [
     comment: "IwishObamawouldrunagainTheUnitedStatesNEEDSHIM",
     Year: "2022-10-16",
     Hour_z_time: 22,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -454,7 +454,7 @@ const obama = [
     comment: "OhhowImissaREALPresident",
     Year: "2022-10-16",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -463,7 +463,7 @@ const obama = [
       "WedOctBidsagfhyklcnomabrSanopuyresakanoAnopuresaknopuyresaRonouresaknopuyresanoYanesakopuyresabrUononesanomanonesanomackomaneNolynesaknopuyresanoSonopuyresakmopuresanobrAnopoponesaknuyresanoBonesaknopuyresaknopnesanopuresanoNesakopuyresanonebrPnesakopuyresakoNopuyresaknopuresaMelissaSestosoNoUyresaknesakomlyacano",
     Year: "2022-10-16",
     Hour_z_time: 14,
-    Analysis: "O",
+    an: "O",
     Language: "tl",
   },
   {
@@ -472,7 +472,7 @@ const obama = [
       "TnuDecOOOCONESAKMOPUYRESAESAKOPURESAKOANEJONESAKOPIUYRESADONESAKOPUYTRESANOPUYREUONUYRESAKOPUYTREVANESSAbrEDOPUYRESAKMOPUYRESASAKOPUYRESAKOPUYRESALOLONESAKMOPURESANO",
     Year: "2022-10-16",
     Hour_z_time: 6,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -481,7 +481,7 @@ const obama = [
       "MonuyresadfghopicbnoIsekmopuyresakonesaNouopuresakmesadfghamoVanessa",
     Year: "2022-10-16",
     Hour_z_time: 6,
-    Analysis: "O",
+    an: "O",
     Language: "pt",
   },
   {
@@ -489,7 +489,7 @@ const obama = [
     comment: "Trudeausucks",
     Year: "2022-10-16",
     Hour_z_time: 0,
-    Analysis: "N",
+    an: "N",
     Language: "ro",
   },
   {
@@ -497,7 +497,7 @@ const obama = [
     comment: "JustwatchedthisagainlovedthisPresident",
     Year: "2022-10-15",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -505,7 +505,7 @@ const obama = [
     comment: "HewasthebestineverywayimaginableGreatlymissed",
     Year: "2022-10-15",
     Hour_z_time: 4,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -513,7 +513,7 @@ const obama = [
     comment: "HewillgodowninhistoryasoneoftheTopPresidentsofalltimefortheUSA",
     Year: "2022-10-15",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -521,7 +521,7 @@ const obama = [
     comment: "Thisclassactnevergetsold",
     Year: "2022-10-15",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -529,7 +529,7 @@ const obama = [
     comment: "Thisiswhattrueleadershipis",
     Year: "2022-10-14",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -537,7 +537,7 @@ const obama = [
     comment: "Classact",
     Year: "2022-10-14",
     Hour_z_time: 5,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -546,7 +546,7 @@ const obama = [
       "HiBarackdoyourealizehowmuchyouarelovedYouarethebestthingthateverhappenedtothestatesWeloveyouinCanada",
     Year: "2022-10-14",
     Hour_z_time: 4,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -554,7 +554,7 @@ const obama = [
     comment: "OhhowwemissyouMrPresident",
     Year: "2022-10-14",
     Hour_z_time: 4,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -562,7 +562,7 @@ const obama = [
     comment: "POSbrbrHehatesAmerica",
     Year: "2022-10-13",
     Hour_z_time: 18,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -570,7 +570,7 @@ const obama = [
     comment: "PresObamaishandsomeFirstLadyisverypretty",
     Year: "2022-10-13",
     Hour_z_time: 18,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -578,7 +578,7 @@ const obama = [
     comment: "GoodbyeTraitorGoodriddance",
     Year: "2022-10-13",
     Hour_z_time: 17,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -586,7 +586,7 @@ const obama = [
     comment: "Heykennsteschondengddrspeichervonnvidia",
     Year: "2022-10-13",
     Hour_z_time: 13,
-    Analysis: "O",
+    an: "O",
     Language: "de",
   },
   {
@@ -594,7 +594,7 @@ const obama = [
     comment: "LarrySinclairObamasexboyfriendtruestory",
     Year: "2022-10-13",
     Hour_z_time: 10,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -602,7 +602,7 @@ const obama = [
     comment: "ImissthismanTrulythelastgreatpresident",
     Year: "2022-10-13",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -610,7 +610,7 @@ const obama = [
     comment: "Verynicesir",
     Year: "2022-10-12",
     Hour_z_time: 16,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -618,7 +618,7 @@ const obama = [
     comment: "BESTPRESIDENTEVA",
     Year: "2022-10-12",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "pt",
   },
   {
@@ -626,7 +626,7 @@ const obama = [
     comment: "Tobadhedidntstaygoneheissoracist",
     Year: "2022-10-12",
     Hour_z_time: 0,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -635,7 +635,7 @@ const obama = [
       "Ahasimplertimesofullofpromiseandhopeshamewenosedivedintostraightupinsanityinstead",
     Year: "2022-10-11",
     Hour_z_time: 6,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -644,7 +644,7 @@ const obama = [
       "AllthesycophantdarlingsontheleftbelievingthisclownisjustsosuaveandsmoothandwasanawesomepresidentHeisaTraitorandsoldtheUSoutShouldbebroughtuponCharges",
     Year: "2022-10-11",
     Hour_z_time: 3,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -653,7 +653,7 @@ const obama = [
       "WhatawasteofyearswiththispresidentthatscrewedeverythinghetouchedandstillisthroughhispuppetjbButHiscorruptionwillbeexposedwithallthecabalHesanarrogantuselessracistprejudicethatUsedhispositiontosellUSAouttoenrichhimselfSignedMAGGAMakeAmericasGovernmentGreatAgainOnceandFORALLforJesusChristTheeLordandSaviorofmankindAmen",
     Year: "2022-10-11",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -661,7 +661,7 @@ const obama = [
     comment: "thebeastwascaptured",
     Year: "2022-10-10",
     Hour_z_time: 9,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -669,7 +669,7 @@ const obama = [
     comment: "ImisshimandimnotevenAmerican",
     Year: "2022-10-10",
     Hour_z_time: 2,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -678,7 +678,7 @@ const obama = [
       "YesyouaswellthelastshowgotherpumpedwasthatnecessaryafterthelegacyyouhadwiththemandledtothatlieonsocialmediaformoneysomepeoplethinksitstrueandthatmakeshermadJesussaid",
     Year: "2022-10-10",
     Hour_z_time: 0,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -686,7 +686,7 @@ const obama = [
     comment: "AsChineseijustmissthismanfornoreason",
     Year: "2022-10-09",
     Hour_z_time: 7,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -694,7 +694,7 @@ const obama = [
     comment: "BESTPRESIDENTEVER",
     Year: "2022-10-09",
     Hour_z_time: 4,
-    Analysis: "P",
+    an: "P",
     Language: "pt",
   },
   {
@@ -703,7 +703,7 @@ const obama = [
       "NomatterhowmanytimesIwatchthisoranylatenighttalkshowwithPresidentObamaIstillgetgoosebumpsWELVEYOUMrPresident",
     Year: "2022-10-09",
     Hour_z_time: 1,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -711,7 +711,7 @@ const obama = [
     comment: "CanstillSmellitlikeitneverleft",
     Year: "2022-10-08",
     Hour_z_time: 1,
-    Analysis: "O",
+    an: "O",
     Language: "no",
   },
   {
@@ -719,7 +719,7 @@ const obama = [
     comment: "WhataCLOWNandembarrassment",
     Year: "2022-10-07",
     Hour_z_time: 17,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -727,14 +727,14 @@ const obama = [
     comment: "sohowcomehowcomeweneedanewspiritofsacrificeinamerica",
     Year: "2022-10-06",
     Hour_z_time: 11,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
     N: 91,
     Year: "2022-10-06",
     Hour_z_time: 8,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -743,7 +743,7 @@ const obama = [
       "ThisguywasisthebestTheverybesttheUnitedStateshastoofferJustfinishinghisbookquotAPromisedLandquotanditsjustawesomeThanksObama",
     Year: "2022-10-06",
     Hour_z_time: 5,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -751,7 +751,7 @@ const obama = [
     comment: "Traitorcriminalmakesmepuke",
     Year: "2022-10-06",
     Hour_z_time: 4,
-    Analysis: "N",
+    an: "N",
     Language: "et",
   },
   {
@@ -759,7 +759,7 @@ const obama = [
     comment: "BiggesttraitorinUSAhistory",
     Year: "2022-10-06",
     Hour_z_time: 2,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -767,7 +767,7 @@ const obama = [
     comment: "GawdImissthisguy",
     Year: "2022-10-06",
     Hour_z_time: 2,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -775,7 +775,7 @@ const obama = [
     comment: "WhoamItorespond",
     Year: "2022-10-05",
     Hour_z_time: 12,
-    Analysis: "O",
+    an: "O",
     Language: "pt",
   },
   {
@@ -784,7 +784,7 @@ const obama = [
       "YouweretheonlypresidentiactuallyvotedforbecauseGodwasnotontheballad",
     Year: "2022-10-05",
     Hour_z_time: 9,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -793,7 +793,7 @@ const obama = [
       "LookusaywecantbeviolentbuttheyaretousWeprotestsignpetitionsanditdoesntdoanygoodHowdowestopthemVotingthemoutmightworkiftheyhaventgitthesystemriggedWellhowcanwestopthemthenTellusnothinghasworkedTheyignoreverythingwehavedoneTextingwritingletterstoourseniorsdonothingWellIsayenoughitstimeforactionandnomorepeacefulactions",
     Year: "2022-10-05",
     Hour_z_time: 2,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -801,7 +801,7 @@ const obama = [
     comment: "iloveobama",
     Year: "2022-10-04",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "hr",
   },
   {
@@ -809,7 +809,7 @@ const obama = [
     comment: "Myfarther",
     Year: "2022-10-03",
     Hour_z_time: 21,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -818,7 +818,7 @@ const obama = [
       "NooneisabovethelawunlessofcourseyournamehappenstobeBarackObamaorHillaryClinton",
     Year: "2022-10-03",
     Hour_z_time: 1,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -826,7 +826,7 @@ const obama = [
     comment: "Theworse",
     Year: "2022-10-02",
     Hour_z_time: 11,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -835,7 +835,7 @@ const obama = [
       "AlwaysfeltlikehewantedtobeacelebritymorethanaPresidentTurnsouthegotwhathewanted",
     Year: "2022-10-01",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -844,7 +844,7 @@ const obama = [
       "TheCountryisSTILLreelingfromthedamagehesdoneAndthisMagoocurrentlyinofficeisaddingsalttothewoundObamawasoneoftheworstthingsthathaseverhappenedandisstillhappeningtothisCountry",
     Year: "2022-10-01",
     Hour_z_time: 12,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -852,7 +852,7 @@ const obama = [
     comment: "Theunderlyingstabstheredwedding",
     Year: "2022-10-01",
     Hour_z_time: 9,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -860,7 +860,7 @@ const obama = [
     comment: "ObamaandBidenworstpresidentever",
     Year: "2022-09-30",
     Hour_z_time: 19,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -869,7 +869,7 @@ const obama = [
       "ThisGospelmessageifyoucontinuetobelievethismessageyouwillbesavedForIdeliveredtoyouasoffirstimportancewhatIalsoreceivedthatChristdiedforoursinsinaccordancewiththeScripturesthathewasburiedthathewasraisedonthethirddayinaccordancewiththeScripturesandthatheappearedtoCephasthentothetwelveThenheappearedtomorethanfivehundredbrothersatonetime",
     Year: "2022-09-30",
     Hour_z_time: 16,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -877,7 +877,7 @@ const obama = [
     comment: "WhoshewillbebrbrDohWasnther",
     Year: "2022-09-29",
     Hour_z_time: 21,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -885,7 +885,7 @@ const obama = [
     comment: "Theworstpresidentever",
     Year: "2022-09-29",
     Hour_z_time: 11,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -894,7 +894,7 @@ const obama = [
       "WasthiscomedyskitwrittenbyPhilipRosenthalThewriterfromquotEverybodyLovesRaymondquot",
     Year: "2022-09-28",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -903,7 +903,7 @@ const obama = [
       "INALLMYYEARSOFLIFEINEVERTHOUGHTTHATIWOULDSEETHEDAYWHENTHEAMERICANPEOPLEWOULDVOTETHISTRAITOROUSINTOOFFICEbrSUCHADISGRACETOOURCOUNTRYWITHALLHISFILTHYLIESANDIGOTTOGIVEITTOYOUABOUTHIMBEINGATANDUPCOMICWOULDHAVEBEENAMUCHBETTERCHOICERATHERTHANBECOMINGPRESIDENTHEWASTHEWORSTCOMINGINSECONDTOBUSHANDTHENBIDENFKINGIDIOTSYOUPEOPLEWHOCONTINUETOTHINKHESALLTHATYOURJUSTASSTUPIDASHEIS",
     Year: "2022-09-28",
     Hour_z_time: 13,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -912,7 +912,7 @@ const obama = [
       "TheUSisbereftwithoutBarackThenextguywasatotaldisasterGreatspeechBarack",
     Year: "2022-09-26",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -920,7 +920,7 @@ const obama = [
     comment: "IwonderwhodoesBernieshair",
     Year: "2022-09-26",
     Hour_z_time: 20,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -928,7 +928,7 @@ const obama = [
     comment: "Hesrealupsethecouldntbecomedictator",
     Year: "2022-09-25",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -936,7 +936,7 @@ const obama = [
     comment: "HewasTheBest",
     Year: "2022-09-25",
     Hour_z_time: 7,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -944,7 +944,7 @@ const obama = [
     comment: "Tanks",
     Year: "2022-09-25",
     Hour_z_time: 5,
-    Analysis: "O",
+    an: "O",
     Language: "et",
   },
   {
@@ -953,7 +953,7 @@ const obama = [
       "WhatajokeofapresidentwhatisthismanactuallydoforthepeoplebrNothingButplentyforhisrichfriendsandthebanks",
     Year: "2022-09-24",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -961,7 +961,7 @@ const obama = [
     comment: "LasttimeUSAwasUnited",
     Year: "2022-09-24",
     Hour_z_time: 10,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -970,7 +970,7 @@ const obama = [
       "EverywordthatcomesoutofhismouthTrumpisalwayshatefulHowcouldhefaceGodincludingalltheotherbrdictatorsImsuretheylltrytotempthimLikePutinquotIwillgiveyouallmymoneyincludingthenuclearweaponsquotbrIthinkTrumpwasgoingtobeatranslatorButLordsaidIunderstandeverylanguageYouwillbenextJustaskforforgivenessItsnottoolate",
     Year: "2022-09-24",
     Hour_z_time: 10,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -979,14 +979,14 @@ const obama = [
       "ObamayoureonebigdynamiteYetabalancebetweentwooppositeforcesideologiesandagorgeousprideofallNationsallEthnitiesallReligionsandallCivilizationNevermindthehaironyouisthewhitemaninyouYoureblackenoughenoughwhiteenoughenoughblendtoinheritthemostpopularhumanonEarthampinHeavenMessengerofAllahPBHifyouwereMuslimIlllovetoseeyoubecomeaformidableMusliminthenearestfuturesoastobeanyclosetotheNobleProphetSAWS",
     Year: "2022-09-24",
     Hour_z_time: 8,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
     N: 121,
     Year: "2022-09-24",
     Hour_z_time: 4,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -995,7 +995,7 @@ const obama = [
       "WowbrilliantspeecheverbyoutgoingleaderinworldhistoryJobHEBarackObama",
     Year: "2022-09-24",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1003,14 +1003,14 @@ const obama = [
     comment: "cantseethenewguysdointhis",
     Year: "2022-09-23",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
     N: 124,
     Year: "2022-09-23",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -1018,7 +1018,7 @@ const obama = [
     comment: "IhaveneverseenPresObamaangry",
     Year: "2022-09-23",
     Hour_z_time: 10,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -1026,7 +1026,7 @@ const obama = [
     comment: "Funny",
     Year: "2022-09-23",
     Hour_z_time: 10,
-    Analysis: "P",
+    an: "P",
     Language: "cy",
   },
   {
@@ -1034,7 +1034,7 @@ const obama = [
     comment: "Blackmansbornwithcharm",
     Year: "2022-09-21",
     Hour_z_time: 22,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -1042,7 +1042,7 @@ const obama = [
     comment: "DoyouknowTrumpdidmoreforblackpeoplethanObamadid",
     Year: "2022-09-21",
     Hour_z_time: 16,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1051,7 +1051,7 @@ const obama = [
       "Whatacorruptmantheonlygoodthingtheycoulddoistalkverysmoothbutheiscorruptalot",
     Year: "2022-09-21",
     Hour_z_time: 16,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1059,7 +1059,7 @@ const obama = [
     comment: "watchingDontwasteyourtimeThisnotforgodspeoplebr",
     Year: "2022-09-21",
     Hour_z_time: 7,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -1068,14 +1068,14 @@ const obama = [
       "ahrefhttpswwwyoutubecomwatchvNxFkEjKPCamptmsaMikeislikethatsRightMFkerlol",
     Year: "2022-09-21",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
     N: 132,
     Year: "2022-09-20",
     Hour_z_time: 21,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -1083,7 +1083,7 @@ const obama = [
     comment: "Berrydangerousbutmustalwayssweetandromantic",
     Year: "2022-09-20",
     Hour_z_time: 21,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -1091,14 +1091,14 @@ const obama = [
     comment: "Mustbehappyandfunalways",
     Year: "2022-09-20",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
     N: 135,
     Year: "2022-09-20",
     Hour_z_time: 21,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -1106,7 +1106,7 @@ const obama = [
     comment: "Heseverythinginone",
     Year: "2022-09-20",
     Hour_z_time: 20,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -1114,7 +1114,7 @@ const obama = [
     comment: "HewasanawesomePresidentandheisfuuuunnnnyyyyyy",
     Year: "2022-09-19",
     Hour_z_time: 4,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1123,7 +1123,7 @@ const obama = [
       "HYPOCRITESLYINGJUVILNILESDEMOCRAPSAREFAMILYWASDEMOCRAPSUNTILYEARSFJBFNPFTHEMALLEVILDEMOCRAPS",
     Year: "2022-09-19",
     Hour_z_time: 0,
-    Analysis: "N",
+    an: "N",
     Language: "de",
   },
   {
@@ -1131,7 +1131,7 @@ const obama = [
     comment: "Whatagreatman",
     Year: "2022-09-18",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1140,7 +1140,7 @@ const obama = [
       "ImaReaganRebubandIwilladmitthatIwouldmuchratherhaveMrObamaorMrClintonasPOTUSthantheabominationthatwasTrumpandISBiden",
     Year: "2022-09-18",
     Hour_z_time: 18,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1148,7 +1148,7 @@ const obama = [
     comment: "Lastisgreatforyou",
     Year: "2022-09-18",
     Hour_z_time: 11,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1156,7 +1156,7 @@ const obama = [
     comment: "Stillthebestyearsofmylife",
     Year: "2022-09-18",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1164,7 +1164,7 @@ const obama = [
     comment: "وصلالجواببيت",
     Year: "2022-09-18",
     Hour_z_time: 3,
-    Analysis: "O",
+    an: "O",
     Language: "ar",
   },
   {
@@ -1172,7 +1172,7 @@ const obama = [
     comment: "جيدخوشجوابالمدير",
     Year: "2022-09-18",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "ar",
   },
   {
@@ -1180,7 +1180,7 @@ const obama = [
     comment: "يامكثرالنفطوالكاز",
     Year: "2022-09-18",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "ar",
   },
   {
@@ -1188,7 +1188,7 @@ const obama = [
     comment: "يفرحانااجوبانتممنيفرحمنضيعأموالكمواموالالشعبالامريكي",
     Year: "2022-09-18",
     Hour_z_time: 3,
-    Analysis: "N",
+    an: "N",
     Language: "ar",
   },
   {
@@ -1196,7 +1196,7 @@ const obama = [
     comment: "مشمشمشطالعددحماس",
     Year: "2022-09-18",
     Hour_z_time: 3,
-    Analysis: "O",
+    an: "O",
     Language: "ar",
   },
   {
@@ -1204,7 +1204,7 @@ const obama = [
     comment: "بايدنجيد",
     Year: "2022-09-18",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "fa",
   },
   {
@@ -1212,7 +1212,7 @@ const obama = [
     comment: "كلام",
     Year: "2022-09-18",
     Hour_z_time: 3,
-    Analysis: "O",
+    an: "O",
     Language: "ar",
   },
   {
@@ -1220,7 +1220,7 @@ const obama = [
     comment: "نواجبد",
     Year: "2022-09-18",
     Hour_z_time: 3,
-    Analysis: "O",
+    an: "O",
     Language: "ur",
   },
   {
@@ -1228,7 +1228,7 @@ const obama = [
     comment: "عندكراتبلواخوماكطعوالرتل",
     Year: "2022-09-18",
     Hour_z_time: 3,
-    Analysis: "O",
+    an: "O",
     Language: "ar",
   },
   {
@@ -1236,7 +1236,7 @@ const obama = [
     comment: "هسهكمالساعهعدمالسادسهوعشردقايقصانتضرالجوابشعيب",
     Year: "2022-09-18",
     Hour_z_time: 3,
-    Analysis: "O",
+    an: "O",
     Language: "ar",
   },
   {
@@ -1244,7 +1244,7 @@ const obama = [
     comment: "مالكم",
     Year: "2022-09-18",
     Hour_z_time: 3,
-    Analysis: "O",
+    an: "O",
     Language: "ar",
   },
   {
@@ -1252,7 +1252,7 @@ const obama = [
     comment: "تورناجيد",
     Year: "2022-09-18",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "ur",
   },
   {
@@ -1260,7 +1260,7 @@ const obama = [
     comment: "خومانازلالدولارانصعدوا",
     Year: "2022-09-18",
     Hour_z_time: 3,
-    Analysis: "N",
+    an: "N",
     Language: "ar",
   },
   {
@@ -1268,7 +1268,7 @@ const obama = [
     comment: "اناعراقي",
     Year: "2022-09-18",
     Hour_z_time: 3,
-    Analysis: "O",
+    an: "O",
     Language: "ar",
   },
   {
@@ -1276,7 +1276,7 @@ const obama = [
     comment: "اليبعدكمواشييعنينوعنمازعلانيناحناعراقيين",
     Year: "2022-09-18",
     Hour_z_time: 3,
-    Analysis: "N",
+    an: "N",
     Language: "ar",
   },
   {
@@ -1284,7 +1284,7 @@ const obama = [
     comment: "الريسالأمريكيالاستاذأوباماالمحترم",
     Year: "2022-09-18",
     Hour_z_time: 3,
-    Analysis: "O",
+    an: "O",
     Language: "ar",
   },
   {
@@ -1292,7 +1292,7 @@ const obama = [
     comment: "تدريبكمنمغاويرالأولجيسيدرجهاولا",
     Year: "2022-09-18",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "ar",
   },
   {
@@ -1301,7 +1301,7 @@ const obama = [
       "مشربسكارلفكومرالبوديمامضبجيدكابرصناعهمايعرفوايسوكونبلسياراتالكويتيينوبلاخصجابرلاخوالي",
     Year: "2022-09-18",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "ar",
   },
   {
@@ -1309,7 +1309,7 @@ const obama = [
     comment: "احبتنا",
     Year: "2022-09-18",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "ar",
   },
   {
@@ -1317,7 +1317,7 @@ const obama = [
     comment: "هايلايتدرجهاولا",
     Year: "2022-09-18",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "fa",
   },
   {
@@ -1325,7 +1325,7 @@ const obama = [
     comment: "فايسوري",
     Year: "2022-09-18",
     Hour_z_time: 2,
-    Analysis: "O",
+    an: "O",
     Language: "fa",
   },
   {
@@ -1333,7 +1333,7 @@ const obama = [
     comment: "الايم",
     Year: "2022-09-18",
     Hour_z_time: 2,
-    Analysis: "O",
+    an: "O",
     Language: "ur",
   },
   {
@@ -1341,7 +1341,7 @@ const obama = [
     comment: "GuycoulddostandupBetterthanReagan",
     Year: "2022-09-16",
     Hour_z_time: 12,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1349,7 +1349,7 @@ const obama = [
     comment: "Somanyjokesthathadsomuchmeaninginhindsighthisforesight",
     Year: "2022-09-15",
     Hour_z_time: 5,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1358,7 +1358,7 @@ const obama = [
       "HeresamanwhopersonifiesandadmirestheideathatAmericaisalandofimmigrantsAndwhynothisrisetopowerandhisoriginsarenotAfricanAmericaninthesensethatormillionofblackAmericansaredescendantsofAmericanslavesHeisnotrepresentativeofthatpopulation",
     Year: "2022-09-14",
     Hour_z_time: 12,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -1367,7 +1367,7 @@ const obama = [
       "SometimesjustcomingbacktohearPresidentObamaspeaktoustomeagainisthecalmingcomfortIneedtokeephopealive",
     Year: "2022-09-12",
     Hour_z_time: 7,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1376,7 +1376,7 @@ const obama = [
       "Lookitsanotherbigfatliarandanotherpersonthatscrewedupthewholecountry",
     Year: "2022-09-12",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1385,7 +1385,7 @@ const obama = [
       "seraqueelfuemipresidetehoBamammuybuenpresidetedelosestadosunidosdedondeyoMsEnrquetapanalezdeTEXASantesdeDonaltrumpquenospresentomuybuenosalllosdenuestranasionlaPAZentodalanasionesasinosadegadomuybuenosRECONOSIDOdespuésdepresideteHoBAMApreseteBotantesDehOBAMAsigoYBOTEPORDONALTRUMPtTANVIENamUVONITOSRECuERDOSTUVIMOSaLLoSDEPAZTRUMP",
     Year: "2022-09-11",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "es",
   },
   {
@@ -1393,7 +1393,7 @@ const obama = [
     comment: "notherelaughingathim",
     Year: "2022-09-11",
     Hour_z_time: 18,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -1402,7 +1402,7 @@ const obama = [
       "ALLEGEDLYquotTHERETHEYWERETHEDESPOTICWORLDWIDEVILLAINSREGIMESPREMEDITATINGGROWINGINTHEUNITEDSTATESINTHEsSLASHSLASHSLASHRAPERAPERAPETHEDESPOTICWORLDWIDEVILLAINSREGIMESVOLITIONEDLOUISCHRISTOPHERKALAVRITINOSILLEGALIMMIGRANTATJUMPSHIPPOINTNEARTHETURNOFTHEsMYUNITEDSTATESCENTRALINTELLIGENCEAGENTWENTDOWNSLASHEDTOBECOMEABDUCTEDUNDERquotCONNECTICUTTampNEWARKquotSTREETSNWWASHINGTONDISTRICTOFCOLUMBIAUNITEDSTATESTHERESTISIMPLIEDACADEMICSTHEDESPOTICWORLDWIDEVILLAINSREGIMESSETINMOTIONRULINGTHEUNITEDSTATESDEPARTMENTOFEDUCATIONquotTHECOLLEGESSCHOOLSUNIVERSITIESquotIRONIquotCquotACROSSTHEUNITEDSTATESESPECIALLYTHEUNITEDSTATESGOVERNMENTEMPLOYEESSOONTOBEDEFUNCTASVOLITIONISTSHOWquotCOULDSHOULDWOULDquotTHEUNITEDSTATESTEACHERSBASESSURVIVETHEUNITEDSTATESTEACHERSBASESquotCOULDSHOULDWOULDquotNOTSURVIVEESPECIALLYUNDERTRUANCYLAWSquotFORCEDATTENDANCESINquotSCHOOLSquotquotMANIFESTVOLITIONINGquotTHEUNITEDSTATESTEACHERSBASESWEREGOINGTOquotJAILSquotASINMATESTOBECOMETHEFLESHPRODUCTSWHATSAVEDTHEFUTUREUNITEDSTATESTEACHERSBASESWEREUNJUSTACTSOFTHEDESPOTICWORLDWIDEVILLAINSREGIMESquotFRATERNICIDESGENOCIDESINFANTCIDESOVERLAYINGSOVERRUNNINGSOVERTAKINGSquotOFTHEUNITEDSTATESOLDWORLDCITIZENSHIPSquot",
     Year: "2022-09-11",
     Hour_z_time: 15,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -1411,7 +1411,7 @@ const obama = [
       "ahrefhttpswwwyoutubecomwatchvNxFkEjKPCamptmsabrquotTraditionallyPresidentsdontstickaroundaftertheyredonequotbrbrThanksObamaYouopenedonehellofadoorway",
     Year: "2022-09-10",
     Hour_z_time: 5,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -1420,7 +1420,7 @@ const obama = [
       "ahrefhttpswwwyoutubecomwatchvNxFkEjKPCamptmsayoucanhearacameragooffwhenhedoesthis",
     Year: "2022-09-10",
     Hour_z_time: 2,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -1428,7 +1428,7 @@ const obama = [
     comment: "MissObamawhycantwejusthavehimagainaspresident",
     Year: "2022-09-09",
     Hour_z_time: 22,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -1436,7 +1436,7 @@ const obama = [
     comment: "thebeast",
     Year: "2022-09-09",
     Hour_z_time: 18,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -1445,7 +1445,7 @@ const obama = [
       "TheendoftherepublicneverlookedbetterObamasaidandajabatwhitepeopleOhhowwellofaspeakerisheandcheckintogoldenwhat",
     Year: "2022-09-09",
     Hour_z_time: 11,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1453,7 +1453,7 @@ const obama = [
     comment: "IstillcantbelievewewentfromSmartmanlikeObamaToTrump",
     Year: "2022-09-09",
     Hour_z_time: 8,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1462,7 +1462,7 @@ const obama = [
       "Elqueentrómáspobrealapresidenciaysaliómillonariodemostradolosquelevanapasarlacuentaseránsuspropioshermanosderaza",
     Year: "2022-09-08",
     Hour_z_time: 18,
-    Analysis: "P",
+    an: "P",
     Language: "es",
   },
   {
@@ -1471,7 +1471,7 @@ const obama = [
       "ImisstheObamassomuchIlovetherespecttheyhaveforeachotherandPresidentObamasperpetualoptimismdespiteTrumpsinabilitytorecognizerealhumor",
     Year: "2022-09-07",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1480,7 +1480,7 @@ const obama = [
       "greatdeliveryanddwellWonderhowmuchofthishewroteeventhecamerashotsseemedtobepreplanned",
     Year: "2022-09-06",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1488,7 +1488,7 @@ const obama = [
     comment: "Iloveandadorethisman",
     Year: "2022-09-06",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1497,7 +1497,7 @@ const obama = [
       "POSWORSTPRESIDENTEVERANDSOONTHEWORLDWILLALLKNOWABOUTHISCRIMESANDCRIMESAGAINSTHUMANITY",
     Year: "2022-09-06",
     Hour_z_time: 19,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -1505,7 +1505,7 @@ const obama = [
     comment: "ObamaisaMuslim",
     Year: "2022-09-06",
     Hour_z_time: 11,
-    Analysis: "O",
+    an: "O",
     Language: "hr",
   },
   {
@@ -1514,7 +1514,7 @@ const obama = [
       "YayayaandplayingfavoritesbyallowingthemurderhackertostalkandincesthissisterscellphonemakesyouChesterthemolester",
     Year: "2022-09-06",
     Hour_z_time: 7,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -1523,7 +1523,7 @@ const obama = [
       "DoesthisabbrealizethatheishalfwhitebecauseofhismomhesaIrishWhitemanandhalfblackSohecouldputdownallthewhitepeopleandnotacknowledgehisDNAwhichistellingeverybodyintheworldwhoismixednottoacknowledgeonesideovertheotherbecauseofpopularityordisgraceorwhateveritisthatailsthematthetimewhateversuitsthematthetimeoftheirindiscretions",
     Year: "2022-09-05",
     Hour_z_time: 17,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -1532,7 +1532,7 @@ const obama = [
       "IknowIvewatchedthisbeforeandprobablycommentedthentooDaveChappellisluckythisdudefoundsomethingtodoafterthisgigWhatattitudeandcoldbloodeddeliveryKILLZJuststraightupfireThenthatbitattheendwithJohnBoehnertemptinghimwithquotcigarettesquotWeALLknowhowhesmakinghismoneythesedaysanditainttobaccoThatsaproductthatwouldgetbipartisansupportJohnampBarrysBerryflavoredGummiesColoredRedampBlueraspberryandblueberryediblesmadefromthechoicestkinebudKonaandKenyanbushkushYeahyouregonnawantthoseaviators",
     Year: "2022-09-05",
     Hour_z_time: 17,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -1540,7 +1540,7 @@ const obama = [
     comment: "Ajokejokingandthesheeptenderlygiggleinadmiration",
     Year: "2022-09-05",
     Hour_z_time: 5,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -1549,7 +1549,7 @@ const obama = [
       "AMERICAAmericansYouknowthatbrquotAmericaquotisacontinentwithnationsbrincludingtheUNITEDSTATESbrCanadaBrazilArgentinaCubaetcetcarealsoAMERICAYesthepeopleofPeruoranyofthecountriesAREalsoAMERICANS",
     Year: "2022-09-05",
     Hour_z_time: 1,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -1558,7 +1558,7 @@ const obama = [
       "HowisittheresstillsomanystupidAmericansthatwouldfollowObamaashesalreadyprovenhowracistheisespeciallyagainsthisownblackpeopleDoyouAmericansnotfollowanythingthesedamnpoliticiansaredoingFollowthisclownscareerandlookatallhehastakenfromthepoorblackmeninAmericahesliterallyputoutdifferentwaysofforcingyoupeopletostaypoorhedidthisAndyetyoupeoplearestillstupidenoughtogoandlistentohimspeakwhatsthematterwithyoufreakingpeopledontyouhaveenoughproblemsthankstoBidenyouneedtoaddtoyourproblemsbygoingtothisclown",
     Year: "2022-09-05",
     Hour_z_time: 0,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -1567,7 +1567,7 @@ const obama = [
       "HesverycockyconceitedcarelesslyoverconfidentoverhiswhiteguiltexpectationsAsGodspeoplewewhitepeoplescrawlbeforenoone",
     Year: "2022-09-04",
     Hour_z_time: 21,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -1576,7 +1576,7 @@ const obama = [
       "MorecharismaandcharminhislittlefingerthanTrumphasinhisentirebloatedbody",
     Year: "2022-09-04",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1585,7 +1585,7 @@ const obama = [
       "ListeningtothisspeechagaintodayWowhowfarbackwardsthecountryhasgoneunderTrumpandhisMagatsmaggotswhereevendocallednewschannelshavelostimpartialityanditseemsdonothaveanymoralityorjournalisticethicsmuchliketheirCommanderinLiesTheUSAhasbecomeaThirdWorlddemocracyunderTrump",
     Year: "2022-09-04",
     Hour_z_time: 11,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1593,7 +1593,7 @@ const obama = [
     comment: "Obumersuckspresidentialandliterary",
     Year: "2022-09-04",
     Hour_z_time: 9,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -1601,7 +1601,7 @@ const obama = [
     comment: "IvejustlovedthewayhecomparedsloganofHillaryampofsenatorsandars",
     Year: "2022-09-04",
     Hour_z_time: 4,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1609,7 +1609,7 @@ const obama = [
     comment: "HeisstillthemostlovedpresidentintheworldampinAmerica",
     Year: "2022-09-04",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1617,7 +1617,7 @@ const obama = [
     comment: "Lovethisman",
     Year: "2022-09-02",
     Hour_z_time: 16,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1626,7 +1626,7 @@ const obama = [
       "ThebiggestthreattoFREEDOMINTHISUNITEDSTATESOFAMERICAAREALPOSLIARLIARLIARGODBLESSAMERICA",
     Year: "2022-09-02",
     Hour_z_time: 5,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1634,7 +1634,7 @@ const obama = [
     comment: "HessuchaphoneyYuk",
     Year: "2022-09-01",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -1642,7 +1642,7 @@ const obama = [
     comment: "HeissocharismaticandcleverHecouldtotallyhaveacareerinstandup",
     Year: "2022-09-01",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1651,7 +1651,7 @@ const obama = [
       "EveryonesayingquotImissObamaquotbutignoringthehateanddisgustingRepublicanracismtowardshimwhenhewaspresidentShamethatAmericabelievedallthenegativeabouthimdisgustingpeople",
     Year: "2022-09-01",
     Hour_z_time: 19,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -1660,7 +1660,7 @@ const obama = [
       "สวสดคะคณโอบรามาและคณมตรเชวไมเหนคณทงสองลงโปรแกมเลยนะคะดฉนคดถงคณทงสองนะคะฟด",
     Year: "2022-09-01",
     Hour_z_time: 9,
-    Analysis: "O",
+    an: "O",
     Language: "th",
   },
   {
@@ -1669,7 +1669,7 @@ const obama = [
       "TheAntichristwillbejustlikethismanwelllikeableverycharmingintelligentandfullofcharismathemanofsinwillseducetheentireworldAsablackmanmyselfthisguyishighlyintelligentbuthasthespiritofanAntichristheisverycleaverbutalsoverydangerousihonestlybelieveheisstillrunningthingsfrombehindthescenewiththisnewAdministrationPeopleareeasilydeceivedandfooledtheycantseepasshisintelligencecharmandcharisma",
     Year: "2022-09-01",
     Hour_z_time: 1,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1677,7 +1677,7 @@ const obama = [
     comment: "ahrefhttpswwwyoutubecomwatchvNxFkEjKPCamptmsaObamaout",
     Year: "2022-08-31",
     Hour_z_time: 8,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -1685,7 +1685,7 @@ const obama = [
     comment: "Imisshimsomuch",
     Year: "2022-08-31",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1693,7 +1693,7 @@ const obama = [
     comment: "CricketssoundbetterthanthisSawadeeKhap",
     Year: "2022-08-30",
     Hour_z_time: 16,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1701,7 +1701,7 @@ const obama = [
     comment: "WhattimeisitinChiangRai",
     Year: "2022-08-30",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -1709,7 +1709,7 @@ const obama = [
     comment: "WhattimeisitinFloridaOrWashington",
     Year: "2022-08-30",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -1717,7 +1717,7 @@ const obama = [
     comment: "Ohplease",
     Year: "2022-08-30",
     Hour_z_time: 11,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -1725,7 +1725,7 @@ const obama = [
     comment: "Damnlmao",
     Year: "2022-08-30",
     Hour_z_time: 9,
-    Analysis: "P",
+    an: "P",
     Language: "sv",
   },
   {
@@ -1734,7 +1734,7 @@ const obama = [
       "BarackObamaisthemostqualifiedintelligentdiplomaticresponsibleanintellectualhumaneUSPRESIDENTeveranImsayingPresidenteverIfhehadbipartisansupportanRepubsinSenatedoANYTHINGhistermswouldvebeenevenmorefruitfulDJTwalkedintoagreateconomycreatedbyObamaanDJTBROADCASTquotOHLOOKWHATIVEDONEFORYOUquotANITISOBAMASCREATIONOBAMAALSOHADTHECOVIDVACCINEALREADYMADEANONTHESHELFONHOLDTILTHENEXTPANDEMICDJTTOOKCREDITFORTHEVACCINEBEINGINVENTEDIDLOVETOHAVEBARACKBACKASPRESIDENTONCEMOREILOVEYOUBARACKFROMMYHEARTYOUDOITRIGHTOURBROTHERANMADEMEAPROUDAMERICAN",
     Year: "2022-08-30",
     Hour_z_time: 4,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1742,7 +1742,7 @@ const obama = [
     comment: "IcouldwatchthisoverandoverImissObamaandourcountrybeforetrump",
     Year: "2022-08-29",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -1750,7 +1750,7 @@ const obama = [
     comment: "Ilovehim",
     Year: "2022-08-29",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "sl",
   },
   {
@@ -1759,7 +1759,7 @@ const obama = [
       "thisguycantgetenoughofattentionGoawayandstayawaytakeyourhewifewithyou",
     Year: "2022-08-29",
     Hour_z_time: 22,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -1767,7 +1767,7 @@ const obama = [
     comment: "Lovethephotojoke",
     Year: "2022-08-29",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1775,7 +1775,7 @@ const obama = [
     comment: "HesleavingwithallkindsofjokesIamjustseeingthisvideoin",
     Year: "2022-08-29",
     Hour_z_time: 20,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -1784,7 +1784,7 @@ const obama = [
       "JokesthatwhitepeopleshouldnotmakeDoyougetitOkayHislastremarkstoallAmericansOkay",
     Year: "2022-08-29",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1792,7 +1792,7 @@ const obama = [
     comment: "Americafeltpowerfulinthismansregime",
     Year: "2022-08-29",
     Hour_z_time: 18,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1800,7 +1800,7 @@ const obama = [
     comment: "Buildconsensus",
     Year: "2022-08-29",
     Hour_z_time: 17,
-    Analysis: "O",
+    an: "O",
     Language: "fr",
   },
   {
@@ -1809,7 +1809,7 @@ const obama = [
       "LetsharkenbackTheabsolutebestPresidentinmylifetimeTheAudacityIfHope",
     Year: "2022-08-29",
     Hour_z_time: 17,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1817,7 +1817,7 @@ const obama = [
     comment: "Weloveyouboth",
     Year: "2022-08-29",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1825,7 +1825,7 @@ const obama = [
     comment: "ThisistheBestpresidenteverpleasecomebadack",
     Year: "2022-08-29",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1833,7 +1833,7 @@ const obama = [
     comment: "ThebestEver",
     Year: "2022-08-29",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1841,7 +1841,7 @@ const obama = [
     comment: "Thebestpresidentever",
     Year: "2022-08-29",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1849,7 +1849,7 @@ const obama = [
     comment: "Didntagewelldiditlol",
     Year: "2022-08-29",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "af",
   },
   {
@@ -1858,7 +1858,7 @@ const obama = [
       "AsawhitemanIllsaywhateverthehellIwantGogetsuckedoffbyanotherdudeBarack",
     Year: "2022-08-28",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -1866,7 +1866,7 @@ const obama = [
     comment: "GodIloveandmissthisMan",
     Year: "2022-08-28",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1874,7 +1874,7 @@ const obama = [
     comment: "ThismanshouldbeinprisonfortreasontoAmerica",
     Year: "2022-08-28",
     Hour_z_time: 8,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -1882,7 +1882,7 @@ const obama = [
     comment: "ThisphoneyissickeningbrbrDirtydogsellout",
     Year: "2022-08-28",
     Hour_z_time: 7,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -1890,7 +1890,7 @@ const obama = [
     comment: "ObamasforeverandeverAmen",
     Year: "2022-08-28",
     Hour_z_time: 4,
-    Analysis: "O",
+    an: "O",
     Language: "da",
   },
   {
@@ -1898,7 +1898,7 @@ const obama = [
     comment: "Thankyouforbeingawonderfulpredident",
     Year: "2022-08-28",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1906,7 +1906,7 @@ const obama = [
     comment: "Greatsenseofhumourtoo",
     Year: "2022-08-27",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1915,7 +1915,7 @@ const obama = [
       "NowthiswasatruepresidentwhoruledwithdignityandnotaslobberingidioticbuffoonPityhecouldntstandathirdterm",
     Year: "2022-08-27",
     Hour_z_time: 20,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -1924,7 +1924,7 @@ const obama = [
       "IlovemypresidentsoveryproudofyouandyourbeautifulwifeandyourfantastictwodaughtersforevermypresidentIamyearsoldandIwillcelebrateyousellthedayIdieforevermypresident",
     Year: "2022-08-27",
     Hour_z_time: 13,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1932,7 +1932,7 @@ const obama = [
     comment: "Singingthesongofthesouthlol",
     Year: "2022-08-27",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1940,7 +1940,7 @@ const obama = [
     comment: "IstillwanttoseepicturesofMichaelObamapregnant",
     Year: "2022-08-27",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1948,7 +1948,7 @@ const obama = [
     comment: "InotherwordsBUCKET",
     Year: "2022-08-26",
     Hour_z_time: 23,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -1957,7 +1957,7 @@ const obama = [
       "HemaynothavebeenagoodpresidentInmyopinionbuthewasareallygoodmanveryfunnyandintelligentIwishwehadmorepresidentslikehimnotsopolarizedandbitter",
     Year: "2022-08-26",
     Hour_z_time: 17,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1965,7 +1965,7 @@ const obama = [
     comment: "MycrushforeverbrCPTLol",
     Year: "2022-08-26",
     Hour_z_time: 13,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1973,7 +1973,7 @@ const obama = [
     comment: "Pureevil",
     Year: "2022-08-26",
     Hour_z_time: 8,
-    Analysis: "N",
+    an: "N",
     Language: "ro",
   },
   {
@@ -1982,7 +1982,7 @@ const obama = [
       "TheAntichristGodwinsandSatanwillbecastintothebottomlesspitalongwithhisminions",
     Year: "2022-08-26",
     Hour_z_time: 6,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -1990,7 +1990,7 @@ const obama = [
     comment: "Shtheadobama",
     Year: "2022-08-26",
     Hour_z_time: 6,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -1999,7 +1999,7 @@ const obama = [
       "MisstheclassyUSPresidentsBarackObamaseemtothelastwhokeptUSasthenumberonecountrybesidesalltheoppositionChiccapableclassycompassionateandcaringGonearethosedays",
     Year: "2022-08-25",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2007,7 +2007,7 @@ const obama = [
     comment: "AsAdiihs",
     Year: "2022-08-25",
     Hour_z_time: 12,
-    Analysis: "O",
+    an: "O",
     Language: "et",
   },
   {
@@ -2015,7 +2015,7 @@ const obama = [
     comment: "Obamahadbrainthatstrue",
     Year: "2022-08-25",
     Hour_z_time: 6,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2023,7 +2023,7 @@ const obama = [
     comment: "Kb",
     Year: "2022-08-25",
     Hour_z_time: 5,
-    Analysis: "O",
+    an: "O",
     Language: "sw",
   },
   {
@@ -2031,7 +2031,7 @@ const obama = [
     comment: "MrPresidentitsYourapprovalratingsarestillgoingupThankyou",
     Year: "2022-08-24",
     Hour_z_time: 21,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2040,7 +2040,7 @@ const obama = [
       "AndTrumpdidnthavetheballstoattendhisbrbrAngryTrumplicanscommentherebr",
     Year: "2022-08-24",
     Hour_z_time: 20,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2049,7 +2049,7 @@ const obama = [
       "OhhowImissObamaThesmartestpresidentwevehadinmylifetimeandImoldWhatanintelligentrespectfulmanwithagreatsenseofhumorTakecareObamablessingstoyouandyourfamily",
     Year: "2022-08-24",
     Hour_z_time: 17,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2057,7 +2057,7 @@ const obama = [
     comment: "Hobamaunlineenpresawarmatnobinner",
     Year: "2022-08-24",
     Hour_z_time: 7,
-    Analysis: "O",
+    an: "O",
     Language: "de",
   },
   {
@@ -2065,7 +2065,7 @@ const obama = [
     comment: "Ningúnpolíticodinjeryo",
     Year: "2022-08-24",
     Hour_z_time: 7,
-    Analysis: "O",
+    an: "O",
     Language: "es",
   },
   {
@@ -2073,7 +2073,7 @@ const obama = [
     comment: "AKingOfFreedom",
     Year: "2022-08-24",
     Hour_z_time: 7,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2081,7 +2081,7 @@ const obama = [
     comment: "DonaldtrumplistenupTHISishowyoumakeaspeech",
     Year: "2022-08-24",
     Hour_z_time: 4,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2089,7 +2089,7 @@ const obama = [
     comment: "Maybetogiveupflow",
     Year: "2022-08-23",
     Hour_z_time: 10,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2097,7 +2097,7 @@ const obama = [
     comment: "IloveDumbonowhavenoillusion",
     Year: "2022-08-23",
     Hour_z_time: 10,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2105,7 +2105,7 @@ const obama = [
     comment: "Fishedoneoutatleastlittleprickisbravecommendthatflappyearswierdo",
     Year: "2022-08-23",
     Hour_z_time: 10,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2114,7 +2114,7 @@ const obama = [
       "OneoftheworsteverGladToseeitgoneThankGodButWlMNotblackyrsWastolong",
     Year: "2022-08-23",
     Hour_z_time: 8,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -2123,7 +2123,7 @@ const obama = [
       "Hหนไมใดจะปดโปรแกมของคณนะคะแตหนกลวคณทสองจะเปนอนตรายจากฝรงคนนนนะคะเพาะเขาชอบพดวาอะกโอบรามาและเขาชอบเอาโปรแกมของคณมาหลอกอยเลยนะคะแลวจะใหหนทำอยางไรคะฟด",
     Year: "2022-08-23",
     Hour_z_time: 7,
-    Analysis: "N",
+    an: "N",
     Language: "th",
   },
   {
@@ -2132,7 +2132,7 @@ const obama = [
       "Hคณโอบรามาและคณมตรเชวไมตองนอยใจนะคะฟดเพาะถงอยางไรหนกตองใหคณและคณมตรเชวดและบรษญออสตราอนสพรพพาสเตอรรงอยดคะเพาะอยากไปทำพาสเตอรกบคณทงสองอยดและเปอรเซนแทกหนตองแบงรใหคณสองทานอยเพาะรวาทสองเหนอยมากแตคณยงแอบเงยบเพอชวยหนคะฟด",
     Year: "2022-08-23",
     Hour_z_time: 7,
-    Analysis: "N",
+    an: "N",
     Language: "th",
   },
   {
@@ -2141,7 +2141,7 @@ const obama = [
       "AfterwatchingthissometimelaterdowereallywanttheFlusherinChieftoreturntoPAAve",
     Year: "2022-08-22",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2149,7 +2149,7 @@ const obama = [
     comment: "SadandfunnyatthesametimeWemissthetypeofPresident",
     Year: "2022-08-22",
     Hour_z_time: 22,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -2157,7 +2157,7 @@ const obama = [
     comment: "HowImissapersonableandIntelligentPresident",
     Year: "2022-08-21",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2166,7 +2166,7 @@ const obama = [
       "GWBushandBarackObamaThetwogreatestpresidentsinthehistoryofUSATwofinemenandMichelleandLauraarethegreatestandclassiestFirstLadiesLovethisspeechbrquotSomeonejumpedthefenceattheWhiteHouseIhavetogivecredittotheSecretServiceMichelleisbacksafeathomenowquotLOL",
     Year: "2022-08-21",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2174,7 +2174,7 @@ const obama = [
     comment: "THEBESTAMERICANPRESIDENT",
     Year: "2022-08-21",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "vi",
   },
   {
@@ -2183,7 +2183,7 @@ const obama = [
       "WhatanawesomemanHeisthemostpresidentialtermdemocratwhohasgivenusallHOPEfordemocracyandprosperityObamatotallyrocksdemocratsandfreedomIlovethem",
     Year: "2022-08-21",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2191,7 +2191,7 @@ const obama = [
     comment: "Thiswassogood",
     Year: "2022-08-20",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2199,7 +2199,7 @@ const obama = [
     comment: "Imisshimrespectableintelligenthumbleandhonorable",
     Year: "2022-08-20",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2208,7 +2208,7 @@ const obama = [
       "TheabsolutequotBESTquotoratororshallwesaythemosteloguentpublicspeakerasPresidentthattherewilleverbeToobadthatMcConnellwithhisslurpytonguefoughthimallthewaybrfromdayone",
     Year: "2022-08-19",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2216,7 +2216,7 @@ const obama = [
     comment: "JohnFKennedybrBarackObama",
     Year: "2022-08-19",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2224,7 +2224,7 @@ const obama = [
     comment: "LordImissObamaEVERYDAMNDAYClassact",
     Year: "2022-08-19",
     Hour_z_time: 14,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2233,7 +2233,7 @@ const obama = [
       "ArealclassactThankyouObamaforyourserviceandyourprofessionalismandhowyoucarriedyourselfasarealPresidentofthegreatestcountryintheworld",
     Year: "2022-08-19",
     Hour_z_time: 4,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2241,7 +2241,7 @@ const obama = [
     comment: "AtowelohmyGod",
     Year: "2022-08-18",
     Hour_z_time: 12,
-    Analysis: "O",
+    an: "O",
     Language: "cy",
   },
   {
@@ -2250,7 +2250,7 @@ const obama = [
       "PresidentObamaandtheseareinThomasDaleHopewellJuniorsownwordssotakethatintoretrospectticklesWhatsthedifferencebetweenhindsightandrealtimetohourstocksandshockvalues",
     Year: "2022-08-18",
     Hour_z_time: 12,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2259,7 +2259,7 @@ const obama = [
       "DanielGoldmanbeforeCongressopensuptrumpsfilesdoyoufeellikeasmyattorneyyouneedtostepin",
     Year: "2022-08-18",
     Hour_z_time: 12,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2268,7 +2268,7 @@ const obama = [
       "PresidentObamawhensthelasttimeyouboughtunderwearHaveyoueverallowedyourtagstobeexpiredShaquilleONealtoldmeastoryonetimethatitsatthathiskidswillbeintroducedtothemediaorpublicHowdoyoufeelaboutthat",
     Year: "2022-08-18",
     Hour_z_time: 12,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2276,7 +2276,7 @@ const obama = [
     comment: "LoveLoveLovethisman",
     Year: "2022-08-18",
     Hour_z_time: 1,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2284,7 +2284,7 @@ const obama = [
     comment: "Freakingclownlikeanyotherpolitician",
     Year: "2022-08-17",
     Hour_z_time: 22,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -2292,7 +2292,7 @@ const obama = [
     comment: "Funny",
     Year: "2022-08-17",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2300,7 +2300,7 @@ const obama = [
     comment: "AugTHWasaGreatmansonice",
     Year: "2022-08-17",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2308,14 +2308,14 @@ const obama = [
     comment: "Misshim",
     Year: "2022-08-17",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "de",
   },
   {
     N: 281,
     Year: "2022-08-17",
     Hour_z_time: 14,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2324,7 +2324,7 @@ const obama = [
       "NoonehasdoneitbetterhetrulywasagreatpresidentandImisshimandthefamilyeverydayEnjoyyourretirementMrPresidentyoumorethanearneditMAHALO",
     Year: "2022-08-16",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2332,7 +2332,7 @@ const obama = [
     comment: "Thebest",
     Year: "2022-08-16",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2340,14 +2340,14 @@ const obama = [
     comment: "PrzestanciejużkłamaćtegonieidziesłuchaćZostawciePolskęwpokoju",
     Year: "2022-08-16",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "pl",
   },
   {
     N: 285,
     Year: "2022-08-16",
     Hour_z_time: 11,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2355,7 +2355,7 @@ const obama = [
     comment: "WeallshouldbelieveinGod",
     Year: "2022-08-16",
     Hour_z_time: 4,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2363,7 +2363,7 @@ const obama = [
     comment: "SuchawonderfulpresidentAlwaysmakemesmilewhenIlistentohim",
     Year: "2022-08-15",
     Hour_z_time: 9,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2371,7 +2371,7 @@ const obama = [
     comment: "Greatsenseofhumor",
     Year: "2022-08-15",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2380,7 +2380,7 @@ const obama = [
       "ItslikearedweddingMerickgarlandbarthedoorWegonnadothisrighthereandnowbr",
     Year: "2022-08-14",
     Hour_z_time: 13,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2389,7 +2389,7 @@ const obama = [
       "HestheactualantiChristIbeheldSatanfallaslightningfromtheheavenschromosomesmakeupthebodyofthebrbrSuebarkahhakrabeoSthegoddessofthedawn",
     Year: "2022-08-14",
     Hour_z_time: 13,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2397,7 +2397,7 @@ const obama = [
     comment: "idkwhybutquotitsonlyninemoremonthsbabyquotwassodamncute",
     Year: "2022-08-14",
     Hour_z_time: 11,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2405,7 +2405,7 @@ const obama = [
     comment: "Notmyfavorite",
     Year: "2022-08-14",
     Hour_z_time: 8,
-    Analysis: "P",
+    an: "P",
     Language: "no",
   },
   {
@@ -2413,7 +2413,7 @@ const obama = [
     comment: "WhatifPresBarackObamaisawolfinblacksheepsclothing",
     Year: "2022-08-13",
     Hour_z_time: 22,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -2422,7 +2422,7 @@ const obama = [
       "IfurtherheardthatthepersonknownasMichelleObamaoranothergoesasamanandisknownasKevinSimpsonElimoorperhapsRhondaorMarilynorRenayorCarol",
     Year: "2022-08-13",
     Hour_z_time: 22,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2431,7 +2431,7 @@ const obama = [
       "hiscommentsabouttheimportanceofthefreepressandfactsreallyhitdifferentafterTrumpAlsohiscommentsaboutTrumpscampaignbeingridiculousandveryunlikelytosucceedmakeitevenscarierthatheactuallygotintoofficeandmightdoagainbrObamaishilariousthoughthisissolovelytowatchandImsogladwegotatasteofitagainwithBidenthisyearThereisstillhope",
     Year: "2022-08-13",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2439,7 +2439,7 @@ const obama = [
     comment: "Americathelandofidiots",
     Year: "2022-08-13",
     Hour_z_time: 8,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -2447,7 +2447,7 @@ const obama = [
     comment: "HernameisMichael",
     Year: "2022-08-13",
     Hour_z_time: 7,
-    Analysis: "O",
+    an: "O",
     Language: "de",
   },
   {
@@ -2455,7 +2455,7 @@ const obama = [
     comment: "Saltymuch",
     Year: "2022-08-13",
     Hour_z_time: 7,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2463,7 +2463,7 @@ const obama = [
     comment: "LoveyouPresidentObama",
     Year: "2022-08-13",
     Hour_z_time: 7,
-    Analysis: "P",
+    an: "P",
     Language: "es",
   },
   {
@@ -2471,7 +2471,7 @@ const obama = [
     comment: "AfterthetwentyeightminutemarkisthesignofaMATURELEADER",
     Year: "2022-08-13",
     Hour_z_time: 6,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2480,14 +2480,14 @@ const obama = [
       "JohnForGodsolovedtheworldthathegavehisonlybegottenSonthatwhosoeverbelievethinhimshouldnotperishbuthaveeverlastinglifeForGodsentnothisSonintotheworldtocondemntheworldbutthattheworldthroughhimmightbesavedHethatbelievethonhimisnotcondemnedbuthethatbelievethnotiscondemnedalreadybecausehehathnotbelievedinthenameoftheonlybegottenSonofGodAndthisisthecondemnationthatlightiscomeintotheworldandmenloveddarknessratherthanlightbecausetheirdeedswereevilForeveryonethatdoethevilhateththelightneithercomethtothelightlesthisdeedsshouldbereprovedButhethatdoethtruthcomethtothelightthathisdeedsmaybemademanifestthattheyarewroughtinGod",
     Year: "2022-08-12",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
     N: 302,
     Year: "2022-08-12",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2495,7 +2495,7 @@ const obama = [
     comment: "CharmingspeakswellButhesupportedISISHeisaPOSAtraitortothisnation",
     Year: "2022-08-12",
     Hour_z_time: 11,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2503,7 +2503,7 @@ const obama = [
     comment: "OnwwordSWAG",
     Year: "2022-08-12",
     Hour_z_time: 5,
-    Analysis: "O",
+    an: "O",
     Language: "af",
   },
   {
@@ -2512,7 +2512,7 @@ const obama = [
       "PicturemymiddlefingerThatsmycommentToanythinkingAmericalovingpatriotthismanisadisgrace",
     Year: "2022-08-12",
     Hour_z_time: 1,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2520,7 +2520,7 @@ const obama = [
     comment: "Obamasucks",
     Year: "2022-08-11",
     Hour_z_time: 20,
-    Analysis: "N",
+    an: "N",
     Language: "hr",
   },
   {
@@ -2528,7 +2528,7 @@ const obama = [
     comment: "Micdrop",
     Year: "2022-08-11",
     Hour_z_time: 18,
-    Analysis: "O",
+    an: "O",
     Language: "ro",
   },
   {
@@ -2537,7 +2537,7 @@ const obama = [
       "WhatagreatguyAmericayouwereonefortunatenationtohavethismanatthehelmMayhistypeofcharactermattercauseCHARACTERmatters",
     Year: "2022-08-11",
     Hour_z_time: 13,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2546,7 +2546,7 @@ const obama = [
       "ThisjustgoestoillustratewhataninarticulatecretinouswindbagDonaldTrumpis",
     Year: "2022-08-11",
     Hour_z_time: 13,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -2554,7 +2554,7 @@ const obama = [
     comment: "OhhhhhhhowImissBarackObama",
     Year: "2022-08-10",
     Hour_z_time: 22,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2563,7 +2563,7 @@ const obama = [
       "ThemanisawesomebrAndthisisespeciallyinterestingtowatchgivenhowthingsareturningoutforTheDonald",
     Year: "2022-08-10",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2572,14 +2572,14 @@ const obama = [
       "ObamaprosecutedmorewhistleblowersandpressunderespionageactthanprecedingprezcombinedbrbrSpiedonasittingprezasacivilianbrbrHandedoverthousandofchildrentochildtraffickersatsborderbrbrLegalizedtheUSmediatousesamepropagandaseeEYEausesonothercountriesforregimechangebrbrHeandHoldernevershoweduptocongressionalsubpoenafastNfuriousbrbrOversawtheslowesteconomicrecoveryinUShistorybrbrYoucankeepyourplanandkeepyourdoctorLOLbrbrBenGhazibrbrDestroyedSyriaLibyaincreasedmilitaryinAfghanistanandIraqbrbrWeaponizedIRStoattackTpartybrbrThreatenedmartiallawoncongresstopassabillbrbrBuiltnewbeachfronthomesinMVinyardandHawaiiwhilewhiningaboutrisingsealevelsbrbrHeismostcertainlyajokebrThoseofyouenamoredbyhisabilitytospeakandcharismathejokeisonyoubrbrBigbirthdaybasheverybodyflewinonprivatejetsbutclimatechangeyaknow",
     Year: "2022-08-10",
     Hour_z_time: 10,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
     N: 313,
     Year: "2022-08-10",
     Hour_z_time: 1,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2587,7 +2587,7 @@ const obama = [
     comment: "ObamaOUTwasagoodthing",
     Year: "2022-08-09",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2596,7 +2596,7 @@ const obama = [
       "SadlyHeisnotoutheisstillbehindthecurtainmessingthingsuppuppetmasterforsleepyjoe",
     Year: "2022-08-09",
     Hour_z_time: 22,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -2604,7 +2604,7 @@ const obama = [
     comment: "Alljokeshediddiddlysquat",
     Year: "2022-08-09",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2612,7 +2612,7 @@ const obama = [
     comment: "TherewillbenogreaterthanObamaLovehimandmisshimsomuchlt",
     Year: "2022-08-09",
     Hour_z_time: 16,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2621,7 +2621,7 @@ const obama = [
       "FoxislikequotHowdarehevandalizethatmicrophonebydroppingitonthegroundquot",
     Year: "2022-08-08",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2630,7 +2630,7 @@ const obama = [
       "IsomissthisguyHEMADETHEPRESIDENCYCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOL",
     Year: "2022-08-08",
     Hour_z_time: 5,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2638,14 +2638,14 @@ const obama = [
     comment: "maman",
     Year: "2022-08-08",
     Hour_z_time: 2,
-    Analysis: "O",
+    an: "O",
     Language: "tl",
   },
   {
     N: 321,
     Year: "2022-08-07",
     Hour_z_time: 21,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2653,7 +2653,7 @@ const obama = [
     comment: "ImisstheObamas",
     Year: "2022-08-07",
     Hour_z_time: 21,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2662,7 +2662,7 @@ const obama = [
       "NodramaObamamissedterriblymostofallbythelateIsisIslamicCaliphatewhoprosperedsomuchunderhisumbrellaSadbuttrue",
     Year: "2022-08-07",
     Hour_z_time: 18,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2671,7 +2671,7 @@ const obama = [
       "YouandyourBidenhavedestroyedthewholeworldwithyourwarsLeaveEuropealonenothingwillmakeyouthefirstcountryintheworld",
     Year: "2022-08-07",
     Hour_z_time: 12,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2680,7 +2680,7 @@ const obama = [
       "SometimesthereareintelligentpresidentstooNottoooftennoteverywherethough",
     Year: "2022-08-07",
     Hour_z_time: 10,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2688,7 +2688,7 @@ const obama = [
     comment: "IjustlovepresidentObama",
     Year: "2022-08-06",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "no",
   },
   {
@@ -2696,7 +2696,7 @@ const obama = [
     comment: "ThisisbetterthantheDonaldtrumproast",
     Year: "2022-08-06",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2704,7 +2704,7 @@ const obama = [
     comment: "Bruhyouhadthecoolestpresident",
     Year: "2022-08-06",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2713,7 +2713,7 @@ const obama = [
       "OnlyPresidentObamacanmakeajokeaboutquotTheRainsofCastamerequotfromGOTinaWhiteHouseevent",
     Year: "2022-08-06",
     Hour_z_time: 2,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2721,7 +2721,7 @@ const obama = [
     comment: "WhataManYourAmericanMandela",
     Year: "2022-08-06",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2729,7 +2729,7 @@ const obama = [
     comment: "ThatsarcasmismagicalHisdeliverycomesattherighttime",
     Year: "2022-08-05",
     Hour_z_time: 17,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2737,7 +2737,7 @@ const obama = [
     comment: "AugustthpmandhereIam",
     Year: "2022-08-05",
     Hour_z_time: 3,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2745,7 +2745,7 @@ const obama = [
     comment: "Pleaserunagain",
     Year: "2022-08-05",
     Hour_z_time: 3,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2753,7 +2753,7 @@ const obama = [
     comment: "Uselessclown",
     Year: "2022-08-04",
     Hour_z_time: 20,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -2761,7 +2761,7 @@ const obama = [
     comment: "HedestroyedthiscountryGladhesgone",
     Year: "2022-08-04",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2769,7 +2769,7 @@ const obama = [
     comment: "Dislike",
     Year: "2022-08-04",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "af",
   },
   {
@@ -2778,7 +2778,7 @@ const obama = [
       "KelvinHartandChrisrockweretrulynotedneededtomakethismeetingafunoneBarackisacombinationofbothofthemandwithcharisma",
     Year: "2022-08-03",
     Hour_z_time: 18,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2787,7 +2787,7 @@ const obama = [
       "HisleadershipampauthenticityremainsunparalleledtodateManynolongerrecallwhenhypervigilancewasnotingrainedinourlivesObamachangedtheworldTrumpersnevergotoverthatreality",
     Year: "2022-08-03",
     Hour_z_time: 13,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2796,7 +2796,7 @@ const obama = [
       "IhavemyissueswiththeguybutdamnifheisntthemostcharismaticpoliticianinthecountrybrbrIwishDemocratstodaycouldlearnathingortwofromObamasincrediblerhetoric",
     Year: "2022-08-02",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2804,7 +2804,7 @@ const obama = [
     comment: "Talkabouthisaccompishmentsnothisclassact",
     Year: "2022-08-02",
     Hour_z_time: 4,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2813,7 +2813,7 @@ const obama = [
       "bHifanImKeanuReevesIfyouhaveeverchattedwithanyotherKeanuReevesyouhavebeendeceivedbbrbIfyouhaveeversentmoneytoanyoneclaimingtobemeyouhavebeenscammedIfyouhaveeverreceivedanyreplytoyourcommenthereonYouTubeapartfromthisyouhavebeendeceivedbbrbrbIhaventbeenonsocialmediamyprivacymatterstomeIhavereceivedtoomanycomplaintsaboutimpostersdefraudingpeoplewithmynameonallsocialmediaplatformsthatswhyIcameheretocatchthemandreportthemtotheFBIandInterpolPleasereportanyotherkeanuReevesyoufindontheinternettomebycontactingmedirectlyonmyemailthatisdisplayedabovethismessagenearmyprofilepictureYouwillberewardedgreatlyandthescamvictimswillbecompensatedb",
     Year: "2022-08-01",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2822,7 +2822,7 @@ const obama = [
       "IloveObamaandiamnotfromAmericaIwishwehaveapresidentlikehimAmericayouwhereluckytohavehimusapresidentIamsureifhecouldcandidateagainallamericanswillvoteforhimevenstupidawfullrasists",
     Year: "2022-08-01",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2830,7 +2830,7 @@ const obama = [
     comment: "MichaeldoeshimupthebutteverynightWhatajackA",
     Year: "2022-08-01",
     Hour_z_time: 22,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2838,7 +2838,7 @@ const obama = [
     comment: "Showboat",
     Year: "2022-08-01",
     Hour_z_time: 13,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2846,7 +2846,7 @@ const obama = [
     comment: "Excelentepresidente",
     Year: "2022-08-01",
     Hour_z_time: 1,
-    Analysis: "P",
+    an: "P",
     Language: "pt",
   },
   {
@@ -2854,7 +2854,7 @@ const obama = [
     comment: "Stillmissingyoubutgladyourenotintodaysmess",
     Year: "2022-07-31",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2862,7 +2862,7 @@ const obama = [
     comment: "Trulyaclassact",
     Year: "2022-07-31",
     Hour_z_time: 18,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2870,7 +2870,7 @@ const obama = [
     comment: "MuchlovefromGermanytoyouMrPresident",
     Year: "2022-07-31",
     Hour_z_time: 17,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2878,7 +2878,7 @@ const obama = [
     comment: "yetthenextyrswerewaaaaymorefun",
     Year: "2022-07-31",
     Hour_z_time: 16,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2886,7 +2886,7 @@ const obama = [
     comment: "Lolthepropmic",
     Year: "2022-07-31",
     Hour_z_time: 13,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2894,7 +2894,7 @@ const obama = [
     comment: "AlmostgotintearsBarrackTherewillforeverbenobodylikeuIpromosethat",
     Year: "2022-07-31",
     Hour_z_time: 12,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2902,7 +2902,7 @@ const obama = [
     comment: "dibrakatrthnjufdllovjuamkanpiplhaprdmokraci",
     Year: "2022-07-31",
     Hour_z_time: 6,
-    Analysis: "P",
+    an: "P",
     Language: "hr",
   },
   {
@@ -2910,7 +2910,7 @@ const obama = [
     comment: "Imisshiswit",
     Year: "2022-07-31",
     Hour_z_time: 3,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2918,7 +2918,7 @@ const obama = [
     comment: "Obamacharmedeveryone",
     Year: "2022-07-31",
     Hour_z_time: 3,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2927,7 +2927,7 @@ const obama = [
       "HeisjustnotfunnyHeandBidenandClintonareabortionistsSuppingwithSatanHeevenadmiresthepottymouthedHelenMirrenbrCantlistentoanymoreSwitchingoff",
     Year: "2022-07-30",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2935,7 +2935,7 @@ const obama = [
     comment: "USALOVESTRUMP",
     Year: "2022-07-30",
     Hour_z_time: 21,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2943,7 +2943,7 @@ const obama = [
     comment: "HelovesJoeBidenSaysitallCriminals",
     Year: "2022-07-30",
     Hour_z_time: 21,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -2951,7 +2951,7 @@ const obama = [
     comment: "Adios",
     Year: "2022-07-30",
     Hour_z_time: 20,
-    Analysis: "O",
+    an: "O",
     Language: "lt",
   },
   {
@@ -2960,7 +2960,7 @@ const obama = [
       "WhydoesntMichelleleaveherhairinafroornaturalbraidsSheshouldshowsomepride",
     Year: "2022-07-30",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2968,7 +2968,7 @@ const obama = [
     comment: "WorstpresidenteverDividedusall",
     Year: "2022-07-30",
     Hour_z_time: 20,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -2976,7 +2976,7 @@ const obama = [
     comment: "KobesaidmambaoutbrbrObamasaidObamaout",
     Year: "2022-07-30",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "id",
   },
   {
@@ -2985,7 +2985,7 @@ const obama = [
       "ThesmugnessofthismanSuavebutveryveryarrogantLeadingoffwithracialjokesNowhitePresidentorpersonwouldhavebeenallowedtodothatunscathedquotRacistquottheywouldscreamAsanasidethefactthattheracialdividewasblownwideopenduringhistenureisoneofhisbiggestfailuressometimesasaresultofhisfailuretoaddressandorsuppresstotrytobringpeopletogetherAndhewasuniquelyqualifiedasamulattotobridgethegapSomuchforquotchangequotBythewayhewasrearedbyawhitemotherandgrandparentsinprivilegeinHonoluluHawaiiheattendedPunahouAndjokingaboutmarijuanaorotherdruguseduringhisteenageyearswastotallyinappropriateveryunPresidentialTocapitoffhebraggedabouthisloveforhisVPWowhelovedhimenoughtoremainlargelysilentduringhisPresidentialcampaignfouryearslaterSomuchfortruthfulnessgenuinenessHereisthegreatestironyifyouhatedTrumporlovedandsupportedHillaryyoucanthankgoodoleBO",
     Year: "2022-07-30",
     Hour_z_time: 17,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -2993,7 +2993,7 @@ const obama = [
     comment: "Bomopuresaklyunesaklnodonesaklyopunesakmovanessa",
     Year: "2022-07-30",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "lt",
   },
   {
@@ -3002,7 +3002,7 @@ const obama = [
       "ThuDecMamUonesadfghacbnmopuyreesanobrLonouresadfoghacnomanoNouresaklyopunesakmobrNalyopunesakmopuyresalyonesakmopuyresanobrLamopuresakmopuresanonomacdmoVanessa",
     Year: "2022-07-30",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "es",
   },
   {
@@ -3011,7 +3011,7 @@ const obama = [
       "MouonesaklyopunesaklymonouresaklymesaklynesamobrNouyresaklymopunesamoSonopuresaklynopuresabrIomesaklynopuresakmoLonesaklyopuresakmesabrSonuresaklyopunesanoLonesaklyopuyresanabrMouresaklyopunopuresakmopuyresabrSanopuresakmopuresabonesaklyopunesanobrPonesaklyopunesanodonesaklyopunesakobrEnesaklyopunesaklropunesaNouyresaklynopunesabrSaniopuresaklyopunesajanopuresaklyopuresabrUonesaklyopunesaknoLanopunesaklnopunesaNouresaklynesaklyopunesamabrLonesakmopuyresanoUonesaklynesaknopuyresabrVanessa",
     Year: "2022-07-30",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "tl",
   },
   {
@@ -3020,7 +3020,7 @@ const obama = [
       "Hดฉนไมใดไปใหนทเชบคอของในเครองคะเพาะตองปดบางอยางเพาะจอนกำลงคนหาอยคะ",
     Year: "2022-07-30",
     Hour_z_time: 10,
-    Analysis: "O",
+    an: "O",
     Language: "th",
   },
   {
@@ -3028,7 +3028,7 @@ const obama = [
     comment: "Hคณโอบรามาดฉนตองเซบตวเองกอน",
     Year: "2022-07-30",
     Hour_z_time: 10,
-    Analysis: "P",
+    an: "P",
     Language: "th",
   },
   {
@@ -3036,7 +3036,7 @@ const obama = [
     comment: "Hestillsucks",
     Year: "2022-07-30",
     Hour_z_time: 3,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -3045,7 +3045,7 @@ const obama = [
       "ThemanwhobrokealltiesandmadetheworldbelieveLurtherswordsallmenallequalbeforeGod",
     Year: "2022-07-29",
     Hour_z_time: 21,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3053,7 +3053,7 @@ const obama = [
     comment: "WeneedanotheronelikehimSoon",
     Year: "2022-07-29",
     Hour_z_time: 2,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3061,7 +3061,7 @@ const obama = [
     comment: "Coldestmomentispresidentialhistory",
     Year: "2022-07-28",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3070,7 +3070,7 @@ const obama = [
       "TothisdayIdontknowwhatObamameantinhisinauguralspeechquotWewillnowbegintofundamentallychangeAmericaquot",
     Year: "2022-07-28",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3079,7 +3079,7 @@ const obama = [
       "EveryfewmonthsIreturnheretorememberwhatitwasliketohavearealpresidentbeforeTrumpmessedeverythingup",
     Year: "2022-07-27",
     Hour_z_time: 21,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3088,7 +3088,7 @@ const obama = [
       "GoodonstagebutatotalnarcissistinamorepolishedwaythanTrumpmagneticandeloquentbutdidntgetmuchdonealotofliesandbrokenpromiseshedidgetObamacarethroughwhichendedupbeingafinancialnightmaretothehealthcaresystem",
     Year: "2022-07-27",
     Hour_z_time: 8,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3096,7 +3096,7 @@ const obama = [
     comment: "OnlyonepersoncansayquotoutquotKobe",
     Year: "2022-07-27",
     Hour_z_time: 6,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3105,7 +3105,7 @@ const obama = [
       "MyguptheredoingstandupgetthismanaNetflixspecialpleaseObamayouretrulymissed",
     Year: "2022-07-26",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3113,7 +3113,7 @@ const obama = [
     comment: "JakeTaperleftjournalismtojoinCNNBurnt",
     Year: "2022-07-26",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3121,7 +3121,7 @@ const obama = [
     comment: "hedidntachievemuchbutclassact",
     Year: "2022-07-26",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3129,7 +3129,7 @@ const obama = [
     comment: "SighImissthislevelofintelligence",
     Year: "2022-07-26",
     Hour_z_time: 13,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3138,7 +3138,7 @@ const obama = [
       "WithallthehorriblestuffgoingonwithtrumpialwayscomebacktothistomakemerememberthegoodtimesinAmericanshistoryImissObamaeraAmerica",
     Year: "2022-07-26",
     Hour_z_time: 9,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -3147,14 +3147,14 @@ const obama = [
       "ThisgetinterestinginCivilInterestofDreamsofmyFatherintheAudacityofHopenibblingonapeaceofChocolateandfishingtomakeaVanillaBananaPuddingThePriceofGreentreeisdeflatedinStandardMinimumRulesforTreatmentofPrisonersAdoptedbytheFirstUnitedNationsCongressonpreventionofCrimeandtreatmentofOffendersHeldatGenevaandthMayRulestoGeneralApplicationinrebrTheNationalandInternationalAuthorityissetupontheVirtueofthePredecessorinSocialSecurityBillsthatisnotDepletedbyCongressItsbeenanEconomicBoostinTrumpAdministrationinSocialSecurityTickettoWorkPrograminTeleworkAgreementinInvestmentofMicrosoftCorporationtoCreateJobswiththeRepublicanditSocialistSocialWorkerPartyandConservativeOneinMarketingandPromotingThenewWhiteHouseHiltonCorresponcedinnerpartiesatthelightofArtistParisHiltonandDavidBowersHyattPlaceConventionbrInGodWeTrustRDEIPIsanPandemicWatchDogmatic",
     Year: "2022-07-24",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
     N: 382,
     Year: "2022-07-24",
     Hour_z_time: 18,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3163,7 +3163,7 @@ const obama = [
       "ReremarksaboutJustinHemadepotlegalinALLofCanadaAndneckedwithTrumpswifeItCOULDhavebeenMichelleSoBarackcometoCanadaforadoubledoubleatTimmysandahockeygameeh",
     Year: "2022-07-24",
     Hour_z_time: 17,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -3171,7 +3171,7 @@ const obama = [
     comment: "WhatawonderfulHumanbeingthismanisHowgoodheis",
     Year: "2022-07-24",
     Hour_z_time: 13,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3179,7 +3179,7 @@ const obama = [
     comment: "Welltrainedactor",
     Year: "2022-07-24",
     Hour_z_time: 10,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3188,7 +3188,7 @@ const obama = [
       "HelloPresidentObamaBythistimeIhadnotseenanyofthisandnowamlaughingandenjoyingthisimCanadianIneverwatchedanypoliticianexceptonewhichwasPresidentKennedyIseeyouareasgoodashecouldhavebeenpolitedecentandicanunderstandyouperfectlybrImsorryinawayyoucouldntbepresidentforlifebecausetheOrangeblobwasandisawfulanddangerousPresidentBidenhasbeenthroutoomuchemotionalpainanditdoesntfeelrightwhatpeoplesayabouthimimreallyafraidhehasdementiaorheadingthatwayIloveAmericansandlivedinthatcountrytofinishhighschoolbuthadtogobackhomeatofcoursebrNowImworriedabouttheUSIhopetherewontbeanyOrangeblobpossibilitytobeelectedbacknowIdontknowwhatkindofKoolaidthepeoplewhovotedhimdrankbutitspoisontothebonestheresmorehatrednowthaneverUShasregressedinsteadofgoingforwardIwishthemwellastheyareneighborsItrulyloveTakecaretoyouandyourfamilykeepjokingandhopetoseesomegoodnewsfromyousoonCanadianout",
     Year: "2022-07-24",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3196,7 +3196,7 @@ const obama = [
     comment: "IgottasayMichelleisagoodlookinman",
     Year: "2022-07-24",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3204,7 +3204,7 @@ const obama = [
     comment: "Crookedliberalshill",
     Year: "2022-07-23",
     Hour_z_time: 21,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3212,7 +3212,7 @@ const obama = [
     comment: "ImissyouSir",
     Year: "2022-07-23",
     Hour_z_time: 20,
-    Analysis: "O",
+    an: "O",
     Language: "fi",
   },
   {
@@ -3220,7 +3220,7 @@ const obama = [
     comment: "LoveThisAndMissHim",
     Year: "2022-07-23",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3229,7 +3229,7 @@ const obama = [
       "ItisagoodquestionastowhyoneoftheKardashianJennerclanwasinvitedtotheWhiteHousecorrespondentsdinner",
     Year: "2022-07-23",
     Hour_z_time: 12,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3237,7 +3237,7 @@ const obama = [
     comment: "Thisissomuchlessamusinginretrospect",
     Year: "2022-07-23",
     Hour_z_time: 8,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3245,7 +3245,7 @@ const obama = [
     comment: "AclassactButTrumphatedallofitOfcourseNuffsaid",
     Year: "2022-07-23",
     Hour_z_time: 6,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -3253,7 +3253,7 @@ const obama = [
     comment: "Thisiswhenwerespectedourgovernmentleadershipandcountry",
     Year: "2022-07-23",
     Hour_z_time: 4,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3261,7 +3261,7 @@ const obama = [
     comment: "Thedevilhimselfmayherotinhell",
     Year: "2022-07-23",
     Hour_z_time: 1,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3269,7 +3269,7 @@ const obama = [
     comment: "Thedevilhimselfmayherotinhell",
     Year: "2022-07-23",
     Hour_z_time: 1,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3278,7 +3278,7 @@ const obama = [
       "AsanAmericanIambaffledthatamanasIntelligentandclassyasPresidentObamacouldbereplacedbysuchachildishbuffoonasTrumpItisalittlescarythatalargeportionofAmericanscouldsupportthisclownItisembarrassingThedifferencesbetweenTrumpandObamaisliterallyblackandwhite",
     Year: "2022-07-23",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3286,7 +3286,7 @@ const obama = [
     comment: "Greatspeakerindeedwewillmisshimandhisspeeches",
     Year: "2022-07-22",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3294,7 +3294,7 @@ const obama = [
     comment: "Obamagotasixthsenseofhumour",
     Year: "2022-07-22",
     Hour_z_time: 20,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3302,7 +3302,7 @@ const obama = [
     comment: "HessaidthankyouashislastwordsLOL",
     Year: "2022-07-22",
     Hour_z_time: 18,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3311,7 +3311,7 @@ const obama = [
       "NowIamsurprisetoseeeducatedpeoplelisteningtojokesthathasnothingtodowithreallifebutjustfoefunloversbrbrHonestlyspeakingObamashouldntbeinPoliticbutinfilmindustryorjokesdirector",
     Year: "2022-07-22",
     Hour_z_time: 6,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3320,7 +3320,7 @@ const obama = [
       "ApresidentthatactsexactoppositeofGodswordandmantrustinhimratherthanonGodswordTrulyheroofunsavedgeneration",
     Year: "2022-07-22",
     Hour_z_time: 6,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3328,7 +3328,7 @@ const obama = [
     comment: "myfavoritepresidentofalltimeMrObama",
     Year: "2022-07-22",
     Hour_z_time: 1,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3336,7 +3336,7 @@ const obama = [
     comment: "ilovedobamaireallywishhecouldbecomepresidentagain",
     Year: "2022-07-22",
     Hour_z_time: 1,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3345,7 +3345,7 @@ const obama = [
       "HewasthebestchancewehadtomoveforwardasawholeGettingblockedateveryturnonpoliciesthatweregoodforthepeopleIcantimaginehowfuturegenerationswillunderstandthegreedandtheanimositythathehadtofightateveryturnAndthenmadeithismissiontoundoeverysinglepolicythatObamaputinplaceSadlywemissedourchanceatgreatness",
     Year: "2022-07-21",
     Hour_z_time: 17,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3354,7 +3354,7 @@ const obama = [
       "goosebumpsgoosebumpseverytimeseeingthisAndImnotevenanAmericanbrThoselastwordisthemostpowerfulclosingspeechIveeverseen",
     Year: "2022-07-21",
     Hour_z_time: 12,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3363,7 +3363,7 @@ const obama = [
       "ArguablythemostcorruptampillegalPresidenteveramppeoplewanttocelebratehim",
     Year: "2022-07-21",
     Hour_z_time: 10,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -3371,7 +3371,7 @@ const obama = [
     comment: "HedidABSOLUTELYNOTHINGforourpeople",
     Year: "2022-07-21",
     Hour_z_time: 1,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3379,7 +3379,7 @@ const obama = [
     comment: "itsbeenonlyyearsampthisfeelslikeadifferentage",
     Year: "2022-07-20",
     Hour_z_time: 13,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3387,7 +3387,7 @@ const obama = [
     comment: "RememberwhenAmericahadarealpresidentImissthisdude",
     Year: "2022-07-20",
     Hour_z_time: 6,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3395,7 +3395,7 @@ const obama = [
     comment: "GodImisshim",
     Year: "2022-07-20",
     Hour_z_time: 1,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3404,7 +3404,7 @@ const obama = [
       "คณโอบรามาทาคณพรอมเมอไรคอยมากไดคะเพาะอาดพรงนหนจะยายแลวคะเพาะไมมเงนไหคาบานคะเพาะเงนครสสงมาไมพอคะเพาะตอนเยนกตองไหดอกเงนเขาอกคะหนเหนอยเหลอเกนคะใหนจะโดนครสโกหกเรองเงนอกคะฟด",
     Year: "2022-07-18",
     Hour_z_time: 7,
-    Analysis: "P",
+    an: "P",
     Language: "th",
   },
   {
@@ -3413,7 +3413,7 @@ const obama = [
       "Hทำไมหนตงไปลางตโคตและลางรถไหในหนอนทำไปเปดบรษญออสตราอนพรพทำไมละคะบางททำซอดเซอทงคนทำไมสงดดในตวหนททำไหเขาและความดของหนไมพดบางละคะทกทกทานทเคารพทกทานถามไหหนหนอยไดใหมคะวาความเปนลกผชายหายไปใหนหมดคะ",
     Year: "2022-07-18",
     Hour_z_time: 5,
-    Analysis: "O",
+    an: "O",
     Language: "th",
   },
   {
@@ -3421,7 +3421,7 @@ const obama = [
     comment: "Disgusting",
     Year: "2022-07-18",
     Hour_z_time: 4,
-    Analysis: "N",
+    an: "N",
     Language: "af",
   },
   {
@@ -3430,7 +3430,7 @@ const obama = [
       "dangImissthispresidentIdontagreewitheverythinghedidofcoursebutwowwhatagoodpersonwhataniceperson",
     Year: "2022-07-18",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3438,7 +3438,7 @@ const obama = [
     comment: "StilllovedSirBarack",
     Year: "2022-07-18",
     Hour_z_time: 1,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3447,7 +3447,7 @@ const obama = [
       "HatsoffObamaYoucantakeajokeyouarenotanegoistyoucanmakedecentjokesyoureintelligentandawareofcontext",
     Year: "2022-07-17",
     Hour_z_time: 12,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3456,7 +3456,7 @@ const obama = [
       "Itsincredibletoseethecommanderinchiefpokefunathiscomradesanddoingthecorrespondencedinnertalkjobbetterthananyseasonedstandupexpertever",
     Year: "2022-07-17",
     Hour_z_time: 12,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3465,7 +3465,7 @@ const obama = [
       "HeissofunnybarbsatGoldmansachshisageingHillaryClintonJustinTrudeauandthenhimselfastheskeletoninthesupposedphotowithMichelleYeshewasphotographedwithPrinceGeorgeatKensingtonPalace",
     Year: "2022-07-17",
     Hour_z_time: 5,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3474,7 +3474,7 @@ const obama = [
       "tittokappischinaespionageappAmcricanpeopleidontknowverystupidNotafraidofnationalsecurityintimesofwar",
     Year: "2022-07-16",
     Hour_z_time: 23,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -3483,7 +3483,7 @@ const obama = [
       "ObamawasahorriblepresidentwhosimplyfailedtoleadaprogressiveagendasettingupAmericaformanyoftheproblemstodayNopresidenteverhadabetteropportunitytoencourageracialreconciliationthanObamaInsteadAmericasfirstblackpresidentwentinexactlytheoppositedirectionandtriedtocreateasmuchracialpolarizationaspossiblebecausehethoughtitbenefitedhimpoliticallyUnlikeJesseJacksonorAlSharptonObamaissubtlerHisadministrationencouragedhatredofpoliceturnedablindeyetoraceriotsanddidnothingtoslowdowntheincessantcriesofracismfromhissupportersthatgreetedeverydisagreementwithObamaspoliciesDuringObamaspresidencytheLeftopenlyusedraceasapoliticalweaponanditcreatedalevelofracialstrifeinAmericathatwehaventseensincethesixtiesHewassimplyyetanotherneoliberalDemocratwhosidedwithcorporateAmericaignoringtheplightofworkingclassAmerica",
     Year: "2022-07-16",
     Hour_z_time: 21,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -3491,7 +3491,7 @@ const obama = [
     comment: "IamveryappreciatedtoMrBarackObamaforgoodleadershipinUSA",
     Year: "2022-07-16",
     Hour_z_time: 13,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3500,7 +3500,7 @@ const obama = [
       "GaddafiwaskilledbytheterroristelitecalledUSAandthesepuppetsdothenecessaryevil",
     Year: "2022-07-15",
     Hour_z_time: 19,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -3509,7 +3509,7 @@ const obama = [
       "Andtoknowinallthisfuntheyhaverealpeoplegetkilledwiththeiradventurism",
     Year: "2022-07-15",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3517,7 +3517,7 @@ const obama = [
     comment: "WORSEWANNABEpresidentEVER",
     Year: "2022-07-15",
     Hour_z_time: 2,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -3526,7 +3526,7 @@ const obama = [
       "TheGreatestPresidentofAmericaofalltimeThebestyrsEverforthewholeworldToobadTrumpcheatedinthepresidentialelectionofAmericaAllthankstoPutinsinterferenceTrumpWonbycheatingandhadforiegninfluencefromAmericasnemesisRussiaTriedagaininbutthistimeAmericawasawareoftheinterferenceandthistimeTrumpswholeadministrationwasactuallyheldaccountablefortheirbetrayals",
     Year: "2022-07-15",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3534,7 +3534,7 @@ const obama = [
     comment: "Imisshim",
     Year: "2022-07-13",
     Hour_z_time: 14,
-    Analysis: "O",
+    an: "O",
     Language: "et",
   },
   {
@@ -3542,7 +3542,7 @@ const obama = [
     comment: "BiggestmistakeAmericaevermadewastoputthisblackmanintheWhiteHouse",
     Year: "2022-07-12",
     Hour_z_time: 6,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -3550,7 +3550,7 @@ const obama = [
     comment: "Stillafanofpowerfulblackmenbringingpositivity",
     Year: "2022-07-11",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3559,7 +3559,7 @@ const obama = [
       "AntichristobamaLukebrLightningstrongbaraqbrHeavenheightsstrongbamabrAndjesussaidisawsatanfallingasbaraqbama",
     Year: "2022-07-11",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "tl",
   },
   {
@@ -3568,7 +3568,7 @@ const obama = [
       "HisjokeaboutjournalismhitsevenhardernowIhaventwatchedMSMforseveralyears",
     Year: "2022-07-10",
     Hour_z_time: 7,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -3576,7 +3576,7 @@ const obama = [
     comment: "Missthisguy",
     Year: "2022-07-10",
     Hour_z_time: 4,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3584,7 +3584,7 @@ const obama = [
     comment: "YourethebestMrquotquotclasshumor",
     Year: "2022-07-10",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3593,7 +3593,7 @@ const obama = [
       "OBAMAOUTTODIDDLESOMEKIDSONMYBOATWITHMYBUDDYCLOONEYCOUNTINGDOWNTHEDAYSTILLMYTRIBUNAL",
     Year: "2022-07-09",
     Hour_z_time: 22,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -3602,7 +3602,7 @@ const obama = [
       "JustagoodoldboypocketsfullofmoneybookdealsspeakingenguagementsJustliketheClampettsbutyoubetterthanyourwhiteboyridingshotgunprejudiceisunderyourbreathebrWelldoyouhaveyourbirthcertificateyetTrumpsurpriseduall",
     Year: "2022-07-09",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3610,7 +3610,7 @@ const obama = [
     comment: "BalackObamayehright",
     Year: "2022-07-09",
     Hour_z_time: 7,
-    Analysis: "P",
+    an: "P",
     Language: "id",
   },
   {
@@ -3618,7 +3618,7 @@ const obama = [
     comment: "IREALLYmissthisPresidentandhisfamilyAVERYgoodmanandPresident",
     Year: "2022-07-09",
     Hour_z_time: 5,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3627,7 +3627,7 @@ const obama = [
       "quotJakeTafferleftjournalismtojoinCNNquotbrManhedidnothavetodohimsodirtywiththat",
     Year: "2022-07-09",
     Hour_z_time: 4,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -3636,7 +3636,7 @@ const obama = [
       "OurRepublicsquanderedawaymonthsweshouldhaveusedtogroweverycitizensestatetonowtodaywithstandthesocialistbullyingfromtheleft",
     Year: "2022-07-09",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3644,7 +3644,7 @@ const obama = [
     comment: "AndthenthebarwasloweredtoitsnewlowwithTrump",
     Year: "2022-07-08",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3653,7 +3653,7 @@ const obama = [
       "WhatIrememberthemostabouttheObamaWhitehouseisthepartiestheyhadItseemedlikethatisalltheydidExceptforpayingIrantobeapartofthenucleardeal",
     Year: "2022-07-08",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3662,7 +3662,7 @@ const obama = [
       "HemadejokesonTrumpfewyearslateTrumptookhisjobhishouseandthepodium",
     Year: "2022-07-07",
     Hour_z_time: 11,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -3670,7 +3670,7 @@ const obama = [
     comment: "Goodguy",
     Year: "2022-07-06",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "so",
   },
   {
@@ -3679,7 +3679,7 @@ const obama = [
       "IalwaysforgetObamaenteredofficeasasmokerandthenstillmanagedtoquitThatbitwiththecigaretteswasgold",
     Year: "2022-07-06",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3687,7 +3687,7 @@ const obama = [
     comment: "Theapologizerinchieflimpnoodle",
     Year: "2022-07-06",
     Hour_z_time: 16,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -3696,7 +3696,7 @@ const obama = [
       "PleasegivetheworldaDonaldTrumpspeechthatisonepresentasgoodasPresidentObama",
     Year: "2022-07-06",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3704,7 +3704,7 @@ const obama = [
     comment: "ImissObama",
     Year: "2022-07-05",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "et",
   },
   {
@@ -3712,7 +3712,7 @@ const obama = [
     comment: "Dontfoolyourselvesthisfoolaintwentnowhere",
     Year: "2022-07-05",
     Hour_z_time: 13,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3720,7 +3720,7 @@ const obama = [
     comment: "Thanks",
     Year: "2022-07-05",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "fi",
   },
   {
@@ -3728,7 +3728,7 @@ const obama = [
     comment: "Thanks",
     Year: "2022-07-05",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3736,7 +3736,7 @@ const obama = [
     comment: "ThankssomuchMrPresident",
     Year: "2022-07-05",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3744,7 +3744,7 @@ const obama = [
     comment: "ThankssomuchMrPresident",
     Year: "2022-07-05",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3753,7 +3753,7 @@ const obama = [
       "SomethingwhitepeopleshouldmakeHereallyletitbeknownthatwhitepeoplearetheminority",
     Year: "2022-07-03",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3761,7 +3761,7 @@ const obama = [
     comment: "Letscheerthewarcriminal",
     Year: "2022-07-03",
     Hour_z_time: 11,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -3769,7 +3769,7 @@ const obama = [
     comment: "Usedcarlotmedicadesbagdadusedcarlot",
     Year: "2022-07-03",
     Hour_z_time: 6,
-    Analysis: "O",
+    an: "O",
     Language: "es",
   },
   {
@@ -3777,7 +3777,7 @@ const obama = [
     comment: "WPresidenteTrump",
     Year: "2022-07-02",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "pt",
   },
   {
@@ -3786,7 +3786,7 @@ const obama = [
       "WorstPrezEverAndworstFirstManofwhitehousecrackgaysexandstupityusuck",
     Year: "2022-07-02",
     Hour_z_time: 2,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -3794,7 +3794,7 @@ const obama = [
     comment: "ILOVETHISGUY",
     Year: "2022-07-01",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3802,7 +3802,7 @@ const obama = [
     comment: "UnmatchedcharmHisuseoflanguageisphenomenal",
     Year: "2022-07-01",
     Hour_z_time: 4,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3810,7 +3810,7 @@ const obama = [
     comment: "ThisdidntagewellbrWhohasthelastlaughnow",
     Year: "2022-06-30",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3818,7 +3818,7 @@ const obama = [
     comment: "Afterhisdeparturetherewassimplychaos",
     Year: "2022-06-30",
     Hour_z_time: 1,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3826,7 +3826,7 @@ const obama = [
     comment: "cantbelieveinyearswewentfromthistoaconmanampamushbrain",
     Year: "2022-06-29",
     Hour_z_time: 22,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3835,7 +3835,7 @@ const obama = [
       "ahrefhttpswwwyoutubecomwatchvNxFkEjKPCamptmsaThatonedidntagequitewell",
     Year: "2022-06-29",
     Hour_z_time: 20,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3843,7 +3843,7 @@ const obama = [
     comment: "ahrefhttpswwwyoutubecomwatchvNxFkEjKPCamptmsaisthatMorganFreeman",
     Year: "2022-06-29",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3851,7 +3851,7 @@ const obama = [
     comment: "TheendofaERROR",
     Year: "2022-06-29",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3860,7 +3860,7 @@ const obama = [
       "FromexcellenttotraitorWhatarollercoasterNowImindifferentcausewevestalled",
     Year: "2022-06-29",
     Hour_z_time: 1,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3868,7 +3868,7 @@ const obama = [
     comment: "WorldPresidentObama",
     Year: "2022-06-28",
     Hour_z_time: 17,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3877,7 +3877,7 @@ const obama = [
       "ThedayIbecomequeenofSaudiArabieMaliaJapanorsomeothercountrywithoutmeetinganyoppositioneitherfromcommunitiesdifferentfrommineorfromthemalecommunityiwillknowforsurethatsomeprogresshasbeenmadewithregardtodiscriminationasitexistseverywhereandnotjustfromoneparticularcommunity",
     Year: "2022-06-28",
     Hour_z_time: 8,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3885,7 +3885,7 @@ const obama = [
     comment: "DowecareAreyouwastingyourresourcesYes",
     Year: "2022-06-28",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3893,7 +3893,7 @@ const obama = [
     comment: "Whatasorryexcuse",
     Year: "2022-06-27",
     Hour_z_time: 19,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -3902,7 +3902,7 @@ const obama = [
       "IhaveneverseenadinnerinwhichpeoplearesopackedtogetherlikethatHowdotheserversgetthroughIfforanyreasoneveryonehadtogetoutquicklyitwouldbeadisasterIlikethePresidentsjokeaboutPrinceGeorgeshowinguptomeethiminhisbathrobeIveseenthephotoandGeorgehadhadhisbathandwasinhispajamasandbathrobewhenhemettheObamasIbelievetheybroughthimagreatrockinghorse",
     Year: "2022-06-26",
     Hour_z_time: 11,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3911,7 +3911,7 @@ const obama = [
       "TheWhiteHousehasntseenclassandcharismalikeBarackObamasinceheleftoffice",
     Year: "2022-06-25",
     Hour_z_time: 21,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3919,7 +3919,7 @@ const obama = [
     comment: "TerriblepoliciesbutoneofthemostbeautifulmalevoicesIveeverheard",
     Year: "2022-06-25",
     Hour_z_time: 18,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3928,7 +3928,7 @@ const obama = [
       "quotJokesthatwhitepeopleshouldnotmakequothowisthisNOTRACISTGoaheadtrytodefendit",
     Year: "2022-06-25",
     Hour_z_time: 17,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3936,7 +3936,7 @@ const obama = [
     comment: "CantgetmorelegendarythanthisDudegotultimateconfidence",
     Year: "2022-06-25",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3944,7 +3944,7 @@ const obama = [
     comment: "Franceyoueatbogies",
     Year: "2022-06-25",
     Hour_z_time: 14,
-    Analysis: "O",
+    an: "O",
     Language: "fr",
   },
   {
@@ -3952,7 +3952,7 @@ const obama = [
     comment: "Snailsyukbogieswithcrashhelmetson",
     Year: "2022-06-25",
     Hour_z_time: 14,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3960,7 +3960,7 @@ const obama = [
     comment: "GoodfoodinFranceSnails",
     Year: "2022-06-25",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3968,7 +3968,7 @@ const obama = [
     comment: "Britainisagreatcountry",
     Year: "2022-06-25",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -3976,7 +3976,7 @@ const obama = [
     comment: "IhadadreamWet",
     Year: "2022-06-25",
     Hour_z_time: 14,
-    Analysis: "O",
+    an: "O",
     Language: "cy",
   },
   {
@@ -3984,7 +3984,7 @@ const obama = [
     comment: "WhydotheycallittheWhitehouse",
     Year: "2022-06-25",
     Hour_z_time: 14,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -3992,7 +3992,7 @@ const obama = [
     comment: "TCP",
     Year: "2022-06-25",
     Hour_z_time: 14,
-    Analysis: "O",
+    an: "O",
     Language: "vi",
   },
   {
@@ -4000,7 +4000,7 @@ const obama = [
     comment: "RepeatthisBritainisthegreatestcountryever",
     Year: "2022-06-25",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4008,7 +4008,7 @@ const obama = [
     comment: "RepeatthisBritainisthegreatestcountryever",
     Year: "2022-06-25",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4016,14 +4016,14 @@ const obama = [
     comment: "Thegoodoldays",
     Year: "2022-06-25",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "so",
   },
   {
     N: 486,
     Year: "2022-06-24",
     Hour_z_time: 21,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4031,7 +4031,7 @@ const obama = [
     comment: "WhoslaughingnowMF",
     Year: "2022-06-24",
     Hour_z_time: 17,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4039,7 +4039,7 @@ const obama = [
     comment: "Nevervoteforapresidentbasedonthecolourofhisherskin",
     Year: "2022-06-24",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4047,7 +4047,7 @@ const obama = [
     comment: "WhatagreatpersonImisshiminpolitics",
     Year: "2022-06-24",
     Hour_z_time: 7,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4055,7 +4055,7 @@ const obama = [
     comment: "Imisshisintelligenceandhumor",
     Year: "2022-06-24",
     Hour_z_time: 1,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4064,7 +4064,7 @@ const obama = [
       "FormerexPresidentBarackObamawasreallyfunnyguyactuallydespitethedifferencebetweenDemocratsvsRepublicansToobadthatAmericanhavelostthatthesenseofhumorandlaughterwheneveryonegetsalongwell",
     Year: "2022-06-23",
     Hour_z_time: 21,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -4072,7 +4072,7 @@ const obama = [
     comment: "HeissoadorableIwishhewasstillourpresident",
     Year: "2022-06-22",
     Hour_z_time: 13,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4080,7 +4080,7 @@ const obama = [
     comment: "Youdontmisssomethingorsomeonetillitsgone",
     Year: "2022-06-22",
     Hour_z_time: 9,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4088,7 +4088,7 @@ const obama = [
     comment: "heissofunnyIcoulddielaughing",
     Year: "2022-06-22",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4097,7 +4097,7 @@ const obama = [
       "IamaCanadianWhenIfirstsawthatObamawasPresidentoftheUSAIwasamazedABlackMuslimleaderoftheUSANowayThenIlistenedtohimspeakBestmaneverIlovethatmanhiswifeandhislifeintotalityNeverhaveIeverfeltthiswayaboutaleaderofanycountryonthisearth",
     Year: "2022-06-22",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4105,7 +4105,7 @@ const obama = [
     comment: "HethinksheissoSwaveseyheaint",
     Year: "2022-06-22",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4113,7 +4113,7 @@ const obama = [
     comment: "ThisisprobablytheonlypresidentigenuinelylikedAndimfromtheuk",
     Year: "2022-06-21",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4122,7 +4122,7 @@ const obama = [
       "WhataclassacthewasandcontinuestobeItswasanhonortocallhimpresident",
     Year: "2022-06-21",
     Hour_z_time: 14,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4131,7 +4131,7 @@ const obama = [
       "LikeaBossheevendroppedthemicattheendWhatanamazingpersonalitywhatagreatpersonandsuchagreathilariousfinalWHCdinnerspeechOneofthebestever",
     Year: "2022-06-21",
     Hour_z_time: 6,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4139,7 +4139,7 @@ const obama = [
     comment: "Ithinkhesahorridperson",
     Year: "2022-06-20",
     Hour_z_time: 14,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4147,7 +4147,7 @@ const obama = [
     comment: "SecondworstpresidentinAmericanhistoryrightbehindhisbuddyJoeBiden",
     Year: "2022-06-20",
     Hour_z_time: 13,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -4155,7 +4155,7 @@ const obama = [
     comment: "Thebest",
     Year: "2022-06-20",
     Hour_z_time: 12,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4163,7 +4163,7 @@ const obama = [
     comment: "Trumpgavetotherich",
     Year: "2022-06-20",
     Hour_z_time: 9,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4171,7 +4171,7 @@ const obama = [
     comment: "YaknowIdbeenonthissituationbefore",
     Year: "2022-06-20",
     Hour_z_time: 4,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4180,7 +4180,7 @@ const obama = [
       "ObamamusthaveknownCNNwasfakethenwhenhesaidtapperleftjournalismtojoinCNN",
     Year: "2022-06-20",
     Hour_z_time: 2,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -4188,7 +4188,7 @@ const obama = [
     comment: "whydidtheyfilmwillandjadasmith",
     Year: "2022-06-19",
     Hour_z_time: 11,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4196,7 +4196,7 @@ const obama = [
     comment: "Obamasopeningjokesaretooclosetothetruth",
     Year: "2022-06-19",
     Hour_z_time: 9,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4204,7 +4204,7 @@ const obama = [
     comment: "AmericamakesnosenseProvemewrongIhopeyoudo",
     Year: "2022-06-19",
     Hour_z_time: 4,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -4213,7 +4213,7 @@ const obama = [
       "HatethisLYINGSPYINGTREASONOUSADMINISTRATIONOFCRIMINALSALONGWITHQUIDPROQUAJoeandhiscocainesnortingsonHunterPRESIDENTTRUMPHASBEENTHEBESTPRESIDENTEVEROBUMMERDIVISIVETHEEWORSTPOSPRESIDENTEVERINUSHISTORYANTIMILITARYANTIAMERICANANDANTIPOLICEALONGWITHHISBLACKLIESMATTERSHATEGROUPSTHATHAVECOSTPOLICEOFFICERSTOBEAMBUSHEDANDKILLED",
     Year: "2022-06-19",
     Hour_z_time: 0,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -4222,7 +4222,7 @@ const obama = [
       "PrettychillingacctuallySomedisturbingcrapalwaysbeingparadedinthepublicsfaceIfanyoneelsesaidRedWeddingatavenuelikethattheywouldbeinjailTypicaldemonratliberalsrulesfortheenotforme",
     Year: "2022-06-17",
     Hour_z_time: 23,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -4230,7 +4230,7 @@ const obama = [
     comment: "MICHAELnotMichelle",
     Year: "2022-06-17",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "it",
   },
   {
@@ -4238,7 +4238,7 @@ const obama = [
     comment: "habbekommenschon",
     Year: "2022-06-17",
     Hour_z_time: 13,
-    Analysis: "O",
+    an: "O",
     Language: "de",
   },
   {
@@ -4247,7 +4247,7 @@ const obama = [
       "Igottasaythankyoupresidentobamachappelleaintgotnothingonyouyouaregood",
     Year: "2022-06-16",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4256,7 +4256,7 @@ const obama = [
       "Igottasaythankyoupresidentobamachappelleaintgotnothingonyouyouaregood",
     Year: "2022-06-16",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4264,7 +4264,7 @@ const obama = [
     comment: "Misshim",
     Year: "2022-06-16",
     Hour_z_time: 17,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4272,7 +4272,7 @@ const obama = [
     comment: "YoumeanbigMikeYapracticingtobesomeonetotallydifferentisabiddeal",
     Year: "2022-06-16",
     Hour_z_time: 6,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -4280,7 +4280,7 @@ const obama = [
     comment: "HeyBarryNoonecareswhatyouhavetosayYourafraud",
     Year: "2022-06-16",
     Hour_z_time: 6,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4288,7 +4288,7 @@ const obama = [
     comment: "andIsaythatwithgenuinerespect",
     Year: "2022-06-16",
     Hour_z_time: 4,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4296,7 +4296,7 @@ const obama = [
     comment: "Greatpresident",
     Year: "2022-06-16",
     Hour_z_time: 1,
-    Analysis: "P",
+    an: "P",
     Language: "ca",
   },
   {
@@ -4304,7 +4304,7 @@ const obama = [
     comment: "Whattyapieceofcrap",
     Year: "2022-06-15",
     Hour_z_time: 22,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -4312,7 +4312,7 @@ const obama = [
     comment: "Pricelesshumor",
     Year: "2022-06-15",
     Hour_z_time: 18,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4320,7 +4320,7 @@ const obama = [
     comment: "THEANTICHRISTISHERETHISISTHEMANOFPERDITIONDONOTLISTENTOHIM",
     Year: "2022-06-15",
     Hour_z_time: 7,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4329,7 +4329,7 @@ const obama = [
       "Themostevilpresidentyoucguyswverhaddisgustingthatpeopleareblindedbythisguy",
     Year: "2022-06-15",
     Hour_z_time: 5,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -4338,7 +4338,7 @@ const obama = [
       "RememberwhenourgovernmentprotectedourrightsandwehadafairandcompassionatepresidentThosewerethedays",
     Year: "2022-06-14",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4346,7 +4346,7 @@ const obama = [
     comment: "Lovethisguy",
     Year: "2022-06-14",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4355,7 +4355,7 @@ const obama = [
       "ONEoftheBESTPRESIDENTSthisisjuneandIsayitWeShouldntlethimgetawayGOVERMENTNEEDCHANGETHEONHOWLONGPRESIDENTSCANSTAYINOFFICEThereonlythebestofthebestandtheyareMRJOHNFKENNEDYMRBARACKOBAMAMRABRAHAMLINCONMRJIMMYCARTERMRRONALDREAGONMRBUSHboththesearerealleadersyoucantaketheirwordstothebanksoAMERICABEGREATFULwhatwehadbecauseitsgone",
     Year: "2022-06-14",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4363,7 +4363,7 @@ const obama = [
     comment: "BoyHowdyThismanhadsomegreatwriters",
     Year: "2022-06-14",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4371,7 +4371,7 @@ const obama = [
     comment: "fine",
     Year: "2022-06-13",
     Hour_z_time: 17,
-    Analysis: "P",
+    an: "P",
     Language: "it",
   },
   {
@@ -4379,7 +4379,7 @@ const obama = [
     comment: "Theburningmanjokewassogooddeservedawaybiggerlaughthanitgot",
     Year: "2022-06-13",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4387,7 +4387,7 @@ const obama = [
     comment: "Lovethatguy",
     Year: "2022-06-12",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4395,7 +4395,7 @@ const obama = [
     comment: "Obamaisagreatspeakercharisma",
     Year: "2022-06-12",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4403,7 +4403,7 @@ const obama = [
     comment: "ItrulymissthismanbeingPresident",
     Year: "2022-06-10",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4411,7 +4411,7 @@ const obama = [
     comment: "EveryonesfaceatahrefhttpswwwyoutubecomwatchvNxFkEjKPCamptmsalmao",
     Year: "2022-06-10",
     Hour_z_time: 5,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4420,14 +4420,14 @@ const obama = [
       "HellogoodeveningeveryonekeepsafeGODblessUsespeciallybelovedpresidentBarackObamahumbleman",
     Year: "2022-06-09",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
     N: 535,
     Year: "2022-06-08",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4436,7 +4436,7 @@ const obama = [
       "GodImissthisguywhycantwehavemorepeoplelikethisinsteadoftheseagedoldfarts",
     Year: "2022-06-08",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4445,7 +4445,7 @@ const obama = [
       "GoodMorningBrotherBlessingsandPrayersforGodsBlessingsShalomthankyouforallourtimetogetherSharingGODsWordTakecareBrotherFrankMorenoonTwitterWillhockuponlinewithTheefamilyBlessingsAmen",
     Year: "2022-06-08",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4454,7 +4454,7 @@ const obama = [
       "HeisandalwayswillbemyPresidentObamahasclassandpersonalityhishumorisjustbrilliantHemademesoproudtobeAmericanGodblessyousir",
     Year: "2022-06-08",
     Hour_z_time: 7,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4463,7 +4463,7 @@ const obama = [
       "TheremustbelotsofLibertinesinthisvideoletstrybrCananyonesaywhenObamastoppedbeingaCommunistorishereallythefirstMarxistCommunistPOTUSIdontseeanywayhecouldhavechangedhesaMarxistbornMarxist",
     Year: "2022-06-07",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4471,7 +4471,7 @@ const obama = [
     comment: "ImfromEnglandandiseriouslylovethisHesasuperstar",
     Year: "2022-06-07",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4480,7 +4480,7 @@ const obama = [
       "Ilovebothofthemtheyarearealteamclassbutsointouchwiththeeverydaypeopleloveandbestwishestothembothfromukxx",
     Year: "2022-06-06",
     Hour_z_time: 18,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4489,7 +4489,7 @@ const obama = [
       "MrObamawasatrulyoutstandingPresidentavisionaryHerepresentedthebestofAmericaHADcongressandthesenatecouldgettheirquotSitquottogetherandsupportedhimbetterIndeedhewasagreatman",
     Year: "2022-06-06",
     Hour_z_time: 16,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4497,7 +4497,7 @@ const obama = [
     comment: "Justlovinghim",
     Year: "2022-06-06",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4505,7 +4505,7 @@ const obama = [
     comment: "lt",
     Year: "2022-06-06",
     Hour_z_time: 7,
-    Analysis: "O",
+    an: "O",
     Language: "hu",
   },
   {
@@ -4513,7 +4513,7 @@ const obama = [
     comment: "ourlasttruepresident",
     Year: "2022-06-06",
     Hour_z_time: 4,
-    Analysis: "P",
+    an: "P",
     Language: "fr",
   },
   {
@@ -4522,7 +4522,7 @@ const obama = [
       "CanuimagineTrumpdoingANYofthisObamascomedicdeliveryandactingareprettygoodHecanalsospeakformorethansentenceswithoutitdegeneratingintoagarbledwordsaladAlsorefreshingtoseesomeonewhocanpokefunathimselfandnothaveatantrumthatpeoplearemockinghim",
     Year: "2022-06-06",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4531,7 +4531,7 @@ const obama = [
       "NowwithtimetostandbackandviewobjectivelyIcantbelievehowracistandegocentrichewasIcouldntseeitatthetimebecausewealllovedhimMostpresidentsattendthistotakearibbingbutObamausesittomakepoliticalattacksandselfagrandizeThereisnexttozerohumilityherejustamantryingtopadhisegoandlamentingthathecannothaveanotheryearswhichheeventuallygotwithBiden",
     Year: "2022-06-05",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4540,7 +4540,7 @@ const obama = [
       "ThebestBrightestandmostpresentableleaderIveseenbrBeingfromEasternEuropeeventometherepublicansseemsilly",
     Year: "2022-06-04",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4548,7 +4548,7 @@ const obama = [
     comment: "HowdidhegetJohnBoehnertodothisHecouldntgethimtopassanything",
     Year: "2022-06-04",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4556,7 +4556,7 @@ const obama = [
     comment: "ItsonlymoremonthsbabySettledownLOL",
     Year: "2022-06-04",
     Hour_z_time: 6,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4565,7 +4565,7 @@ const obama = [
       "EndoftherepublicCPTMygoshhiswordsspeakthetruthanditsverydarkforthemYikesHilaryClintonwasnevermeanttobetheworldsfirstPresidentGodWins",
     Year: "2022-06-04",
     Hour_z_time: 6,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4573,7 +4573,7 @@ const obama = [
     comment: "WeknowthetruthgetlostunothingButevilgorunTAkemaikwithu",
     Year: "2022-06-04",
     Hour_z_time: 2,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -4581,7 +4581,7 @@ const obama = [
     comment: "obviouslyitwasablackcameramandoingthepanningblkcu",
     Year: "2022-06-03",
     Hour_z_time: 23,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -4590,7 +4590,7 @@ const obama = [
       "UNBELIEVABLETHEREISANOTHERDEMORATUSURPINGTHEWHITEHOUSEWORSETHANOBAMATHEGARBAGE",
     Year: "2022-06-03",
     Hour_z_time: 19,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -4599,7 +4599,7 @@ const obama = [
       "quotTheendoftheRepublichasneverlookedbetterquotHitsdifferentafterJanth",
     Year: "2022-06-03",
     Hour_z_time: 14,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4608,7 +4608,7 @@ const obama = [
       "ThisscumbagsoldoutusAmericansTheyrelosingIftheywerenttheywouldnthavetoapprovethethumbsdownPatriotsareontheattackLetsRoll",
     Year: "2022-06-03",
     Hour_z_time: 13,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -4616,7 +4616,7 @@ const obama = [
     comment: "Imisshimsomuch",
     Year: "2022-06-03",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4624,7 +4624,7 @@ const obama = [
     comment: "HewordsarehollowandhismotivesarenotinthebestinterestoftheUSA",
     Year: "2022-06-02",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4632,7 +4632,7 @@ const obama = [
     comment: "Backintimewhenpeoplecouldtakeajoke",
     Year: "2022-06-02",
     Hour_z_time: 17,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4640,7 +4640,7 @@ const obama = [
     comment: "ISTILLmisshimandMichelle",
     Year: "2022-06-02",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "de",
   },
   {
@@ -4648,7 +4648,7 @@ const obama = [
     comment: "JakeTapperleftjournalismandjoinedCNNHolycowHewasntwrong",
     Year: "2022-06-02",
     Hour_z_time: 12,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -4656,7 +4656,7 @@ const obama = [
     comment: "Goodriddanceinconpetentprick",
     Year: "2022-06-02",
     Hour_z_time: 7,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4664,7 +4664,7 @@ const obama = [
     comment: "Whitepeoplearesooooomiserablewellnowweeven",
     Year: "2022-06-02",
     Hour_z_time: 6,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4672,7 +4672,7 @@ const obama = [
     comment: "ImyLovepresident",
     Year: "2022-06-02",
     Hour_z_time: 6,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4680,7 +4680,7 @@ const obama = [
     comment: "GODBLESSAMERICA",
     Year: "2022-06-02",
     Hour_z_time: 4,
-    Analysis: "O",
+    an: "O",
     Language: "de",
   },
   {
@@ -4689,7 +4689,7 @@ const obama = [
       "AwesomevideoGodblessAlwaysrememberthatJesusChristlovesyouallsomuchJesusChristforgivesallsinsJesusChristisGodKingandSavior",
     Year: "2022-06-02",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4697,7 +4697,7 @@ const obama = [
     comment: "absolutelygoodUSApresident",
     Year: "2022-06-02",
     Hour_z_time: 1,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4705,7 +4705,7 @@ const obama = [
     comment: "mygodimissthatman",
     Year: "2022-06-01",
     Hour_z_time: 13,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4714,7 +4714,7 @@ const obama = [
       "Ifweonlyknewhowrighthewasyrsoftrumpplaugeyrsofcovidantrumpisstillhere",
     Year: "2022-06-01",
     Hour_z_time: 10,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4722,7 +4722,7 @@ const obama = [
     comment: "HeshouldgetaAcademyAwardforbestactorintheWhiteHouseandspeaker",
     Year: "2022-06-01",
     Hour_z_time: 7,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4730,7 +4730,7 @@ const obama = [
     comment: "Hewillalwaysbemypresident",
     Year: "2022-06-01",
     Hour_z_time: 5,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4738,7 +4738,7 @@ const obama = [
     comment: "IcriedAndthisis",
     Year: "2022-06-01",
     Hour_z_time: 1,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4746,7 +4746,7 @@ const obama = [
     comment: "IlikedObama",
     Year: "2022-05-31",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "et",
   },
   {
@@ -4755,7 +4755,7 @@ const obama = [
       "Appearantlyhehasblackenedhishairfotthisspeechbecauseinthelittlevideoshepresentedhishairwasgrey",
     Year: "2022-05-31",
     Hour_z_time: 20,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -4764,7 +4764,7 @@ const obama = [
       "ThiswillalwaysbeinmybookasthegreatestifnotmostbittersweetWHCDRegardlessofwhoisintheWhiteHouseitjustnevergetsold",
     Year: "2022-05-31",
     Hour_z_time: 13,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4772,7 +4772,7 @@ const obama = [
     comment: "Camebacktoberemindedofswag",
     Year: "2022-05-31",
     Hour_z_time: 8,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4781,7 +4781,7 @@ const obama = [
       "GetyouacopyofthisbookassoonaspossiblethephilosophicalphilosopherpresentsstreetlifephilosophywrittenbyroyaltymackologysteditionavailableonallbookplatformsbrbrGetyouacopyofthisbookassoonaspossiblethekingbusinessthebossplayerassociationmackologyndeditionavailableonallbookplatforms",
     Year: "2022-05-30",
     Hour_z_time: 17,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4790,7 +4790,7 @@ const obama = [
       "DidntalwaysagreewithhimButIdobelieveeverythinghedidhebelievedwaswhatwasbestforthecountry",
     Year: "2022-05-30",
     Hour_z_time: 16,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4798,7 +4798,7 @@ const obama = [
     comment: "WherehaveyougoneBarackObamaOurnationturnsitslonelyeyestoyou",
     Year: "2022-05-30",
     Hour_z_time: 1,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -4806,7 +4806,7 @@ const obama = [
     comment: "ObamawasagoodspeakerwithcharismaandcharmHewasanelitistliarthough",
     Year: "2022-05-29",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4814,7 +4814,7 @@ const obama = [
     comment: "HeneverleftWashingtonDCHesstillinHisthyearAhackAfakeHehatestheUS",
     Year: "2022-05-29",
     Hour_z_time: 21,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -4823,7 +4823,7 @@ const obama = [
       "KaisoBratfromSXMbrbrBarackObamaisaonebrofakindofhistimebrhepossessestheabilitybrtochangehispacebrwithoutchangingthetasteofanypresentation",
     Year: "2022-05-29",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4832,7 +4832,7 @@ const obama = [
       "IcannotstopwatchingobamaheisthebestAmericanpresidenteverHehasclassandcharismaLovehimandMitchell",
     Year: "2022-05-29",
     Hour_z_time: 18,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4840,7 +4840,7 @@ const obama = [
     comment: "Missyousomuch",
     Year: "2022-05-29",
     Hour_z_time: 16,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4848,7 +4848,7 @@ const obama = [
     comment: "Toocockybyhalf",
     Year: "2022-05-29",
     Hour_z_time: 13,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -4857,7 +4857,7 @@ const obama = [
       "ObamawassuchaclassyqualitysmashinggoodpresidentGenuinelyveryintelligenttooMisshim",
     Year: "2022-05-29",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4865,7 +4865,7 @@ const obama = [
     comment: "Itisthedesireofmyhearttoworkinobamafoundationandservehumanity",
     Year: "2022-05-29",
     Hour_z_time: 1,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4873,7 +4873,7 @@ const obama = [
     comment: "Obamauwereatrueleader",
     Year: "2022-05-28",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4881,7 +4881,7 @@ const obama = [
     comment: "AftersomanyyearstheworldchangeddramaticallyTheGoodOldDay",
     Year: "2022-05-28",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4889,7 +4889,7 @@ const obama = [
     comment: "OhDroneBamaIhadsuchhighhopesforyouIfonly",
     Year: "2022-05-28",
     Hour_z_time: 17,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4897,7 +4897,7 @@ const obama = [
     comment: "ahrefhttpswwwyoutubecomwatchvNxFkEjKPCamptmsamorbintime",
     Year: "2022-05-28",
     Hour_z_time: 10,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4905,7 +4905,7 @@ const obama = [
     comment: "Spoton",
     Year: "2022-05-28",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4913,7 +4913,7 @@ const obama = [
     comment: "PureclassPresidentObamatheworldmissesyou",
     Year: "2022-05-27",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4922,7 +4922,7 @@ const obama = [
       "OneoftheworstPresidentsIveeverseeninmylifetotalwashoutandextremelyprogressiveandfarleftSocialist",
     Year: "2022-05-27",
     Hour_z_time: 14,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -4931,7 +4931,7 @@ const obama = [
       "ObamaoutweshouldallfeelshameasaNationthatthisguyisnowinhisthirdterm",
     Year: "2022-05-27",
     Hour_z_time: 5,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4939,7 +4939,7 @@ const obama = [
     comment: "Thesearegreatwaystoslowdowthecoronaviruspandemic",
     Year: "2022-05-26",
     Hour_z_time: 10,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4947,7 +4947,7 @@ const obama = [
     comment: "Whatanamazingstory",
     Year: "2022-05-25",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4955,7 +4955,7 @@ const obama = [
     comment: "ahrefhttpswwwyoutubecomwatchvNxFkEjKPCamptmsaWUHOHITSMORBINTIME",
     Year: "2022-05-25",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4963,7 +4963,7 @@ const obama = [
     comment: "YOohPresidentObamaShouldnowenrollfortheTrevorNoahShowLMAOO",
     Year: "2022-05-24",
     Hour_z_time: 14,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -4971,7 +4971,7 @@ const obama = [
     comment: "GreatstillwatchingnowMay",
     Year: "2022-05-24",
     Hour_z_time: 12,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -4979,7 +4979,7 @@ const obama = [
     comment: "Dammmmmhefine",
     Year: "2022-05-23",
     Hour_z_time: 13,
-    Analysis: "P",
+    an: "P",
     Language: "da",
   },
   {
@@ -4987,7 +4987,7 @@ const obama = [
     comment: "DidyougetyourweedfrommyDad",
     Year: "2022-05-23",
     Hour_z_time: 12,
-    Analysis: "O",
+    an: "O",
     Language: "cy",
   },
   {
@@ -4995,7 +4995,7 @@ const obama = [
     comment: "TheonlywayyoucandateMichelleisbylookingatme",
     Year: "2022-05-23",
     Hour_z_time: 10,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5003,7 +5003,7 @@ const obama = [
     comment: "Jehovahwitnessgetlost",
     Year: "2022-05-23",
     Hour_z_time: 8,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5011,7 +5011,7 @@ const obama = [
     comment: "Goodbye",
     Year: "2022-05-23",
     Hour_z_time: 8,
-    Analysis: "O",
+    an: "O",
     Language: "so",
   },
   {
@@ -5019,7 +5019,7 @@ const obama = [
     comment: "Peoplearesufferingandu",
     Year: "2022-05-23",
     Hour_z_time: 8,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5028,7 +5028,7 @@ const obama = [
       "Uallsoldahumanbeingslifetotheonewhogotmoneyandmakemoneywhodidntdonothingatall",
     Year: "2022-05-23",
     Hour_z_time: 8,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5036,7 +5036,7 @@ const obama = [
     comment: "UjustwanttosayyouropinionIhavemyopinionstoo",
     Year: "2022-05-23",
     Hour_z_time: 8,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5044,7 +5044,7 @@ const obama = [
     comment: "Goddem",
     Year: "2022-05-23",
     Hour_z_time: 8,
-    Analysis: "O",
+    an: "O",
     Language: "cy",
   },
   {
@@ -5052,7 +5052,7 @@ const obama = [
     comment: "Stoppretending",
     Year: "2022-05-23",
     Hour_z_time: 8,
-    Analysis: "O",
+    an: "O",
     Language: "da",
   },
   {
@@ -5060,7 +5060,7 @@ const obama = [
     comment: "Slavery",
     Year: "2022-05-23",
     Hour_z_time: 8,
-    Analysis: "O",
+    an: "O",
     Language: "sk",
   },
   {
@@ -5068,7 +5068,7 @@ const obama = [
     comment: "Shameonyou",
     Year: "2022-05-23",
     Hour_z_time: 8,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5076,7 +5076,7 @@ const obama = [
     comment: "CNNтиможешсміятисяскількихочешалеправдамаєжити",
     Year: "2022-05-23",
     Hour_z_time: 8,
-    Analysis: "P",
+    an: "P",
     Language: "uk",
   },
   {
@@ -5084,7 +5084,7 @@ const obama = [
     comment: "Neveragain",
     Year: "2022-05-23",
     Hour_z_time: 8,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5092,7 +5092,7 @@ const obama = [
     comment: "IknowAbamaWhoareU",
     Year: "2022-05-23",
     Hour_z_time: 8,
-    Analysis: "O",
+    an: "O",
     Language: "so",
   },
   {
@@ -5101,7 +5101,7 @@ const obama = [
       "SarebbepotutodiventarericcosolofacendoilpresentatorecommediantehauntalentospontaneoenaturaleSequestolungocopionelhascrittoluiedavverosuper",
     Year: "2022-05-23",
     Hour_z_time: 6,
-    Analysis: "P",
+    an: "P",
     Language: "it",
   },
   {
@@ -5110,7 +5110,7 @@ const obama = [
       "Hewasasweetandfunnymanalwayscrackedmeupbutdidnotagreewiththingshedidaspresident",
     Year: "2022-05-23",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5118,7 +5118,7 @@ const obama = [
     comment: "WemissyoucomebackThereshouldbetermslikeitusedtobe",
     Year: "2022-05-22",
     Hour_z_time: 22,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5126,7 +5126,7 @@ const obama = [
     comment: "Itsnicetoseeclassinsteadofthebumblingmangomenace",
     Year: "2022-05-22",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5134,7 +5134,7 @@ const obama = [
     comment: "Letsbringhimback",
     Year: "2022-05-22",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5143,7 +5143,7 @@ const obama = [
       "ThisiswhatintelligencehonorandwitslooklikeonthefaceofanhonorablepresidentThanksforgivingityourall",
     Year: "2022-05-22",
     Hour_z_time: 18,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5151,7 +5151,7 @@ const obama = [
     comment: "Yeswecanfolksbutwebetterdoitsoon",
     Year: "2022-05-22",
     Hour_z_time: 16,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5159,7 +5159,7 @@ const obama = [
     comment: "sogladhesnotinoffice",
     Year: "2022-05-22",
     Hour_z_time: 16,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5167,7 +5167,7 @@ const obama = [
     comment: "Reallywhatafakepersonlooksaredecieving",
     Year: "2022-05-22",
     Hour_z_time: 14,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -5175,7 +5175,7 @@ const obama = [
     comment: "MyonceandalwaysPresidentImissyouMrPresident",
     Year: "2022-05-22",
     Hour_z_time: 14,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5183,7 +5183,7 @@ const obama = [
     comment: "thewashingtonposttableguylooksliketrumplol",
     Year: "2022-05-22",
     Hour_z_time: 7,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5191,7 +5191,7 @@ const obama = [
     comment: "HeisRETIRING",
     Year: "2022-05-22",
     Hour_z_time: 2,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5200,7 +5200,7 @@ const obama = [
       "ahrefhttpswwwyoutubecomwatchvNxFkEjKPCamptmsaquotIwouldliketothankJoeBidenfornotshootinganybodyinthefacequotbrbrThereferencetoformerDickCheneyshuntingaccidentwhereheaccidentallyshotthatlawyerinthefacewhileduckhuntingkilledme",
     Year: "2022-05-22",
     Hour_z_time: 1,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -5208,7 +5208,7 @@ const obama = [
     comment: "WhileTrumpwasprobablywettinghisDependsorfeelingupanapprentice",
     Year: "2022-05-21",
     Hour_z_time: 17,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5217,7 +5217,7 @@ const obama = [
       "AmericawouldneveragainbethesameolsameolcountryEvenOnamacouldntseehewasthereasonTrumpranforPresidentampjustlikethelastpandemicwhichbeganwithwaryearslateranotherendedwithwarvc",
     Year: "2022-05-21",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5226,7 +5226,7 @@ const obama = [
       "DanielGoldmanhaveyoueverhadaPOBoxinNewYorkbeforeazuretoMadisonAveaddress",
     Year: "2022-05-20",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5234,7 +5234,7 @@ const obama = [
     comment: "GdoodleorVdoodleGermanbomb",
     Year: "2022-05-20",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "af",
   },
   {
@@ -5243,7 +5243,7 @@ const obama = [
       "Didyougrabyourbagoutofthebackofthecarwhatkindofsweatsockswereonthe",
     Year: "2022-05-20",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5252,7 +5252,7 @@ const obama = [
       "ThankyousirInowfeelwelcomedthankyoufromthebottomofmyheartnotmyrectum",
     Year: "2022-05-20",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5261,7 +5261,7 @@ const obama = [
       "DoyoujustgoaroundAndersonHayesCooperflickingeveryonesrootsintheirprivateareaswhatwouldyourbossJohnStankeythinkaboutthat",
     Year: "2022-05-20",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5270,7 +5270,7 @@ const obama = [
       "MichelleObamaQueenisbrilliantlybeautifulasObamasoeloquentlymentionsLovehisnodtoHillaryIdlovetoshowyoumypitcherswithmydadandHillary",
     Year: "2022-05-20",
     Hour_z_time: 18,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5278,7 +5278,7 @@ const obama = [
     comment: "MillionasofreallyeyethinkUkenenjoyyourselfsurfinginHawaii",
     Year: "2022-05-19",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5287,7 +5287,7 @@ const obama = [
       "IlikedthepresidentbuthisstandupisnotexactlyuptoparStillhisfollowermademefeellaughingwhichIguessisthebestreallifestandupeverAnyhowJoebetterfindbetterscripters",
     Year: "2022-05-19",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5295,7 +5295,7 @@ const obama = [
     comment: "YourfarsmarterthanthatboxerMichelleishot",
     Year: "2022-05-19",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5303,7 +5303,7 @@ const obama = [
     comment: "Yourstillcuteforasplib",
     Year: "2022-05-19",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5311,7 +5311,7 @@ const obama = [
     comment: "HEYOKAJr",
     Year: "2022-05-19",
     Hour_z_time: 21,
-    Analysis: "O",
+    an: "O",
     Language: "de",
   },
   {
@@ -5319,7 +5319,7 @@ const obama = [
     comment: "Moanabarackarackhasabananapennie",
     Year: "2022-05-19",
     Hour_z_time: 21,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5327,7 +5327,7 @@ const obama = [
     comment: "Radarearsandlove",
     Year: "2022-05-19",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5335,7 +5335,7 @@ const obama = [
     comment: "BarrakaMarley",
     Year: "2022-05-19",
     Hour_z_time: 21,
-    Analysis: "O",
+    an: "O",
     Language: "tr",
   },
   {
@@ -5344,7 +5344,7 @@ const obama = [
       "IameternalObamafanObamawasalwaysmynumberonepickbeforeIgotintomakingcollagesofpoliticiansWeshareColumbiaandIwouldLOVEagotalktoObamaandsuggestObamafoundationbackBIDUNITYforBidenBIDUNITYneedstobeacompanybutIcantMaikeitonewithoutBidenMakingBIDUNITYwithouttalkingtoBidenIhopehelpshimbutitwillhelphiminfinitelymorewhenImeetwithhimandreturntoWHwhereIwasbeforemyaccidentwChuckCloseunderObama",
     Year: "2022-05-19",
     Hour_z_time: 17,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5353,7 +5353,7 @@ const obama = [
       "ahrefhttpswwwyoutubecomwatchvNxFkEjKPCamptmsaFunnyreferencetothethpresident",
     Year: "2022-05-19",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5361,7 +5361,7 @@ const obama = [
     comment: "faisal",
     Year: "2022-05-18",
     Hour_z_time: 13,
-    Analysis: "O",
+    an: "O",
     Language: "fr",
   },
   {
@@ -5370,7 +5370,7 @@ const obama = [
       "obamacrimenelleunnoirequiestaccepterpardesblancamerecainesclaveassassintumefaitpasrirepouriture",
     Year: "2022-05-17",
     Hour_z_time: 2,
-    Analysis: "N",
+    an: "N",
     Language: "fr",
   },
   {
@@ -5378,7 +5378,7 @@ const obama = [
     comment: "Obamaisagoodmanandagoodpresidentandthepeoplemisshim",
     Year: "2022-05-16",
     Hour_z_time: 17,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5387,7 +5387,7 @@ const obama = [
       "itssomuchfunintheusathismanisresponsibleformostdroneattacksaroundtheworldandhasapprovedthekillingofmorethanpeopleWelackinthisworldapowerthatcanstanduptotheAmericanregimeandholdthesewarcriminalsaccountableandheldaccountablefortheiractions",
     Year: "2022-05-16",
     Hour_z_time: 11,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5395,7 +5395,7 @@ const obama = [
     comment: "thatdudejustrockedoutwhataballerstraightupG",
     Year: "2022-05-16",
     Hour_z_time: 6,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5404,7 +5404,7 @@ const obama = [
       "quotOUTquotmyazzhesstilltryingtopullstringsinDCandoverseasforthatmatter",
     Year: "2022-05-15",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5412,7 +5412,7 @@ const obama = [
     comment: "Areyouthemanorthewoman",
     Year: "2022-05-15",
     Hour_z_time: 13,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5420,7 +5420,7 @@ const obama = [
     comment: "godhewasterrible",
     Year: "2022-05-14",
     Hour_z_time: 19,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -5429,7 +5429,7 @@ const obama = [
       "ObamaforsurewasntthebestpresidentnoquestionbutheisaverycooldudeIdhangoutwithhimifIcould",
     Year: "2022-05-14",
     Hour_z_time: 18,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5437,7 +5437,7 @@ const obama = [
     comment: "IsawObamaandHoHarrisatPopeyeschicken",
     Year: "2022-05-14",
     Hour_z_time: 18,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -5445,7 +5445,7 @@ const obama = [
     comment: "AnyoneForChess",
     Year: "2022-05-14",
     Hour_z_time: 17,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5453,7 +5453,7 @@ const obama = [
     comment: "BullshtFluff",
     Year: "2022-05-14",
     Hour_z_time: 17,
-    Analysis: "N",
+    an: "N",
     Language: "de",
   },
   {
@@ -5462,7 +5462,7 @@ const obama = [
       "ThankfullythisPOSisoutofthepictureHegavePutinCRIMEAandBrandonstryingtohandovertherestofUKRAINENovemberwontgetheretoosoon",
     Year: "2022-05-14",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5471,7 +5471,7 @@ const obama = [
       "Andtothinkthatorangebugmovedinafterhimanddestroyedtheclasscompetenceandintelligencewehadforeightyears",
     Year: "2022-05-14",
     Hour_z_time: 11,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5480,7 +5480,7 @@ const obama = [
       "EverytimeYouTubesuggestsObamaWhitehousecorrespondentsdinnerIjustimmediatelyclickonWatchAllhisspeecheswillgodownaslegendary",
     Year: "2022-05-14",
     Hour_z_time: 10,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5488,7 +5488,7 @@ const obama = [
     comment: "ObamaandBidenarebothclowns",
     Year: "2022-05-13",
     Hour_z_time: 21,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5496,7 +5496,7 @@ const obama = [
     comment: "Imisshim",
     Year: "2022-05-13",
     Hour_z_time: 18,
-    Analysis: "O",
+    an: "O",
     Language: "et",
   },
   {
@@ -5505,7 +5505,7 @@ const obama = [
       "WealreadyknewObamawasfunnysometimesbutthisdaywefoundouthowmuchfunandhowhilariousheisStilllovethis",
     Year: "2022-05-13",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5513,7 +5513,7 @@ const obama = [
     comment: "Onemoreterm",
     Year: "2022-05-13",
     Hour_z_time: 13,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5522,7 +5522,7 @@ const obama = [
       "WewillbehaveasifwearenotconnectedtokeeptheillusionaliveOurgoalwillbeaccomplishedonedropatatimesoastoneverbringsuspicionuponourselvesThiswillalsopreventthemfromseeingthechangesastheyoccur",
     Year: "2022-05-13",
     Hour_z_time: 11,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5530,7 +5530,7 @@ const obama = [
     comment: "Ourpoisonistheirmedicine",
     Year: "2022-05-13",
     Hour_z_time: 11,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5539,7 +5539,7 @@ const obama = [
       "Butthebeastwascapturedandwithitthefalseprophetwhohadperformedthesignsonitsbehalf",
     Year: "2022-05-13",
     Hour_z_time: 11,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -5548,7 +5548,7 @@ const obama = [
       "PopetoObamaWeWorshiptheSameLordbrWASHINGTONDCUSAPopeFrancisfinallymetpresidentBarackObamatwokindredsoulsinaseaofdisorderandchaosthatistheworldtoday",
     Year: "2022-05-13",
     Hour_z_time: 11,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5556,7 +5556,7 @@ const obama = [
     comment: "InhindsighthemissedonthejokesaboutTrumpwhatanightmare",
     Year: "2022-05-13",
     Hour_z_time: 10,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5564,7 +5564,7 @@ const obama = [
     comment: "Lolshesnotarealwifenowright",
     Year: "2022-05-13",
     Hour_z_time: 7,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5573,7 +5573,7 @@ const obama = [
       "IllhavePresidentClintonthemanwhohadthetruewonderfulgiftofspeakingBeforeClintonitwasPresidentKennedytheyweredifferentbuttheysurelywereveryintelligentgreathumorandIstillcanlistentothosetwoforeverwhereverIseehearthembrNotanegativehereampnotpersonalatallbutIneversawPresidentObamaasverysmartsurelyhelackedhumormanylaughedforciblyAndIhavenoideawherehebeingquotCoolquotcamefromHewasaverynicemanbutheneverhadthatfeelingofwarmthandsuchlikabilityasKennedyampClintonHewasverydistantexceptforasmallnumberofindividualsbrMostoftheClintondinnersaresimplyfuntowatch",
     Year: "2022-05-13",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5581,7 +5581,7 @@ const obama = [
     comment: "Toofunny",
     Year: "2022-05-13",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "cy",
   },
   {
@@ -5590,7 +5590,7 @@ const obama = [
       "IamsureheaskedformerightButwhoblockhimMZBofandfromGUtookallthemoneyforOrlandoFerrerandNormaLacabutsheintentionallyfailedtogiveadimetothecoupleRememberthebookquotThePartnerquotbyJohnGrishamIdisagreewithhisbillionbailoutfromwhichIhaventreceivedadimeThataddedtothecountrysdeficitbrbrIreadthebookofSenatorElizabethWarrenentitledquotAFightingChancequotinwhichshealsodisagreedofthebailoutThatswhydonotcommandsomeonetogivemesomethingbecausethatsomethingformeisultimatelyinterceptedeversincethenandIwontreceivethatsomethingAndthatdinkyfilthyhouseinGUthatsitsinanoilfieldisasourceofcontentionanddeaththatJohnKerrydescribedIreneImanilinthepersonaofJoniQuengaisoneofthewealthiestwomenClearlyKerrydenieseverhavingcontactwithJoniQuengabutadmittalkingtoIreneImanilbrbrWhenIreturntothestateofMAIreneImanilHeinzdaughterofChrisHeinzandJoniQuengathatisoutofbloodlineofImanilisamajorblockandnemesisWhybothertonamethegirlIreneImanilyetsheisnotmydaughterThatIreneImanilHeinzownsTDBankthatismineThatgirlisamajorblocktomeinMAandoughttounblockmeotherwisekillhertounblockmebrbrTheresaHeinzsawmeatMITinbutwhydidntshecomeforwardtogivemoneykeysetcIbetyearslatersheincurreddeathinBostonandCambridgeinmuchthesameJoniQuengaofGUisseverelyandseriouslyphysicallydisabledIsthepriceright",
     Year: "2022-05-13",
     Hour_z_time: 0,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -5598,7 +5598,7 @@ const obama = [
     comment: "Hello",
     Year: "2022-05-12",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "it",
   },
   {
@@ -5606,7 +5606,7 @@ const obama = [
     comment: "happygrandmablessinggodisalwayssthereObamablessalsofamily",
     Year: "2022-05-12",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5615,7 +5615,7 @@ const obama = [
       "WatchinginForthepresidenttogetasmuchlaughsasthecomedianunmatchedAlthoughIdidenjoyBidensspeechaswell",
     Year: "2022-05-12",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5623,7 +5623,7 @@ const obama = [
     comment: "Whatistheredwedding",
     Year: "2022-05-12",
     Hour_z_time: 20,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5632,7 +5632,7 @@ const obama = [
       "ItwasagruelingadjustmenttogofromtheObamaadministrationtotheadministrationthatfollowed",
     Year: "2022-05-12",
     Hour_z_time: 13,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5640,7 +5640,7 @@ const obama = [
     comment: "TheendofLoyalOpposition",
     Year: "2022-05-12",
     Hour_z_time: 4,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5649,7 +5649,7 @@ const obama = [
       "DuringtheMortgagecrisisandrecessionPresidentObamaconstantlykeptusinformedoverwhatwasgoingoninournation",
     Year: "2022-05-11",
     Hour_z_time: 21,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5657,7 +5657,7 @@ const obama = [
     comment: "Imagineifweelectedbernieinsteadofjoe",
     Year: "2022-05-11",
     Hour_z_time: 20,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5665,7 +5665,7 @@ const obama = [
     comment: "Stillfunnyin",
     Year: "2022-05-11",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5674,7 +5674,7 @@ const obama = [
       "Suchanawesomepresidentandhehadaprofoundbrilliantsenseofprofessionalismamidsthishumour",
     Year: "2022-05-11",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5683,7 +5683,7 @@ const obama = [
       "WhataguyAheckofapresidentwhohasasharpsenseofhumorandamanwhocantakeajokeaswellashecangivethemAbeautifulandelegantfirstladywhoalsodidoneheckofdamngoodjobThankyoubothforyourserviceandyourcommitmenttothepeople",
     Year: "2022-05-11",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5691,7 +5691,7 @@ const obama = [
     comment: "joebeiden",
     Year: "2022-05-11",
     Hour_z_time: 9,
-    Analysis: "O",
+    an: "O",
     Language: "af",
   },
   {
@@ -5700,7 +5700,7 @@ const obama = [
       "thepeopleREFUSINGtolaughshowthesortofquotmurikkkaquotthatwastofollow",
     Year: "2022-05-11",
     Hour_z_time: 4,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5709,7 +5709,7 @@ const obama = [
       "ahrefhttpswwwyoutubecomwatchvNxFkEjKPCamptmsaDianaRossDaughterfromblackishdeadcenterofthecrowdANDJADAPINKETTSMITHtotherightanddownfrommsrossODDLYLOOKINGATTHECAMERAsothecameracouldseeHERinstead",
     Year: "2022-05-11",
     Hour_z_time: 4,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5717,7 +5717,7 @@ const obama = [
     comment: "histimingitslikeSNLmadehisjokesLikeSeinfeldmadeallthejokes",
     Year: "2022-05-11",
     Hour_z_time: 4,
-    Analysis: "O",
+    an: "O",
     Language: "et",
   },
   {
@@ -5725,7 +5725,7 @@ const obama = [
     comment: "mules",
     Year: "2022-05-10",
     Hour_z_time: 21,
-    Analysis: "O",
+    an: "O",
     Language: "et",
   },
   {
@@ -5733,7 +5733,7 @@ const obama = [
     comment: "ThanksforcodifyingRoe",
     Year: "2022-05-10",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5741,7 +5741,7 @@ const obama = [
     comment: "Thatissobrilliant",
     Year: "2022-05-10",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5750,7 +5750,7 @@ const obama = [
       "ThankingBidenfornotshootinganyoneinthefaceisoneofmyfavoritepunchlineseverIlaughoutloudfORrealeachtimeIhearit",
     Year: "2022-05-10",
     Hour_z_time: 6,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5758,7 +5758,7 @@ const obama = [
     comment: "YeahIrememberbeingademocratNowimlookingbackonhowwrongIwas",
     Year: "2022-05-10",
     Hour_z_time: 6,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -5766,7 +5766,7 @@ const obama = [
     comment: "ItsnotgettingbetterImisshimandImissfeelingproud",
     Year: "2022-05-09",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5774,7 +5774,7 @@ const obama = [
     comment: "bideNFLATION",
     Year: "2022-05-09",
     Hour_z_time: 17,
-    Analysis: "O",
+    an: "O",
     Language: "tr",
   },
   {
@@ -5782,7 +5782,7 @@ const obama = [
     comment: "AbortionispremeditatedviolentMURDERofbabies",
     Year: "2022-05-09",
     Hour_z_time: 17,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -5790,7 +5790,7 @@ const obama = [
     comment: "Followedbyperfectyears",
     Year: "2022-05-09",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5798,7 +5798,7 @@ const obama = [
     comment: "HowwrongObamawasAndAmericawentintotraumaforyears",
     Year: "2022-05-09",
     Hour_z_time: 13,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -5806,7 +5806,7 @@ const obama = [
     comment: "TrevorNoahbroughtmeherein",
     Year: "2022-05-09",
     Hour_z_time: 13,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5814,7 +5814,7 @@ const obama = [
     comment: "Neverbeensohappytoseesomeoneleave",
     Year: "2022-05-09",
     Hour_z_time: 12,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5822,7 +5822,7 @@ const obama = [
     comment: "returnsinjustdaysmyfinanciallifeistotallychanged",
     Year: "2022-05-09",
     Hour_z_time: 6,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5830,7 +5830,7 @@ const obama = [
     comment: "Divaforever",
     Year: "2022-05-09",
     Hour_z_time: 1,
-    Analysis: "O",
+    an: "O",
     Language: "no",
   },
   {
@@ -5838,7 +5838,7 @@ const obama = [
     comment: "Iamproudofyouguys",
     Year: "2022-05-09",
     Hour_z_time: 1,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5846,7 +5846,7 @@ const obama = [
     comment: "PuertoRicolovesyouandfamilyHappyMothersday",
     Year: "2022-05-09",
     Hour_z_time: 1,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5854,7 +5854,7 @@ const obama = [
     comment: "Thebest",
     Year: "2022-05-09",
     Hour_z_time: 1,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5863,7 +5863,7 @@ const obama = [
       "MostcommentsheretreatthisguyasifheweregreatTheymissthathewasagoodshowmanunfortunatelythisisalljustacomedyperformanceInrealityhedidnothingforBlacksorforthecountryasawholeThemedialickedhisbootsandcoveredforhimTheyforgothowtobeimpartialTheyforgotthattheirjobisnottocoverforpoliticiansbrbrYouhappywiththeDempartyanditsleadersnowin",
     Year: "2022-05-16",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5871,7 +5871,7 @@ const obama = [
     comment: "Thanksyoupapaofmotherhappinessallchhamreonporby",
     Year: "2022-05-08",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5880,7 +5880,7 @@ const obama = [
       "itwassofunandgreattoseehimonlineandviaYouTubeWindSurfaceintheCaribbeanrightafterthefatefulinauguration",
     Year: "2022-05-08",
     Hour_z_time: 13,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5889,7 +5889,7 @@ const obama = [
       "HisnicknameinMiddleandHighSchoolinHonoluluwasBarryTheBomberforhisMichaelJordankindsofSlamDunksontheBasketballCourtandaftersomanyDecadeshestillcanaslaterlastyearveryearlythisyearhewasinaBasketballCourtandthrewfromalongshotdistanceaBasketballintotheHoopandsaidtotheJournalistquotThatsWhatiDoquot",
     Year: "2022-05-08",
     Hour_z_time: 13,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5897,7 +5897,7 @@ const obama = [
     comment: "AlwaysAPresidentObamaXoxo",
     Year: "2022-05-08",
     Hour_z_time: 13,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5906,7 +5906,7 @@ const obama = [
       "THEFIRSTYEARMIKEBLOOMBERGBECAMEMAYORIDIDNOTPAYTOOMUCHATTENTIONTOHIMFOUNDHIMPOMPOUSANDLITTLEARROGANTIWASNOTACELEBRITYBUTWASONMYOWNPEDESTALNOWIHAVEBEENSTUDYINGEVERYBODYANDIBEGANTOLIKEHIMCOULDNOTFINDHIMTONIGHTENJOYEDPRESIDENTOBAMASSPEECHHEHASCHARISMAANDGREATSENSEOFHUMOR",
     Year: "2022-05-08",
     Hour_z_time: 9,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5914,7 +5914,7 @@ const obama = [
     comment: "WHEREISMBLOOMBERGHAVEBEENLOOKINGFORHIMALLNIGHT",
     Year: "2022-05-08",
     Hour_z_time: 9,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5923,7 +5923,7 @@ const obama = [
       "HavebeenlookingforMBloombergattonightsdinnerCantfindhimWouldliketoseehim",
     Year: "2022-05-08",
     Hour_z_time: 9,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5931,7 +5931,7 @@ const obama = [
     comment: "InspiredbythelateKobeBryant",
     Year: "2022-05-08",
     Hour_z_time: 3,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -5940,7 +5940,7 @@ const obama = [
       "OhwowarrogantandthinkingthatheisacomediantooHedoesntrememberwhatahorriblepoliticianthatheis",
     Year: "2022-05-08",
     Hour_z_time: 3,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -5948,7 +5948,7 @@ const obama = [
     comment: "FeeltheBern",
     Year: "2022-05-08",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5957,7 +5957,7 @@ const obama = [
       "ThisdidntagewellTrumpinfactbecamepresidentandwasamuchbetteronetheThisclown",
     Year: "2022-05-07",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5966,7 +5966,7 @@ const obama = [
       "GODOFUNIVERSEbrAddacommentbrGODOFUNIVERSEbrbrsecondsagoeditedbrGOODMOSTCHARACTOFDISGRACEBYCHARACTERLESSCAMECAUSEOFTHEDECIMATIONOFECONOMYOFPAKISTANAFGHANISTANIRAQIRANANDAHUNDREDOTHERMUSLIMCOUNTRIESANDAINDIAASAHINDUCOUNTRYWHICHAQUIREDCHARACTEROFMUSLIMSDUETOAMANMOHANDASKARAMCHANDGANDHICALLEDNOTAFATHEROFINDIAPUTASTHECHARACERLESSESTFATHEROFINDIAWHICHWETWOREMOVEFROMALLRECORDSASMUCHASOFALLPOLITICIANSCALLEDEXCLUDINGGREATESTLEADERSTWOSONIAGANDHIANDINDIRAGANDHIASAMOSTCHARACERFULTHUGSASAWANTEDASASEXSLAVESASWASWEBYBROKENASWEDIDOFSTEFIGRAFDIANA",
     Year: "2022-05-07",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5975,7 +5975,7 @@ const obama = [
       "PastPresidentBarackObamaisagreattruetremendouslyfunnycomedianEveryonelaughsatprettymucheverywordhesaysspeaksHeisgreatlymissedTheUnitedStatesofAmericamisseshimsogreatlySincerelyMinisterDonnaCEckhardtFounderofEffectualFerventPrayerMinistryKeepJESUSinyourheartFOREVERAMEN",
     Year: "2022-05-07",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -5983,7 +5983,7 @@ const obama = [
     comment: "IfWillSmithwastherewhoknowswhathewouldhavedone",
     Year: "2022-05-07",
     Hour_z_time: 8,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -5991,7 +5991,7 @@ const obama = [
     comment: "Trump",
     Year: "2022-05-07",
     Hour_z_time: 7,
-    Analysis: "O",
+    an: "O",
     Language: "vi",
   },
   {
@@ -6000,7 +6000,7 @@ const obama = [
       "Tobadhisthirdtermpuppetpresidentsnotascoherentandrefreshingtolistento",
     Year: "2022-05-07",
     Hour_z_time: 5,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6008,7 +6008,7 @@ const obama = [
     comment: "warcriminal",
     Year: "2022-05-07",
     Hour_z_time: 5,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -6017,7 +6017,7 @@ const obama = [
       "AreyougonnamissgivingmoneytoterroristsNoworriesBidenisinthepocketofChinaandUkraineyoutaughthimwell",
     Year: "2022-05-07",
     Hour_z_time: 5,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6025,7 +6025,7 @@ const obama = [
     comment: "Mensometimesagebetterthanwomen",
     Year: "2022-05-07",
     Hour_z_time: 5,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6034,7 +6034,7 @@ const obama = [
       "AlltheseoutletsorchannelslikequotglobalnewsquotalltheyknowispartisanbiasedactivismTherewasnothingfunnyaboutthisespeciallyaftertheendlesshorrificthingsObamadidinhisyearsinofficeLuckilynowthepublichascaughtontohowbiasedtheseoutletsare",
     Year: "2022-05-07",
     Hour_z_time: 5,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -6042,7 +6042,7 @@ const obama = [
     comment: "Missthisman",
     Year: "2022-05-06",
     Hour_z_time: 21,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6050,7 +6050,7 @@ const obama = [
     comment: "ihatedbushlovedObamalovedTrumphateBiden",
     Year: "2022-05-06",
     Hour_z_time: 20,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -6058,7 +6058,7 @@ const obama = [
     comment: "RacistPOS",
     Year: "2022-05-06",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6066,7 +6066,7 @@ const obama = [
     comment: "Obamasucked",
     Year: "2022-05-06",
     Hour_z_time: 18,
-    Analysis: "O",
+    an: "O",
     Language: "hr",
   },
   {
@@ -6075,7 +6075,7 @@ const obama = [
       "quotImblackenoughsettlesthedebatequotfantasticpersonclasshumorintelligencethinkingabtouritalianpoliticianshowsad",
     Year: "2022-05-06",
     Hour_z_time: 18,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -6083,7 +6083,7 @@ const obama = [
     comment: "ThisisoneofthereasonswhyIlovethisdude",
     Year: "2022-05-06",
     Hour_z_time: 16,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6091,7 +6091,7 @@ const obama = [
     comment: "PayyourtaxesorsitinyourjailCOVIDNowallsaroundthecityscience",
     Year: "2022-05-06",
     Hour_z_time: 15,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -6100,7 +6100,7 @@ const obama = [
       "IsitquotGoodluckwithyourConstitutionMommyquotbrHowmanyNuclearPowerPlantsareInHawaiibrThanksfortherightconsiderationHollywoodbrWhatisthehidethemathsciencebrIntheJohnsonFamilyBettybrIwaswritingasGodallnightlongbrPennsylvaniadidntgivePutinthatadviceJoebrUnderdogguarddogjudgedogsnoopdogwhatthehelldoyouknowpigcowMilkMeSongNeilDiamondPlaysinyourtheatreUkrainebrThanksforwritingJohnsonsPennsylvaniaOswald",
     Year: "2022-05-06",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6109,7 +6109,7 @@ const obama = [
       "Hatehimorlovehimbutthismanremainsthetopfavoritepresidenttoeverstepinoffice",
     Year: "2022-05-06",
     Hour_z_time: 13,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6117,7 +6117,7 @@ const obama = [
     comment: "IamrewatchingthisinandIstillloveitEvenmore",
     Year: "2022-05-06",
     Hour_z_time: 11,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6125,7 +6125,7 @@ const obama = [
     comment: "Notthisconfidencenowisthere",
     Year: "2022-05-06",
     Hour_z_time: 7,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6133,7 +6133,7 @@ const obama = [
     comment: "obama",
     Year: "2022-05-06",
     Hour_z_time: 6,
-    Analysis: "O",
+    an: "O",
     Language: "so",
   },
   {
@@ -6141,7 +6141,7 @@ const obama = [
     comment: "HeisstillmyPresident",
     Year: "2022-05-06",
     Hour_z_time: 5,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6150,7 +6150,7 @@ const obama = [
       "GreatPresidenthewashandsdownMeanwhiletherearenuclearthreatsndthecoronavirustodealwithSadtimes",
     Year: "2022-05-06",
     Hour_z_time: 5,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6159,7 +6159,7 @@ const obama = [
       "YesheisagoodsoftspokenshowmanDidyouknowthatduringHussainObamapresidencytheworldhasbecomemoreunstableviolentanddividedoverthecourseofhistermAsObamapreparedtoleaveofficetheMiddleEasthasdescendedintosectarianconflictwithcivilwarsraginginSyriaIraqYemenandLibyaSecurityinAfghanistanhasdeterioratedandthemajorcitiesappearvulnerabletoTalibanreconquestAdescendentofalQaedatheIslamicStateISIShasescalatedthegruesomespectaclesofitspredecessorandinspiredterroristattacksinUSandEuropeancitiesSimplyhewasthemostsoftspokenbloodiestwarcriminalworsethanleadervofIslamicinternationalterroristRepublicofIranregime",
     Year: "2022-05-06",
     Hour_z_time: 3,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -6168,7 +6168,7 @@ const obama = [
       "HELLOIMNEWTOCRYPTOANDFOREXTRADINGANDIHAVEBEENMAKINGHUGELOSESTRADINGONMYOWNBUTRECENTLYISEEALOTOFPEOPLEEARNINGFROMITCANSOMEONEPLEASEGIVEMEANEWSTRATEGYORATLEASTTELLMEWHATIMDOINGWRONG",
     Year: "2022-05-06",
     Hour_z_time: 1,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6176,7 +6176,7 @@ const obama = [
     comment: "Traiterhopingtoseeyouinadifferentblackampwhitesuit",
     Year: "2022-05-06",
     Hour_z_time: 0,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -6185,7 +6185,7 @@ const obama = [
       "FirsthadtodealwiththisclownandthenhiscurrentclowntofollowthesamestupidityFTA",
     Year: "2022-05-05",
     Hour_z_time: 23,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -6194,7 +6194,7 @@ const obama = [
       "ObamaisgoingtogodowninhistoryasoneoftheworstpresidentseverHesanarrogantnarcissistwhohatesAmerica",
     Year: "2022-05-05",
     Hour_z_time: 23,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -6203,7 +6203,7 @@ const obama = [
       "BeingagoodpublicspeakerdoesntmakeyouagoodPresidentbutheynaivetepeoplewillalwaysgoforthoseovergoodmorals",
     Year: "2022-05-05",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6212,7 +6212,7 @@ const obama = [
       "WhatwhoisthisIsthistheonecausingalltheevilchaosfrombehindthescenes",
     Year: "2022-05-05",
     Hour_z_time: 22,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -6220,7 +6220,7 @@ const obama = [
     comment: "BestPresidentever",
     Year: "2022-05-05",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "no",
   },
   {
@@ -6228,7 +6228,7 @@ const obama = [
     comment: "Obamareallythinkshesallthatandhesnot",
     Year: "2022-05-05",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6236,7 +6236,7 @@ const obama = [
     comment: "AndsoaftersixhardyearswenowknowthatMannersdoinfactMakethMan",
     Year: "2022-05-05",
     Hour_z_time: 21,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -6245,7 +6245,7 @@ const obama = [
       "HeistrulyagreatspeakershamehedidnthelpthepeopleofflintwiththeirwatersupplyandwithJoebidenputkidsontheborderincagesdroppedsomanybombsonSyriatheyrunoutmillionpeopleevictedfromtheirhomesafterthecrashherepresentsthesameWallstreetdonorsastherestoftheUSgovernmentDemocratorRepublicantheyareallthesame",
     Year: "2022-05-05",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6253,7 +6253,7 @@ const obama = [
     comment: "WhowasAmericasfirstcommunistpresidentObamaorBiden",
     Year: "2022-05-05",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6261,7 +6261,7 @@ const obama = [
     comment: "Foraneverlastingcovenant",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6269,7 +6269,7 @@ const obama = [
     comment: "Shallbeinyourflesh",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6277,7 +6277,7 @@ const obama = [
     comment: "Hethatisboughtwiththymoney",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6285,7 +6285,7 @@ const obama = [
     comment: "Andtheangelofthelordfoundherbythefountain",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6293,7 +6293,7 @@ const obama = [
     comment: "Thismanisageniusrespect",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6301,7 +6301,7 @@ const obama = [
     comment: "Hethatisshamefulllethimbeshamefull",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6309,7 +6309,7 @@ const obama = [
     comment: "Hethatisdirtylethimbedirty",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -6317,7 +6317,7 @@ const obama = [
     comment: "Hethatisfilthylethimbefilthy",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -6325,7 +6325,7 @@ const obama = [
     comment: "AbrahamwellnowIputmynametothetest",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6333,7 +6333,7 @@ const obama = [
     comment: "Andwithhisseedafterhim",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6341,7 +6341,7 @@ const obama = [
     comment: "Talkingwithhim",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6349,7 +6349,7 @@ const obama = [
     comment: "Uponhisface",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6357,7 +6357,7 @@ const obama = [
     comment: "Indeed",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "nl",
   },
   {
@@ -6365,7 +6365,7 @@ const obama = [
     comment: "Sarahshallbareatasonandhima",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6373,7 +6373,7 @@ const obama = [
     comment: "Sarahthywifeshallbarehimason",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6381,7 +6381,7 @@ const obama = [
     comment: "Shallnotbenumbered",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6389,7 +6389,7 @@ const obama = [
     comment: "Anddivided",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6397,7 +6397,7 @@ const obama = [
     comment: "Uponhisface",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6405,7 +6405,7 @@ const obama = [
     comment: "Saraismaid",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "et",
   },
   {
@@ -6413,7 +6413,7 @@ const obama = [
     comment: "Broken",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "N",
+    an: "N",
     Language: "sk",
   },
   {
@@ -6421,7 +6421,7 @@ const obama = [
     comment: "Sure",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "fr",
   },
   {
@@ -6429,7 +6429,7 @@ const obama = [
     comment: "Bythefountaininthewayofshut",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6437,7 +6437,7 @@ const obama = [
     comment: "Sonindeed",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "nl",
   },
   {
@@ -6445,7 +6445,7 @@ const obama = [
     comment: "Motherofnations",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6453,7 +6453,7 @@ const obama = [
     comment: "Iwillblessher",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6461,7 +6461,7 @@ const obama = [
     comment: "Peopleshouldbeofher",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6469,7 +6469,7 @@ const obama = [
     comment: "Hathherdthyaffliction",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6477,7 +6477,7 @@ const obama = [
     comment: "Fourscoreandsixyearsold",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6485,7 +6485,7 @@ const obama = [
     comment: "Andboughtwiththemoneyofthestrangerwerecircumcisedwithhim",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6493,7 +6493,7 @@ const obama = [
     comment: "Sarahshallbearuntotheeatthissettimeinthenextyear",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6501,7 +6501,7 @@ const obama = [
     comment: "Selfsameday",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "id",
   },
   {
@@ -6509,7 +6509,7 @@ const obama = [
     comment: "BeholdIhaveblesshim",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6517,7 +6517,7 @@ const obama = [
     comment: "Princessshall",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6525,7 +6525,7 @@ const obama = [
     comment: "Bornboughtofhishouse",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6533,7 +6533,7 @@ const obama = [
     comment: "Sonalsoofher",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6541,7 +6541,7 @@ const obama = [
     comment: "Felluponhisface",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6549,7 +6549,7 @@ const obama = [
     comment: "Motherofnations",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6557,7 +6557,7 @@ const obama = [
     comment: "Saraihardlydealtwithher",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -6566,7 +6566,7 @@ const obama = [
       "ManwhenhewassoconfidentthatHilarywouldwinthathemadethatjokeithurtnowthatweinthefutureknowwhathappened",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6574,7 +6574,7 @@ const obama = [
     comment: "IfonlytohaveaPOTUSlikethisagain",
     Year: "2022-05-05",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6582,7 +6582,7 @@ const obama = [
     comment: "Ihaveseenthisforthethtimebutitstillmakesmecry",
     Year: "2022-05-05",
     Hour_z_time: 18,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6591,7 +6591,7 @@ const obama = [
       "TobadhehedidntleavesoonerforasentenceinprisonHesetupourCountryforhisdreamofacommunistcountry",
     Year: "2022-05-05",
     Hour_z_time: 16,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -6599,7 +6599,7 @@ const obama = [
     comment: "yesobarmaimustsayiwouldratherlistentoyouthanchrisrock",
     Year: "2022-05-05",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6607,7 +6607,7 @@ const obama = [
     comment: "congratulations",
     Year: "2022-05-05",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "it",
   },
   {
@@ -6616,7 +6616,7 @@ const obama = [
       "ObamadidwellforhimselfcameoutoftheWHmillionricherthanhecameinlivesonCapeCodandisguttingsomeprimeinnercityChicagoparklanddesperatelyneededbyblackfolkswhodontotherwisehaveeasyaccesstofreshairandopenspacesinordertoconstructamultimilliondollarmonumenttohisfavoritperson",
     Year: "2022-05-05",
     Hour_z_time: 16,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -6624,7 +6624,7 @@ const obama = [
     comment: "Thetruedefinitionofswagger",
     Year: "2022-05-05",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6633,7 +6633,7 @@ const obama = [
       "Theworldisfullofcrazinesstodayandhearingthisformerpresidentspeakbringsmeasenseofcalm",
     Year: "2022-05-05",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6641,7 +6641,7 @@ const obama = [
     comment: "Scarryhowclosehisopeningjokesgottoreality",
     Year: "2022-05-05",
     Hour_z_time: 11,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6649,7 +6649,7 @@ const obama = [
     comment: "WillSmithlooksreallydifferenthere",
     Year: "2022-05-05",
     Hour_z_time: 11,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6658,7 +6658,7 @@ const obama = [
       "Willyoupleasefindoutwefoodstampandmoneyforeveryonenownextmonththankyou",
     Year: "2022-05-05",
     Hour_z_time: 11,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6667,7 +6667,7 @@ const obama = [
       "TrumpshouldspendhistimewatchingObamatoseehowarealpresidentactsinsteadofoutonthegolfcourserunninghisbigmouththiswasisarealpresidentthatDonaldTrumpdidnotlikewellguesswhatDonaldTrumptheresmanyofusthatdontlikeyoueitherbrPresidentObamawassuchaleaderhehadsomuchclassintelligencewasthespeakerunlikethetwiceimpeachedlittlemanthatlivesinFloridakeepfightingforUSPresidentObamafightagainstthemcorruptRepublicansthankyouforeverythingyouvedoneforthiscountry",
     Year: "2022-05-05",
     Hour_z_time: 11,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6675,7 +6675,7 @@ const obama = [
     comment: "Sogood",
     Year: "2022-05-05",
     Hour_z_time: 10,
-    Analysis: "P",
+    an: "P",
     Language: "so",
   },
   {
@@ -6684,7 +6684,7 @@ const obama = [
       "HowdidAmericatradeasmarteducatedpresidentforaconmanandfakepatriotbrTrump",
     Year: "2022-05-05",
     Hour_z_time: 10,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -6693,7 +6693,7 @@ const obama = [
       "IstilllovePresidentObamahewaspeacefulprofessionalandenjoyableHesapartyallbyhimself",
     Year: "2022-05-05",
     Hour_z_time: 10,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6702,7 +6702,7 @@ const obama = [
       "PresidentBidenwasgreatattherecentWHCorrespondentsDinnerAnditwassogoodtoseethereturnofaPOTUSwhocantakeajokeevenathisownexpenseButnoPresidentpastpresentorfuturewillevertopPresidentObamaforhisunparalleledcombinationofselfdeprecatinghumorperfectcomictimingdeliveryampblendofhumilityandconfidence",
     Year: "2022-05-05",
     Hour_z_time: 8,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6710,7 +6710,7 @@ const obama = [
     comment: "IlikedObamahehasclassandintelligence",
     Year: "2022-05-05",
     Hour_z_time: 7,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6719,7 +6719,7 @@ const obama = [
       "SAWTHISLASTYEARANDILAUGHEDLIKEITWASTHESTTIMETODAYTHISISAWITTYCLASSYBRILLIANTMANANDMICHELECOMPLETESTHISPRICELESSPAIRIMISSTHEINTEGRITYTHEYBROUGHTTOTHEWHITEHOUSE",
     Year: "2022-05-05",
     Hour_z_time: 7,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6727,7 +6727,7 @@ const obama = [
     comment: "PresidentObama",
     Year: "2022-05-05",
     Hour_z_time: 7,
-    Analysis: "O",
+    an: "O",
     Language: "pt",
   },
   {
@@ -6735,7 +6735,7 @@ const obama = [
     comment: "br",
     Year: "2022-05-05",
     Hour_z_time: 7,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6743,7 +6743,7 @@ const obama = [
     comment: "YesYesUebrPresidentObamabrAGAIN",
     Year: "2022-05-05",
     Hour_z_time: 7,
-    Analysis: "O",
+    an: "O",
     Language: "ca",
   },
   {
@@ -6751,7 +6751,7 @@ const obama = [
     comment: "Bravo",
     Year: "2022-05-05",
     Hour_z_time: 7,
-    Analysis: "O",
+    an: "O",
     Language: "sk",
   },
   {
@@ -6759,7 +6759,7 @@ const obama = [
     comment: "AgagdhdydgsvdbdhdbbzkahshdhhdbdbrdddAbadbrVirch",
     Year: "2022-05-05",
     Hour_z_time: 7,
-    Analysis: "O",
+    an: "O",
     Language: "so",
   },
   {
@@ -6767,7 +6767,7 @@ const obama = [
     comment: "PleasebeourpresidentagainMrObama",
     Year: "2022-05-05",
     Hour_z_time: 7,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6775,7 +6775,7 @@ const obama = [
     comment: "MrPresidentBidenbrYoureaawesomepresident",
     Year: "2022-05-05",
     Hour_z_time: 7,
-    Analysis: "P",
+    an: "P",
     Language: "ca",
   },
   {
@@ -6783,7 +6783,7 @@ const obama = [
     comment: "YourockMrPresidentObama",
     Year: "2022-05-05",
     Hour_z_time: 7,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6791,7 +6791,7 @@ const obama = [
     comment: "YouarestrongbrandwillshowbrthisbrnationtounitebrUnitedStates",
     Year: "2022-05-05",
     Hour_z_time: 7,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6799,35 +6799,35 @@ const obama = [
     comment: "YouareabsolutelywelcometomytimeoflifePresidentObamabrRunagain",
     Year: "2022-05-05",
     Hour_z_time: 6,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
     N: 821,
     Year: "2022-05-05",
     Hour_z_time: 6,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
     N: 822,
     Year: "2022-05-05",
     Hour_z_time: 6,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
     N: 823,
     Year: "2022-05-05",
     Hour_z_time: 6,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
     N: 824,
     Year: "2022-05-05",
     Hour_z_time: 6,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6836,7 +6836,7 @@ const obama = [
       "ItsnicetoseehowhappyallofourMASTERSareAtleastsomeoneishappyintheircountry",
     Year: "2022-05-05",
     Hour_z_time: 5,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6845,7 +6845,7 @@ const obama = [
       "quotYeswecanquotDidtheythenquotTheendoftherepublicneverlookedbetterquotIsthattheanswer",
     Year: "2022-05-05",
     Hour_z_time: 5,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6853,7 +6853,7 @@ const obama = [
     comment: "infamousmomentthatchangedthecourseoftheworld",
     Year: "2022-05-05",
     Hour_z_time: 3,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -6862,7 +6862,7 @@ const obama = [
       "ProudestdayinourNationshistorywaswhenhewasinauguratedHewasoneofourgreatestPresidentsHecandeliverapunchlinetoo",
     Year: "2022-05-05",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6870,7 +6870,7 @@ const obama = [
     comment: "FUObama",
     Year: "2022-05-05",
     Hour_z_time: 1,
-    Analysis: "O",
+    an: "O",
     Language: "so",
   },
   {
@@ -6878,7 +6878,7 @@ const obama = [
     comment: "Coolestpresidentwelleverhave",
     Year: "2022-05-05",
     Hour_z_time: 1,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6886,7 +6886,7 @@ const obama = [
     comment: "Imissthatman",
     Year: "2022-05-05",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6895,7 +6895,7 @@ const obama = [
       "PresidentObamasintelligenceisextremelysexySogratefulforheandMichellesservicetothiscountry",
     Year: "2022-05-05",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6903,7 +6903,7 @@ const obama = [
     comment: "Ohhowwedontknowwhatwehadtilitsgone",
     Year: "2022-05-05",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -6912,7 +6912,7 @@ const obama = [
       "WhatthesecuritymenarenotlaughingwowhowdotheydoitIwouldvebeenintears",
     Year: "2022-05-05",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6920,7 +6920,7 @@ const obama = [
     comment: "ImissyouBarrak",
     Year: "2022-05-04",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "id",
   },
   {
@@ -6928,7 +6928,7 @@ const obama = [
     comment: "Histiminganddeliveryisscary",
     Year: "2022-05-04",
     Hour_z_time: 22,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -6937,7 +6937,7 @@ const obama = [
       "HilariousandgreatspeakerdidabsolutelyNOTHINGfortheBlackcommunitybutthatsnothingnew",
     Year: "2022-05-04",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6945,7 +6945,7 @@ const obama = [
     comment: "IhatehisfakeselfLoser",
     Year: "2022-05-04",
     Hour_z_time: 21,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -6954,7 +6954,7 @@ const obama = [
       "ItsashamehestolebillionfromhardworkinglumbercompaniesinCanadaImsurethechildrenhestolefoodfromwillforeverbeinhisdepttheonlyreasonyalllovedhimisbecauseheisanhonestthiefJustanotherliberalcriminal",
     Year: "2022-05-04",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6962,7 +6962,7 @@ const obama = [
     comment: "AmazingstyleandclassSUREISMISSEDTHESEDAYS",
     Year: "2022-05-04",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6971,7 +6971,7 @@ const obama = [
       "Illinoishasonlyexportedcorruptionandthisisoneoftheambassadorsofitdisgustingpeopletheoneswhoarepoliticians",
     Year: "2022-05-04",
     Hour_z_time: 20,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -6979,7 +6979,7 @@ const obama = [
     comment: "BackwhenIwasproudtoshowmypassport",
     Year: "2022-05-04",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6988,7 +6988,7 @@ const obama = [
       "IbettrumpwasfightingtheairandwindmillingthiswholetimeashewatchedthisonTV",
     Year: "2022-05-04",
     Hour_z_time: 18,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -6996,7 +6996,7 @@ const obama = [
     comment: "Thisiswhataactualpresidentlookslike",
     Year: "2022-05-04",
     Hour_z_time: 18,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7004,7 +7004,7 @@ const obama = [
     comment: "ThisclownshouldbeinGitmo",
     Year: "2022-05-04",
     Hour_z_time: 17,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7012,7 +7012,7 @@ const obama = [
     comment: "Mrpresidentgotjokes",
     Year: "2022-05-04",
     Hour_z_time: 17,
-    Analysis: "O",
+    an: "O",
     Language: "no",
   },
   {
@@ -7020,7 +7020,7 @@ const obama = [
     comment: "IdidntknowitwashumanlypossibletohatesomeoneasmuchasIhateObama",
     Year: "2022-05-04",
     Hour_z_time: 17,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -7029,7 +7029,7 @@ const obama = [
       "AttheendobamathrowsupthedevilhornswithakissanddropsthemicrophoneresemblinganukedroppedontheUSJudasbetrayedJesuswithakissIfJudascandoitsocanObama",
     Year: "2022-05-04",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7038,7 +7038,7 @@ const obama = [
       "HeseemstobeconfusedastowhoMichelleisAccordingtohimquotherquotnameisMichaelInotherwordsshespacking",
     Year: "2022-05-04",
     Hour_z_time: 16,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -7046,7 +7046,7 @@ const obama = [
     comment: "Whataguru",
     Year: "2022-05-04",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "id",
   },
   {
@@ -7054,7 +7054,7 @@ const obama = [
     comment: "thelastofrealityalltogether",
     Year: "2022-05-04",
     Hour_z_time: 14,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7062,7 +7062,7 @@ const obama = [
     comment: "Worstpresidentever",
     Year: "2022-05-04",
     Hour_z_time: 14,
-    Analysis: "N",
+    an: "N",
     Language: "no",
   },
   {
@@ -7070,7 +7070,7 @@ const obama = [
     comment: "WHOSHEREAFTERTREVORNOAH",
     Year: "2022-05-04",
     Hour_z_time: 13,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7078,7 +7078,7 @@ const obama = [
     comment: "WatchinginIcannowunderstandwhytheGOPhateshimsomuch",
     Year: "2022-05-04",
     Hour_z_time: 13,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7087,7 +7087,7 @@ const obama = [
       "OSAMAOBAMAandBIDENAREGOODSPEAKERSANDNOTHINGMORETHEYUSEDELOQUENTbrWORDSTOGETELECTEDTHATSIT",
     Year: "2022-05-04",
     Hour_z_time: 13,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7095,7 +7095,7 @@ const obama = [
     comment: "Istillmissmypresident",
     Year: "2022-05-04",
     Hour_z_time: 12,
-    Analysis: "O",
+    an: "O",
     Language: "no",
   },
   {
@@ -7103,7 +7103,7 @@ const obama = [
     comment: "Charismaclassintelligencehumilityhonor",
     Year: "2022-05-04",
     Hour_z_time: 5,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7111,7 +7111,7 @@ const obama = [
     comment: "IwanttocryHesjustsogood",
     Year: "2022-05-04",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7119,7 +7119,7 @@ const obama = [
     comment: "Stillwatching",
     Year: "2022-05-03",
     Hour_z_time: 22,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7127,7 +7127,7 @@ const obama = [
     comment: "GreatLeadership",
     Year: "2022-05-03",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7135,7 +7135,7 @@ const obama = [
     comment: "WhosstillwatchingthisIam",
     Year: "2022-05-03",
     Hour_z_time: 17,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7143,7 +7143,7 @@ const obama = [
     comment: "ALOTOFHOTAIRWITHOUTAMASK",
     Year: "2022-05-03",
     Hour_z_time: 16,
-    Analysis: "P",
+    an: "P",
     Language: "hu",
   },
   {
@@ -7151,7 +7151,7 @@ const obama = [
     comment: "Whatadisappointmentyouwere",
     Year: "2022-05-03",
     Hour_z_time: 14,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -7160,7 +7160,7 @@ const obama = [
       "Thereisnothingfunnyaboutthehateanddivisionthismancreatedintheworld",
     Year: "2022-05-03",
     Hour_z_time: 7,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -7168,7 +7168,7 @@ const obama = [
     comment: "TheWorstEverPresident",
     Year: "2022-05-03",
     Hour_z_time: 6,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -7177,7 +7177,7 @@ const obama = [
       "WhatawasteoftaxpayingdollarsTheamountofmoneyspentshouldofgonetopeopleinneed",
     Year: "2022-05-03",
     Hour_z_time: 4,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -7186,7 +7186,7 @@ const obama = [
       "IactuallywouldlovetoseeMichelleObamabecomepresidentandservetwotermsSeriously",
     Year: "2022-05-03",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7194,7 +7194,7 @@ const obama = [
     comment: "Sickofthefbiggesthypercriot",
     Year: "2022-05-02",
     Hour_z_time: 22,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -7202,7 +7202,7 @@ const obama = [
     comment: "SofunnymissyouPresidentObama",
     Year: "2022-05-02",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "es",
   },
   {
@@ -7211,7 +7211,7 @@ const obama = [
       "BestofthebestofalltimeswouldpresidentsIfuagreewithmejustloveuforeverObamaampfamily",
     Year: "2022-05-02",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7220,7 +7220,7 @@ const obama = [
       "NOTETOSELFSTOPCUTTINGOFFTHEENDINGTheapplauseattheendisthebestpart",
     Year: "2022-05-02",
     Hour_z_time: 18,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7228,7 +7228,7 @@ const obama = [
     comment: "IfullyexpectVladimirPutinsleavingspeechtobejustasfunny",
     Year: "2022-05-02",
     Hour_z_time: 17,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7237,7 +7237,7 @@ const obama = [
       "DrunkSpeakeroftheHousequicklyforgottenlikeObamaBidenshouldhavebeen",
     Year: "2022-05-02",
     Hour_z_time: 14,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -7245,7 +7245,7 @@ const obama = [
     comment: "yearsofsaturdaynightlivewhileRussiapreparedtoconquertheWorld",
     Year: "2022-05-02",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7253,7 +7253,7 @@ const obama = [
     comment: "minutemarkBidenssunglassesnichtscovidmask",
     Year: "2022-05-02",
     Hour_z_time: 14,
-    Analysis: "O",
+    an: "O",
     Language: "et",
   },
   {
@@ -7261,7 +7261,7 @@ const obama = [
     comment: "MichelletryMichael",
     Year: "2022-05-02",
     Hour_z_time: 14,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7269,7 +7269,7 @@ const obama = [
     comment: "ClevelandmakesusthroughJuly",
     Year: "2022-05-02",
     Hour_z_time: 14,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7278,7 +7278,7 @@ const obama = [
       "ReadquotUndauntedquotbyJohnOwenBrennantoseewhatajoketheObamaandBidenAdmistrationreallywasaCIAfiasco",
     Year: "2022-05-02",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7286,7 +7286,7 @@ const obama = [
     comment: "toAmericanelectedanArabCommunist",
     Year: "2022-05-02",
     Hour_z_time: 14,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7294,7 +7294,7 @@ const obama = [
     comment: "IMissObama",
     Year: "2022-05-02",
     Hour_z_time: 3,
-    Analysis: "O",
+    an: "O",
     Language: "de",
   },
   {
@@ -7303,7 +7303,7 @@ const obama = [
       "WillmissyouandthewholeentirefamilySuchagreatresponseandadeparturemessagefromthewhitehousefinalspeechAllhaveablessednightbecauseyoualldeserveitGodBlessAmerica",
     Year: "2022-05-02",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7311,7 +7311,7 @@ const obama = [
     comment: "THerewasaLOTLESSGQPinsanitytomakefunofbackthen",
     Year: "2022-05-02",
     Hour_z_time: 1,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7320,7 +7320,7 @@ const obama = [
       "BarakObamaThebestUSPresidenttheUKhaseverhadIfheeverwantstorunourcountryindefinitelyhesmorethanwelcomeWelovehimoverhere",
     Year: "2022-05-01",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7328,7 +7328,7 @@ const obama = [
     comment: "ahrefhttpswwwyoutubecomwatchvNxFkEjKPCamptmsa",
     Year: "2022-05-01",
     Hour_z_time: 20,
-    Analysis: "O",
+    an: "O",
     Language: "cy",
   },
   {
@@ -7337,7 +7337,7 @@ const obama = [
       "IhadtolookupwhathemeantbyCPTDidsomeonereallysaythatIagreeThatisNOTfunnyItsoffensiveWeusedtoteasemyuncleaboutalwaysbeinglatebutthatwasingoodnaturedfunThatCPTtermisoutrageouslyrudeObamasspeechwasfunnyandasadpredictionofthenextyearsThecommentaboutquotSpotlightquotwasinpoortastethoughThenewspeopleattheBostonGlobedidaterrificjobinexposingthesexualabuseofchildrenintheCatholicChurchAndIsaythatasaCatholicBostonianwhoknewapedophilepriestThestorydisgustedmeandopenedmyeyestoaproblemIdidntknoworsuspectexisted",
     Year: "2022-05-01",
     Hour_z_time: 20,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -7345,7 +7345,7 @@ const obama = [
     comment: "ahrefhttpswwwyoutubecomwatchvNxFkEjKPCamptmsabrFindtheangryman",
     Year: "2022-05-01",
     Hour_z_time: 18,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -7353,7 +7353,7 @@ const obama = [
     comment: "HOWYOUSEEMEONYOUTUBEJOETHESINGER",
     Year: "2022-05-01",
     Hour_z_time: 18,
-    Analysis: "O",
+    an: "O",
     Language: "so",
   },
   {
@@ -7361,7 +7361,7 @@ const obama = [
     comment: "Ifyoucouldonlyturnbacktheyears",
     Year: "2022-05-01",
     Hour_z_time: 10,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7370,7 +7370,7 @@ const obama = [
       "IhavesomuchrespectandadmirationforPresidentObamaIreallyLIKEDhimAgoodman",
     Year: "2022-05-01",
     Hour_z_time: 9,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7379,7 +7379,7 @@ const obama = [
       "HearingaPresidentspeakcoherentlywithoutramblingandgoingoffintotangentswasgreatAfteryearsofTrumpwefinallyhavesomeonethatcanactuallyreadandhasdailybriefings",
     Year: "2022-05-01",
     Hour_z_time: 9,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7387,7 +7387,7 @@ const obama = [
     comment: "Hedneedwritersbutwiththatdeliverydudecouldcrushattheapollo",
     Year: "2022-05-01",
     Hour_z_time: 6,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7396,14 +7396,14 @@ const obama = [
       "LiterallythesecondveryworstPresidentevernexttotheclownPresidentwehaveinofficenow",
     Year: "2022-05-01",
     Hour_z_time: 4,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
     N: 893,
     Year: "2022-05-01",
     Hour_z_time: 3,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7411,7 +7411,7 @@ const obama = [
     comment: "ItwastheEndoftheirReignTheyreallythoughtHillarywouldntlose",
     Year: "2022-04-30",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7419,7 +7419,7 @@ const obama = [
     comment: "LameDumb",
     Year: "2022-04-30",
     Hour_z_time: 19,
-    Analysis: "N",
+    an: "N",
     Language: "ca",
   },
   {
@@ -7427,7 +7427,7 @@ const obama = [
     comment: "inwordbrilliant",
     Year: "2022-04-30",
     Hour_z_time: 12,
-    Analysis: "P",
+    an: "P",
     Language: "af",
   },
   {
@@ -7436,7 +7436,7 @@ const obama = [
       "ObamawasneverhilariousHowhasnobodymadeaGretchenWeinernameabouttheDemocratsJesusthetryhardinsecurities",
     Year: "2022-04-30",
     Hour_z_time: 8,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -7445,7 +7445,7 @@ const obama = [
       "BarackObamaroastinghisfinalmomentsbeforehesgoneonceforallObamashouldgodocomedynow",
     Year: "2022-04-30",
     Hour_z_time: 8,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7453,7 +7453,7 @@ const obama = [
     comment: "Isomissthismanandhisfamily",
     Year: "2022-04-30",
     Hour_z_time: 4,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7462,7 +7462,7 @@ const obama = [
       "hemakesjokesaboutbeingademonbaraqbawrawkfromlightningbyanalogyagleamconcretelyaflashingswordbrightglitteringswordlightningbrJesuscometodeliveraswordbecausequotsoastheSonofMancamesomustthesonofperditionbrbamahbammawfromanunusedrootmeaningtobehighanelevationheighthighplacewavebrLukeAndhesaiduntothemIbeheldSatanaslightningfallfromheavenIeheightsofBaalbrbrBamowthbawmothpluralofheightsorfullyBamowthBahalfromthesameheightsofBaalbrbrTHISHASBEENDEBUNKEDBYSNOPESTheyareexperts",
     Year: "2022-04-30",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7470,7 +7470,7 @@ const obama = [
     comment: "NotsinceJFKhavewehadaCOOLPRESIDENT",
     Year: "2022-04-30",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7478,7 +7478,7 @@ const obama = [
     comment: "YouretocoolmanMissya",
     Year: "2022-04-30",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7487,7 +7487,7 @@ const obama = [
       "Obamawonthepopularitycontestforsuregoodforhimaccomplishinghismaingoalaspresident",
     Year: "2022-04-29",
     Hour_z_time: 17,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7496,7 +7496,7 @@ const obama = [
       "ahrefhttpswwwyoutubecomwatchvNxFkEjKPCamptmsathatisverystupidtosaysuchnonsensejokesthatwhitepeopleshouldnotsayNodoubtAmericansliveinpovertygotaclowntocontrolAmericaandcreatevictimizationamonghumansThepresidentwaselectedbytheonelikehimintelligentpeoplecantbeeverywhere",
     Year: "2022-04-29",
     Hour_z_time: 14,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -7505,7 +7505,7 @@ const obama = [
       "ThatsthefirstspeechheevermadewithouteveryotherwordbeingUhhhhUhhhhIalsonoticedhereaditIwonderwhowroteitforhimHeworkedveryhardtodestroythiscountryBadbadPresidentHewasnotelectedforhisintelligenceorexperienceHewaselectedbecausehegaveagoodspeechconsistingofpropagandaThankfullywesurvivedhisdivisiveadministration",
     Year: "2022-04-29",
     Hour_z_time: 14,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -7514,7 +7514,7 @@ const obama = [
       "IfheevergetsboredhecanalwaysdostandupHeknowshowtodeliverajokeandhecantakeajoke",
     Year: "2022-04-28",
     Hour_z_time: 22,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -7522,7 +7522,7 @@ const obama = [
     comment: "Whoiswatchingwithmein",
     Year: "2022-04-28",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7530,7 +7530,7 @@ const obama = [
     comment: "Iamdidnotvotedthisguyheisdumparroganedeverythinghissaidjustlies",
     Year: "2022-04-28",
     Hour_z_time: 2,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7539,7 +7539,7 @@ const obama = [
       "WhatawellroundedampradiantcoupleShessimplyglowingndthelaughampblushwenhecomplimentsherx",
     Year: "2022-04-27",
     Hour_z_time: 7,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7547,7 +7547,7 @@ const obama = [
     comment: "ndworstpresidentinhistorybehindballbagbiden",
     Year: "2022-04-27",
     Hour_z_time: 6,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -7555,7 +7555,7 @@ const obama = [
     comment: "bDroneBomberObamab",
     Year: "2022-04-27",
     Hour_z_time: 5,
-    Analysis: "O",
+    an: "O",
     Language: "id",
   },
   {
@@ -7563,7 +7563,7 @@ const obama = [
     comment: "WheresMikeLMAO",
     Year: "2022-04-27",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7571,7 +7571,7 @@ const obama = [
     comment: "ObamaandBidenisthelastgreatdemocracyintheworld",
     Year: "2022-04-27",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7579,7 +7579,7 @@ const obama = [
     comment: "Thesmartestdudeinanyroomheseverin",
     Year: "2022-04-26",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7587,7 +7587,7 @@ const obama = [
     comment: "Misshim",
     Year: "2022-04-26",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7595,7 +7595,7 @@ const obama = [
     comment: "YeswhataJokeobamaiswas",
     Year: "2022-04-25",
     Hour_z_time: 22,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7603,7 +7603,7 @@ const obama = [
     comment: "thatmancoolasafan",
     Year: "2022-04-25",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7611,7 +7611,7 @@ const obama = [
     comment: "Iloveyou",
     Year: "2022-04-25",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "cs",
   },
   {
@@ -7620,7 +7620,7 @@ const obama = [
       "whenIgetfedupwithsomeoftheexadministrationcrudofthedayIlistentothisandremindmyselfwhatarealpresidentlooksandsoundslike",
     Year: "2022-04-25",
     Hour_z_time: 12,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7628,7 +7628,7 @@ const obama = [
     comment: "PerhapsthelastThosearetheoperativewordsVeryseriouseveryone",
     Year: "2022-04-23",
     Hour_z_time: 13,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -7636,7 +7636,7 @@ const obama = [
     comment: "Anybodystillwatchingthisinayeee",
     Year: "2022-04-23",
     Hour_z_time: 4,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7644,7 +7644,7 @@ const obama = [
     comment: "StopJustinflation",
     Year: "2022-04-23",
     Hour_z_time: 1,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7652,7 +7652,7 @@ const obama = [
     comment: "HeWillinmyopinionGoDownInHistoryasaCommunit",
     Year: "2022-04-23",
     Hour_z_time: 0,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -7660,7 +7660,7 @@ const obama = [
     comment: "GlobalMopampGlow",
     Year: "2022-04-22",
     Hour_z_time: 22,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7668,7 +7668,7 @@ const obama = [
     comment: "ThisguywasdoingthiswhilehesentthesealstokillbinLadin",
     Year: "2022-04-22",
     Hour_z_time: 22,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7676,7 +7676,7 @@ const obama = [
     comment: "ThegreatAmericansdeservethisguysasourpresident",
     Year: "2022-04-22",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7685,7 +7685,7 @@ const obama = [
       "ThegreatAmericanpeopledeservethisguyasourpresidentItissopitytothertrumpsters",
     Year: "2022-04-22",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7694,7 +7694,7 @@ const obama = [
       "WithyearsofhindsightthismanstillexudesclassHehasabackboneofsteelcloakedwithaskinofcompassion",
     Year: "2022-04-22",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7702,7 +7702,7 @@ const obama = [
     comment: "ThatismysonThatwasborninEgypt",
     Year: "2022-04-21",
     Hour_z_time: 17,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7710,7 +7710,7 @@ const obama = [
     comment: "didiseequinnperkins",
     Year: "2022-04-21",
     Hour_z_time: 11,
-    Analysis: "O",
+    an: "O",
     Language: "af",
   },
   {
@@ -7719,7 +7719,7 @@ const obama = [
       "JustremarkablequotBluecollarquottransformedintobluebloodOnlycorpoartespeakelitism",
     Year: "2022-04-21",
     Hour_z_time: 9,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7728,7 +7728,7 @@ const obama = [
       "IkeepcomingbacktorewatchthisgoldenspeechfromthegoldenagebrIloveObamaandImaChinese",
     Year: "2022-04-21",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7736,7 +7736,7 @@ const obama = [
     comment: "Hehasabetterdeliverythanmostcomedians",
     Year: "2022-04-20",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7745,7 +7745,7 @@ const obama = [
       "ahrefhttpswwwyoutubecomwatchvNxFkEjKPCamptmsaquotHeyJackquotbrColbert",
     Year: "2022-04-19",
     Hour_z_time: 4,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7753,7 +7753,7 @@ const obama = [
     comment: "Freshandclass",
     Year: "2022-04-19",
     Hour_z_time: 4,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7761,14 +7761,14 @@ const obama = [
     comment: "OmGiloveObama",
     Year: "2022-04-18",
     Hour_z_time: 12,
-    Analysis: "P",
+    an: "P",
     Language: "hr",
   },
   {
     N: 937,
     Year: "2022-04-17",
     Hour_z_time: 22,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7776,7 +7776,7 @@ const obama = [
     comment: "Thebest",
     Year: "2022-04-17",
     Hour_z_time: 8,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7784,7 +7784,7 @@ const obama = [
     comment: "OmgpeoplelaughinfornoreasonsometimesImeanyeahitsBArack",
     Year: "2022-04-17",
     Hour_z_time: 5,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -7792,7 +7792,7 @@ const obama = [
     comment: "imissobamaatthispoint",
     Year: "2022-04-17",
     Hour_z_time: 4,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7800,7 +7800,7 @@ const obama = [
     comment: "WhatajokeThisfoolhasdeceivedsomanypeople",
     Year: "2022-04-17",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7808,7 +7808,7 @@ const obama = [
     comment: "whatajoke",
     Year: "2022-04-17",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7816,7 +7816,7 @@ const obama = [
     comment: "JakeTapperleftJournalismtojoinCNNlol",
     Year: "2022-04-14",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7825,7 +7825,7 @@ const obama = [
       "itbotheredmethatcountriesweredestroyedduringhistermbutseeingthisspeechIfeelitwasprobablynothisdecisionsaszionistsrunthiscountry",
     Year: "2022-04-14",
     Hour_z_time: 5,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7833,7 +7833,7 @@ const obama = [
     comment: "MichelleManbamaHisrealnameisMike",
     Year: "2022-04-13",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7842,7 +7842,7 @@ const obama = [
       "LoveyouObamakeepworkinghardandrepresentingyourselfandtheuniversalfamily",
     Year: "2022-04-13",
     Hour_z_time: 10,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7851,7 +7851,7 @@ const obama = [
       "NONORMALHUMANwouldcomeupwithKingGeorgecametoameetingwearinghisBATHROBEWhowouldevenTHINKofachildintermofaBATHROBEItisaVERYINAPPROPRIATEthingtosayunlessyouapedo",
     Year: "2022-04-13",
     Hour_z_time: 10,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7860,7 +7860,7 @@ const obama = [
       "TheonlypresidentwhomakeswonderyourselfifhesdoingapresidentialspeechorjustacomedystandupWemissyouObama",
     Year: "2022-04-13",
     Hour_z_time: 2,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7869,7 +7869,7 @@ const obama = [
       "Obamasiguetemblandodemiedoxquéllegósuderrotaserasencerradoxelrestodetuvidajuntoatodostuscomplicesasedoresdelmal",
     Year: "2022-04-11",
     Hour_z_time: 17,
-    Analysis: "N",
+    an: "N",
     Language: "es",
   },
   {
@@ -7877,7 +7877,7 @@ const obama = [
     comment: "Brilliantman",
     Year: "2022-04-11",
     Hour_z_time: 8,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7886,7 +7886,7 @@ const obama = [
       "ApimpLivinginMarthsVeneridfeetfromtheoceanandtellingthesefoolsweareallgoingtodrownifquotGlobalWarmingquotisnotstopped",
     Year: "2022-04-11",
     Hour_z_time: 3,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7894,7 +7894,7 @@ const obama = [
     comment: "ILOVEPRESIDENTOBAMA",
     Year: "2022-04-11",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "pt",
   },
   {
@@ -7903,7 +7903,7 @@ const obama = [
       "AtruemuslimandcowardLadiesandgentlemanhereisthefamousBarackHusseinObamaTHEclown",
     Year: "2022-04-09",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7911,7 +7911,7 @@ const obama = [
     comment: "AmanofeloquencegraceandintegrityHewillbemissed",
     Year: "2022-04-09",
     Hour_z_time: 13,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7919,7 +7919,7 @@ const obama = [
     comment: "quotJoetheyrethesamequot",
     Year: "2022-04-09",
     Hour_z_time: 13,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7928,7 +7928,7 @@ const obama = [
       "ObamaadministrationdroppedbombsdroneorotherwiseacrosssevencountriesSyriaIraqAfghanistanLibyaYemenSomalia",
     Year: "2022-04-09",
     Hour_z_time: 7,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -7937,7 +7937,7 @@ const obama = [
       "HowdoyougettohellbrVerysimpleclaimthatyoureinnocentbrbrHowdoyougettoheavenbrVerysimpleAdmitthatyourenotInnocentyoureguiltyandaskformercybrbrHowtoknowifyoureguiltyornotbrSimplyCompareyourlifetotheTenCommandmentsGodgaveyouintheBiblebrEveryoneagreesthatifpeoplefollowedthetencommandmentstherewouldbenoneedforgovernmentsorpolicebrbrDonotliebrDonotstealbrDonotcommitadulterybrDonotinsultGodbyusinghisnameasacusswordbrTherearesixmorebutletsjustleaveitatthatbrbrHowmanylieshaveyoutoldinyourlifebrbrHaveyouevertakenanythingthatdidntbelongtoyoubrbrJesussaidifyoulookatawomenlustfullyyouvealreadycommittedadulteryinyourheartwiththatwomanbrHowmanytimesadaydoyoudothatbrbrDoyouuseGodsnameasacusswordbrWouldyoudothatwithyourownmothersnamebrbrIfyouanswerthesequestionshonestlyyouknowthatyoureguiltybrbrGodcanjustlypunishyouandsendyoutohellbrbrAskhimformercybrHisnameisJesusbrbrItsassimpleasthisTheTenCommandmentsarecalledthemorallawYouandIbrokeGodslawsJesuspaidthefinebrThefineisdeathbrbrEzekielbrquotThesoulwhosinsshalldiebrbrThatswhyJesushadtodieonthecrossforoursinsThisiswhyGodisabletogiveusMercybrbrOptionAbrYoudieforyourownsinsbrbrOptionBbrAskformercyandacceptthatJesusdiedforyoubrbrj",
     Year: "2022-04-09",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7945,7 +7945,7 @@ const obama = [
     comment: "Imsogladmankindmanagedtoagreeonabaselineoffacts",
     Year: "2022-04-08",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7953,7 +7953,7 @@ const obama = [
     comment: "loveit",
     Year: "2022-04-08",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "sl",
   },
   {
@@ -7962,7 +7962,7 @@ const obama = [
       "thereisabsolutelyZEROtrumpisminthisguyjustapresidentdoinghisbestbrbrtrumpbrIspitonhisachievements",
     Year: "2022-04-08",
     Hour_z_time: 8,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7970,7 +7970,7 @@ const obama = [
     comment: "Heisthebest",
     Year: "2022-04-08",
     Hour_z_time: 4,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7978,7 +7978,7 @@ const obama = [
     comment: "IfIdknownhewasthisfunnyIdhavevotedforhim",
     Year: "2022-04-07",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7986,7 +7986,7 @@ const obama = [
     comment: "sogreat",
     Year: "2022-04-07",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -7994,7 +7994,7 @@ const obama = [
     comment: "TrumpwastooSCAREDtodoevenoneoftheseWhatawimp",
     Year: "2022-04-07",
     Hour_z_time: 9,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8002,7 +8002,7 @@ const obama = [
     comment: "Whataspeechhesgotitall",
     Year: "2022-04-06",
     Hour_z_time: 20,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8010,7 +8010,7 @@ const obama = [
     comment: "Agrre",
     Year: "2022-04-06",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "ca",
   },
   {
@@ -8019,7 +8019,7 @@ const obama = [
       "ObamashouldgosellusedcarsBidenshouldgofindaTacoBellnexttotheborderandbecelebratedfordestructionofthedefinitionofbeinganAmericano",
     Year: "2022-04-06",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8028,7 +8028,7 @@ const obama = [
       "IwassohappywhenObamalefttheWhiteHousebutnowSrBidenneedstositonhislaptospeakArealpuppetgovernmentgrowndomesticallyoncorruptionandsenility",
     Year: "2022-04-06",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8036,7 +8036,7 @@ const obama = [
     comment: "IappreciateYouTubebringingmebacktohereeveryonceinawhile",
     Year: "2022-04-05",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8044,7 +8044,7 @@ const obama = [
     comment: "Heisthebestpresident",
     Year: "2022-04-05",
     Hour_z_time: 11,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8053,14 +8053,14 @@ const obama = [
       "EightyearsofliesscandalscoverupsabusesofpoweranddestructionnotonlyinAmericabutaroundtheworldThisevilclownturnedjustabouteverythinghetouchedtoCRAPMoronsswoon",
     Year: "2022-04-04",
     Hour_z_time: 17,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
     N: 972,
     Year: "2022-04-04",
     Hour_z_time: 12,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8068,7 +8068,7 @@ const obama = [
     comment: "Hewasthebestpresidentever",
     Year: "2022-04-03",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8077,7 +8077,7 @@ const obama = [
       "DontagreewitheverythinghedidduringhisPresidencybutIrespecthimdeeplybrAndifIeverhadtoaddresshimIwouldsayquotMrPresidentquotandIwouldmeanit",
     Year: "2022-04-03",
     Hour_z_time: 11,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -8086,7 +8086,7 @@ const obama = [
       "AnnKoulterreObamaquotImsurehappywedonthavetorunagainstthatagainquotnowTHATSanendorsement",
     Year: "2022-04-03",
     Hour_z_time: 4,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8094,7 +8094,7 @@ const obama = [
     comment: "IfonlythatwasthelastwesawofhimUnfortunatelyhesstillintheWH",
     Year: "2022-04-02",
     Hour_z_time: 21,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -8102,7 +8102,7 @@ const obama = [
     comment: "Frlovehimsomuch",
     Year: "2022-04-02",
     Hour_z_time: 4,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8110,7 +8110,7 @@ const obama = [
     comment: "Epic",
     Year: "2022-04-01",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "ca",
   },
   {
@@ -8118,7 +8118,7 @@ const obama = [
     comment: "ImisshavingapresidentWhathappened",
     Year: "2022-04-01",
     Hour_z_time: 7,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8127,7 +8127,7 @@ const obama = [
       "ObamasometimesthoughthewasacomedianHedidnothavethecouragetoconfrontPutinWhilePutinwaskillingSyriansheneverdeliveredonhisredlinetoughtalkInthemeantimeSyriansdiedfromthechemicalattackandmillionsbecamerefugeesWhenPutinseizedCrimeaObamastartedtalkingagainbutnevertookveryseriousactionsagainstPutinAMalaysianairlinewashitbyaRussianmissileduringthethewarinCrimeaObamaendedupjokingaboutPutinsbarechestJustabsolutelydisgusting",
     Year: "2022-04-01",
     Hour_z_time: 3,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -8136,7 +8136,7 @@ const obama = [
       "idcidislikedthisvideofirstineverlikedObamaithinkhewastheworsethingtohappentoAmericasinceWatergate",
     Year: "2022-03-30",
     Hour_z_time: 22,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -8144,7 +8144,7 @@ const obama = [
     comment: "Bestpresidentofthelastyears",
     Year: "2022-03-30",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8152,7 +8152,7 @@ const obama = [
     comment: "WhydowealwayslikethePresidentsmoreaftertheyaredonetheirterm",
     Year: "2022-03-30",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8161,7 +8161,7 @@ const obama = [
       "USABombingListforDemocracyWorldKillingTourKoreaChinaGuatemalaIndonesiaCubaGuatemalaCongoLaosVietnamCambodiaGuatemalaGrenadaLibanonLybiaSalvadorNicaraguaIranPanamaIraqKuwaitSomaliaBosniaSudanAfganistanYugoslaviaDaysYemenIraqIraqAfganistanPakistanSomaliaYemenLybiaSyria",
     Year: "2022-03-30",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "id",
   },
   {
@@ -8169,7 +8169,7 @@ const obama = [
     comment: "DontdoitWillSmithbrbryoullloseyourcitizenship",
     Year: "2022-03-30",
     Hour_z_time: 18,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8178,7 +8178,7 @@ const obama = [
       "BidenisnotObamaJustlikenohumanbeingisanyotherhumanbeingButassomeonefromtheUKIdfarratherseehiminpowerthananimmatureselfseekerwhorefusedtoleavetheWhiteHouseanddideverythinghecouldtosaythattheelectionwasriggedbecauseitwentagainsthischildishlustforpower",
     Year: "2022-03-30",
     Hour_z_time: 5,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -8187,7 +8187,7 @@ const obama = [
       "DearestBarackObamabrbrMayyourfamilyOBAMAandyoureverdearMichellewouldunderstandyouhowtobecomeafatherofyourKIDSbrbrIsawthisyoutubenowAnditwasyearsnowAndthisisbrbrHbrabrpbrpbrybrbrEbrabrsbrtbrebrrbrbrYOUBEENSERVINGYEARSatUNITESSTATESbrbrnownomorehahabrbrGoodthingtohearyourvoicethruGOOGLEbrbr",
     Year: "2022-03-30",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8196,7 +8196,7 @@ const obama = [
       "HessmartsophisticatedfunnycharismaticgeeznowonderTrumphatedhisguts",
     Year: "2022-03-29",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8204,7 +8204,7 @@ const obama = [
     comment: "ThatsoundVeryRacist",
     Year: "2022-03-29",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8212,7 +8212,7 @@ const obama = [
     comment: "IwaswaitingforWillSmithtoshowupandwalktothepodium",
     Year: "2022-03-29",
     Hour_z_time: 17,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8220,7 +8220,7 @@ const obama = [
     comment: "Love",
     Year: "2022-03-29",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "sl",
   },
   {
@@ -8228,7 +8228,7 @@ const obama = [
     comment: "Manleftus",
     Year: "2022-03-29",
     Hour_z_time: 3,
-    Analysis: "O",
+    an: "O",
     Language: "nl",
   },
   {
@@ -8236,7 +8236,7 @@ const obama = [
     comment: "Bomberinchief",
     Year: "2022-03-28",
     Hour_z_time: 18,
-    Analysis: "O",
+    an: "O",
     Language: "de",
   },
   {
@@ -8244,7 +8244,7 @@ const obama = [
     comment: "Crimeishighestindemocratstates",
     Year: "2022-03-28",
     Hour_z_time: 13,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8252,7 +8252,7 @@ const obama = [
     comment: "Againstastrongmilitary",
     Year: "2022-03-28",
     Hour_z_time: 13,
-    Analysis: "P",
+    an: "P",
     Language: "tl",
   },
   {
@@ -8260,7 +8260,7 @@ const obama = [
     comment: "Hemadethebathroomissuesamajorproblem",
     Year: "2022-03-28",
     Hour_z_time: 13,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8269,7 +8269,7 @@ const obama = [
       "ThepoliticsofpresidentObamahavecausedalotofdivisiveissuesandmajorproblemsinourcountryIdeologyfromthedemocratshavemadeusweakercountry",
     Year: "2022-03-28",
     Hour_z_time: 13,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8277,7 +8277,7 @@ const obama = [
     comment: "Ilovethisguy",
     Year: "2022-03-27",
     Hour_z_time: 10,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8285,7 +8285,7 @@ const obama = [
     comment: "howdothecameramenfindallthesepeopleinthecrowdsoquickly",
     Year: "2022-03-27",
     Hour_z_time: 10,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8293,7 +8293,7 @@ const obama = [
     comment: "IwanttoseeusirIwantyourhelppleaseIdontnoenglishfully",
     Year: "2022-03-27",
     Hour_z_time: 3,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8302,7 +8302,7 @@ const obama = [
       "WhowantedintellectwittinesscharmkindnessampgraceinaPOTUSObviouslynottherepublicans",
     Year: "2022-03-26",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8311,7 +8311,7 @@ const obama = [
       "RemovethismenitswasbigmistektoelectforpresidenthiwastraitorAmericahater",
     Year: "2022-03-26",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8319,7 +8319,7 @@ const obama = [
     comment: "Notonepersoninthatroomcouldhavepredictedthefuturewearenowliving",
     Year: "2022-03-26",
     Hour_z_time: 1,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8327,7 +8327,7 @@ const obama = [
     comment: "ThescarythingiswatchingthisnowandknowingthattRUMPbecamepresident",
     Year: "2022-03-26",
     Hour_z_time: 1,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -8335,7 +8335,7 @@ const obama = [
     comment: "AfterObamasFarewellSpeechNothingcancompare",
     Year: "2022-03-25",
     Hour_z_time: 18,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8343,7 +8343,7 @@ const obama = [
     comment: "trevornoahwrotehisspeech",
     Year: "2022-03-25",
     Hour_z_time: 17,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8352,7 +8352,7 @@ const obama = [
       "WOWthelastminutewastensebrahrefhttpswwwyoutubecomwatchvNxFkEjKPCamptmsaLOOKatthosefacesbruffTheyknowwhattheyvebeenuptoCuttingcornersontruthfulreporting",
     Year: "2022-03-25",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8361,7 +8361,7 @@ const obama = [
       "lvebeenthinkingwhilerewatchingthisthatObamaandPresClintonhadonemorethingincommontheirwivesaresmarterthantheyareandjustawesomepeopleintheirownright",
     Year: "2022-03-25",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8369,7 +8369,7 @@ const obama = [
     comment: "Sickandtiredofclowns",
     Year: "2022-03-24",
     Hour_z_time: 21,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -8377,7 +8377,7 @@ const obama = [
     comment: "SENEALLAHBELAVERSİNOBAMATRANIPBAYDEN",
     Year: "2022-03-24",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "vi",
   },
   {
@@ -8385,7 +8385,7 @@ const obama = [
     comment: "Turnsoutheisthejoke",
     Year: "2022-03-24",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8393,7 +8393,7 @@ const obama = [
     comment: "barrackhusseinisaboutassharpasabowlingball",
     Year: "2022-03-24",
     Hour_z_time: 14,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -8402,7 +8402,7 @@ const obama = [
       "WelovesomuchObamahesasomekindGodbewithyouandyourbeautifulfamilytogetherweseeyousoon",
     Year: "2022-03-24",
     Hour_z_time: 13,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8410,7 +8410,7 @@ const obama = [
     comment: "talkatojoebainplieasethanka",
     Year: "2022-03-24",
     Hour_z_time: 2,
-    Analysis: "O",
+    an: "O",
     Language: "fi",
   },
   {
@@ -8419,7 +8419,7 @@ const obama = [
       "MysisterkillinssomaliyabaladweyneshecongrsssomaliapleaserespontmysisteraminamahamedAbdidiedtodayhiiraanrajinginbaladweyn",
     Year: "2022-03-24",
     Hour_z_time: 2,
-    Analysis: "N",
+    an: "N",
     Language: "so",
   },
   {
@@ -8427,7 +8427,7 @@ const obama = [
     comment: "kkkkkkkkkkkk",
     Year: "2022-03-24",
     Hour_z_time: 2,
-    Analysis: "O",
+    an: "O",
     Language: "fi",
   },
   {
@@ -8436,7 +8436,7 @@ const obama = [
       "endedupcomingbacktothismomentreadsomeofthecommentstheonesthatstruckmethemostweretheonesthatwerealongthelinesofquoticantbelieveapresidentwouldactbehavesayblanklikethisquotiwonderiftheypaidanyattentiontothepotusfromatleastwedidnthavenotonlythepotusbuthisadvisorsandfamilymembersopenlymilkingthetaxpayercoffersandviolatingattheminimumthehatchactbuthalfthenationturnedablindeyetothesethingsampdefendedallofthemthebiggestissuewhenitcametoobamawasnthispoliticsitwashiscolorandbecausethoseelectedofficialsdidntwanttoriskappearingracisttheyblameanythingpossibleonhimamphisadministrationtheywouldntadmittosuchabasethingwasianallinobamafannobutatleasthiswastheoneadministrationthatdidnthavemultipleinvestigationsindictmentsofkeymemberslikeothersbeforeampafterhimifanythinghehadtotreadlightlytoensurethathistimebecausehewasablackmandidnthaveanyblackeyesregardlessofhowmanypunchescamefromhisadversariesdefinitelynotcrazyaboutbidenbutihopethatthenextelectionwillbringacandidatethatismorededicatedtothepeopleofthisnationthantheirownpersonalpoliticalagendas",
     Year: "2022-03-23",
     Hour_z_time: 17,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8444,7 +8444,7 @@ const obama = [
     comment: "Totallyawesome",
     Year: "2022-03-22",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8452,7 +8452,7 @@ const obama = [
     comment: "BestwordseverObamaoutbrThankgod",
     Year: "2022-03-22",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8460,7 +8460,7 @@ const obama = [
     comment: "ImagineactingthiswayThenyouknowyourimaginationhastakenover",
     Year: "2022-03-22",
     Hour_z_time: 18,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8468,7 +8468,7 @@ const obama = [
     comment: "Americasgreatestpresident",
     Year: "2022-03-22",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8477,7 +8477,7 @@ const obama = [
       "ThiswasamazingPleasedontberatemebutIamarepublicanHoweverIthinkBarackObamadidareallygoodjobWhilethereareafewthingsIdidntagreeonbutthatswithbothpartiesObamahasapoiselikenootherHeseemedsodowntoearthaswellasawonderfulfamilymanIhatetosayitnowbutBidenisnowhereclosetobeingObamaThispoliticalpartyisoutofcontrolIfeelliketheonlythingtheycareaboutiscensoringthemediaandundoingeverythingTrumpdidAgainpleasedontberatemebecauseImnotaTrumpChumpeitherbutsomeofthepoliciesheputinplacewereworkingInsteadofdoingthebestforourcountryIfeellikeBidenspartyfocusesonlyongreenenergyandstickingittotrumpbyunderminingeverylawheputinplaceNowwelooklikeajoketotherestoftheworldThebordercrisisisoutofcontroltheAfghanistanpulloutwasadisasterandtheyrenowpushingustowardgreenenergyIamallforbeingaggressiveonconvertingtogreenenergybuttheyaretakingawayourcurrentsystemofoilandgasbeforewehaveareliablereplacementsourceItslikesayingImgoingtostartsavingforacartobuynextyearsoImjustgoingtogoaheadandjunkmycurrentcartodayAndnowtofindoutaboutHunterBidenslaptopIamfuriousThiswascoveredupbyeverymediaoutlettheFBItheDODitgoesdownthelineThisisNOTfreedomofpressIfeelliketheyaretreatinguswithpropagandajustlikeRussiasEchodePutinbrDoesanyoneelsefeelthesamewayWevebecomepolaroppositesinsteadofstickingtogetherWhilewelayonoppositesidesofthecoinwearestillthesamecoinandweshouldnotletdemocratsORrepublicansdivideusasacountryIlovemydemocraticfriendsandfamilyandIseelotsofgoodpointstheymakeIjustcantgetbehindBidenIwishwehadapresidentwithObamaspoiseandkindnessandsomeofTrumpspoliciesIknowImaygetsomebacklashfromthisbut",
     Year: "2022-03-22",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8486,7 +8486,7 @@ const obama = [
       "Ireallymissthetimewehadbeforethenightmarewearenowlivingwithbothdomesticandglobalveryseriouschallenges",
     Year: "2022-03-22",
     Hour_z_time: 0,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -8494,7 +8494,7 @@ const obama = [
     comment: "Evilsickclown",
     Year: "2022-03-21",
     Hour_z_time: 23,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -8502,7 +8502,7 @@ const obama = [
     comment: "OneoftheworstpresidentsinUShistorybrDidFallgoodinyears",
     Year: "2022-03-21",
     Hour_z_time: 20,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8510,7 +8510,7 @@ const obama = [
     comment: "Iamhere",
     Year: "2022-03-21",
     Hour_z_time: 10,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8519,7 +8519,7 @@ const obama = [
       "Boyhesureactssmugwhenhethoughthewasthemanbutweallknowbetterhimandhishusbandmikearenowscreaminginhell",
     Year: "2022-03-20",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8527,7 +8527,7 @@ const obama = [
     comment: "Memoriesneverfade",
     Year: "2022-03-20",
     Hour_z_time: 20,
-    Analysis: "O",
+    an: "O",
     Language: "af",
   },
   {
@@ -8535,7 +8535,7 @@ const obama = [
     comment: "SettleDown",
     Year: "2022-03-20",
     Hour_z_time: 18,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8544,7 +8544,7 @@ const obama = [
       "PresidentObamaWhataclassydignifiedintelligentelequantmanWhataPresidentshouldbeThencomesDumpytRumpy",
     Year: "2022-03-20",
     Hour_z_time: 13,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8552,7 +8552,7 @@ const obama = [
     comment: "Imissthesedays",
     Year: "2022-03-20",
     Hour_z_time: 12,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8560,14 +8560,14 @@ const obama = [
     comment: "bINPERSONbbrnotquotinthefleshquotyuk",
     Year: "2022-03-20",
     Hour_z_time: 9,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
     N: 1033,
     Year: "2022-03-20",
     Hour_z_time: 3,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8575,7 +8575,7 @@ const obama = [
     comment: "Andthentherewasatrump",
     Year: "2022-03-20",
     Hour_z_time: 0,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -8583,7 +8583,7 @@ const obama = [
     comment: "themontageCLASSY",
     Year: "2022-03-19",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8591,7 +8591,7 @@ const obama = [
     comment: "Itwasthelastcorespondentsdinnerforreal",
     Year: "2022-03-19",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8599,7 +8599,7 @@ const obama = [
     comment: "GodImisshim",
     Year: "2022-03-19",
     Hour_z_time: 22,
-    Analysis: "O",
+    an: "O",
     Language: "et",
   },
   {
@@ -8608,7 +8608,7 @@ const obama = [
       "TOOBADthattheDonalddidnotgotothepresidentfinnerwithBarakbamahasnoshameWhathappentoDonaldTrumppresidentDinmerathisendofouryeartermdidnotmakeittotheyeartetmTrumpwaskickouttimesHisRepublicanssidedwithTrumpagainstAmericatheyshouldbeinjailfordoublecrossingAmericassofficialsTheywillhavetheirdayincourtsoon",
     Year: "2022-03-19",
     Hour_z_time: 20,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -8616,7 +8616,7 @@ const obama = [
     comment: "ItbrMiniSpeedMineminebrSlowly",
     Year: "2022-03-19",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8624,7 +8624,7 @@ const obama = [
     comment: "YESbrStudantAndTheatherSpeackSlowly",
     Year: "2022-03-19",
     Hour_z_time: 19,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -8632,7 +8632,7 @@ const obama = [
     comment: "Obamawasagameshowhost",
     Year: "2022-03-19",
     Hour_z_time: 1,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -8640,7 +8640,7 @@ const obama = [
     comment: "Worsewokeracistpresidentofalltime",
     Year: "2022-03-19",
     Hour_z_time: 1,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -8649,7 +8649,7 @@ const obama = [
       "IfeellikesomeofthesejokeswerewrittenbyDaveChappelleCandefinitelyhearChappellesdeliveryinsomeofthejokes",
     Year: "2022-03-18",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8657,7 +8657,7 @@ const obama = [
     comment: "Notfunny",
     Year: "2022-03-18",
     Hour_z_time: 22,
-    Analysis: "N",
+    an: "N",
     Language: "no",
   },
   {
@@ -8666,7 +8666,7 @@ const obama = [
       "Tookalongtimeandlikemostblackmenthefearofthemkillinghimalwaysexistedbutwelikehimsurvived",
     Year: "2022-03-18",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8674,7 +8674,7 @@ const obama = [
     comment: "PresidentObamaisamazing",
     Year: "2022-03-18",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8682,7 +8682,7 @@ const obama = [
     comment: "Ilovethatman",
     Year: "2022-03-18",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8690,7 +8690,7 @@ const obama = [
     comment: "LolbarackObama",
     Year: "2022-03-18",
     Hour_z_time: 6,
-    Analysis: "P",
+    an: "P",
     Language: "tr",
   },
   {
@@ -8699,7 +8699,7 @@ const obama = [
       "HereadsoffateleprompterbrTheMarxistssonofaCommunistsdrunkbrUnfittobecalledanAmericanunfittobePOTUSbrWantstodestroyAmericaturnusintordworldcountryBelongsinprison",
     Year: "2022-03-18",
     Hour_z_time: 6,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -8707,7 +8707,7 @@ const obama = [
     comment: "GodblessgodoorandgodbewithAmenandAmen",
     Year: "2022-03-18",
     Hour_z_time: 3,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8716,7 +8716,7 @@ const obama = [
       "NoteObamascockycommentaboutwhothenextpresidentwouldbeawomanandanothermemberoftheBilderbergGroupofscientistsaiditwouldbeHillaryClintontheygotthatwrongtoo",
     Year: "2022-03-17",
     Hour_z_time: 23,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -8724,7 +8724,7 @@ const obama = [
     comment: "HardtobelievewewentfromObamatoTrump",
     Year: "2022-03-17",
     Hour_z_time: 8,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -8733,7 +8733,7 @@ const obama = [
       "IAsserttheSpanishRuleissetforthAfterSpanishandAmericanWarthathadbeenlongagoforgottenandputforthinPrimeMinisterPedroSanchezPerezPolicyinStandardMinimumRulesforTreatmentofOffendersHeldatGenevaAndthMayOntheSocialCouncilandEconomicResolutionTheGeneralRulestotheMilitariumApplicantissetforthintheTeachingofPredecessorFranklinDelanoRooseveltNewDealtocreateJobsinExecutiveOrderInternationalMonetaryFundJulyinExecutiveOrderEuropeanEconomicCooperationAdoptedRulesthatcannotbeinfringedInNominationOfBrazilDepartmentofUnitedNationPeacekeepingOperationinAdoptedFirstUnitedNationCongressInrebrTheisnotentrustedbutissetforthinSocialAidinrebrSocialSecurityRightsinSocialRehabilitationinrebrMedicalTreatmentandPharmiceauticalandSuppliesinWorldTradewiththeBananaRepublicinCocoaTeaandPoultryandBananasInInstitutionpersonnelsecuritiesofGlobalExpertLeaAngelaBiasonFayolaAyoAtkinsandMehrinSharifinanSevenyeartaskinExecutiveOrderIPOofRihannaFentyandherAgentsRihannaNavybrIasserttheSecuritiesisalsoantradewithSouthChinaMalaysiainDpkowithDeputyCommissionerTaptunNasreeninNavyMerchanttoforWorldTradeDealsinSalmonandTunaafterFilingTaxesinFormSSASMSpainMadridAgreementinMembershipoftheUnioninSelectiveServiceSystemoftheNavyFederalCreditUnionACHAutomaticClearingHouseCreditFIVEDOLLARMEMBERSHIPFORMONEYMARKETbrTHEDEPLOYMENTINADOPTEDRULESOFGENERALAPPLICATIONISSETFORTHINREbrINTERNATIONALAUTHORITYWHICHTASKITISTOPROTECTSUCHPERSONS",
     Year: "2022-03-17",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8742,7 +8742,7 @@ const obama = [
       "LiesdeceptionfraudsecretsunlawfullyunconstitutionalunderminingantiamericansoldRussiauraniumshouldbeimprisonedlongagoNegotiatewithterroristscheckflyplanesloadspalletsofillegalnocongressionalanythingjustthatlittleillegalaroundtheruleoflawtheymakethemnotfollow",
     Year: "2022-03-16",
     Hour_z_time: 23,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -8751,7 +8751,7 @@ const obama = [
       "WemissedyouObamabrWeneedyounowmorethaneverWhatalegendTherewillneverbeacoolpersdtentlikeBarakObamaEveragainGodblessyoumyguy",
     Year: "2022-03-16",
     Hour_z_time: 18,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8760,7 +8760,7 @@ const obama = [
       "SomesayObamaistheANTICHRISTIlikewhathesaidContrarytopopularbeliefIWASNTBORNINAMANGERbrEVANGELISTROGERMANSOURbrMISSIONARYTOHAITI",
     Year: "2022-03-16",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8768,7 +8768,7 @@ const obama = [
     comment: "Greatestpresidentwhoeverlived",
     Year: "2022-03-16",
     Hour_z_time: 7,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8776,7 +8776,7 @@ const obama = [
     comment: "ThankGodAmericanmilitary",
     Year: "2022-03-16",
     Hour_z_time: 3,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -8784,7 +8784,7 @@ const obama = [
     comment: "goodjobbysecretservicetheybroughtherback",
     Year: "2022-03-16",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8792,7 +8792,7 @@ const obama = [
     comment: "GodweneedhimmoretheneverBestpresidentinmylifetimebyfar",
     Year: "2022-03-16",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8801,7 +8801,7 @@ const obama = [
       "ObamagaveIranplutoniumandUraniumtomakenuclearbombsontopofbillionsofdollarsBidengavethetalibanbillionsinAmericanmilitaryequipmentandleftAmericansoldierstheretodieAndbneverforgetthatHarrisbeganhercareerasadeputydistrictattorneybbeforeclimbingherwayuptoattorneygeneralforspitefullyandwrongfullyconvictingthousandsofpeoplespecificallyminoritiesandprosecutingtheinnocentgivingoutlengthyharshsentencesforminormisdemeanoroffenseslikeagramofmarijuanashecannotstandpeopleofcolorThisiswhoandwhattheDemocratsvoteforNobodyevenknowswhothesepeopletrulyareItssadInsteadofvotingbasedonemotionpeopleneedtovotebasedonPOLICYVOTEREDINNOVEMBERANDINIFYOUWANTCHANGE",
     Year: "2022-03-15",
     Hour_z_time: 16,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8810,7 +8810,7 @@ const obama = [
       "AmericaisameltingpotofethnicityWeneedPresidentthatlooklikeAVERAGEfolks",
     Year: "2022-03-15",
     Hour_z_time: 13,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -8818,7 +8818,7 @@ const obama = [
     comment: "TheBESTPresidentever",
     Year: "2022-03-15",
     Hour_z_time: 13,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8826,7 +8826,7 @@ const obama = [
     comment: "Evil",
     Year: "2022-03-15",
     Hour_z_time: 2,
-    Analysis: "N",
+    an: "N",
     Language: "sl",
   },
   {
@@ -8835,7 +8835,7 @@ const obama = [
       "Justbeforethedarknessfallsasthelightbeginstofailthereisthebriefflashoflightasthesunsetsandhowthedarknesscame",
     Year: "2022-03-14",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8843,7 +8843,7 @@ const obama = [
     comment: "Silvertongueddevilandthatsaboutit",
     Year: "2022-03-14",
     Hour_z_time: 21,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8851,7 +8851,7 @@ const obama = [
     comment: "Silverfoxwemissyou",
     Year: "2022-03-20",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8860,7 +8860,7 @@ const obama = [
       "IstillmournthatwelosttheprivilegeofhavingHillaryasthePresidentoftheUnitedStatesofAmerica",
     Year: "2022-03-14",
     Hour_z_time: 9,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8869,7 +8869,7 @@ const obama = [
       "IwonteverforgetwhatyoudidtoeasternKentuckywhovotedforyoutwiceIwontforgetwatchinghundredsofgrownmencryatonceIwontmissyouatall",
     Year: "2022-03-14",
     Hour_z_time: 7,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8877,7 +8877,7 @@ const obama = [
     comment: "Hopeitisthelast",
     Year: "2022-03-14",
     Hour_z_time: 2,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8885,7 +8885,7 @@ const obama = [
     comment: "Heshouldhavebeenwearingatansuitinhisvideoaboutretirement",
     Year: "2022-03-14",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8893,7 +8893,7 @@ const obama = [
     comment: "quotperhapsTHElastwhitehousecorrespondantsdinnerquotWowSpoton",
     Year: "2022-03-14",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8901,7 +8901,7 @@ const obama = [
     comment: "IdsaytheworstPresidenteverbuthisVPistheworst",
     Year: "2022-03-13",
     Hour_z_time: 21,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -8909,7 +8909,7 @@ const obama = [
     comment: "SmartGuy",
     Year: "2022-03-13",
     Hour_z_time: 16,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8917,7 +8917,7 @@ const obama = [
     comment: "Traitor",
     Year: "2022-03-13",
     Hour_z_time: 11,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8925,7 +8925,7 @@ const obama = [
     comment: "Hesisstilladisgrace",
     Year: "2022-03-13",
     Hour_z_time: 11,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8934,7 +8934,7 @@ const obama = [
       "HemadeanextremelydifficultyearsAndthatwasafteradifficultcoupleoftermswithBushNowBidenisanextensionMakesitdifficulttolaughwithanything",
     Year: "2022-03-13",
     Hour_z_time: 10,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -8942,7 +8942,7 @@ const obama = [
     comment: "amisthediabetes",
     Year: "2022-03-13",
     Hour_z_time: 2,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8951,14 +8951,14 @@ const obama = [
       "WhatapieceofcrapDefinitelythekindofguythatletssweatshopworkersfeelhisbodyhair",
     Year: "2022-03-12",
     Hour_z_time: 23,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
     N: 1080,
     Year: "2022-03-12",
     Hour_z_time: 13,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -8966,7 +8966,7 @@ const obama = [
     comment: "Su",
     Year: "2022-03-12",
     Hour_z_time: 5,
-    Analysis: "O",
+    an: "O",
     Language: "id",
   },
   {
@@ -8975,7 +8975,7 @@ const obama = [
       "ThenTrumporribilisthenBidenescalatingwarSodisappointingbrObamatheBestaftertheKennedysbr",
     Year: "2022-03-11",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8984,7 +8984,7 @@ const obama = [
       "NoItotallyunderstandwhathesayingaboutTrumpandhehadnobusinessbeingvotedinbutIlltellyousomethingelseRoseanneBarrwasntlyingaboutValerieJsmockandwhatObamadidforherandinflatingherbuildingcostwhencometofindoutthatallofherbuildingscombinedtogetherwerentworthmilliondollarsshegotmilliondollarsforonebuildingcomplimentsofObamahelpingoutawhatdoyouwanttocallthatslumlordButhewasoneofourbetterpresidents",
     Year: "2022-03-11",
     Hour_z_time: 17,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -8992,7 +8992,7 @@ const obama = [
     comment: "quotManyatruewordutteredinjestquot",
     Year: "2022-03-11",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9000,7 +9000,7 @@ const obama = [
     comment: "Imisshim",
     Year: "2022-03-11",
     Hour_z_time: 10,
-    Analysis: "O",
+    an: "O",
     Language: "et",
   },
   {
@@ -9009,7 +9009,7 @@ const obama = [
       "DisgustingpukeHadthemediaNOTDONEACOMPLETECOVERUPonOBOZOScocaineinfusedhotelbootycallswithmaleprostitutesthemanywitnesseswhoknewhimasquotBATHHOUSEBARRYquothisadmirationofcommunistideologyorkinshipwiththeNationofIslamincludingphotoswithLouisFarrakhanhewouldneverhavebeennominatedletalonebeenabletodesecrateournationaspresident",
     Year: "2022-03-11",
     Hour_z_time: 9,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9017,7 +9017,7 @@ const obama = [
     comment: "Obamapostraitor",
     Year: "2022-03-11",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "pt",
   },
   {
@@ -9025,7 +9025,7 @@ const obama = [
     comment: "OneoftheworstPOTUSinAmericanhistory",
     Year: "2022-03-10",
     Hour_z_time: 19,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -9033,7 +9033,7 @@ const obama = [
     comment: "Thisguyisgreat",
     Year: "2022-03-10",
     Hour_z_time: 17,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9041,7 +9041,7 @@ const obama = [
     comment: "GOODRIDDANCEANDGOBACKTOWHEREEVERYOUCAMEFROMYOUPOS",
     Year: "2022-03-10",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9050,7 +9050,7 @@ const obama = [
       "UnimaginablethinkingwhatfollowedhimThehavoctheemboldedRussianpresidentandhisoldmatetrumpTheriseofignoranceandstupidity",
     Year: "2022-03-10",
     Hour_z_time: 13,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -9058,7 +9058,7 @@ const obama = [
     comment: "IgrewupduringhisreignCantbemoreproud",
     Year: "2022-03-09",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9067,7 +9067,7 @@ const obama = [
       "AfterfindingoutsomeofthethingsthatyouhavedoneaftervotingforyoumakesmequestionmyvotemorethaneverShameonyoufortakingadvantageofmyfaithinhumanityIprayforyouandthosethathavetakenadvantageofthepeopleyoushouldhavecaredfor",
     Year: "2022-03-09",
     Hour_z_time: 5,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9075,7 +9075,7 @@ const obama = [
     comment: "Hehasstylebutnotstreanth",
     Year: "2022-03-08",
     Hour_z_time: 22,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9084,7 +9084,7 @@ const obama = [
       "Iknowthisislikeyearstoolatebutcrazyhowhefinishedhisspeechadmiringthankingandencouragingthefreejournalistwhofocusondepthoverspeedandthenlessthanayearlateryougetatangerinepreachingtheexactopposite",
     Year: "2022-03-08",
     Hour_z_time: 10,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -9092,7 +9092,7 @@ const obama = [
     comment: "Peaceout",
     Year: "2022-03-08",
     Hour_z_time: 3,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9100,7 +9100,7 @@ const obama = [
     comment: "whywontyoulosersstopshowingthiscriminal",
     Year: "2022-03-07",
     Hour_z_time: 23,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -9109,7 +9109,7 @@ const obama = [
       "ObamaTheydidnotfightforaredAmericaorablueAmericabrbrAlsoObamaIncaseyouwerewonderingifImstillblackenoughbrbrMakessense",
     Year: "2022-03-07",
     Hour_z_time: 18,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -9117,7 +9117,7 @@ const obama = [
     comment: "مايكدروبمفيوزاندييرزاباوتتوبيانتومونثز",
     Year: "2022-03-07",
     Hour_z_time: 11,
-    Analysis: "O",
+    an: "O",
     Language: "ar",
   },
   {
@@ -9125,7 +9125,7 @@ const obama = [
     comment: "OrIshouldhavesaidtheracistconman",
     Year: "2022-03-07",
     Hour_z_time: 8,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9134,7 +9134,7 @@ const obama = [
       "ThisantiAmericanPOShesthereasonthiscountrysthewayitisrightnowhesprobablycontrollingBidenforhisthirdtermtotakeAmericadown",
     Year: "2022-03-07",
     Hour_z_time: 8,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9142,7 +9142,7 @@ const obama = [
     comment: "RunForPotUSin",
     Year: "2022-03-06",
     Hour_z_time: 22,
-    Analysis: "O",
+    an: "O",
     Language: "de",
   },
   {
@@ -9151,7 +9151,7 @@ const obama = [
       "HemakesaweirdHitlersignattheendtwofingersasmustacheandonehandupIneverlikedhimhehadnocouragetodotherightthingsandmadeonlythesmalldecisionsNotagreatpresidentBeeingthefirstblackpresidentisnotenaughtobegood",
     Year: "2022-03-06",
     Hour_z_time: 13,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -9159,7 +9159,7 @@ const obama = [
     comment: "AtimelessbeatdownthatchewedupTrumpcompletelyXx",
     Year: "2022-03-06",
     Hour_z_time: 5,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -9167,7 +9167,7 @@ const obama = [
     comment: "Obamaagrre",
     Year: "2022-03-06",
     Hour_z_time: 5,
-    Analysis: "O",
+    an: "O",
     Language: "pt",
   },
   {
@@ -9176,7 +9176,7 @@ const obama = [
       "RememberthisclownmockedRepublicanssayingRussiawasnothreattheColdWarwasoverWonderwhatUkrainewouldsaytothatBarrackYoualsostartedthedefundthepoliceidiocycoupledwiththelowestgrowthofanypresidentinUShistoryWhatanepicfailureofapresidency",
     Year: "2022-03-06",
     Hour_z_time: 1,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -9184,7 +9184,7 @@ const obama = [
     comment: "whoknewjohnboehnerhadasenseofhumor",
     Year: "2022-03-06",
     Hour_z_time: 1,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9193,7 +9193,7 @@ const obama = [
       "StillwatchinginItsamazingtheKoreanboybandBTSleaderRMandSUGAmadetheirsongMicdropafterRMhadwatchedthisspeechObamawasnotjustawonderfulspeakerbutabrilliantscenecreator",
     Year: "2022-03-05",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9201,7 +9201,7 @@ const obama = [
     comment: "Imissthiseraeverydayofmylife",
     Year: "2022-03-05",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9209,7 +9209,7 @@ const obama = [
     comment: "Heisactuallydoingastandupcomedy",
     Year: "2022-03-04",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9218,7 +9218,7 @@ const obama = [
       "IloveObamaWonderhowwewouldhavemanagedthecurrentsituationwithRussiaandUrkaine",
     Year: "2022-03-04",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9227,7 +9227,7 @@ const obama = [
       "DamnyouareafunnymanLoveyouMrPresidentsecretservicemanagedtobringMichelleback",
     Year: "2022-03-04",
     Hour_z_time: 17,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9235,7 +9235,7 @@ const obama = [
     comment: "Howareyouprésidente",
     Year: "2022-03-04",
     Hour_z_time: 17,
-    Analysis: "O",
+    an: "O",
     Language: "fr",
   },
   {
@@ -9243,7 +9243,7 @@ const obama = [
     comment: "ToldjokesforoverminutesWasajokeforyears",
     Year: "2022-03-04",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9251,7 +9251,7 @@ const obama = [
     comment: "Didhegetanextramicrophonesohecandropit",
     Year: "2022-03-04",
     Hour_z_time: 13,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9259,7 +9259,7 @@ const obama = [
     comment: "Thankgodhecanneverrunagain",
     Year: "2022-03-04",
     Hour_z_time: 2,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9267,7 +9267,7 @@ const obama = [
     comment: "yuck",
     Year: "2022-03-03",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "tr",
   },
   {
@@ -9275,7 +9275,7 @@ const obama = [
     comment: "ObamaisaGOTfan",
     Year: "2022-03-03",
     Hour_z_time: 14,
-    Analysis: "O",
+    an: "O",
     Language: "pt",
   },
   {
@@ -9284,7 +9284,7 @@ const obama = [
       "IfthisguyputhalfasmucheffortintobeingthePresidentashedidtryingtobetheclassclownhemightnothavebeentheutterfailureheactuallywasSoundedmorelikeabitterlittleman",
     Year: "2022-03-03",
     Hour_z_time: 7,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -9293,7 +9293,7 @@ const obama = [
       "ItwasasaddaywhenObamasadministrationendedTheinsanitybeganafterhim",
     Year: "2022-03-03",
     Hour_z_time: 2,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -9301,14 +9301,14 @@ const obama = [
     comment: "SogratefultohavehadBarakObamapresidentoftheUSAinmylifetime",
     Year: "2022-03-03",
     Hour_z_time: 1,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
     N: 1122,
     Year: "2022-03-03",
     Hour_z_time: 1,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9316,7 +9316,7 @@ const obama = [
     comment: "Howmuchthingshavechangefin",
     Year: "2022-03-02",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9324,7 +9324,7 @@ const obama = [
     comment: "TheworstPresidentinUShistoryandaservantofMoloch",
     Year: "2022-03-02",
     Hour_z_time: 21,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -9333,7 +9333,7 @@ const obama = [
       "ObamawasthefirstandONLYPresidentinUShistorytobeyearsatconstantwarHecreatedwaranddestroyedSyriaandLibyaHemadeincursionsinPakistanSomaliaYemenAndtheyevengavehimtheNobelPeacePrizeduetosomethingthatwasalreadyagreedandDIDNOTHAPPENthewithdrawaloftroopsfromIraqandAfghanistanHeleftaboutmeninIraqandonlyleftAfghanistanonAugustleavingthecountrytothosewhohadfoughtforyearsThelongestconflictinthecountryshistoryDemocratscaninfactEVERYTHINGwiththehelpofmediapropagandabrTrumpdamagedthewarindustryandwasremoved",
     Year: "2022-03-02",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9342,7 +9342,7 @@ const obama = [
       "Itsstillincredulousthatwewentfromoneofthemosteducatedaffluentcharismaticandwellspokenmeninhistoryaspresidenttoanabsoluteclownshow",
     Year: "2022-03-02",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9350,7 +9350,7 @@ const obama = [
     comment: "WhoelseiswatchingthisLEGENDinAquotBELEGENDARYquotmoment",
     Year: "2022-03-02",
     Hour_z_time: 10,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9358,7 +9358,7 @@ const obama = [
     comment: "TWOTHUMBSUPohhowIstillmissthisman",
     Year: "2022-03-01",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9366,7 +9366,7 @@ const obama = [
     comment: "StillgreatHowImisshim",
     Year: "2022-03-01",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9374,7 +9374,7 @@ const obama = [
     comment: "spottedpriyankachoprabtw",
     Year: "2022-03-01",
     Hour_z_time: 12,
-    Analysis: "O",
+    an: "O",
     Language: "sk",
   },
   {
@@ -9383,7 +9383,7 @@ const obama = [
       "OurpresidenthasbeenasensationalleaderIhaveenjoyedhisterminofficebecauseoftheprofessionalismwithwhichhehasruledHisplatformhasbeensofamilyfriendlyevenchildrenwillinglywatchthenews",
     Year: "2022-03-01",
     Hour_z_time: 5,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9391,7 +9391,7 @@ const obama = [
     comment: "DonRicklesneverlookedbetter",
     Year: "2022-02-28",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "da",
   },
   {
@@ -9399,7 +9399,7 @@ const obama = [
     comment: "WorstgoddamnpresidenteverNotopinionfacts",
     Year: "2022-02-28",
     Hour_z_time: 19,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -9408,7 +9408,7 @@ const obama = [
       "WellifIhadaspecialcoachingtellingmehowtoactandspeakthenIdbeagreatspeakertoobutmyfavoritemomentwastheopenmicwherehethoughtiswasshutoffandstatedweareallsostupid",
     Year: "2022-02-28",
     Hour_z_time: 16,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9416,7 +9416,7 @@ const obama = [
     comment: "Trumpgotthelastlaughthough",
     Year: "2022-02-28",
     Hour_z_time: 5,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9424,7 +9424,7 @@ const obama = [
     comment: "OneofTHEbeststanduproutinesIhaveEVERseenandorheardinmylife",
     Year: "2022-02-28",
     Hour_z_time: 4,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9433,7 +9433,7 @@ const obama = [
       "NowthatIknowwhatIknowaboutOBombersOhpotusletsnotdopizzapartiesinthebasementoftheWhitehouseatmidnightIamimpressedwithhowgoodofaconmanheisIimagineitisastrictprerequisitetobecomeapresidentofoneofthemostcorruptedcountriesintheG",
     Year: "2022-02-27",
     Hour_z_time: 17,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9442,7 +9442,7 @@ const obama = [
       "JustrememberthisclownendorsedtheDementialacedbrainJotaedoOBIDENforPresidentTheDemshavelosttheirwayandwentwaytoleftforthisDemocratFJBLetsGoBranden",
     Year: "2022-02-27",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9450,7 +9450,7 @@ const obama = [
     comment: "ThetokenPresidentisabettercomedianthanaPresidentthatsFoSho",
     Year: "2022-02-27",
     Hour_z_time: 16,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9458,7 +9458,7 @@ const obama = [
     comment: "Imisshim",
     Year: "2022-02-27",
     Hour_z_time: 14,
-    Analysis: "O",
+    an: "O",
     Language: "et",
   },
   {
@@ -9467,7 +9467,7 @@ const obama = [
       "YouralyinggaymanwhoswifeisamanhimselfWeknowwhoyouareandwhoyouarenotYouranutjobObomaNowIvesaidwhatIhavetosayNotlisteningnomore",
     Year: "2022-02-27",
     Hour_z_time: 10,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9475,7 +9475,7 @@ const obama = [
     comment: "ObamaistheMichaelJordanofstupidity",
     Year: "2022-02-27",
     Hour_z_time: 9,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -9483,7 +9483,7 @@ const obama = [
     comment: "BestpresidenteverMisshimsomuch",
     Year: "2022-02-27",
     Hour_z_time: 7,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9492,7 +9492,7 @@ const obama = [
       "WemissPresidentObamasintelligencehumorpersonalitystylecharmSomewhomwecanactuallyunderstandItwassorefreshingIwishhecancomeback",
     Year: "2022-02-26",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9501,7 +9501,7 @@ const obama = [
       "WorstPresidentinhistorydividedanationfundedterrorismhopefullypeoplelearntovoteonabilitiesnotlikability",
     Year: "2022-02-25",
     Hour_z_time: 1,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -9510,7 +9510,7 @@ const obama = [
       "WasthereeveroneofthesewithTrumpIdontrememberanythinglikethiseverdonewithhim",
     Year: "2022-02-24",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9518,7 +9518,7 @@ const obama = [
     comment: "ThecoolestprezweeverhadImisshim",
     Year: "2022-02-24",
     Hour_z_time: 17,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9527,7 +9527,7 @@ const obama = [
       "BackwhentherewasacoolpresidentlolNowitsbacktowhatitalwayswasallovertheworldOldfrickinmenwhojustughlol",
     Year: "2022-02-24",
     Hour_z_time: 6,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9535,7 +9535,7 @@ const obama = [
     comment: "GreatPresidentLovehearingPresidentObamaspeak",
     Year: "2022-02-24",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9543,7 +9543,7 @@ const obama = [
     comment: "Hekillitlmao",
     Year: "2022-02-23",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "fi",
   },
   {
@@ -9551,7 +9551,7 @@ const obama = [
     comment: "WatchthebodylanguageinthecrowdSayitdontdosignlanguage",
     Year: "2022-02-23",
     Hour_z_time: 20,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9559,7 +9559,7 @@ const obama = [
     comment: "Justthethruth",
     Year: "2022-02-23",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9567,7 +9567,7 @@ const obama = [
     comment: "Itis",
     Year: "2022-02-23",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9575,7 +9575,7 @@ const obama = [
     comment: "NoJustaphone",
     Year: "2022-02-23",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9583,7 +9583,7 @@ const obama = [
     comment: "Right",
     Year: "2022-02-23",
     Hour_z_time: 16,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9591,7 +9591,7 @@ const obama = [
     comment: "Dothat",
     Year: "2022-02-23",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9599,7 +9599,7 @@ const obama = [
     comment: "Both",
     Year: "2022-02-23",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9607,7 +9607,7 @@ const obama = [
     comment: "GiveherSecuritywithBighuts",
     Year: "2022-02-23",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9615,7 +9615,7 @@ const obama = [
     comment: "Lethergo",
     Year: "2022-02-23",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "nl",
   },
   {
@@ -9623,7 +9623,7 @@ const obama = [
     comment: "Nocab",
     Year: "2022-02-23",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "pt",
   },
   {
@@ -9631,7 +9631,7 @@ const obama = [
     comment: "Hihi",
     Year: "2022-02-23",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "so",
   },
   {
@@ -9639,7 +9639,7 @@ const obama = [
     comment: "Charming",
     Year: "2022-02-23",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9647,7 +9647,7 @@ const obama = [
     comment: "Santė",
     Year: "2022-02-23",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "lt",
   },
   {
@@ -9655,7 +9655,7 @@ const obama = [
     comment: "Loveit",
     Year: "2022-02-23",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "sl",
   },
   {
@@ -9663,7 +9663,7 @@ const obama = [
     comment: "Blackjack",
     Year: "2022-02-23",
     Hour_z_time: 15,
-    Analysis: "N",
+    an: "N",
     Language: "pl",
   },
   {
@@ -9671,7 +9671,7 @@ const obama = [
     comment: "Allaboutbathrooms",
     Year: "2022-02-23",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9679,7 +9679,7 @@ const obama = [
     comment: "BeJustu",
     Year: "2022-02-23",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "de",
   },
   {
@@ -9687,7 +9687,7 @@ const obama = [
     comment: "No",
     Year: "2022-02-23",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "no",
   },
   {
@@ -9695,7 +9695,7 @@ const obama = [
     comment: "Metoo",
     Year: "2022-02-23",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9703,7 +9703,7 @@ const obama = [
     comment: "DidagreatJob",
     Year: "2022-02-23",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9711,7 +9711,7 @@ const obama = [
     comment: "No",
     Year: "2022-02-23",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "no",
   },
   {
@@ -9719,7 +9719,7 @@ const obama = [
     comment: "Oh",
     Year: "2022-02-23",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "de",
   },
   {
@@ -9727,7 +9727,7 @@ const obama = [
     comment: "Hyagain",
     Year: "2022-02-23",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "tl",
   },
   {
@@ -9735,7 +9735,7 @@ const obama = [
     comment: "Does",
     Year: "2022-02-23",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "af",
   },
   {
@@ -9743,7 +9743,7 @@ const obama = [
     comment: "Noprobbra",
     Year: "2022-02-23",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "sl",
   },
   {
@@ -9751,7 +9751,7 @@ const obama = [
     comment: "StillTRUEtoday",
     Year: "2022-02-23",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9759,7 +9759,7 @@ const obama = [
     comment: "Manwhatcameafterhimawiganddietcoke",
     Year: "2022-02-23",
     Hour_z_time: 6,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9768,7 +9768,7 @@ const obama = [
       "AfterfiveyearsIsawthisagainAmazingspeakerpoisedcharismaticIcouldwatchhimforhoursHewillbegreatlymissedThankyouMrPresidentMayGodblessyouandyourfamilyWhatIwouldntgiveordotohavetheAmericawehadwhenyoupresidedbrThankyouYouarelovedBlessings",
     Year: "2022-02-23",
     Hour_z_time: 5,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9776,7 +9776,7 @@ const obama = [
     comment: "LadiesfindyourselfamanwholovesyouasmuchasObamalovesObama",
     Year: "2022-02-22",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9784,7 +9784,7 @@ const obama = [
     comment: "HowdidwegofromthistoanilliterateangryorangepuppetInsaneactually",
     Year: "2022-02-22",
     Hour_z_time: 20,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -9792,7 +9792,7 @@ const obama = [
     comment: "Pleasedonrgo",
     Year: "2022-02-21",
     Hour_z_time: 17,
-    Analysis: "O",
+    an: "O",
     Language: "es",
   },
   {
@@ -9800,7 +9800,7 @@ const obama = [
     comment: "RacebaitingPOS",
     Year: "2022-02-21",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9809,7 +9809,7 @@ const obama = [
       "ItsstillfunnybutinapainfulsortofwaywatchingthisnowIfonlywewithabrainhadrealizedTrumpwasmorethanajoke",
     Year: "2022-02-21",
     Hour_z_time: 9,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9817,7 +9817,7 @@ const obama = [
     comment: "whoknewJobBidenwasgoingtobethenextpresident",
     Year: "2022-02-21",
     Hour_z_time: 8,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9825,7 +9825,7 @@ const obama = [
     comment: "ObamawasThesecondworstpresidentafterBidenwhatadisgrace",
     Year: "2022-02-21",
     Hour_z_time: 3,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -9833,7 +9833,7 @@ const obama = [
     comment: "ratherwhoHEwillbeujackassTrumpisstillupeoplesdaddy",
     Year: "2022-02-21",
     Hour_z_time: 1,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9842,7 +9842,7 @@ const obama = [
       "WhendoIgetmybiggestcheckobahmaallIwantisenoughforanewhouseandabrahamsasondiooiinLincoln",
     Year: "2022-02-20",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9851,7 +9851,7 @@ const obama = [
       "ObamabuiltthebiggestdividebetweenwhiteandblackpeopleWearetryingtotearitdowneventodayin",
     Year: "2022-02-20",
     Hour_z_time: 21,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -9860,7 +9860,7 @@ const obama = [
       "Notbecausehewasablackmanhejustwasdowntoearthverysmallgroupofpresidentsnotmany",
     Year: "2022-02-20",
     Hour_z_time: 17,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -9868,7 +9868,7 @@ const obama = [
     comment: "YouareTHEpersonwhocansayit",
     Year: "2022-02-20",
     Hour_z_time: 10,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9876,7 +9876,7 @@ const obama = [
     comment: "KindamissObamaThebestpresidentintheworldsendinglovefromIndonesia",
     Year: "2022-02-20",
     Hour_z_time: 8,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9884,7 +9884,7 @@ const obama = [
     comment: "Super",
     Year: "2022-02-20",
     Hour_z_time: 4,
-    Analysis: "P",
+    an: "P",
     Language: "id",
   },
   {
@@ -9892,7 +9892,7 @@ const obama = [
     comment: "Whataloser",
     Year: "2022-02-19",
     Hour_z_time: 20,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9900,7 +9900,7 @@ const obama = [
     comment: "HowdidwegofromObamatoDTbrilliancetoshame",
     Year: "2022-02-19",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9908,7 +9908,7 @@ const obama = [
     comment: "WaraucheinKriegstreiber",
     Year: "2022-02-19",
     Hour_z_time: 8,
-    Analysis: "O",
+    an: "O",
     Language: "de",
   },
   {
@@ -9916,7 +9916,7 @@ const obama = [
     comment: "Trumpwasaabominationofclass",
     Year: "2022-02-19",
     Hour_z_time: 8,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -9924,7 +9924,7 @@ const obama = [
     comment: "Hewasacoolcat",
     Year: "2022-02-19",
     Hour_z_time: 8,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9932,7 +9932,7 @@ const obama = [
     comment: "GoodriddanceAndnowwehaveanevenbiggerjerkthanhimFJB",
     Year: "2022-02-19",
     Hour_z_time: 5,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9941,7 +9941,7 @@ const obama = [
       "IloveyourwifeshelookssobeautifulJesusshineinthesunsheissuperbeautifulsheshebelongwithyouBarackObamasoyoureyouryourwifethatsheishere",
     Year: "2022-02-19",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9949,7 +9949,7 @@ const obama = [
     comment: "WORSTPRESIDENTSTHISRACISTANDBIDEN",
     Year: "2022-02-18",
     Hour_z_time: 13,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -9958,7 +9958,7 @@ const obama = [
       "BackwhennodramaandsocialmediahadlesshateanddivisionIneverevengaveadamnaboutpoliticsuntiltrumpandhisracistfollowerschangedthenarrativeTrumpfollowersandhistimeinofficemadeusallpayattention",
     Year: "2022-02-18",
     Hour_z_time: 9,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -9966,7 +9966,7 @@ const obama = [
     comment: "ImnotGAYbutIwouldhavehisbabyJustsaying",
     Year: "2022-02-18",
     Hour_z_time: 8,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -9974,7 +9974,7 @@ const obama = [
     comment: "Imisshimsoooooooooomuch",
     Year: "2022-02-18",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "so",
   },
   {
@@ -9983,7 +9983,7 @@ const obama = [
       "HESBRILLIANTDIGNIFIEDRESPECTFULHONESTEVENTEMPEREDINTELLIGENTCLASSYANDQUITEFUNNY",
     Year: "2022-02-17",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -9991,7 +9991,7 @@ const obama = [
     comment: "WorldlyGuy",
     Year: "2022-02-17",
     Hour_z_time: 11,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -10000,7 +10000,7 @@ const obama = [
       "ObamamusthavesomeScottishbloodinhimwiththatsenseofhumourorisitascotsscriptwriter",
     Year: "2022-02-17",
     Hour_z_time: 11,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -10008,7 +10008,7 @@ const obama = [
     comment: "WhatwillBorissayonhisoutwardspeechNotinasameclassIguess",
     Year: "2022-02-17",
     Hour_z_time: 10,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -10016,7 +10016,7 @@ const obama = [
     comment: "Imisshim",
     Year: "2022-02-17",
     Hour_z_time: 2,
-    Analysis: "O",
+    an: "O",
     Language: "et",
   },
   {
@@ -10024,7 +10024,7 @@ const obama = [
     comment: "RememberamericaheissocialismandonewithClintonsandbiden",
     Year: "2022-02-16",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -10033,7 +10033,7 @@ const obama = [
       "CPTarejokesthatwhitepeoplecantmakesoObamacantmakethemthenrightWhydowekeepforgettingheshalfwhiteXD",
     Year: "2022-02-16",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10041,7 +10041,7 @@ const obama = [
     comment: "HesmypresidentforeverbrWEMISSYOUBARAK",
     Year: "2022-02-16",
     Hour_z_time: 8,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -10050,7 +10050,7 @@ const obama = [
       "ObamawasoneofthemoststableUSpresidentSincethenwevehadanorangutanandnowperhapstheweakestUSpresidentinthehistory",
     Year: "2022-02-16",
     Hour_z_time: 6,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10059,7 +10059,7 @@ const obama = [
       "ThisoldfartistryingtocastattentionelsewherewhileachievingthehighestinflationinyearsletalonefoodskyrocketingpricesgasalmosttwiceasmuchwithinayearandforgetaboutbuyingahouseletalonerentingwhichisnowthenewAmericandreambrbrIntimesofinflationandathreatofwarmadebysocialistsmediaandpoliticianstheonlyonesmakingfortunesarethesamepoliticiansandtheirfriendsthesuperrichwhileJohnandMaryDoegettheshaftbrbrNomatterwhatthisoldfartdoesthisyearregardlessallsmokeandmirrorshewilllosethisyearelectionandrememberedasthepresidentwhobeatCarterastheworstcrapeverbrbrBTWwhatthefareoursatellitesforornowadaysareasuselessashimandhisminions",
     Year: "2022-02-16",
     Hour_z_time: 4,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -10068,7 +10068,7 @@ const obama = [
       "Hewasneverlawfullyelectedeitherdemocratmanipulationateverylevelduringtheelectioncounting",
     Year: "2022-02-16",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -10076,7 +10076,7 @@ const obama = [
     comment: "GodImissthismanThewholepackage",
     Year: "2022-02-15",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10084,7 +10084,7 @@ const obama = [
     comment: "Obamamadepoliticscool",
     Year: "2022-02-15",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "pt",
   },
   {
@@ -10093,7 +10093,7 @@ const obama = [
       "quotJakeTapperleftjournalismtojoinCNNquotSavageOneofmanymanysavagemoments",
     Year: "2022-02-15",
     Hour_z_time: 13,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10101,7 +10101,7 @@ const obama = [
     comment: "NeverdidacountrysinklowerorsofastorsoDEEPthantheUSin",
     Year: "2022-02-14",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10110,7 +10110,7 @@ const obama = [
       "BarackObamaisanabsolutejokeofamanbrInlovewithhimselfpowerandmoneybrTheyreverysoundofhisvoicemakesmesicktomystomachbrHeandhispresidentofvicebrAlmostruinedourbelovedrepublicbrTheyshouldbeinjailfortreasonbrShowsyouhowdumbsomeofourvotersare",
     Year: "2022-02-14",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10118,7 +10118,7 @@ const obama = [
     comment: "Goodbyeandgoodriddanceturkeyneck",
     Year: "2022-02-14",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10126,7 +10126,7 @@ const obama = [
     comment: "Andtheyhatedhim",
     Year: "2022-02-14",
     Hour_z_time: 9,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -10134,7 +10134,7 @@ const obama = [
     comment: "Great",
     Year: "2022-02-14",
     Hour_z_time: 7,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10143,7 +10143,7 @@ const obama = [
       "WemissamanwhocaredabouttheAmericanpeopleandBidenistryingevenwithRepublicansobstructinghim",
     Year: "2022-02-14",
     Hour_z_time: 6,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -10152,7 +10152,7 @@ const obama = [
       "TheNWOcrewtyranttryingsohardtomakeTrumplookasifheisthecrazyoneNeverthelesslikeIvebeensayingtheyallsitatthesametabletheelitetable",
     Year: "2022-02-14",
     Hour_z_time: 6,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -10160,7 +10160,7 @@ const obama = [
     comment: "jokercardsitsok",
     Year: "2022-02-13",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10168,7 +10168,7 @@ const obama = [
     comment: "EveryoneknowsurPACdaditsokLol",
     Year: "2022-02-13",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10176,7 +10176,7 @@ const obama = [
     comment: "Sosofunnywhatagoodandhandsomepresident",
     Year: "2022-02-13",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10184,7 +10184,7 @@ const obama = [
     comment: "Giveittomestraightnotshootinthehead",
     Year: "2022-02-13",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10193,7 +10193,7 @@ const obama = [
       "LolIknowIgohowsthatgoingtoworkudoreadFacebooklolbrbrBoominginwithAladdinplayinginmybrbrKamelsareuglycarsbrbrbrYaknowwhatIknowthatImtool",
     Year: "2022-02-13",
     Hour_z_time: 5,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10201,7 +10201,7 @@ const obama = [
     comment: "Whenabrainhealingtherapyisneededjustplayhisspeeches",
     Year: "2022-02-13",
     Hour_z_time: 5,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10210,7 +10210,7 @@ const obama = [
       "AndtolookhowournextonesplayedoutYoucantbeatthisHelovedJoenevermentionednothingabouthanginghisVPNIGHTampDAYitwas",
     Year: "2022-02-13",
     Hour_z_time: 5,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10218,7 +10218,7 @@ const obama = [
     comment: "ThebestPresidenteverThankyouforsharingyourlifewithourcountry",
     Year: "2022-02-12",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10227,7 +10227,7 @@ const obama = [
       "IreallylikeBarackObamaandhiswifetheyreamazingweneedmorepeopleinthisworldlikethem",
     Year: "2022-02-12",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10235,7 +10235,7 @@ const obama = [
     comment: "Misshim",
     Year: "2022-02-12",
     Hour_z_time: 14,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -10243,7 +10243,7 @@ const obama = [
     comment: "AllthefemaleleadersofnationsgavehimakissHewassopopular",
     Year: "2022-02-12",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10252,7 +10252,7 @@ const obama = [
       "HisinviteofallthosewonderfulmusiciansfromallGenresattheWhiteHousewasbadallofthem",
     Year: "2022-02-12",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10261,7 +10261,7 @@ const obama = [
       "IdriveakamelrightuthinkitlookslikeakamellolIdoalotitsgoodlolbrbrLolIknow",
     Year: "2022-02-12",
     Hour_z_time: 9,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10269,7 +10269,7 @@ const obama = [
     comment: "Trumpanbidencouldneverdothishebringslightlmao",
     Year: "2022-02-12",
     Hour_z_time: 5,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10277,7 +10277,7 @@ const obama = [
     comment: "Bringusanotheryoungblackpresidentnottheseoldwhiteones",
     Year: "2022-02-12",
     Hour_z_time: 5,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10286,7 +10286,7 @@ const obama = [
       "HowpeoplecansupportthisguyisactuallycrazyBlindedbycharismaandsomejokes",
     Year: "2022-02-11",
     Hour_z_time: 20,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -10294,7 +10294,7 @@ const obama = [
     comment: "ahrefhttpswwwyoutubecomwatchvNxFkEjKPCamptmsa",
     Year: "2022-02-11",
     Hour_z_time: 20,
-    Analysis: "O",
+    an: "O",
     Language: "cy",
   },
   {
@@ -10302,7 +10302,7 @@ const obama = [
     comment: "GodImissthisman",
     Year: "2022-02-11",
     Hour_z_time: 18,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -10311,7 +10311,7 @@ const obama = [
       "TruelymisstheobamafamilyintheWHwhichwillneverbethesameTheywerethebestfamilynoonecouldfindaflawPowertheblackfamilyYousettheexampleTHANKYOU",
     Year: "2022-02-11",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10320,7 +10320,7 @@ const obama = [
       "TheyearningfordaysofoldwhenwestillfeltsafeandwarminourhomeswhencommonsensestillmadesensewhennoonemanwasbiggerthanthelaworourDEMOCRACYIfearforourfutureandthoseofourchildrenForGodsakepeoplepleaseVOTE",
     Year: "2022-02-11",
     Hour_z_time: 7,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10328,7 +10328,7 @@ const obama = [
     comment: "ImissObama",
     Year: "2022-02-11",
     Hour_z_time: 3,
-    Analysis: "O",
+    an: "O",
     Language: "et",
   },
   {
@@ -10336,7 +10336,7 @@ const obama = [
     comment: "Lovethisman",
     Year: "2022-02-10",
     Hour_z_time: 17,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10344,7 +10344,7 @@ const obama = [
     comment: "HeknewEXACTLYwhatwasabouttohappen",
     Year: "2022-02-10",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10352,7 +10352,7 @@ const obama = [
     comment: "Thatdidntagewell",
     Year: "2022-02-10",
     Hour_z_time: 7,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -10360,7 +10360,7 @@ const obama = [
     comment: "Jerk",
     Year: "2022-02-10",
     Hour_z_time: 6,
-    Analysis: "O",
+    an: "O",
     Language: "id",
   },
   {
@@ -10368,7 +10368,7 @@ const obama = [
     comment: "AndwehadtoenduretrumpafterObamaOuch",
     Year: "2022-02-10",
     Hour_z_time: 4,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -10376,7 +10376,7 @@ const obama = [
     comment: "Hipocrita",
     Year: "2022-02-10",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "ca",
   },
   {
@@ -10384,7 +10384,7 @@ const obama = [
     comment: "Thismancanevenbecomeastandupcomedian",
     Year: "2022-02-09",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -10393,7 +10393,7 @@ const obama = [
       "CantbelieveitsonlyfiveyearsagothatthemanstandingtherehassomuchsenseofhumorIreallywishUnitedStatescanhaveanotheryoungpresidentagainThelasttwoarejusttoooldsooldthatUSfeelssooutdated",
     Year: "2022-02-09",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10402,7 +10402,7 @@ const obama = [
       "Doesntitsuckthatyoucantformyourownopinioninsteadofrelyingonmediaortheinternettofigureitout",
     Year: "2022-02-08",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10410,7 +10410,7 @@ const obama = [
     comment: "BelovingandmissingmesomeObama",
     Year: "2022-02-08",
     Hour_z_time: 16,
-    Analysis: "P",
+    an: "P",
     Language: "no",
   },
   {
@@ -10418,7 +10418,7 @@ const obama = [
     comment: "Oneofthemostnaturalandupbeatpoliticianofentirehistory",
     Year: "2022-02-08",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10426,7 +10426,7 @@ const obama = [
     comment: "Barackyoureglib",
     Year: "2022-02-08",
     Hour_z_time: 9,
-    Analysis: "O",
+    an: "O",
     Language: "tr",
   },
   {
@@ -10434,7 +10434,7 @@ const obama = [
     comment: "Ithinkheisgay",
     Year: "2022-02-08",
     Hour_z_time: 7,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10443,7 +10443,7 @@ const obama = [
       "SuchadifferentcountrysinceyouleftofficeMrPresidentbrNotforthebetterImafraidMissingthatObamanessyougavesowell",
     Year: "2022-02-07",
     Hour_z_time: 22,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -10452,7 +10452,7 @@ const obama = [
       "AterriblewarmongerwhopromisedtheinnercityblackcommunitysomuchbutdeliveredNOTHINGandrepatriatedmorepeoplebackacrossthesouthernborderthananypresidentinhistoryAsahalfblackmanhimselfhewasadisgrace",
     Year: "2022-02-07",
     Hour_z_time: 20,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -10460,7 +10460,7 @@ const obama = [
     comment: "JoeIneedsomefocusheabrevenyearsafterThisstillgetsme",
     Year: "2022-02-07",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -10468,7 +10468,7 @@ const obama = [
     comment: "AmazingspeechIdidntknowPresidentObamawasacomedianLOLLoveit",
     Year: "2022-02-07",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10476,7 +10476,7 @@ const obama = [
     comment: "SHOUTOUTTOSASHAWHATABEAUTIFULYOUNGLADY",
     Year: "2022-02-07",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10485,7 +10485,7 @@ const obama = [
       "USNEEDSTOCHANGETHETERMLIMITSTOORTERMSIFWEAREFORTHEPEOPLENVOTEDBYTHEPEOPLEWHYCANTTHEPEOPLEVOTENDECIDEITSNOWAYANYPRESIDENTCANCHANGETHECOUNTRYINYEARSTHERULESAREAJOKEORITSDESIGNEDTOBEOFFBALANCEFOREVERTHETERMLIMITSbrNEEDSTOBECHANGEDIFNOTCHANGEDTHEUSWILLNEVERGOANYWHERE",
     Year: "2022-02-07",
     Hour_z_time: 3,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -10493,7 +10493,7 @@ const obama = [
     comment: "Michellehassuchalargehead",
     Year: "2022-02-06",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10501,7 +10501,7 @@ const obama = [
     comment: "itsweirdbuticomebacktothisspeechforcomfortlol",
     Year: "2022-02-06",
     Hour_z_time: 18,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10510,7 +10510,7 @@ const obama = [
       "LOVEHIMORHATEHIMBUTWHENHEWASPRESIDENTOFUSpotusIANDIGUESSMOSTOFTHEPEOPLELIKEMEHADHUGERESPECTFORTHEAMERICANSbrNomatchincomparableaclassapartthanksforbeinganexemplaryworldleadermodel",
     Year: "2022-02-06",
     Hour_z_time: 17,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10518,7 +10518,7 @@ const obama = [
     comment: "ItsandbacktohearhisspeechIsomisshim",
     Year: "2022-02-06",
     Hour_z_time: 14,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -10526,7 +10526,7 @@ const obama = [
     comment: "HespeakslikeGeorgeClooney",
     Year: "2022-02-06",
     Hour_z_time: 12,
-    Analysis: "O",
+    an: "O",
     Language: "af",
   },
   {
@@ -10534,7 +10534,7 @@ const obama = [
     comment: "LittledidFormerpresidentObamaknowthatjoeBidenwouldbepresident",
     Year: "2022-02-05",
     Hour_z_time: 14,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -10542,7 +10542,7 @@ const obama = [
     comment: "TheknifeinthebackaboutnetworthButthecigarettejokewasthelevel",
     Year: "2022-02-04",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10550,7 +10550,7 @@ const obama = [
     comment: "BLhnM",
     Year: "2022-02-04",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "de",
   },
   {
@@ -10558,7 +10558,7 @@ const obama = [
     comment: "WethoughtthismotherefferwasbadandthenBrandonstoletheelection",
     Year: "2022-02-04",
     Hour_z_time: 7,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -10567,7 +10567,7 @@ const obama = [
       "IwouldliketopointoutthatovercolouredAmericansdiedduringtheBLMriotsandnoonehastakenamomenttoacknowledgethoseforgottencolouredindividualsThereshouldbeaninvestigationimmediatelyonhowthatmesshappenedAllthisfussaboutthatwaswhitepersonwhogotshotletsgettotherootofwhowasbehindBLMandmakethempayforthethelossofwonderfulblackAmericanlivesWhyisthemedianottalkingaboutthemDoBlacklivesactuallynotmatterDidntseeNancyPelosiproposeanyminuteofsilencetorememberthosepeopleNaherpoliticalinterestsaremoreimportantthaninnocentblackAmericanheroes",
     Year: "2022-02-04",
     Hour_z_time: 5,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10575,7 +10575,7 @@ const obama = [
     comment: "Weshouldprobablybeplayinggolforsomething",
     Year: "2022-02-04",
     Hour_z_time: 2,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -10584,7 +10584,7 @@ const obama = [
       "worsepresidentsincecarterthenjoebidencamealongandtookthespotlight",
     Year: "2022-02-04",
     Hour_z_time: 1,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -10592,7 +10592,7 @@ const obama = [
     comment: "LolleftjournalismtogotocnnEvenyearsagoheknewcnnwasajoke",
     Year: "2022-02-04",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10600,7 +10600,7 @@ const obama = [
     comment: "JakeTapperhadtohavesomewineonthatonelolbrHilarious",
     Year: "2022-02-03",
     Hour_z_time: 12,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -10608,7 +10608,7 @@ const obama = [
     comment: "HowdidAmericamoveonfromthistoTrump",
     Year: "2022-02-03",
     Hour_z_time: 6,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -10616,7 +10616,7 @@ const obama = [
     comment: "ImissyoubrThankyouforyourtime",
     Year: "2022-02-03",
     Hour_z_time: 6,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -10625,7 +10625,7 @@ const obama = [
       "ThisiswideeyeexpolsionTheroastthathegavetowardsTrumpIcouldntstoplaughingthatIwascryingIhadnoideathatObamawashilareousandfunnyHiscoductisnotunderhandedbutagoodexample",
     Year: "2022-02-03",
     Hour_z_time: 6,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10633,7 +10633,7 @@ const obama = [
     comment: "thishasntagedwell",
     Year: "2022-02-03",
     Hour_z_time: 0,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -10642,7 +10642,7 @@ const obama = [
       "IdontknowwhyonesideitzjfkAndothersideishismirrorimageObamaTimeprovedthatthereisnoblackandwhitemenWhenNationsrespectalltheracestheresultisaSTATESMEN",
     Year: "2022-02-02",
     Hour_z_time: 18,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -10650,7 +10650,7 @@ const obama = [
     comment: "Pomylonepaństwazprezydentemźlewybierakomputer",
     Year: "2022-02-02",
     Hour_z_time: 15,
-    Analysis: "N",
+    an: "N",
     Language: "pl",
   },
   {
@@ -10658,7 +10658,7 @@ const obama = [
     comment: "Disgusting",
     Year: "2022-02-02",
     Hour_z_time: 10,
-    Analysis: "N",
+    an: "N",
     Language: "tl",
   },
   {
@@ -10666,7 +10666,7 @@ const obama = [
     comment: "Thecomradeandcnnjoke",
     Year: "2022-02-02",
     Hour_z_time: 5,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -10674,7 +10674,7 @@ const obama = [
     comment: "OhsofunnyHaHaHahaHaha",
     Year: "2022-02-02",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "so",
   },
   {
@@ -10682,7 +10682,7 @@ const obama = [
     comment: "ILoveditwhenhedropthemic",
     Year: "2022-02-02",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10690,7 +10690,7 @@ const obama = [
     comment: "Thisispuregold",
     Year: "2022-02-01",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10698,7 +10698,7 @@ const obama = [
     comment: "GeçersizkuruşObama",
     Year: "2022-02-01",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "tr",
   },
   {
@@ -10706,7 +10706,7 @@ const obama = [
     comment: "Imisshisintelligenceandwhit",
     Year: "2022-02-01",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -10715,7 +10715,7 @@ const obama = [
       "AsesinocorruptoesbirrodelaélitecriminalylíderdelgrupocriminaldentrodelFBIbrTerminóeltrabajoqueinicióelgenocidadeBushVendieronlasoberaníadelosEEUUalcomunismodelagrancorporaciónTraicionaronalpueblonorteamericano",
     Year: "2022-02-01",
     Hour_z_time: 12,
-    Analysis: "N",
+    an: "N",
     Language: "es",
   },
   {
@@ -10723,7 +10723,7 @@ const obama = [
     comment: "ObamaissuchagoodspeakerjustliketheDonaldlol",
     Year: "2022-02-01",
     Hour_z_time: 4,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10731,7 +10731,7 @@ const obama = [
     comment: "Beautifulwife",
     Year: "2022-01-31",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10739,7 +10739,7 @@ const obama = [
     comment: "TGyourenotpresidentanymore",
     Year: "2022-01-31",
     Hour_z_time: 21,
-    Analysis: "O",
+    an: "O",
     Language: "ca",
   },
   {
@@ -10748,7 +10748,7 @@ const obama = [
       "mygodsuchawonderfulspeechbutwecanfeeltheemotionalandsadnesshefeelsdeepinsidethathehadtoleaveafteryearsawonderfulmanandawonderfulspeech",
     Year: "2022-01-31",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10756,7 +10756,7 @@ const obama = [
     comment: "Gottobeskepticalofsomeonewhocommendsthemediafortheirhonesty",
     Year: "2022-01-31",
     Hour_z_time: 6,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -10764,7 +10764,7 @@ const obama = [
     comment: "Jestpresenfhurekenyantocorchehisfriendralionding",
     Year: "2022-01-30",
     Hour_z_time: 18,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -10772,7 +10772,7 @@ const obama = [
     comment: "Comanderinchiefofcorchinghelplikekenys",
     Year: "2022-01-30",
     Hour_z_time: 18,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -10780,7 +10780,7 @@ const obama = [
     comment: "presendentofamericanandpresendnormintiontothpresendofkenys",
     Year: "2022-01-30",
     Hour_z_time: 18,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -10789,7 +10789,7 @@ const obama = [
       "IgotastorythatcanprovethatIwassetupbyaMajorRefrigerationCompanyandtheemployeesplannedtogetmecaughtwithafirearmImfacingcountsofTerroristActToConductAMassShootingMaybewecantalkofftherecordSothatyoucanhearmysideIcalledHelpMeHowardbutIguesshehasntheardmymessagesyetIvecalledandemailedhimmultipletimesIjustwanttotellmystoryThisguybrokethechainofcommandtofiremebecauseofsomethinghisfriendorrelativesaidandthenplannedtogetmecaughtwithafirearmHearmeoutMaybethisstorycouldbeworthsomethingTheFBIwascontacted",
     Year: "2022-01-30",
     Hour_z_time: 8,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10797,7 +10797,7 @@ const obama = [
     comment: "Youarethebestofallweallmissyou",
     Year: "2022-01-29",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10805,7 +10805,7 @@ const obama = [
     comment: "Sorelaxingtolistentoanintelligentperson",
     Year: "2022-01-29",
     Hour_z_time: 18,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10813,7 +10813,7 @@ const obama = [
     comment: "nowTHATshowyouunifythenation",
     Year: "2022-01-29",
     Hour_z_time: 3,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -10821,7 +10821,7 @@ const obama = [
     comment: "IreallywishIcouldseethissideofpoliticians",
     Year: "2022-01-29",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10829,7 +10829,7 @@ const obama = [
     comment: "HesagoodactorFakeaf",
     Year: "2022-01-28",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10838,7 +10838,7 @@ const obama = [
       "Itsinterestingtolookatthisfunnypuppetofgoodoldtimeofwesternimperialismnowwhenitstimehasgone",
     Year: "2022-01-28",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10847,7 +10847,7 @@ const obama = [
       "PresidentObamaissograciousandhonorablebrbrThereissomuchspinningandwrongfulhandlingofAfricanAmericansandAfricandescentingeneralandtheMajorityiscomingfromthePopeandtheVaticanbrbrPerhapsiftheystopselfsabotagingtheirlifewithsexualrestrictionstherewouldbepeaceonearthandlessunexpressedurgesmisdirectedasViolancebrbrThatisthesolesourceoftheaggressivetendenciesandmaliceswellthatplusnowifetokeepyouonyourtoesbrbryearsagotheyidentifythatbutdecidedtoquotTemporarilyquotdedicatetheirlifefortheteachingandspreadofChristianitybrbrNowadaysthereisnoneedforlongtravelingeverythingisbeingcommunicatedviatheInternetbrStilltheChurchischoosingtofollowonsacrificesthattheycannotupholdbrbrItisagreatwishfromthedivinetohavethoseideasretireandbuildalife",
     Year: "2022-01-28",
     Hour_z_time: 9,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10855,7 +10855,7 @@ const obama = [
     comment: "hugepimpleonhisfacelooksscaryanddisgusting",
     Year: "2022-01-28",
     Hour_z_time: 2,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -10863,7 +10863,7 @@ const obama = [
     comment: "Obamawasagoodpresident",
     Year: "2022-01-27",
     Hour_z_time: 18,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10871,7 +10871,7 @@ const obama = [
     comment: "Darrenmajor",
     Year: "2022-01-27",
     Hour_z_time: 4,
-    Analysis: "P",
+    an: "P",
     Language: "sv",
   },
   {
@@ -10879,7 +10879,7 @@ const obama = [
     comment: "Whatagodawfulpresident",
     Year: "2022-01-27",
     Hour_z_time: 1,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -10887,7 +10887,7 @@ const obama = [
     comment: "DTcouldntdobettersohedidnt",
     Year: "2022-01-26",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10895,7 +10895,7 @@ const obama = [
     comment: "VeryVeryfunny",
     Year: "2022-01-26",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10903,7 +10903,7 @@ const obama = [
     comment: "whatagreatcomedianhewasRIPyoungmorganfreeman",
     Year: "2022-01-26",
     Hour_z_time: 9,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10912,7 +10912,7 @@ const obama = [
       "BarackHusseinObamaGodIcantseemtogetpastthosenameswasandisacowardandwillforeverberememberedasbendingoverforourenemies",
     Year: "2022-01-26",
     Hour_z_time: 8,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -10920,7 +10920,7 @@ const obama = [
     comment: "IfonlyAmericathenwehadaLEADERofFREEWORLDGREATSPEECH",
     Year: "2022-01-25",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10928,7 +10928,7 @@ const obama = [
     comment: "quotAndthisoneisfromweeksagoquot",
     Year: "2022-01-25",
     Hour_z_time: 21,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -10936,7 +10936,7 @@ const obama = [
     comment: "IrememberthosegoodolddaysToobadBidendoesnt",
     Year: "2022-01-25",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10945,7 +10945,7 @@ const obama = [
       "NoticedthattheothervideosofthistypewerefunnywithoutdebasingtheiropponentsandmakingfunofthemselvesThisoneseemsintentondebasingtheopponentsLeavesmekindofdisappointed",
     Year: "2022-01-25",
     Hour_z_time: 1,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10953,7 +10953,7 @@ const obama = [
     comment: "ImissthismanWittyintelligenceandcharismaallrolledinone",
     Year: "2022-01-24",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10962,7 +10962,7 @@ const obama = [
       "HeresthemanthatsentAmericabackyearsitwilltakeacenturytomoveforwardOrthreetermsforDonaldTrump",
     Year: "2022-01-24",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -10970,7 +10970,7 @@ const obama = [
     comment: "Hello",
     Year: "2022-01-24",
     Hour_z_time: 17,
-    Analysis: "O",
+    an: "O",
     Language: "fi",
   },
   {
@@ -10978,7 +10978,7 @@ const obama = [
     comment: "Heissoverycondescendingandracist",
     Year: "2022-01-24",
     Hour_z_time: 17,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10987,7 +10987,7 @@ const obama = [
       "AndmyopinionpresidentObamaisthegreatestpresidentthathaseverbeenelectedinthiscountrybecauseIbelievethathecaresforallofthepeopleofAmericaandthathissincereintentionswheretomaketheworldabetterplaceIdontbelieveanypresidentthathaseverbeenelectedbeforehimcaredforallofthepeopleofAmericatheyonlycaredforwhitepeopleandhistoryofthiscountryhasproventhatbeyondtheshadowofadownheistheoneandonlythispresidentthathaseverbeenelectedinthiscountryPresidentBarackHusseinObamanowthatsthetruthIlikeitornot",
     Year: "2022-01-24",
     Hour_z_time: 16,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -10995,7 +10995,7 @@ const obama = [
     comment: "GoodbyeMrPresidentonyourlastdinner",
     Year: "2022-01-24",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11003,7 +11003,7 @@ const obama = [
     comment: "Youaremyhero",
     Year: "2022-01-24",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11012,7 +11012,7 @@ const obama = [
       "Totheonethatissosleekandclassywiththatconfidenceyouhaveleftbehindmylove",
     Year: "2022-01-24",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11020,7 +11020,7 @@ const obama = [
     comment: "SexyandwhatahotpresidentandIwillneverforgethim",
     Year: "2022-01-24",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11029,7 +11029,7 @@ const obama = [
       "NosabennadadelosObamasylosAndreaRodríguezRiveraMartinezJohnsonEspinozahermanoyhermanaMormónesNoRepúblicanosSolamenteElSeñorBarackHObamayLaSeñoraMichelleObamayLasNIÑASMELIAYSASHAOBAMACarasdeVergas",
     Year: "2022-01-24",
     Hour_z_time: 2,
-    Analysis: "O",
+    an: "O",
     Language: "es",
   },
   {
@@ -11038,7 +11038,7 @@ const obama = [
       "ÉlSeñorBarackHObamaestábapreocupadoyconmuchomiedodeManuelyClaratalvezestéesmiúltimovezkmemiranopeÉlSeñorBarackHObamaCumpliólosqueDiosNuestroPadreCelestialDíosqueríayloqueManuelyClaraCovidquierasituhacétodoéstoparalosManuelyClaraCovidInternacionalImmgrateHermanoyHermanaselladosenlaiglesiaSantosúltimosdíassiemprevasatienenjaleparanuestroscuandoMataronaMíHermanoManuelÁngelAndreaRodríguezRiveraMartinezJohnsonEspinozaUSDisabledHonorableARMYDISABLEDHONORABLEDISCHARGEDVETERANOSOLIDERGOBRIENOSEALEDTOMRBARACKHOBAMAYLASEÑORAMICHELLEOBAMAYLASNIÑASMELIAYSASHAOBAMAylosdosperrosvinosquecompróElSeñorBarackHObamayLaSeñoraMichelleObamaEransolamentelosperrosdélafamiliaObamaBoySonny",
     Year: "2022-01-24",
     Hour_z_time: 2,
-    Analysis: "N",
+    an: "N",
     Language: "es",
   },
   {
@@ -11046,7 +11046,7 @@ const obama = [
     comment: "DefinitelythebestpresidentinthehistoryoftheUSA",
     Year: "2022-01-23",
     Hour_z_time: 17,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11055,7 +11055,7 @@ const obama = [
       "WeveallheardofsomeonesettingahighbarwellObamasetanimpossiblebarforanyPresident",
     Year: "2022-01-23",
     Hour_z_time: 20,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -11063,7 +11063,7 @@ const obama = [
     comment: "Ittrueasdirectpointdetrue",
     Year: "2022-01-23",
     Hour_z_time: 1,
-    Analysis: "P",
+    an: "P",
     Language: "fr",
   },
   {
@@ -11071,7 +11071,7 @@ const obama = [
     comment: "Hessohandsome",
     Year: "2022-01-23",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11079,7 +11079,7 @@ const obama = [
     comment: "DeliveryThatcantbetaught",
     Year: "2022-01-22",
     Hour_z_time: 18,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11088,7 +11088,7 @@ const obama = [
       "narcissismnarcissismnarcissismnarcissismnarcissismnarcissismnarcissismnarcissismnarcissismcancercancercancercancercancercancercancercancercancercancerercancercancercancercancercancercancercancercancercancercancercancercancercancercancercancerbrDiseasediseaseDiseasediseaseDiseasediseaseDiseasediseaseDiseasediseaseDiseasediseaseDiseasediseaseDiseasediseaseDiseasediseaseDiseasediseaseDiseasediseaseDiseasediseaseDiseasediseaseDiseasediseaseDiseasediseaseDiseasediseaseDiseasediseaseDiseasediseaseDiseasediseaseDiseasediseaseDiseasediseaseDiseasediseaseDiseasediseaseDiseasediseaseDiseasediseaseDiseasediseaseDiseasediseaseDiseasediseaseDiseasediseaseDiseasediseaseDiseasediseaseDiseasediseaseSubconsciousSubconsciousSubconsciousSubconsciousSubconsciousSubconsciousSubconsciousSubconsciousSubconsciousSubconsciousSubconsciousSubconsciousSubconsciousSubconsciousSubconsciousSubconsciousSubconsciousSubconsciousSubconsciousSubconsciousSubconsciousSubconsciousSubconsciousSubconsciousSubconsciousSubconsciousSubconsciousSubconsciousSubconsciousSubconsciousSubconsciousSubconsciousEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsEmotionsDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainDinoBrainFightorFlightFightorFlightFightorFlightBrainFightorFlightFightorFlightFightorFlightFlightBrainFightorFlightFightorFlightFightorFlightFightorFlightFightorFlightFightorFlightFightorFlightFightorFlightFightorFlightFightorFlightFightorFlightFightorFlightFightorFlightFightorFlightFightorFlightFightorFlightFightorFlightFightorFlightFightorFlightFightorFlightFightorFlightFightorFlightFightorFlightFightorFlightFightorFlightFightorFlightFightorFlightFightorFlightFightorFlightFightorFlightFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearFearPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedPosionedArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicArsenicWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterWaterbrSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumSodiumbrIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodineIodine",
     Year: "2022-01-22",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11096,7 +11096,7 @@ const obama = [
     comment: "obamapayinghomagetokobesmambaout",
     Year: "2022-01-22",
     Hour_z_time: 8,
-    Analysis: "O",
+    an: "O",
     Language: "tl",
   },
   {
@@ -11105,7 +11105,7 @@ const obama = [
       "TwotermPresidentBarackObamaissuchanarticulatewittyanddignifiedCommanderInChief",
     Year: "2022-01-22",
     Hour_z_time: 1,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11114,7 +11114,7 @@ const obama = [
       "LollaughedalotbutmyfavlinebrObamaquotwemetKendallJennernotentirelysureaboutwhatshedoesquotbrMemeeither",
     Year: "2022-01-22",
     Hour_z_time: 1,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11122,7 +11122,7 @@ const obama = [
     comment: "IloveuObamabestwishes",
     Year: "2022-01-21",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11130,7 +11130,7 @@ const obama = [
     comment: "GreatestPresidentUSAEVERMissyouObama",
     Year: "2022-01-21",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11139,7 +11139,7 @@ const obama = [
       "ObamahowveryverywonderfulyouareWeweregracedwithyourbeautifulpresenceyourbrilliantmindandourpassionforJustice",
     Year: "2022-01-21",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11147,7 +11147,7 @@ const obama = [
     comment: "B",
     Year: "2022-01-21",
     Hour_z_time: 2,
-    Analysis: "O",
+    an: "O",
     Language: "de",
   },
   {
@@ -11155,7 +11155,7 @@ const obama = [
     comment: "WhoiswatchingObamaspeechin",
     Year: "2022-01-21",
     Hour_z_time: 2,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11164,7 +11164,7 @@ const obama = [
       "HowrefreshingthiswholeeventwasApresidentwhodoesnttalkabouthimself",
     Year: "2022-01-20",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11172,7 +11172,7 @@ const obama = [
     comment: "Thismanjustoozescool",
     Year: "2022-01-20",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11180,7 +11180,7 @@ const obama = [
     comment: "FunniestpresidentbestpresidentEVER",
     Year: "2022-01-20",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "fr",
   },
   {
@@ -11188,7 +11188,7 @@ const obama = [
     comment: "Imisshimsomuch",
     Year: "2022-01-19",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11197,7 +11197,7 @@ const obama = [
       "IlovelisteningtoPresidentObamaHeissocharmingandcharismaticIhateforhislastspeechtoendYoufeelthegriefoflosingsomeoneMayyoubeblessedMrPresidentoftheUSofAmerica",
     Year: "2022-01-19",
     Hour_z_time: 17,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11206,7 +11206,7 @@ const obama = [
       "OhyesMichelleToohotthenandtoohotnowandthemostgiftedandactiveFirstLadiesIveeverseenImandhaveexperiencedmanyPresidentsinmylifetimeSuremaybetheyoungrookieBarackwasabitappeasingtothelikesofPutinandothersandtheytookfulladvantageofhislackofexperienceOutcomeswecanonlyguessbrbrSurelymisstheintegrityandmoralityofaPresidentsuchasBarackObamaJoeBidenisdoingthebesthecanrightnowbrDeanbrSeattle",
     Year: "2022-01-19",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11215,7 +11215,7 @@ const obama = [
       "MyohmyhowImissanhonorableanddescentPresidentatthistimebrDeanbrSeattle",
     Year: "2022-01-19",
     Hour_z_time: 2,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11223,7 +11223,7 @@ const obama = [
     comment: "JustanotherCommunistLuciferian",
     Year: "2022-01-18",
     Hour_z_time: 18,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11231,7 +11231,7 @@ const obama = [
     comment: "Heshouldrunagainseehowhewouldputthatdumbtrumpinplace",
     Year: "2022-01-18",
     Hour_z_time: 16,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -11239,7 +11239,7 @@ const obama = [
     comment: "ArrestthisTreasonousCareerCriminalPOS",
     Year: "2022-01-18",
     Hour_z_time: 13,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -11247,7 +11247,7 @@ const obama = [
     comment: "GodImissthisman",
     Year: "2022-01-18",
     Hour_z_time: 3,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11255,7 +11255,7 @@ const obama = [
     comment: "Thepresidentwhodoesntwantawarwhatnoweveryenemyisatthedoorstep",
     Year: "2022-01-18",
     Hour_z_time: 3,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11263,7 +11263,7 @@ const obama = [
     comment: "OhHilaryshouldvebeenthereTheotherskippeditinstead",
     Year: "2022-01-18",
     Hour_z_time: 2,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -11271,7 +11271,7 @@ const obama = [
     comment: "Ilovehim",
     Year: "2022-01-18",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "sl",
   },
   {
@@ -11279,7 +11279,7 @@ const obama = [
     comment: "BeautifulProfoundTruthfulThanksDrKing",
     Year: "2022-01-18",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11287,7 +11287,7 @@ const obama = [
     comment: "ThisguyissohilariousIstilllaughathim",
     Year: "2022-01-18",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11295,7 +11295,7 @@ const obama = [
     comment: "ByebyeBeeeotch",
     Year: "2022-01-17",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11303,7 +11303,7 @@ const obama = [
     comment: "Hewasandstillisanationaljoke",
     Year: "2022-01-17",
     Hour_z_time: 14,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11311,7 +11311,7 @@ const obama = [
     comment: "ItslikehesdoingaonemanroastLmaoGreatestpresidentever",
     Year: "2022-01-17",
     Hour_z_time: 13,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11319,7 +11319,7 @@ const obama = [
     comment: "Terrorists",
     Year: "2022-01-17",
     Hour_z_time: 13,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11327,7 +11327,7 @@ const obama = [
     comment: "Itstimetomovetoirantooandbewherehedfitinbetterwith",
     Year: "2022-01-17",
     Hour_z_time: 12,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11336,7 +11336,7 @@ const obama = [
       "Prayforthismanthisisnotaentertainerbutaguybentindestroyingourgreatnationbutweallknowhesnevergoingtodoitnow",
     Year: "2022-01-17",
     Hour_z_time: 12,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11344,7 +11344,7 @@ const obama = [
     comment: "IwillAlwaysLoveThePresAnhiswifeTheObamasMranMrsObama",
     Year: "2022-01-17",
     Hour_z_time: 11,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11352,7 +11352,7 @@ const obama = [
     comment: "Presidentialandallclass",
     Year: "2022-01-17",
     Hour_z_time: 9,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11360,7 +11360,7 @@ const obama = [
     comment: "Whatdidthatmiceverdidtohim",
     Year: "2022-01-17",
     Hour_z_time: 6,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11368,7 +11368,7 @@ const obama = [
     comment: "Themanwhostartedthisracewarweareintoday",
     Year: "2022-01-17",
     Hour_z_time: 1,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11377,7 +11377,7 @@ const obama = [
       "DearGodinheavenIcometoyouinthenameofJesusIacknowledgetoYouthatIamasinnerandIamsorryformysinsandthelifethatIhavelivedIneedyourforgivenessbrIbelievethatyouronlybegottenSonJesusChristshedHispreciousbloodonthecrossatCalvaryanddiedformysinsandIamnowwillingtoturnfrommysinbrYousaidinthebiblethatifweconfesstheLordourGodandbelieveinourheartsthatGodraisedJesusfromthedeadweshallbesavedbrRightnowIconfessJesusasmyLordWithmyheartIbelievethatGodraisedJesusfromthedeadThisverymomentIacceptJesusChristasmyownpersonalSaviorandaccordingtoHisWordrightnowIamsavedAmen",
     Year: "2022-01-16",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11386,7 +11386,7 @@ const obama = [
       "TheGospelofsalvationofoursoulsForwhatIreceivedIpassedontoyouasoffirstimportancethatChristdiedforoursinsaccordingtotheScripturesthathewasburiedthathewasraisedonthethirddayaccordingtotheScripturesandthatheappearedtoPeterandthentotheTwelveAfterthatheappearedtomorethanfivehundredofthebrothersandsistersatthesametime",
     Year: "2022-01-16",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11394,7 +11394,7 @@ const obama = [
     comment: "SorryImissedthisitwasgreat",
     Year: "2022-01-16",
     Hour_z_time: 12,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11402,7 +11402,7 @@ const obama = [
     comment: "HanginthereBruceEdwardTaylorHelpisontheway",
     Year: "2022-01-15",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11410,7 +11410,7 @@ const obama = [
     comment: "Icantwaittoconfronttheseblueprintersfacetoface",
     Year: "2022-01-15",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11419,7 +11419,7 @@ const obama = [
       "WhatsupDrewFreyMichaelFreyRyanJurvakainenInoticedhowuncomfortableRyanJurvakainenbecamewhenaskedthequestionquotIfyoucouldchangeonelawwhatwoulditbequotIveneverseensomeonesouncomfortableButIhaventseenDrewFreysinceIfoundtheblueprintfromthemovietrailer",
     Year: "2022-01-15",
     Hour_z_time: 19,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -11428,7 +11428,7 @@ const obama = [
       "quotInhindsightIclearlyshouldhavebeenmorespecificquotwhenattemptingtokillamannamedBruceTaylorfromablueprinttohismurderOopsWrongBruceTaylor",
     Year: "2022-01-15",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11437,7 +11437,7 @@ const obama = [
       "IcansayitbecauseDrewFreyknowsitstrueWhoisnextontheCowlitzCountykilllist",
     Year: "2022-01-15",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11445,7 +11445,7 @@ const obama = [
     comment: "HowtruehewasinhindsightSotruebrTheendoftherepublic",
     Year: "2022-01-15",
     Hour_z_time: 8,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11453,7 +11453,7 @@ const obama = [
     comment: "CHIPMICTRUTHS",
     Year: "2022-01-15",
     Hour_z_time: 8,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11461,14 +11461,14 @@ const obama = [
     comment: "HeneedstocomestayinSouthAfrica",
     Year: "2022-01-15",
     Hour_z_time: 4,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
     N: 1383,
     Year: "2022-01-14",
     Hour_z_time: 17,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11476,7 +11476,7 @@ const obama = [
     comment: "WestillLoveyallGodblessyouandthankyallforyourservice",
     Year: "2022-01-14",
     Hour_z_time: 0,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11484,7 +11484,7 @@ const obama = [
     comment: "Hesstillthepresident",
     Year: "2022-01-14",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11493,7 +11493,7 @@ const obama = [
       "BarackdoyouconsideryourselfadifferentraceadifferentspeciesareyouinvolvedinanyplotsorschemeswithboysmenoftheworldtoenslavemeandwomenandmaybesomeotherboysetctellmewhatotheraliasesdoyouhavewhorunstheworldwhyhaveyoumadeaworldsodystopianandawfulanswermedirectlydonthideintheshadowsoransweroffcameraorinyourclubhousesanswermeforoncedirectlyareyouroderickhavewenotmetbeforedoyouknowseinfeldisgoebbelswhatisyourquotrankquotinthissystemdoyouhaveranksorareallyouguysconsideredyouknowquotGquot",
     Year: "2022-01-13",
     Hour_z_time: 17,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -11501,7 +11501,7 @@ const obama = [
     comment: "SlickWilley",
     Year: "2022-01-13",
     Hour_z_time: 10,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -11510,7 +11510,7 @@ const obama = [
       "solightheartedmomentwhiletheloserwaswithamobyellingquotfightlikehellquot",
     Year: "2022-01-13",
     Hour_z_time: 4,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11518,7 +11518,7 @@ const obama = [
     comment: "Greattohearhim",
     Year: "2022-01-13",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11526,7 +11526,7 @@ const obama = [
     comment: "IsthisaComedyCentralroastPresidentialEdition",
     Year: "2022-01-13",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11535,7 +11535,7 @@ const obama = [
       "AmwatchingthisforaboutthetentimeAndlovingitmoreObamawosgreatAcoolpresidentforsure",
     Year: "2022-01-12",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11543,7 +11543,7 @@ const obama = [
     comment: "WemissyouObama",
     Year: "2022-01-12",
     Hour_z_time: 21,
-    Analysis: "O",
+    an: "O",
     Language: "sw",
   },
   {
@@ -11551,7 +11551,7 @@ const obama = [
     comment: "Firstdanceatfirstball",
     Year: "2022-01-12",
     Hour_z_time: 17,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11559,7 +11559,7 @@ const obama = [
     comment: "SosimilartoNormMacDonaldtimingandcandence",
     Year: "2022-01-12",
     Hour_z_time: 17,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11568,7 +11568,7 @@ const obama = [
       "IlikePresidentObamasofunnypresidentandtruepresidentpleaseTextpresidentJohnBidenBidenidea",
     Year: "2022-01-11",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11577,7 +11577,7 @@ const obama = [
       "IlovethatObamasconfidentenoughtolaughathimselfnotlikeTrumpwhowassoinsecureplustoothinskintoevengotothiseventforhisfouryearsinofficeIwillforevermissObamasintelligenceintegrityandhonestyplushisfamilyHewillgodowninhistoryasoneofourgreatestpresidents",
     Year: "2022-01-11",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11586,7 +11586,7 @@ const obama = [
       "stilloneofmyfavouritepresidentsandthenyoumoronshadtoelectayellowheadedorangutanandyouwonderwhytherestoftheworldthinkyouridiots",
     Year: "2022-01-11",
     Hour_z_time: 14,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -11594,7 +11594,7 @@ const obama = [
     comment: "hereinJantolistentothebestPresidenttheUShaseverhad",
     Year: "2022-01-11",
     Hour_z_time: 11,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11603,7 +11603,7 @@ const obama = [
       "GreatpotentialandpromisesbutfailedtodeliverCowardfitsgiventhestateofourplanetandhumancondition",
     Year: "2022-01-11",
     Hour_z_time: 8,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11611,7 +11611,7 @@ const obama = [
     comment: "StupidWhatawasteWhatdidheactuallydotohelphelpthisCountry",
     Year: "2022-01-10",
     Hour_z_time: 22,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -11619,7 +11619,7 @@ const obama = [
     comment: "Rotflmao",
     Year: "2022-01-10",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "ro",
   },
   {
@@ -11628,7 +11628,7 @@ const obama = [
       "ItsallCryptiditmightbefunnytoyouuntilyoufindoutwhatitreallymeanshesmockingus",
     Year: "2022-01-09",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11637,7 +11637,7 @@ const obama = [
       "Whopressreleasethewordsbeforeafterresearchingdevelopmentresultsbestsolution",
     Year: "2022-01-09",
     Hour_z_time: 10,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11645,7 +11645,7 @@ const obama = [
     comment: "GreatmangreatpresidentGREATERHUMANBEING",
     Year: "2022-01-09",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11653,7 +11653,7 @@ const obama = [
     comment: "imisstheguy",
     Year: "2022-01-08",
     Hour_z_time: 20,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11662,7 +11662,7 @@ const obama = [
       "NothilariousatallEvilmanrightthereCausedracismriotscausedpolicekillingsetcetcThelistgoeson",
     Year: "2022-01-07",
     Hour_z_time: 18,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -11671,7 +11671,7 @@ const obama = [
       "WheneverIwanttofeelpositiveandupliftedIplayavideoofBarackObamasThisoneIplayedseveraltimeshesaidhesayswhathehastosayiswhathehastosaywithoutswearingwithoutgettingmadandheendsuplookingliketheclassactheis",
     Year: "2022-01-07",
     Hour_z_time: 5,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -11680,7 +11680,7 @@ const obama = [
       "NotsinceLincolnhaveweseensuchhumorHesaidpeoplecallmetwofacedIfthatwastrueIcertainlywouldhavechosenamorehandsomeone",
     Year: "2022-01-07",
     Hour_z_time: 1,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11688,7 +11688,7 @@ const obama = [
     comment: "Heissodearlymissedinthatoffice",
     Year: "2022-01-06",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11696,7 +11696,7 @@ const obama = [
     comment: "HillarywonagainstObamabutthepartyruinedherdelegatecount",
     Year: "2022-01-06",
     Hour_z_time: 17,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11704,7 +11704,7 @@ const obama = [
     comment: "WhoknewObamathestandupcomedian",
     Year: "2022-01-06",
     Hour_z_time: 17,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11712,7 +11712,7 @@ const obama = [
     comment: "ThefinestPresidentAmericahaseverhad",
     Year: "2022-01-06",
     Hour_z_time: 4,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11720,7 +11720,7 @@ const obama = [
     comment: "oneofthemostoverratedPresidentsinHistory",
     Year: "2022-01-06",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11729,7 +11729,7 @@ const obama = [
       "ThisguywasatruedefinitionofadisgracearacistandatraitortotheAmericanpeopleShouldhavebeentriedforhightreasonseveraltimesover",
     Year: "2022-01-06",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11737,7 +11737,7 @@ const obama = [
     comment: "ThebiggestfraudtoeversitintheOvalOffice",
     Year: "2022-01-05",
     Hour_z_time: 7,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11745,7 +11745,7 @@ const obama = [
     comment: "Trumphatedit",
     Year: "2022-01-05",
     Hour_z_time: 2,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -11753,7 +11753,7 @@ const obama = [
     comment: "NotsurewhyhedidntchoosetobeinHollywoodinsteadGivethatguyanOscar",
     Year: "2022-01-04",
     Hour_z_time: 21,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -11761,7 +11761,7 @@ const obama = [
     comment: "Thiswasthelasttimeeverwealllovedthepresident",
     Year: "2022-01-04",
     Hour_z_time: 12,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11770,7 +11770,7 @@ const obama = [
       "WatchingthisagainIcanthelpbutfocusontimeslotahrefhttpswwwyoutubecomwatchvNxFkEjKPCamptmsaforwardandtheimportanceoffactbasedjournalismandtheimportanceofthosefactstodemocracyevenasdawnswithrealjournalismdwindlinginthefaceofalternativefactsandrewritingrecenthistorytofitagreedyyetfalsenarrativeofafakebillionaire",
     Year: "2022-01-04",
     Hour_z_time: 3,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -11779,7 +11779,7 @@ const obama = [
       "SuperpresidentLovedhisFIRSTfouryearendbeforeReelectiontimeWHILEHEWASSPEAKINGtheALQUEDAOSAMAwasbeingattackedandheleftimmediatelytoWarroomafterhisFourthWHITEHOUSECORRESPONDENTDINNERbr",
     Year: "2022-01-04",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11787,7 +11787,7 @@ const obama = [
     comment: "Thisguyisthepresidentoftheworldjustanamazinghumanbeing",
     Year: "2022-01-03",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11795,7 +11795,7 @@ const obama = [
     comment: "Hisspeechesnevergrowold",
     Year: "2022-01-02",
     Hour_z_time: 23,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11803,7 +11803,7 @@ const obama = [
     comment: "Diditgetalotofviewsatleast",
     Year: "2022-01-02",
     Hour_z_time: 19,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -11812,7 +11812,7 @@ const obama = [
       "ArrogantjerkworstPresidentyourObamacareandotherdeedskeepruiningthiscountry",
     Year: "2022-01-02",
     Hour_z_time: 5,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -11821,7 +11821,7 @@ const obama = [
       "IlovehisjokeaboutJoeBidennotshootinganyoneinthefaceIncaseyoumisseditGeorgeBushsVPDickCheneyshotahuntingpartnerinthefacebr",
     Year: "2022-01-02",
     Hour_z_time: 5,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11830,7 +11830,7 @@ const obama = [
       "JokesthatwhitepeopleshouldnotmakehuuracistpieceofbbWhitepeopleshouldntmakethemthennobodyshouldmakethemandviceversaifblackpeopleshouldntmakethemthennobodyshouldmakethemifmenareequalthenitshouldntmatterwhatthecoloroftheskinisyourjokescaneitherbemadeortheycantbemadeItspeoplelikeyouthatkeepracismalive",
     Year: "2022-01-02",
     Hour_z_time: 3,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -11839,7 +11839,7 @@ const obama = [
       "ItsnotaboutcharismabutaboutpolicysTrumplovehimorhatehimhadMUCHbetterpolicysinmindforAmericathenanyotherpresidenttodateThatiswhyyoullseenumberquotquotbenumberquotquotsoon",
     Year: "2022-01-02",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11848,7 +11848,7 @@ const obama = [
       "ItsnotaboutcharismabutaboutpolicysTrumplovehimorhatehimhadMUCHbetterpolicysinmindforAmericathenanyotherpresidenttodateThatiswhyyoullseenumberquotquotbenumberquotquotsoon",
     Year: "2022-01-02",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11856,7 +11856,7 @@ const obama = [
     comment: "TRUMPisthebestNumberisabouttobenumber",
     Year: "2022-01-02",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11864,7 +11864,7 @@ const obama = [
     comment: "WhyisntheatgittmoFortreason",
     Year: "2022-01-01",
     Hour_z_time: 21,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11872,7 +11872,7 @@ const obama = [
     comment: "IdliketoseediaperDonniebeatthat",
     Year: "2022-01-01",
     Hour_z_time: 10,
-    Analysis: "O",
+    an: "O",
     Language: "af",
   },
   {
@@ -11880,7 +11880,7 @@ const obama = [
     comment: "ThatMicDropBruLEGENDARY",
     Year: "2022-01-01",
     Hour_z_time: 10,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11888,7 +11888,7 @@ const obama = [
     comment: "andhewonThisisheartbreaking",
     Year: "2022-01-01",
     Hour_z_time: 3,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -11896,7 +11896,7 @@ const obama = [
     comment: "Greatsenseofhumor",
     Year: "2022-01-01",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11905,7 +11905,7 @@ const obama = [
       "HewasntlayingwhenhesaidquotthelastWhiteHousecorrespondentsdinnerquot",
     Year: "2021-12-31",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11914,7 +11914,7 @@ const obama = [
       "PoliceofficersaresodesperatetobepromotedtothehomicidedivisionFamilymembersoftheirsaresacrificingtheirlivesandfreedombycommitmurdersonlythepoliceintheirfamiliesareabletosolveThehomicidescam",
     Year: "2021-12-31",
     Hour_z_time: 13,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11923,7 +11923,7 @@ const obama = [
       "quottheendoftherepublichasneverlookedbetterquotahrefhttpswwwyoutubecomwatchvNxFkEjKPCamptmsa",
     Year: "2021-12-31",
     Hour_z_time: 9,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11931,7 +11931,7 @@ const obama = [
     comment: "Ididntgetthelastwordofthetwo",
     Year: "2021-12-31",
     Hour_z_time: 9,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11940,7 +11940,7 @@ const obama = [
       "ahrefhttpswwwyoutubecomwatchvNxFkEjKPCamptmsathisstatementhurtsafterknowingtheeventsthatunfolded",
     Year: "2021-12-31",
     Hour_z_time: 8,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11948,7 +11948,7 @@ const obama = [
     comment: "thisguyisHilariousnotDonaldTrump",
     Year: "2021-12-31",
     Hour_z_time: 6,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11956,7 +11956,7 @@ const obama = [
     comment: "Hesonethatsurecanliegood",
     Year: "2021-12-30",
     Hour_z_time: 16,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11964,7 +11964,7 @@ const obama = [
     comment: "DonationsofeachTHATISFUNNY",
     Year: "2021-12-30",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11973,7 +11973,7 @@ const obama = [
       "IthinkitwasquitefunnyhowBarackObamamadefunofDonaldTrumpandthenDonaldTrumpbecamepresidentandhadthelastlaughlol",
     Year: "2021-12-30",
     Hour_z_time: 13,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11981,7 +11981,7 @@ const obama = [
     comment: "Thiswasactuallyprettygood",
     Year: "2021-12-30",
     Hour_z_time: 9,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -11989,7 +11989,7 @@ const obama = [
     comment: "stpresidentinhistorytodoamicdrop",
     Year: "2021-12-30",
     Hour_z_time: 9,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -11997,7 +11997,7 @@ const obama = [
     comment: "TrumpthisisatruePresidentAmanyouwillneverbe",
     Year: "2021-12-29",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -12005,7 +12005,7 @@ const obama = [
     comment: "howmuchdoilovethismanquotprinceGeorgeinhisbathrobequot",
     Year: "2021-12-29",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -12014,7 +12014,7 @@ const obama = [
       "GoodlookingguywhosewordsarecomingfromaplaceofsincerityThatswhyhessogoddamnrelatableanddownrightfunnyGoodjobAmerica",
     Year: "2021-12-29",
     Hour_z_time: 15,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -12023,7 +12023,7 @@ const obama = [
       "heisthebesttechguyihaveevermeetherecoveredmyaccountinlessthanminutes",
     Year: "2021-12-28",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -12031,7 +12031,7 @@ const obama = [
     comment: "ObamawasOneofthebestpresidentofunitedstateofAmerica",
     Year: "2021-12-28",
     Hour_z_time: 19,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -12039,7 +12039,7 @@ const obama = [
     comment: "MatatanᕙᕗRibirinHSRDᕙᕗ",
     Year: "2021-12-28",
     Hour_z_time: 18,
-    Analysis: "O",
+    an: "O",
     Language: "id",
   },
   {
@@ -12047,7 +12047,7 @@ const obama = [
     comment: "PresidentObamayouaresoooooomissed",
     Year: "2021-12-28",
     Hour_z_time: 17,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -12055,7 +12055,7 @@ const obama = [
     comment: "HewassogoodatmurderinginnocentpeoplewithdronesWemissyouObama",
     Year: "2021-12-28",
     Hour_z_time: 5,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -12063,7 +12063,7 @@ const obama = [
     comment: "IspectmoreofhimbrIwasnormalpaydaypresident",
     Year: "2021-12-28",
     Hour_z_time: 2,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -12071,7 +12071,7 @@ const obama = [
     comment: "ahrefhttpswwwyoutubecomwatchvNxFkEjKPCamptmsa",
     Year: "2021-12-27",
     Hour_z_time: 20,
-    Analysis: "O",
+    an: "O",
     Language: "cy",
   },
   {
@@ -12079,7 +12079,7 @@ const obama = [
     comment: "JOHANNESBURGSOUTHAFRICAGODBLESSYOUSIR",
     Year: "2021-12-27",
     Hour_z_time: 15,
-    Analysis: "O",
+    an: "O",
     Language: "de",
   },
   {
@@ -12087,7 +12087,7 @@ const obama = [
     comment: "ItsokbamayoustillhavebigMiketocarryyouthrough",
     Year: "2021-12-27",
     Hour_z_time: 14,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -12095,7 +12095,7 @@ const obama = [
     comment: "Hopeyoupaidforthemeal",
     Year: "2021-12-27",
     Hour_z_time: 14,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -12103,7 +12103,7 @@ const obama = [
     comment: "Abrilliantpresidentagreatleaderlovedbymanymyidol",
     Year: "2021-12-27",
     Hour_z_time: 9,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -12111,7 +12111,7 @@ const obama = [
     comment: "ObamaisSatanintheflesh",
     Year: "2021-12-27",
     Hour_z_time: 7,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -12120,7 +12120,7 @@ const obama = [
       "pigvomitshowinghislowclassfakespyinussellingustochinahealikeabrwhoedoanythingfordirtycash",
     Year: "2021-12-27",
     Hour_z_time: 2,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -12128,7 +12128,7 @@ const obama = [
     comment: "Heshouldofbeenapimp",
     Year: "2021-12-27",
     Hour_z_time: 0,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -12136,7 +12136,7 @@ const obama = [
     comment: "goodnight",
     Year: "2021-12-26",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "cy",
   },
   {
@@ -12144,7 +12144,7 @@ const obama = [
     comment: "okmygathermysleep",
     Year: "2021-12-26",
     Hour_z_time: 20,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -12152,7 +12152,7 @@ const obama = [
     comment: "mynohappy",
     Year: "2021-12-26",
     Hour_z_time: 20,
-    Analysis: "N",
+    an: "N",
     Language: "tl",
   },
   {
@@ -12161,7 +12161,7 @@ const obama = [
       "IcouldlistentohimtalkalldayIdontagreewitheverythinghesaysbuthedoessayiteloquently",
     Year: "2021-12-26",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -12169,7 +12169,7 @@ const obama = [
     comment: "Humorous",
     Year: "2021-12-26",
     Hour_z_time: 11,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -12177,7 +12177,7 @@ const obama = [
     comment: "Heisagreatgreatspeakerandgreatman",
     Year: "2021-12-26",
     Hour_z_time: 1,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -12185,7 +12185,7 @@ const obama = [
     comment: "JokesonyouBarak",
     Year: "2021-12-25",
     Hour_z_time: 4,
-    Analysis: "O",
+    an: "O",
     Language: "tr",
   },
   {
@@ -12193,7 +12193,7 @@ const obama = [
     comment: "HemisunderstoodsthebellcurveinminutesixCorrect",
     Year: "2021-12-25",
     Hour_z_time: 3,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -12201,7 +12201,7 @@ const obama = [
     comment: "technicallyhislasttwowordswerethankyoubutwhatever",
     Year: "2021-12-24",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -12209,7 +12209,7 @@ const obama = [
     comment: "OneofthebestpresidenteverGodblesshimandhisfamily",
     Year: "2021-12-24",
     Hour_z_time: 5,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -12218,7 +12218,7 @@ const obama = [
       "ThebestspeakerandliarthatHavebeenpresidentbrMissamericandronepilotObamabinladen",
     Year: "2021-12-23",
     Hour_z_time: 1,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -12227,7 +12227,7 @@ const obama = [
       "ToallmyveryconfusedAmericanneighborsThisisGlobalNewsACanadiannewsoutletCanyoupleasetakeyourselvesbacktotheUSAoratleasttheYouTubecommentsoftheUSNewsmediapleaseAlsotheconfusedgentlemanwhocalledmeasnowMexicanataTimHortonsinBurnabylocatedintheprovinceofBritishColumbiainthecountryofCanadapleasetakehimwithyouaswellPleaseandthankyou",
     Year: "2021-12-22",
     Hour_z_time: 23,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -12236,7 +12236,7 @@ const obama = [
       "ahrefhttpswwwyoutubecomwatchvNxFkEjKPCamptmsabrONASIDENOTEbrHellenMirrenismyeternalcelebritycrushandIllleaveasthatDontwannagettooexcited",
     Year: "2021-12-22",
     Hour_z_time: 18,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -12245,7 +12245,7 @@ const obama = [
       "IstillremeberthedaythatwecanlaughandsingandenjoyhappinesswiththepresidentAndIcouldconfidenttosaythatObamatimeatthepresidentisthemostpeacefultimeIeverhad",
     Year: "2021-12-22",
     Hour_z_time: 13,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -12253,7 +12253,7 @@ const obama = [
     comment: "MOSTCOOLESTPRESIDENTEVER",
     Year: "2021-12-22",
     Hour_z_time: 4,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -12261,7 +12261,7 @@ const obama = [
     comment: "ClassactNodoubt",
     Year: "2021-12-21",
     Hour_z_time: 19,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -12270,7 +12270,7 @@ const obama = [
       "IreallydontcareifyoulikePresidentObamaornotireallydontYouareentitledtoyourownopinionsbutyouARENOTentitledtoyourownfactsasOmarosawouldsayGoyourownwayThismanistheGREATESTPRESIDENTofalltimeTOMEforonereasonandonereasononlyHEKILLEDOSAMABINLADEN",
     Year: "2021-12-21",
     Hour_z_time: 6,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -12278,7 +12278,7 @@ const obama = [
     comment: "TheworldneedsmorelikehimImnotevenAmerican",
     Year: "2021-12-20",
     Hour_z_time: 22,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -12287,7 +12287,7 @@ const obama = [
       "ahrefhttpswwwyoutubecomwatchvNxFkEjKPCamptmsawhatyouaremostcertainlylookingfor",
     Year: "2021-12-19",
     Hour_z_time: 17,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -12296,7 +12296,7 @@ const obama = [
       "Mycommentswereinfavorofofnobodyshoulddieoverawordthroughdeathpanel",
     Year: "2021-12-19",
     Hour_z_time: 3,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -12304,7 +12304,7 @@ const obama = [
     comment: "Wherestheothercommentareyouafraidtheworldmightreadthetruth",
     Year: "2021-12-19",
     Hour_z_time: 3,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -12312,7 +12312,7 @@ const obama = [
     comment: "Mycommentfollowedguidelinesdeathpanelsareillegal",
     Year: "2021-12-19",
     Hour_z_time: 3,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -12320,7 +12320,7 @@ const obama = [
     comment: "Hewentintoofficewithmandoutwithmillion",
     Year: "2021-12-18",
     Hour_z_time: 10,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -12328,7 +12328,7 @@ const obama = [
     comment: "Narcissist",
     Year: "2021-12-18",
     Hour_z_time: 10,
-    Analysis: "O",
+    an: "O",
     Language: "it",
   },
   {
@@ -12337,7 +12337,7 @@ const obama = [
       "GuardscarescameramanahrefhttpswwwyoutubecomwatchvNxFkEjKPCamptmsa",
     Year: "2021-12-17",
     Hour_z_time: 22,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -12345,7 +12345,7 @@ const obama = [
     comment: "shutupdosomerealnews",
     Year: "2021-12-17",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -12353,7 +12353,7 @@ const obama = [
     comment: "ㄞㄠㄢㄠ",
     Year: "2021-12-16",
     Hour_z_time: 10,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
   {
@@ -12361,7 +12361,7 @@ const obama = [
     comment: "OneoftheworstCarterObamaandBiden",
     Year: "2021-12-16",
     Hour_z_time: 3,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -12369,7 +12369,7 @@ const obama = [
     comment: "Whatsthepunchlinenothingfunnydryhumor",
     Year: "2021-12-16",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -12377,7 +12377,7 @@ const obama = [
     comment: "PieceofCrapworstandmostdividingpresidentinhistory",
     Year: "2021-12-16",
     Hour_z_time: 3,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -12385,7 +12385,7 @@ const obama = [
     comment: "Thefactthateveryoneslaughingwhilehestalkingseriously",
     Year: "2021-12-15",
     Hour_z_time: 12,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -12394,7 +12394,7 @@ const obama = [
       "IsmellalotofoldsoulsamongtheaudiencebrIthinktrumpwearsamaskbrJoeBidenknewbackthenhewouldbenextoneofthemimmortalsbrandyeahwhyamIseeingimmortalfolksinthisvideobrisitjustmyeyesoramIjusthallucinatingtherealcommandersbrlotsofgameshavebeenplayedsinceages",
     Year: "2021-12-15",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -12402,7 +12402,7 @@ const obama = [
     comment: "ThemanjustknowshowtotalkHeisnotboringatall",
     Year: "2021-12-15",
     Hour_z_time: 3,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -12410,7 +12410,7 @@ const obama = [
     comment: "Oh",
     Year: "2021-12-14",
     Hour_z_time: 23,
-    Analysis: "O",
+    an: "O",
     Language: "de",
   },
   {
@@ -12418,7 +12418,7 @@ const obama = [
     comment: "Commiebomathescummworstonetoduptthelazystupidbiggovpersonafied",
     Year: "2021-12-14",
     Hour_z_time: 23,
-    Analysis: "N",
+    an: "N",
     Language: "en",
   },
   {
@@ -12427,7 +12427,7 @@ const obama = [
       "TobehonestIamhavingaharddayandIwantedtosmileandIthoughtImgoingtolookatthatpostwherewherepresidentBarackObamaisatthepollingstationAndbelowitwasthisoneIhaveseenthisbeforebutineededsomethingupliftingandBarackObamaIsdefinitelythat",
     Year: "2021-12-14",
     Hour_z_time: 21,
-    Analysis: "P",
+    an: "P",
     Language: "en",
   },
   {
@@ -12435,7 +12435,7 @@ const obama = [
     comment: "GoshImisshim",
     Year: "2021-12-13",
     Hour_z_time: 16,
-    Analysis: "O",
+    an: "O",
     Language: "en",
   },
 ];

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { filtring_by_date, calculate_data_by_type } from "./filtring_function";
+import { calculate_data_by_type_and_month } from "./filtring_function";
+import Select from "react-select";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -11,7 +12,8 @@ import {
   Legend,
 } from "chart.js";
 import { Line } from "react-chartjs-2";
-import "./chart.css";
+import "../style/multiaxis_line_chart.css";
+
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -22,7 +24,35 @@ ChartJS.register(
   Legend
 );
 const Multiaxis_line_chart = ({ trump_data, obama_data }) => {
-  const [enteredYear, setEntedYear] = useState("2022");
+  const [fromYear, setFromYear] = useState(null);
+  const [toYear, setToYear] = useState(null);
+  let from_date = "2000-01-01";
+  let to_date = "2024-12-31";
+  const selection_options = [
+    { value: "2019", label: "2019" },
+    { value: "2020", label: "2020" },
+    { value: "2021", label: "2021" },
+    { value: "2022", label: "2022" },
+  ];
+  if (fromYear !== null) {
+    from_date = fromYear.value + "-01-01";
+  }
+  if (toYear !== null) {
+    to_date = toYear.value + "-12-31";
+  }
+  let final_data1;
+  let final_data2;
+  final_data1 = calculate_data_by_type_and_month(
+    trump_data,
+    from_date,
+    to_date
+  );
+  final_data2 = calculate_data_by_type_and_month(
+    obama_data,
+    from_date,
+    to_date
+  );
+
   const options = {
     responsive: true,
     interaction: {
@@ -33,7 +63,7 @@ const Multiaxis_line_chart = ({ trump_data, obama_data }) => {
     plugins: {
       title: {
         display: true,
-        text: "Chart.js Line Chart - Multi Axis",
+        text: "Trump vs Obama",
       },
     },
     scales: {
@@ -66,48 +96,46 @@ const Multiaxis_line_chart = ({ trump_data, obama_data }) => {
     "November",
     "December",
   ];
-  let data1;
-  let data2;
-  let d1 = [];
-  let d2 = [];
-
-  data2 = filtring_by_date(trump_data, "2022-01-01", "2022-12-31", undefined);
-  data1 = filtring_by_date(obama_data, "2022-01-01", "2022-12-31", undefined);
-  d2 = calculate_data_by_type(data1);
-  d1 = calculate_data_by_type(data2);
-  console.log("d2=\n", d2);
-  console.log("data2=\n", data2);
-  let final_data2 = [];
-  let final_data1 = [];
-  for (let j = 0; j < d2.length; j++) {
-    final_data2.push({ x: 10, y: d2[j], r: 10 });
-  }
-  for (let h = 0; h < d1.length; h++) {
-    final_data1.push({ x: 10, y: d1[h], r: 10 });
-  }
-  console.log("D1=\n", d1);
-  console.log("D2=\n", d2);
   const data = {
     labels,
     datasets: [
       {
-        label: "Dataset 1",
+        label: "Trump",
         data: final_data1,
         borderColor: "rgb(255, 99, 132)",
         backgroundColor: "rgb(255, 99, 132)",
         yAxisID: "y1",
       },
       {
-        label: "Dataset 2",
+        label: "Obama",
         data: final_data2,
         borderColor: "rgb(53, 162, 235)",
         backgroundColor: "rgba(53, 162, 235, 0.5)",
       },
     ],
   };
+
   return (
     <div className="multiaxis_line_chart">
       <h1>Hello you are in multiaxis_line_chart</h1>
+      <div className="year_selection">
+        <div className="item item-1">From</div>
+        <div className="item item-2">
+          <Select
+            defaultValue={fromYear}
+            onChange={setFromYear}
+            options={selection_options}
+          />
+        </div>
+        <div className="item item-3">to</div>
+        <div className="item item-4">
+          <Select
+            defaultValue={toYear}
+            onChange={setToYear}
+            options={selection_options}
+          />
+        </div>
+      </div>
       <Line options={options} data={data} />
     </div>
   );
