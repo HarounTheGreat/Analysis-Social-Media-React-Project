@@ -3,18 +3,63 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <p></p>
-      <Link to="/">Home</Link>
-      <Link to="/area_chart">Area Chart</Link>
-      <Link to="/bar_chart">Bar Chart</Link>
-      <Link to="/bubble_chart">Bubble Chart</Link>
-      <Link to="/column_chart">Column Chart</Link>
-      <Link to="/doughnut_chart">Doughnut Chart</Link>
-      <Link to="/line_chart">Line Chart</Link>
-      <Link to="/pie_chart">Pie Chart</Link>
-      <Link to="/stacked_bar_charts">Stacked Bar Charts</Link>
-      <Link to="/analyse_by_language">Analyse by Language</Link>
-      <Link to="/multiaxis_line_chart">Multiaxis Line Chart</Link>
+      <ul>
+        <li>
+          <Link style={{ textDecoration: "none" }} to="/">
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link style={{ textDecoration: "none" }} to="/area_chart">
+            Area Chart
+          </Link>
+        </li>
+        <li>
+          <Link style={{ textDecoration: "none" }} to="/bar_chart">
+            Bar Chart
+          </Link>
+        </li>
+        <li>
+          <Link style={{ textDecoration: "none" }} to="/bubble_chart">
+            Bubble Chart
+          </Link>
+        </li>
+        <li>
+          <Link style={{ textDecoration: "none" }} to="/column_chart">
+            Column Chart
+          </Link>
+        </li>
+        <li>
+          <Link style={{ textDecoration: "none" }} to="/doughnut_chart">
+            Doughnut Chart
+          </Link>
+        </li>
+        <li>
+          <Link style={{ textDecoration: "none" }} to="/line_chart">
+            Line Chart
+          </Link>
+        </li>
+        <li>
+          <Link style={{ textDecoration: "none" }} to="/pie_chart">
+            Pie Chart
+          </Link>
+        </li>
+        <li>
+          <Link style={{ textDecoration: "none" }} to="/stacked_bar_charts">
+            Stacked Bar Charts
+          </Link>
+        </li>
+        <li>
+          <Link style={{ textDecoration: "none" }} to="/analyse_by_language">
+            Analyse by Language
+          </Link>
+        </li>
+        <li>
+          <Link style={{ textDecoration: "none" }} to="/multiaxis_line_chart">
+            Multiaxis Line Chart
+          </Link>
+        </li>
+      </ul>
       <p></p>
     </nav>
   );

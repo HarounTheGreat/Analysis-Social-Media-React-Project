@@ -14,15 +14,29 @@ const Bubble_chart = () => {
   const options = {
     scales: {
       y: {
-        beginAtZero: true,
+        beginAtZero: false,
       },
     },
   };
-
+  const labels = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
   const data = {
     datasets: [
+      labels,
       {
-        label: "First Dataset",
+        label: "Trump",
         data: [
           {
             x: 20,
@@ -35,7 +49,26 @@ const Bubble_chart = () => {
             r: 10,
           },
         ],
+        borderColor: "rgb(255, 99, 132)",
         backgroundColor: "rgb(255, 99, 132)",
+        yAxisID: "y1",
+      },
+      {
+        label: "Obama",
+        data: [
+          {
+            x: 15,
+            y: 20,
+            r: 25,
+          },
+          {
+            x: 30,
+            y: 35,
+            r: 40,
+          },
+        ],
+        borderColor: "rgb(53, 162, 235)",
+        backgroundColor: "rgba(53, 162, 235, 0.5)",
       },
     ],
   };
