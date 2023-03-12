@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Error from "./component/error/error";
+import Dashboard from "./pages/dashboard";
 import Home from "./pages/home";
 import Area_chart from "./pages/area_chart";
 import trump_data from "./data";
@@ -19,6 +20,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/services" element={<Dashboard />} />
           <Route
             path="/area_chart"
             element={<Area_chart trump_data={trump_data} />}

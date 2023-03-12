@@ -1,18 +1,18 @@
-import Recherche from "../component/first_comments/recherche/recherche";
-import { Link, Outlet } from "react-router-dom";
-import Navbar from "../component/Navbar/Navbar";
-import trump from "../data";
+import Services from "../component/services/services";
+import trump from "../img/trump.jpg";
+import biden from "../img/biden.jpg";
+import Intro from "../component/intro/into";
+import intro_img from "../img/intro_img.png";
+import Contact from "../component/contact us/contact";
+import Navbar from "../component/Navbar";
 const Home = () => {
   return (
-    <>
+    <div className="home">
       <Navbar />
-      <section className="section">
-        <Outlet />
-      </section>
-      <section className="section">
-        <Recherche trump={trump} />
-      </section>
-    </>
+      <Intro intro_img={intro_img} />
+      <Services img1={trump} img2={biden} />
+      <Contact />
+    </div>
   );
 };
 export default Home;
