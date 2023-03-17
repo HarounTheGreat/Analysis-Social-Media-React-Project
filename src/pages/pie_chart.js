@@ -1,7 +1,7 @@
 import React from "react";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import Navbar from "../component/Navbar/Navbar";
-
+import { Link, useParams } from "react-router-dom";
 import { Pie } from "react-chartjs-2";
 import Calcul from "../component/clacul";
 import "./chart.css";

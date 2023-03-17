@@ -12,7 +12,6 @@ const Analyse_by_language = ({ trump_data }) => {
   let result;
   Languages_used_array = Languages_used(trump_data);
   result = Filter_data_by_language(trump_data, Languages_used_array);
-  console.log("result \n", result[0][0]);
   return (
     <div>
       <Navbar />

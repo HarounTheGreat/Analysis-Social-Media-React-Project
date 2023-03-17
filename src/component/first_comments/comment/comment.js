@@ -12,7 +12,6 @@ function Comment({
 }) {
   const [readMore, setReadMore] = useState(false);
   var operator = "netural";
-  console.log("comment_type=\n", comment_type);
   if (comment_type === "P") {
     operator = "positive";
   } else if (comment_type === "N") {
