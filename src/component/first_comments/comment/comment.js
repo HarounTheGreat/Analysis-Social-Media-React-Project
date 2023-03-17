@@ -1,13 +1,21 @@
 import "./comment.css";
 import React, { useState } from "react";
 
-function Comment({ id, N, comment, Year, hour_z_time, an, Language }) {
+function Comment({
+  id,
+  N,
+  comment,
+  year,
+  hour_z_time,
+  comment_type,
+  Language,
+}) {
   const [readMore, setReadMore] = useState(false);
   var operator = "netural";
-
-  if (an === "P") {
+  console.log("comment_type=\n", comment_type);
+  if (comment_type === "P") {
     operator = "positive";
-  } else if (an === "N") {
+  } else if (comment_type === "N") {
     operator = "negative";
   } else {
     operator = "netural";
@@ -31,7 +39,7 @@ function Comment({ id, N, comment, Year, hour_z_time, an, Language }) {
             </button>
           )}
         </div>
-        <div className="item-3">{Year}</div>
+        <div className="item-3">{year[0] + "-" + year[1] + "-" + year[2]}</div>
       </div>
     </div>
   );

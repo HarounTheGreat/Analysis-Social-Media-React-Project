@@ -1,6 +1,7 @@
 const listData = [
   {
     Id: 1,
+    Name: "trump",
     Fullname: "Donald Trump",
     Status: "Ex President of the USA",
     Description:
@@ -10,6 +11,7 @@ const listData = [
   },
   {
     Id: 2,
+    Name: "biden",
     Fullname: "Joseph Biden",
     Status: "President of the USA",
     Description:
@@ -19,6 +21,7 @@ const listData = [
   },
   {
     Id: 3,
+    Name: "putin",
     Fullname: "Vladimir Putin",
     Status: "Ex President of the USA",
     Description:
@@ -28,6 +31,7 @@ const listData = [
   },
   {
     Id: 4,
+    Name: "zelenskyy",
     Fullname: "Volodymyr Zelenskyy",
     Status: "President of the USA",
     Description:
@@ -37,6 +41,7 @@ const listData = [
   },
   {
     Id: 5,
+    Name: "macron",
     Fullname: "Emmanuel Macron",
     Status: "President of the USA",
     Description:
@@ -46,6 +51,7 @@ const listData = [
   },
   {
     Id: 6,
+    Name: "obama",
     Fullname: "Barack Obama",
     Status: "44th U.S. President",
     Description:

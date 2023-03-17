@@ -14,17 +14,15 @@ import Line_chart from "./pages/line_chart";
 import Analyse_by_language from "./pages/analyse_by_language";
 import Pie_chart from "./pages/pie_chart";
 import Multiaxis_line_chart from "./pages/multiaxis_line_chart";
+import SinglePerson from "./component/services/SinglePerson";
+import trump from "./data";
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/services" element={<Dashboard />} />
-          <Route
-            path="/area_chart"
-            element={<Area_chart trump_data={trump_data} />}
-          />
+          <Route path="/services" element={<Dashboard data={trump} />} />
           <Route
             path="/bar_chart"
             element={
@@ -59,6 +57,7 @@ function App() {
               />
             }
           />
+          <Route path=":productId" element={<SinglePerson />} />
           <Route path="*" element={<Error />} />
         </Routes>
       </BrowserRouter>
