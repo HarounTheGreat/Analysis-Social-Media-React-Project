@@ -50,7 +50,6 @@ const Doughnut_chart = ({ trump_data }) => {
   if (test) {
     return (
       <div className="doughtnur_chart">
-        <Navbar />
         <h1>Doughnut Chart</h1>
         <Doughnut data={data} />
         <form onSubmit={submitHandler}>
@@ -87,7 +86,6 @@ const Doughnut_chart = ({ trump_data }) => {
   } else {
     return (
       <div className="doughtnur_chart">
-        <Navbar />
         <h1> There is no Data here</h1>
         <Link to="/">Home Page</Link>
       </div>

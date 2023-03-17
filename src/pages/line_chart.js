@@ -49,7 +49,6 @@ const Line_chart = ({ trump_data, obama_data }) => {
   };
   return (
     <div className="line_chart">
-      <Navbar />
       <Bar options={options} data={data} />
     </div>
   );

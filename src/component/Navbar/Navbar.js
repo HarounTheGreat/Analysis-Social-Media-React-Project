@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-const Navbar = () => {
+const Navbar = ({ idnumber }) => {
   return (
     <nav className="navbar">
       <ul>
@@ -15,7 +15,10 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link style={{ textDecoration: "none" }} to="/bar_chart">
+          <Link
+            style={{ textDecoration: "none" }}
+            to={`/${idnumber}/bar_chart`}
+          >
             Bar Chart
           </Link>
         </li>

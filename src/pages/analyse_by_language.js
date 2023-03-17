@@ -14,7 +14,6 @@ const Analyse_by_language = ({ trump_data }) => {
   result = Filter_data_by_language(trump_data, Languages_used_array);
   return (
     <div>
-      <Navbar />
       <h1> Analysis By Language</h1>
       <div className="analyse_by_language">
         {result.map((one_table) => {

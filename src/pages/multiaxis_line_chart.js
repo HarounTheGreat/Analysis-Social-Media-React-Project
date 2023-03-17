@@ -119,7 +119,6 @@ const Multiaxis_line_chart = ({ trump_data, obama_data }) => {
 
   return (
     <div className="multiaxis_line_chart">
-      <Navbar />
       <h1>Trump vs Obama </h1>
       <div className="year_selection">
         <div className="cell cell-1">From</div>

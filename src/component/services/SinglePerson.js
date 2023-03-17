@@ -12,7 +12,6 @@ const SinglePerson = () => {
   }
   const { Id, Name, Fullname, Status, Description, Image } = product;
   let data = require("../data/" + product.Name + ".json");
-  console.log(data);
   return (
     <div className="single-person">
       <h1>{Fullname}</h1>

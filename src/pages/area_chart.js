@@ -51,7 +51,6 @@ const Area_chart = ({ trump_data }) => {
   };
   return (
     <>
-      <Navbar />
       <h1>Area Chart</h1>
       <div className="area_chart">
         <Pie data={data} />

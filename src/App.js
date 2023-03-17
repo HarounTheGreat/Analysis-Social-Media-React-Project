@@ -22,9 +22,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/services" element={<Dashboard data={trump} />} />
+          {/* <Route path="/services" element={<Dashboard data={trump} />} /> */}
           <Route
-            path="/bar_chart"
+            path=":personId/bar_chart"
             element={
               <Bar_chart trump_data={trump_data} obama_data={obama_data} />
             }

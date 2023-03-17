@@ -8,7 +8,6 @@ import Navbar from "../component/Navbar";
 const Home = () => {
   return (
     <div className="home">
-      <Navbar />
       <Intro intro_img={intro_img} />
       <Services img1={trump} img2={biden} />
       <Contact />

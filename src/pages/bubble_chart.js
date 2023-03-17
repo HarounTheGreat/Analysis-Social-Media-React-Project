@@ -74,7 +74,6 @@ const Bubble_chart = () => {
   };
   return (
     <div className="bubble_chart">
-      <Navbar />
       <h1>Bouriga</h1>
       <Bubble options={options} data={data} />
     </div>

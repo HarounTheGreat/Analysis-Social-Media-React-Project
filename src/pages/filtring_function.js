@@ -1,4 +1,5 @@
 // return fillring data without change the data structur
+import listData from "../component/services/listData";
 export const filtring_by_date = (data, from_Date, to_Date, language) => {
   let filtring_data = [];
   if (language === undefined) {
@@ -136,6 +137,72 @@ export const calculate_data_by_type_and_month = (
   d1 = calculate_data_by_type(data1);
   for (let i = 0; i < d1.length; i++) {
     res.push({ x: 10, y: d1[i], r: 10 });
+  }
+  return res;
+};
+
+export const Choose_person = (personId) => {
+  personId = parseInt(personId);
+  let res = [];
+  for (let i = 0; i < listData.length; i++) {
+    if (listData[i].Id === personId) {
+      res = listData[i];
+    }
+  }
+  return require("../component/data/" + res.Name + ".json");
+};
+
+// Months
+
+export const months = (X) => {
+  let p = "";
+  let a = 0;
+  let res = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+  for (let i = 0; i < X.length; i++) {
+    p = X[i].year[1];
+    if (p === undefined) {
+      console.log("\ndssssssssssss");
+    }
+    a = parseInt(p);
+    switch (a) {
+      case 1:
+        res[0] = res[0] + 1;
+        break;
+      case 2:
+        res[1] = res[1] + 1;
+        break;
+      case 3:
+        res[2] = res[2] + 1;
+        break;
+      case 4:
+        res[3] = res[3] + 1;
+        break;
+      case 5:
+        res[4] = res[4] + 1;
+        break;
+      case 6:
+        res[5] = res[5] + 1;
+        break;
+      case 7:
+        res[6] = res[6] + 1;
+        break;
+      case 8:
+        res[7] = res[7] + 1;
+        break;
+      case 9:
+        res[8] = res[8] + 1;
+        break;
+      case 10:
+        res[9] = res[9] + 1;
+        break;
+      case 11:
+        res[10] = res[10] + 1;
+        break;
+      case 12:
+        res[11] = res[11] + 1;
+        break;
+      default:
+    }
   }
   return res;
 };
