@@ -143,26 +143,30 @@ export const calculate_data_by_type_and_month = (
 
 export const Choose_person = (personId) => {
   personId = parseInt(personId);
+  let person_data;
+  let name;
   let res = [];
   for (let i = 0; i < listData.length; i++) {
     if (listData[i].Id === personId) {
       res = listData[i];
+      name = listData[i].Fullname;
     }
   }
-  return require("../component/data/" + res.Name + ".json");
+  person_data = require("../component/data/" + res.Name + ".json");
+  return [person_data, name];
 };
 
 // Months
 
 export const months = (X) => {
+  if (X === undefined) {
+    return [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+  }
   let p = "";
   let a = 0;
   let res = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
   for (let i = 0; i < X.length; i++) {
     p = X[i].year[1];
-    if (p === undefined) {
-      console.log("\ndssssssssssss");
-    }
     a = parseInt(p);
     switch (a) {
       case 1:
@@ -202,6 +206,16 @@ export const months = (X) => {
         res[11] = res[11] + 1;
         break;
       default:
+    }
+  }
+  return res;
+};
+
+export const Get_personID_by_Fullname = (Fullname) => {
+  let res;
+  for (let i = 0; i < listData.length; i++) {
+    if (listData[i].Fullname === Fullname) {
+      res = listData[i].Id;
     }
   }
   return res;

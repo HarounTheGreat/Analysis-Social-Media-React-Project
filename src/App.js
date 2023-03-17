@@ -23,12 +23,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           {/* <Route path="/services" element={<Dashboard data={trump} />} /> */}
-          <Route
-            path=":personId/bar_chart"
-            element={
-              <Bar_chart trump_data={trump_data} obama_data={obama_data} />
-            }
-          />
+          <Route path=":personId/bar_chart" element={<Bar_chart />} />
           <Route path="/bubble_chart" element={<Bubble_chart />} />
           <Route
             path="/Doughnut_chart"
