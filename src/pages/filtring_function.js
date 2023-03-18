@@ -220,3 +220,13 @@ export const Get_personID_by_Fullname = (Fullname) => {
   }
   return res;
 };
+
+export const Get_Img_by_Fullname = (Fullname) => {
+  let res;
+  for (let i = 0; i < listData.length; i++) {
+    if (listData[i].Fullname === Fullname) {
+      res = listData[i].Image;
+    }
+  }
+  return res;
+};

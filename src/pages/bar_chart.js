@@ -27,8 +27,13 @@ const Bar_chart = () => {
   let { personId } = useParams();
   let [person1_data, person1_name] = Choose_person(personId);
   let [person2_data, person2_name] = [undefined, undefined];
-  const [firstPerson, setFirstPerson] = useState(null);
+  const defaultparameter = {
+    value: Choose_person(personId)[1],
+    label: Choose_person(personId)[1],
+  };
+  const [firstPerson, setFirstPerson] = useState(defaultparameter);
   const [secondPerson, setSecondPerson] = useState(null);
+  console.log("firstPerson====\n", firstPerson);
   let twoPersons = false;
   if (firstPerson !== null) {
     personId = Get_personID_by_Fullname(firstPerson.value);
@@ -54,13 +59,6 @@ const Bar_chart = () => {
     plugins: {
       legend: {
         position: "top",
-      },
-      title: {
-        display: true,
-        text: twoPersons
-          ? `${person1_name} Vs ${person2_name}`
-          : `${person1_name}`,
-        // text: `${person1_name} Vs ${person2_name}`,
       },
     },
   };
@@ -100,10 +98,13 @@ const Bar_chart = () => {
   return (
     <div className="bar_chart">
       <h1>Bar chart</h1>
-      <h1>
-        {person1_name} {twoPersons && <h1> Vs {person2_name}</h1>}
-      </h1>
-      <PersonSelection firsthandle={firsthandle} secondhandle={secondhandle} />
+      <PersonSelection
+        firsthandle={firsthandle}
+        secondhandle={secondhandle}
+        person1_name={person1_name}
+        person2_name={person2_name}
+        twoPersons={twoPersons}
+      />
       <Bar options={options} data={data} />
     </div>
   );
