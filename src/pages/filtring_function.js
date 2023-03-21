@@ -225,7 +225,7 @@ export const Get_Img_by_Fullname = (Fullname) => {
   let res;
   for (let i = 0; i < listData.length; i++) {
     if (listData[i].Fullname === Fullname) {
-      res = listData[i].Image;
+      res = listData[i];
     }
   }
   return res;

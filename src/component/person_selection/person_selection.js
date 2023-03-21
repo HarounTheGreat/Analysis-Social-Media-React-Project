@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import listData from "../services/listData";
 import "./person_selection.css";
 import { Get_Img_by_Fullname } from "../../pages/filtring_function";
+import DatePicker from "react-datepicker";
+import { Checkbox } from "react-input-checkbox";
 const PersonSelection = ({
   firsthandle,
   secondhandle,
@@ -10,46 +12,22 @@ const PersonSelection = ({
   person2_name,
   twoPersons,
 }) => {
-  let img1 = "one";
-  let img2 = "two";
-  img1 = Get_Img_by_Fullname(person1_name);
-  img2 = Get_Img_by_Fullname(person2_name);
+  const [to_Date, setTo_Date] = useState("");
+  const [llk, setLlk] = useState("Hello");
+  let person1;
+  let person2;
+  person2 = Get_Img_by_Fullname(person2_name);
+  person1 = Get_Img_by_Fullname(person1_name);
   let selection_options = [];
   let one_option = {};
   for (let i = 0; i < listData.length; i++) {
     one_option = { value: listData[i].Fullname, label: listData[i].Fullname };
     selection_options.push(one_option);
   }
-  console.log("firsthandle", firsthandle);
+
   return (
-    <div className="person-selection">
-      {!twoPersons && (
-        <>
-          <h1>{person1_name}</h1>
-          <img className="single-image" alt={person1_name} src={img1} />
-        </>
-      )}
-      {twoPersons && (
-        <>
-          <div className="two-images">
-            <div className="first-image">
-              <img alt={person1_name} src={img1} />
-              <div className="first-name">{person1_name}</div>
-            </div>
-            <div className="vs">VS</div>
-            <div className="second-image">
-              <img alt={person2_name} src={img2} />
-              <div className="first-name">{person2_name}</div>
-            </div>
-          </div>
-          {/* <div className="persons-names">
-              <div className="first-name">{person1_name}</div>
-              <div className="vs1">Vs</div>
-              <div className="second-name">{person2_name}</div>
-            </div> */}
-        </>
-      )}
-      <div className="year_selection">
+    <>
+      <div className="year-selection">
         <div className="cell cell-1">First Person</div>
         <div className="cell cell-2">
           <Select
@@ -67,64 +45,101 @@ const PersonSelection = ({
           />
         </div>
       </div>
-      <div className="person-card">
-        <div className="person-card-img">
-          <img alt={person1_name} src={img1} />
-        </div>
-        <div className="person-card-desc">
-          <div className="person-card-fullname">Donald Trump</div>
-          <div className="person-card-title">Ex President of the USA</div>
-          <div className="person-card-description">
-            Donald John Trump is an American politician, media personality, and
-            businessman who served as the 45th president of the United States
-            from 2017 to 2021.
+      <div className="person-selection">
+        {!twoPersons && (
+          <div className="person-card">
+            <img
+              className="person-card-img"
+              alt={person1_name}
+              src={person1.Image}
+            />
+            <div className="person-card-desc">
+              <div className="person-card-fullname">{person1.Fullname}</div>
+              <div className="person-card-title">{person1.Status}</div>
+              <div className="person-card-description">
+                {person1.Description}
+              </div>
+            </div>
           </div>
-        </div>
+        )}
+        {twoPersons && (
+          <>
+            <div className="two-images">
+              <div className="person-card">
+                <img
+                  className="person-card-img"
+                  alt={person1_name}
+                  src={person1.Image}
+                />
+                <div className="person-card-desc">
+                  <div className="person-card-fullname">{person1.Fullname}</div>
+                  <div className="person-card-title">{person1.Status}</div>
+                  <div className="person-card-description">
+                    {person1.Description}
+                  </div>
+                </div>
+              </div>
+              <div className="vs">VS</div>
+              <div className="person-card2">
+                <img
+                  className="person-card-img"
+                  alt={person2_name}
+                  src={person2.Image}
+                />
+                <div className="person-card-desc">
+                  <div className="person-card-fullname">{person2.Fullname}</div>
+                  <div className="person-card-title">{person2.Status}</div>
+                  <div className="person-card-description">
+                    {person2.Description}
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* <div className="persons-names">
+              <div className="first-name">{person1_name}</div>
+              <div className="vs1">Vs</div>
+              <div className="second-name">{person2_name}</div>
+            </div> */}
+          </>
+        )}
       </div>
-      {/* <div className="scroll-bg">
-        <img alt={person2_name} src={img2} />
-        <div className="scroll-div">
-          <div className="scroll-object">
-            simple scroll bar in div tutorial using only html and css if you
-            have questions concerning this video feel free to head down to the
-            comment section - - - - - - - - - - - -- - - - - - - - - - - - - - -
-            - - - - - - - - - - - - - - - - - - if you find this video helpful
-            please like and susbcribe
-            --------------------------------------------------------------------------------------
-            Track: Netrum - Colorblind (feat. Halvorsen) [NCS Release] Music
-            provided by NoCopyrightSounds.simple scroll bar in div tutorial
-            using only html and css if you have questions concerning this video
-            feel free to head down to the comment section - - - - - - - - - - -
-            -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-            if you find this video helpful please like and susbcribe
-            --------------------------------------------------------------------------------------
-            Track: Netrum - Colorblind (feat. Halvorsen) [NCS Release] Music
-            provided by NoCopyrightSounds.simple scroll bar in div tutorial
-            using only html and css if you have questions concerning this video
-            feel free to head down to the comment section - - - - - - - - - - -
-            -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-            if you find this video helpful please like and susbcribe
-            --------------------------------------------------------------------------------------
-            Track: Netrum - Colorblind (feat. Halvorsen) [NCS Release] Music
-            provided by NoCopyrightSounds.mple scroll bar in div tutorial using
-            only html and css if you have questions concerning this video feel
-            free to head down to the comment section - - - - - - - - - - - -- -
-            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - if you
-            find this video helpful please like and susbcribe
-            --------------------------------------------------------------------------------------
-            Track: Netrum - Colorblind (feat. Halvorsen) [NCS Release] Music
-            provided by NoCopyrightSounds.simple scroll bar in div tutorial
-            using only html and css if you have questions concerning this video
-            feel free to head down to the comment section - - - - - - - - - - -
-            -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-            if you find this video helpful please like and susbcribe
-            --------------------------------------------------------------------------------------
-            Track: Netrum - Colorblind (feat. Halvorsen) [NCS Release] Music
-            provided by NoCopyrightSounds.
+      <div className="slicer">
+        <div className="slicer-choose-date">
+          <div className="slicer-date">
+            <div className="slicer-date-title">Date</div>
+            <div className="slicer-date-option">
+              <input
+                type="date"
+                min="2019-01-01"
+                max="2021-12-31"
+                onChange={(e) => setTo_Date(e.target.value)}
+                value={to_Date}
+              />
+            </div>
+          </div>
+          <div className="slicer-date">
+            <div className="slicer-date-title">To</div>
+            <div className="slicer-date-option">
+              <input
+                type="date"
+                min="2019-01-01"
+                max="2021-12-31"
+                onChange={(e) => setTo_Date(e.target.value)}
+                value={to_Date}
+              />
+            </div>
           </div>
         </div>
-      </div> */}
-    </div>
+        <div className="slicer-opinion">Opinion</div>
+        <div className="slicer-language">Language</div>
+      </div>
+      <Checkbox
+        theme="fancy-checkbox"
+        disabled={"props.disabled"}
+        value={"props.value"}
+        onChange={"props.onChange"}
+      />
+    </>
   );
 };
 export default PersonSelection;

@@ -2,6 +2,15 @@ import React, { useState } from "react";
 import "./chart.css";
 import Navbar from "../component/Navbar/Navbar";
 import { months, Get_personID_by_Fullname } from "./filtring_function";
+import DatePicker from "react-datepicker";
+import DateRangePicker from "daterangepicker";
+import { DayPicker } from "react-day-picker";
+import {
+  CalendarComponent,
+  ChangedEventArgs,
+} from "@syncfusion/ej2-react-calendars";
+// import { SampleBase } from "../common/sample-base";
+import Calendar from "moedim";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -24,6 +33,8 @@ ChartJS.register(
   Legend
 );
 const Bar_chart = () => {
+  const [to_Date, setTo_Date] = useState("2021-12-16");
+  console.log("to_Date=======\n", to_Date);
   let { personId } = useParams();
   let [person1_data, person1_name] = Choose_person(personId);
   let [person2_data, person2_name] = [undefined, undefined];
@@ -33,7 +44,6 @@ const Bar_chart = () => {
   };
   const [firstPerson, setFirstPerson] = useState(defaultparameter);
   const [secondPerson, setSecondPerson] = useState(null);
-  console.log("firstPerson====\n", firstPerson);
   let twoPersons = false;
   if (firstPerson !== null) {
     personId = Get_personID_by_Fullname(firstPerson.value);
@@ -94,7 +104,6 @@ const Bar_chart = () => {
       },
     ],
   };
-  console.log("twoPersons\n", twoPersons);
   return (
     <div className="bar_chart">
       <h1>Bar chart</h1>
@@ -106,6 +115,14 @@ const Bar_chart = () => {
         twoPersons={twoPersons}
       />
       <Bar options={options} data={data} />
+      {/* <div className="control-pane">
+        <div className="control-section">
+          <div className="calendar-control-section">
+            <CalendarComponent change={this.onchange}></CalendarComponent>
+            <label id="date_label">Selected Value:</label>
+          </div>
+        </div>
+      </div> */}
     </div>
   );
 };

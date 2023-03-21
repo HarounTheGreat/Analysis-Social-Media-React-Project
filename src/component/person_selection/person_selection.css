@@ -1,50 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text&family=Inconsolata:wght@800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
 .person-selection {
   border: solid;
   border-color: black;
   box-shadow: 10px 10px;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
 }
 .single-image {
   height: 10%;
   width: 20%;
-  margin-bottom: 2%;
   box-shadow: 10px 10px;
 }
-.year_selection {
+.year-selection {
+  margin-left: auto;
+  margin-right: auto;
   display: grid;
   grid-template-columns: 20% 30% 20% 30%;
 }
 .cell {
-  margin-top: 2%;
-  margin-bottom: 5%;
+  /* margin-top: 2%; */
+  margin-bottom: 4%;
   font-weight: bold;
 }
 .two-images {
   display: flex;
   width: 100%;
   height: 400px;
-  margin-right: 20%;
-  margin-bottom: 5%;
 }
 .first-image {
   max-width: 100%;
   max-height: 100%;
-  margin-left: 15%;
 }
 .second-image {
   max-width: 100%;
   max-height: 100%;
-  margin-right: 15%;
-  /* justify-content: flex-end; */
 }
-@import url("https://fonts.googleapis.com/css2?family=Golos+Text&display=swap");
+
 .vs {
   margin: auto;
   font-weight: bold;
   font-size: 40px;
   font-family: "Golos Text", sans-serif;
 }
-@import url("https://fonts.googleapis.com/css2?family=Golos+Text&family=Inconsolata:wght@800;900&display=swap");
+
 .persons-names {
   display: flex;
   justify-content: space-between;
@@ -52,57 +53,131 @@
   font-family: "Golos Text", sans-serif;
 }
 .first-name {
-  /* margin-left: 10%; */
   font-size: 50px;
 }
 .second-name {
-  /* margin-right: 10%; */
   font-size: 50px;
 }
 
 /* ----------------------------------------------- */
-/* 
-.scroll-bg {
-  width: 400px;
-  margin: 10% auto;
-  background: rgb(252, 191, 191);
-  padding: 10px 20px;
-}
-
-.scroll-div {
-  width: 400px;
-  background: rgb(140, 77, 77);
-  height: 300px;
-  overflow: hidden;
-  overflow-y: scroll;
-}
-
-.scroll-object {
-  color: wheat;
-  font-family: cursive;
-  font-size: 15px;
-  padding: 20px;
-} */
-
-/* ----------------------------------- */
 .person-card {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 4%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
   border: solid;
-  border-color: blue;
+  background-color: #74ffba;
+  border-radius: 5%;
   display: flex;
   gap: 1em;
+  height: 320px;
+  width: 500px;
+  border-color: black;
+  padding: 10px;
+  box-shadow: 2px 4px;
+}
+.person-card2 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border: solid;
+  border-color: blue;
+  background-color: #9ad0f5;
+  border-radius: 5%;
+  display: flex;
+  gap: 1em;
+  height: 320px;
+  width: 500px;
+  border-color: black;
+  padding: 10px;
+  box-shadow: 2px 4px;
 }
 .person-card-img {
   flex-basis: 50%;
-  margin-left: 1%;
+  margin: 1%;
+  border-radius: 5%;
+  border: 3px solid;
+  border-color: black;
+  box-shadow: 2px 2px;
 }
 .person-card-desc {
-  border: solid;
-  border-color: brown;
   flex-basis: 50%;
-  align-content: flex-end;
   margin-right: 1%;
-  justify-items: flex-end;
+}
+
+.person-card-fullname {
+  background-color: white;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-color: black;
+  border: 1px solid;
+  padding: 5px;
+  box-shadow: 2px 4px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 24px;
+}
+.person-card-title {
+  background-color: white;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-color: black;
+  border: 1px solid;
+  padding: 5px;
+  box-shadow: 2px 4px;
+  font-family: "Golos Text", sans-serif;
+}
+
+.person-card-description {
+  height: 150px;
+  background-color: white;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-color: black;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 2px 4px;
+  font-family: "Nunito", sans-serif;
+  overflow-y: scroll;
+}
+.slicer {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border: solid;
+  border-color: black;
+  display: grid;
+  grid-template-columns: 50% 30% 20% 30%;
+}
+.slicer-date {
+  gap: 1em;
+  border: solid;
+  border-color: black;
+  display: flex;
+  align-items: center;
+}
+.slicer-date-title {
+  flex-basis: 50%;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 24px;
+}
+.slicer-opinion {
+  border: solid;
+  border-color: black;
+}
+.slicer-language {
+  border: solid;
+  border-color: black;
+}
+.slicer-date-option {
+  flex-basis: 70%;
+}
+
+.slicer-opinion {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 24px;
+}
+
+.slicer-language {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 24px;
 }
