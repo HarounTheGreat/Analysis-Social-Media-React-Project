@@ -23,24 +23,6 @@ const PersonSelection = ({
   console.log("firsthandle", firsthandle);
   return (
     <div className="person-selection">
-      <div className="year_selection">
-        <div className="cell cell-1">First Person</div>
-        <div className="cell cell-2">
-          <Select
-            defaultValue={"firstPerson"}
-            onChange={(change) => firsthandle(change)}
-            options={selection_options}
-          />
-        </div>
-        <div className="cell cell-3">Second Person</div>
-        <div className="cell cell-4">
-          <Select
-            defaultValue={"firstPerson"}
-            onChange={(change) => secondhandle(change)}
-            options={selection_options}
-          />
-        </div>
-      </div>
       {!twoPersons && (
         <>
           <h1>{person1_name}</h1>
@@ -67,6 +49,25 @@ const PersonSelection = ({
           </div> */}
         </>
       )}
+      <div className="year_selection">
+        <div className="cell cell-1">First Person</div>
+        <div className="cell cell-2">
+          <Select
+            defaultValue={"firstPerson"}
+            onChange={(change) => firsthandle(change)}
+            options={selection_options}
+          />
+        </div>
+        <div className="cell cell-3">Second Person</div>
+        <div className="cell cell-4">
+          <Select
+            defaultValue={"firstPerson"}
+            onChange={(change) => secondhandle(change)}
+            options={selection_options}
+          />
+        </div>
+      </div>
+      {/* ---------------------------------------------------- */}
     </div>
   );
 };
