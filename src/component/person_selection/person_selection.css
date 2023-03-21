@@ -59,3 +59,50 @@
   /* margin-right: 10%; */
   font-size: 50px;
 }
+
+/* ----------------------------------------------- */
+/* 
+.scroll-bg {
+  width: 400px;
+  margin: 10% auto;
+  background: rgb(252, 191, 191);
+  padding: 10px 20px;
+}
+
+.scroll-div {
+  width: 400px;
+  background: rgb(140, 77, 77);
+  height: 300px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.scroll-object {
+  color: wheat;
+  font-family: cursive;
+  font-size: 15px;
+  padding: 20px;
+} */
+
+/* ----------------------------------- */
+.person-card {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 4%;
+  border: solid;
+  border-color: blue;
+  display: flex;
+  gap: 1em;
+}
+.person-card-img {
+  flex-basis: 50%;
+  margin-left: 1%;
+}
+.person-card-desc {
+  border: solid;
+  border-color: brown;
+  flex-basis: 50%;
+  align-content: flex-end;
+  margin-right: 1%;
+  justify-items: flex-end;
+}
