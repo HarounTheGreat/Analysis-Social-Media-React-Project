@@ -133,12 +133,6 @@ const PersonSelection = ({
         <div className="slicer-opinion">Opinion</div>
         <div className="slicer-language">Language</div>
       </div>
-      <Checkbox
-        theme="fancy-checkbox"
-        disabled={"props.disabled"}
-        value={"props.value"}
-        onChange={"props.onChange"}
-      />
     </>
   );
 };
