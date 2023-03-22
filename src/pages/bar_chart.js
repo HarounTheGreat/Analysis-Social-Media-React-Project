@@ -2,15 +2,6 @@ import React, { useState } from "react";
 import "./chart.css";
 import Navbar from "../component/Navbar/Navbar";
 import { months, Get_personID_by_Fullname } from "./filtring_function";
-import DatePicker from "react-datepicker";
-import DateRangePicker from "daterangepicker";
-import { DayPicker } from "react-day-picker";
-import {
-  CalendarComponent,
-  ChangedEventArgs,
-} from "@syncfusion/ej2-react-calendars";
-// import { SampleBase } from "../common/sample-base";
-import Calendar from "moedim";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -115,14 +106,6 @@ const Bar_chart = () => {
         twoPersons={twoPersons}
       />
       <Bar options={options} data={data} />
-      {/* <div className="control-pane">
-        <div className="control-section">
-          <div className="calendar-control-section">
-            <CalendarComponent change={this.onchange}></CalendarComponent>
-            <label id="date_label">Selected Value:</label>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };

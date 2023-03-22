@@ -2,9 +2,11 @@ import Select from "react-select";
 import React, { useState } from "react";
 import listData from "../services/listData";
 import "./person_selection.css";
-import { Get_Img_by_Fullname } from "../../pages/filtring_function";
-import DatePicker from "react-datepicker";
-import { Checkbox } from "react-input-checkbox";
+import {
+  Get_Img_by_Fullname,
+  Languages_used,
+  Choose_person,
+} from "../../pages/filtring_function";
 const PersonSelection = ({
   firsthandle,
   secondhandle,
@@ -12,12 +14,18 @@ const PersonSelection = ({
   person2_name,
   twoPersons,
 }) => {
+  const [positiveReview, setPositiveReview] = useState(false);
+  const [negativeReview, setNegativeReview] = useState(false);
+  const [neturalReview, setNeturalReview] = useState(false);
+  console.log("positiveReview==\n", positiveReview);
+  console.log("negativeReview==\n", negativeReview);
+  console.log("neturalReview==\n", neturalReview);
   const [to_Date, setTo_Date] = useState("");
-  const [llk, setLlk] = useState("Hello");
   let person1;
   let person2;
   person2 = Get_Img_by_Fullname(person2_name);
   person1 = Get_Img_by_Fullname(person1_name);
+  let languages_used = Languages_used(Choose_person(person1.Id)[0]);
   let selection_options = [];
   let one_option = {};
   for (let i = 0; i < listData.length; i++) {
@@ -130,10 +138,120 @@ const PersonSelection = ({
             </div>
           </div>
         </div>
-        <div className="slicer-opinion">Opinion</div>
-        <div className="slicer-language">Language</div>
+        <div className="slicer-opinion">
+          <div className="slicer-opinion-title">Opinion</div>
+          <div className="slicer-opinion-box">
+            <div className="slicer-opinion-box1">
+              <div className="checkbox-wrapper-31">
+                <input
+                  type="checkbox"
+                  id="scales"
+                  name="scales"
+                  onChange={() => setPositiveReview(!positiveReview)}
+                />
+                <svg viewBox="0 0 35.6 35.6">
+                  <circle
+                    className="background"
+                    cx="17.8"
+                    cy="17.8"
+                    r="17.8"
+                  ></circle>
+                  <circle
+                    className="stroke"
+                    cx="17.8"
+                    cy="17.8"
+                    r="14.37"
+                  ></circle>
+                  <polyline
+                    className="check"
+                    points="11.78 18.12 15.55 22.23 25.17 12.87"
+                  ></polyline>
+                </svg>
+              </div>
+              <div className="slicer-opinion-option">Positive</div>
+            </div>
+            <div className="slicer-opinion-box2">
+              <div className="checkbox-wrapper-31">
+                <input
+                  type="checkbox"
+                  id="scales"
+                  name="scales"
+                  onChange={() => setNeturalReview(!neturalReview)}
+                />
+                <svg viewBox="0 0 35.6 35.6">
+                  <circle
+                    className="background"
+                    cx="17.8"
+                    cy="17.8"
+                    r="17.8"
+                  ></circle>
+                  <circle
+                    className="stroke"
+                    cx="17.8"
+                    cy="17.8"
+                    r="14.37"
+                  ></circle>
+                  <polyline
+                    className="check"
+                    points="11.78 18.12 15.55 22.23 25.17 12.87"
+                  ></polyline>
+                </svg>
+              </div>
+              <div className="slicer-opinion-option">Netural</div>
+            </div>
+            <div className="slicer-opinion-box3">
+              <div className="checkbox-wrapper-31">
+                <input
+                  type="checkbox"
+                  id="scales"
+                  name="scales"
+                  onChange={() => setNegativeReview(!negativeReview)}
+                />
+                <svg viewBox="0 0 35.6 35.6">
+                  <circle
+                    className="background"
+                    cx="17.8"
+                    cy="17.8"
+                    r="17.8"
+                  ></circle>
+                  <circle
+                    className="stroke"
+                    cx="17.8"
+                    cy="17.8"
+                    r="14.37"
+                  ></circle>
+                  <polyline
+                    className="check"
+                    points="11.78 18.12 15.55 22.23 25.17 12.87"
+                  ></polyline>
+                </svg>
+              </div>
+              <div className="slicer-opinion-option">Negative</div>
+            </div>
+          </div>
+        </div>
+        <div className="slicer-language">
+          <div className="slicer-language-title">Language</div>
+          <div className="slicer-language-options">
+            {languages_used.map((lan) => languages(lan))}
+          </div>
+        </div>
       </div>
     </>
+  );
+};
+const languages = (lan) => {
+  return (
+    <div className="languages">
+      <div className="languages-name">{lan}</div>
+      <div className="languages-option">
+        <label className="rocker rocker-small">
+          <input type="checkbox" />
+          <span className="switch-left">Yes</span>
+          <span className="switch-right">No</span>
+        </label>
+      </div>
+    </div>
   );
 };
 export default PersonSelection;

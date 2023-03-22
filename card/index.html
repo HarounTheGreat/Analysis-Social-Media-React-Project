@@ -1,92 +1,85 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - CodePen Challenge:  Card Text</title>
-  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+<html>
+  <style>
+    .checkbox-wrapper-31:hover .check {
+      stroke-dashoffset: 0;
+    }
 
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<div class="main">
-  <ul class="cards">
-    <li class="cards_item">
-      <div class="card">
-        <div class="card_image">
-          <img src="https://assets.codepen.io/652/photo-1468777675496-5782faaea55b.jpeg" alt="mixed vegetable salad in a mason jar." />
-          <span class="card_price"><span>$</span>9</span>
-        </div>
-        <div class="card_content">
-          <h2 class="card_title">Farmstand Salad</h2>
-          <div class="card_text">
-            <p>Dig into the freshest veggies of the season! This salad-in-a-jar features a mixture of
-              leafy greens and seasonal vegetables, fresh from the farmer's market.
-            </p>
-            <hr />
-            <p>Served with your choice of dressing on the side: <strong>housemade ranch</strong>, <strong>cherry balsamic
-                vinaigrette</strong>, <strong>creamy chipotle</strong>, <strong>avocado green goddess</strong>, or <strong>honey mustard</strong>. Add your choice
-              of protein for $2 more.
-            </p>
-          </div>
-        </div>
-      </div>
-    </li>
+    .checkbox-wrapper-31 {
+      position: relative;
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+    }
 
-    <li class="cards_item">
-      <div class="card">
-        <div class="card_image">
-          <img src="https://assets.codepen.io/652/photo-1520174691701-bc555a3404ca.jpeg" alt="a Reuben sandwich on wax paper." />
-          <span class="card_price"><span>$</span>18</span>
-        </div>
-        <div class="card_content">
-          <h2 class="card_title">Ultimate Reuben</h2>
-          <div class="card_text">
-            <p>All great meals take time, but this one takes it to the next level! More than 650 hours
-              of fermenting, brining, aging, and curing goes into each and every one of our legendary
-              Reuben sandwiches.
-            </p>
-            <p>Every element of this extraordinary sandwich is handcrafted in our kitchens, from the rye
-              bread baked from our secret recipe to the cave-aged Swiss cheese, right down to the
-              pickle. The only thing we didn't make on the premises is the toothpick ( but we're
-              looking into how to do that).
-            </p>
-            <hr />
-            <p>This unforgettable sandwich has all of the classic Reuben elements: <strong>corned beef</strong>, <strong>rye
-                bread</strong>, <strong>creamy Russian dressing</strong>, <strong>sauerkraut</strong>, plus a <strong>sweet gherkin pickle</strong>.
-              No substitions please!
-            </p>
-            <p>Add a side of <strong>french fries</strong> or <strong>sweet potato fries</strong> for $2 more, or our
-              <strong>housemade pub chips</strong> for $1.
-            </p>
-          </div>
-        </div>
-      </div>
-    </li>
+    .checkbox-wrapper-31 .background {
+      fill: #ccc;
+      transition: ease all 0.6s;
+      -webkit-transition: ease all 0.6s;
+    }
 
-    <li class="cards_item">
-      <div class="card">
-        <div class="card_image">
-          <span class="note">Seasonal</span>
-          <img src="https://assets.codepen.io/652/photo-1544510808-91bcbee1df55.jpeg" alt="A side view of a plate of figs and berries." />
-          <span class="card_price"><span>$</span>16</span>
-        </div>
-        <div class="card_content">
-          <h2 class="card_title">Fig &amp; Berry Plate</h2>
-          <div class="card_text">
-            <p>A succulent sextet of fresh figs join with a selection of bodacious seasonal berries in
-              this refreshing, shareable dessert.
-            </p>
-            <hr />
-            <p>Choose your drizzle: <strong>cherry-balsamic vinegar</strong>, <strong>local honey</strong>, or
-              <strong>housemade chocolate sauce</strong>.
-            </p>
-          </div>
-        </div>
-      </div>
-    </li>
-  </ul>
-</div>
-<!-- partial -->
-  
-</body>
+    .checkbox-wrapper-31 .stroke {
+      fill: none;
+      stroke: #fff;
+      stroke-miterlimit: 10;
+      stroke-width: 2px;
+      stroke-dashoffset: 100;
+      stroke-dasharray: 100;
+      transition: ease all 0.6s;
+      -webkit-transition: ease all 0.6s;
+    }
+
+    .checkbox-wrapper-31 .check {
+      fill: none;
+      stroke: #fff;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-width: 2px;
+      stroke-dashoffset: 22;
+      stroke-dasharray: 22;
+      transition: ease all 0.6s;
+      -webkit-transition: ease all 0.6s;
+    }
+
+    .checkbox-wrapper-31 input[type="checkbox"] {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      margin: 0;
+      opacity: 0;
+      -appearance: none;
+      -webkit-appearance: none;
+    }
+
+    .checkbox-wrapper-31 input[type="checkbox"]:hover {
+      cursor: pointer;
+    }
+
+    .checkbox-wrapper-31 input[type="checkbox"]:checked + svg .background {
+      fill: #6cbe45;
+    }
+
+    .checkbox-wrapper-31 input[type="checkbox"]:checked + svg .stroke {
+      stroke-dashoffset: 0;
+    }
+
+    .checkbox-wrapper-31 input[type="checkbox"]:checked + svg .check {
+      stroke-dashoffset: 0;
+    }
+  </style>
+  <body>
+    <div class="checkbox-wrapper-31">
+      <input checked="" type="checkbox" />
+      <svg viewBox="0 0 35.6 35.6">
+        <circle class="background" cx="17.8" cy="17.8" r="17.8"></circle>
+        <circle class="stroke" cx="17.8" cy="17.8" r="14.37"></circle>
+        <polyline
+          class="check"
+          points="11.78 18.12 15.55 22.23 25.17 12.87"
+        ></polyline>
+      </svg>
+    </div>
+  </body>
 </html>
