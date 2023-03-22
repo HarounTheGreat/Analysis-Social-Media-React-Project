@@ -27,7 +27,17 @@ const PersonSelection = ({
   person1 = Get_Img_by_Fullname(person1_name);
   let languages_used = Languages_used(Choose_person(person1.Id)[0]);
   let selection_options = [];
+  let language_selection_options = [];
+  let language_options = [];
   let one_option = {};
+  for (let i = 0; i < languages_used.length; i++) {
+    one_option = {
+      value: languages_used[i],
+      label: languages(languages_used[i]),
+    };
+    language_options.push(one_option);
+  }
+  one_option = {};
   for (let i = 0; i < listData.length; i++) {
     one_option = { value: listData[i].Fullname, label: listData[i].Fullname };
     selection_options.push(one_option);
@@ -232,8 +242,13 @@ const PersonSelection = ({
         </div>
         <div className="slicer-language">
           <div className="slicer-language-title">Language</div>
-          <div className="slicer-language-options">
-            {languages_used.map((lan) => languages(lan))}
+          <div className="cell cell-2">
+            <Select defaultValue={"firstPerson"} options={language_options} />
+            <form>
+              <div class="multipleSelection">
+                {languages_used.map((lan) => languages(lan))}
+              </div>
+            </form>
           </div>
         </div>
       </div>
