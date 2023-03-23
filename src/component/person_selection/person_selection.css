@@ -148,6 +148,7 @@
   grid-template-columns: 40% 40% 20%;
 }
 .slicer-date {
+  height: 250px;
   border: solid;
   border-color: black;
   margin-right: auto;
@@ -271,7 +272,6 @@
   font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
 }
-
 /* Switch starts here */
 .rocker {
   display: inline-block;

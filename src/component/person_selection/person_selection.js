@@ -14,12 +14,18 @@ const PersonSelection = ({
   person2_name,
   twoPersons,
 }) => {
-  const [positiveReview, setPositiveReview] = useState(false);
-  const [negativeReview, setNegativeReview] = useState(false);
-  const [neturalReview, setNeturalReview] = useState(false);
+  const [positiveReview, setPositiveReview] = useState(true);
+  const [neturalReview, setNeturalReview] = useState(true);
+  const [negativeReview, setNegativeReview] = useState(true);
   const [expanded, setExpanded] = useState(true);
   const [to_Date, setTo_Date] = useState("");
   let display = "show-checkboxes";
+  let checked1 = "checked";
+  let checked2 = "checked";
+  let checked3 = "checked";
+  positiveReview ? (checked1 = "checked") : (checked1 = "");
+  neturalReview ? (checked2 = "checked") : (checked2 = "");
+  negativeReview ? (checked3 = "checked") : (checked3 = "");
   console.log("expanded\n", expanded);
   if (!expanded) {
     display = "hide-checkboxes";
@@ -161,6 +167,7 @@ const PersonSelection = ({
                   id="scales"
                   name="scales"
                   onChange={() => setPositiveReview(!positiveReview)}
+                  checked={checked1}
                 />
                 <svg viewBox="0 0 35.6 35.6">
                   <circle
@@ -190,6 +197,7 @@ const PersonSelection = ({
                   id="scales"
                   name="scales"
                   onChange={() => setNeturalReview(!neturalReview)}
+                  checked={checked2}
                 />
                 <svg viewBox="0 0 35.6 35.6">
                   <circle
@@ -219,6 +227,7 @@ const PersonSelection = ({
                   id="scales"
                   name="scales"
                   onChange={() => setNegativeReview(!negativeReview)}
+                  checked={checked3}
                 />
                 <svg viewBox="0 0 35.6 35.6">
                   <circle
