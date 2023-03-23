@@ -17,10 +17,15 @@ const PersonSelection = ({
   const [positiveReview, setPositiveReview] = useState(false);
   const [negativeReview, setNegativeReview] = useState(false);
   const [neturalReview, setNeturalReview] = useState(false);
-  console.log("positiveReview==\n", positiveReview);
-  console.log("negativeReview==\n", negativeReview);
-  console.log("neturalReview==\n", neturalReview);
+  const [expanded, setExpanded] = useState(true);
   const [to_Date, setTo_Date] = useState("");
+  let display = "show-checkboxes";
+  console.log("expanded\n", expanded);
+  if (!expanded) {
+    display = "hide-checkboxes";
+  } else {
+    display = "show-checkboxes";
+  }
   let person1;
   let person2;
   person2 = Get_Img_by_Fullname(person2_name);
@@ -113,11 +118,6 @@ const PersonSelection = ({
                 </div>
               </div>
             </div>
-            {/* <div className="persons-names">
-              <div className="first-name">{person1_name}</div>
-              <div className="vs1">Vs</div>
-              <div className="second-name">{person2_name}</div>
-            </div> */}
           </>
         )}
       </div>
@@ -126,25 +126,28 @@ const PersonSelection = ({
           <div className="slicer-date">
             <div className="slicer-date-title">Date</div>
             <div className="slicer-date-option">
-              <input
-                type="date"
-                min="2019-01-01"
-                max="2021-12-31"
-                onChange={(e) => setTo_Date(e.target.value)}
-                value={to_Date}
-              />
-            </div>
-          </div>
-          <div className="slicer-date">
-            <div className="slicer-date-title">To</div>
-            <div className="slicer-date-option">
-              <input
-                type="date"
-                min="2019-01-01"
-                max="2021-12-31"
-                onChange={(e) => setTo_Date(e.target.value)}
-                value={to_Date}
-              />
+              <div className="slicer-date-from">
+                <div className="slicer-date-from-title">From</div>
+                <input
+                  className="slicer-date-from-date"
+                  type="date"
+                  min="2019-01-01"
+                  max="2021-12-31"
+                  onChange={(e) => setTo_Date(e.target.value)}
+                  value={to_Date}
+                />
+              </div>
+              <div className="slicer-date-from">
+                <div className="slicer-date-from-title">To</div>
+                <input
+                  className="slicer-date-from-date"
+                  type="date"
+                  min="2019-01-01"
+                  max="2021-12-31"
+                  onChange={(e) => setTo_Date(e.target.value)}
+                  value={to_Date}
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -242,11 +245,23 @@ const PersonSelection = ({
         </div>
         <div className="slicer-language">
           <div className="slicer-language-title">Language</div>
-          <div className="cell cell-2">
-            <Select defaultValue={"firstPerson"} options={language_options} />
+          <div className="slicer-language-options">
             <form>
-              <div class="multipleSelection">
-                {languages_used.map((lan) => languages(lan))}
+              <div className="multiselect">
+                <div
+                  className="selectBox"
+                  onClick={() => setExpanded(!expanded)}
+                >
+                  <select>
+                    <option>Choose Languages</option>
+                  </select>
+                  <div className="overSelect"></div>
+                </div>
+                <div className={display}>
+                  <label className="language-options">
+                    {languages_used.map((lan) => languages(lan))}
+                  </label>
+                </div>
               </div>
             </form>
           </div>
