@@ -18,7 +18,11 @@ const PersonSelection = ({
   const [neturalReview, setNeturalReview] = useState(true);
   const [negativeReview, setNegativeReview] = useState(true);
   const [expanded, setExpanded] = useState(true);
+  const [from_Date, setFrom_Date] = useState("");
   const [to_Date, setTo_Date] = useState("");
+  let date_from_to = ["0", "0"];
+  date_from_to[0] = from_Date;
+  date_from_to[1] = to_Date;
   let display = "show-checkboxes";
   let checked1 = "checked";
   let checked2 = "checked";
@@ -26,34 +30,33 @@ const PersonSelection = ({
   positiveReview ? (checked1 = "checked") : (checked1 = "");
   neturalReview ? (checked2 = "checked") : (checked2 = "");
   negativeReview ? (checked3 = "checked") : (checked3 = "");
-  console.log("expanded\n", expanded);
-  if (!expanded) {
-    display = "hide-checkboxes";
-  } else {
-    display = "show-checkboxes";
-  }
+  let openion_array = [true, true, true];
+  openion_array[0] = positiveReview;
+  openion_array[1] = neturalReview;
+  openion_array[2] = negativeReview;
   let person1;
   let person2;
   person2 = Get_Img_by_Fullname(person2_name);
   person1 = Get_Img_by_Fullname(person1_name);
   let languages_used = Languages_used(Choose_person(person1.Id)[0]);
   let selection_options = [];
-  let language_selection_options = [];
-  let language_options = [];
   let one_option = {};
-  for (let i = 0; i < languages_used.length; i++) {
-    one_option = {
-      value: languages_used[i],
-      label: languages(languages_used[i]),
-    };
-    language_options.push(one_option);
-  }
   one_option = {};
+  let languages_used2 = ["", ""];
+  let languages_used_by_two;
+  languages_used2[0] = Languages_used(Choose_person(person1.Id)[0]);
+  if (person2 !== undefined) {
+    languages_used2[1] = Languages_used(Choose_person(person2.Id)[0]);
+  }
+  console.log(
+    "Languages_used(Choose_person(person2.Id)[1]);\n=",
+    languages_used2
+  );
+  languages_used_by_two = languages_used2[0].concat(languages_used2[1]);
   for (let i = 0; i < listData.length; i++) {
     one_option = { value: listData[i].Fullname, label: listData[i].Fullname };
     selection_options.push(one_option);
   }
-
   return (
     <>
       <div className="year-selection">
@@ -139,8 +142,8 @@ const PersonSelection = ({
                   type="date"
                   min="2019-01-01"
                   max="2021-12-31"
-                  onChange={(e) => setTo_Date(e.target.value)}
-                  value={to_Date}
+                  onChange={(e) => setFrom_Date(e.target.value)}
+                  value={from_Date}
                 />
               </div>
               <div className="slicer-date-from">
