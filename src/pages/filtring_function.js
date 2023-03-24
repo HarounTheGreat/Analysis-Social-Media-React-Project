@@ -153,7 +153,7 @@ export const Choose_person = (personId) => {
     }
   }
   person_data = require("../component/data/" + res.Name + ".json");
-  return [person_data, name];
+  return { person_data: person_data, name: name };
 };
 
 // Months

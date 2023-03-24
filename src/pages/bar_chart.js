@@ -24,37 +24,27 @@ ChartJS.register(
   Legend
 );
 const Bar_chart = () => {
-  const [to_Date, setTo_Date] = useState("2021-12-16");
-  console.log("to_Date=======\n", to_Date);
   let { personId } = useParams();
-  let [person1_data, person1_name] = Choose_person(personId);
-  let [person2_data, person2_name] = [undefined, undefined];
-  const defaultparameter = {
-    value: Choose_person(personId)[1],
-    label: Choose_person(personId)[1],
+  let person1 = Choose_person(personId);
+  let p1n = person1.name;
+  let p1d = person1.person_data;
+  let p2n = undefined;
+  let p2d = undefined;
+  const [state, setState] = useState({
+    p1n: p1n,
+    p1d: p1d,
+    p2n: p2n,
+    p2d: p2d,
+  });
+  // console.log("--------------\n", state);
+  const changeState = (p1n, p1d, p2n, p2d) => {
+    setState({
+      p1n: p1n,
+      p1d: p1d,
+      p2n: p2n,
+      p2d: p2d,
+    });
   };
-  const [firstPerson, setFirstPerson] = useState(defaultparameter);
-  const [secondPerson, setSecondPerson] = useState(null);
-  let twoPersons = false;
-  if (firstPerson !== null) {
-    personId = Get_personID_by_Fullname(firstPerson.value);
-    [person1_data, person1_name] = Choose_person(personId);
-  }
-  if (secondPerson !== null) {
-    personId = Get_personID_by_Fullname(secondPerson.value);
-    [person2_data, person2_name] = Choose_person(personId);
-  }
-  if (firstPerson !== null && secondPerson !== null) {
-    twoPersons = true;
-  }
-
-  const firsthandle = (change) => {
-    setFirstPerson(change);
-  };
-  const secondhandle = (change) => {
-    setSecondPerson(change);
-  };
-  // if(firstPerson)
   const options = {
     responsive: true,
     plugins: {
@@ -78,18 +68,18 @@ const Bar_chart = () => {
     "November",
     "December",
   ];
-  const dataset1 = months(person1_data);
-  const dataset2 = months(person2_data);
+  const dataset1 = months(state.p1d);
+  const dataset2 = months(state.p2d);
   const data = {
     labels,
     datasets: [
       {
-        label: person1_name,
+        label: person1.name,
         data: dataset1,
         backgroundColor: "rgba(255, 99, 132, 0.5)",
       },
       {
-        label: person2_name,
+        label: person1.name,
         data: dataset2,
         backgroundColor: "rgba(53, 162, 235, 0.5)",
       },
@@ -98,13 +88,7 @@ const Bar_chart = () => {
   return (
     <div className="bar_chart">
       <h1>Bar chart</h1>
-      <PersonSelection
-        firsthandle={firsthandle}
-        secondhandle={secondhandle}
-        person1_name={person1_name}
-        person2_name={person2_name}
-        twoPersons={twoPersons}
-      />
+      <PersonSelection changeState={changeState} state={state} />
       <Bar options={options} data={data} />
     </div>
   );

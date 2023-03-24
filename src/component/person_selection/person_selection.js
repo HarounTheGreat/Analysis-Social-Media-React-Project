@@ -7,55 +7,59 @@ import {
   Languages_used,
   Choose_person,
 } from "../../pages/filtring_function";
-const PersonSelection = ({
-  firsthandle,
-  secondhandle,
-  person1_name,
-  person2_name,
-  twoPersons,
-}) => {
+// secondhandle,
+// person1_name,
+// person2_name,
+// twoPersons,
+// changeState(p1n, p1d, p2n, p2d)
+const PersonSelection = ({ state, changeState }) => {
+  console.log("state=============================\n", state);
   const [positiveReview, setPositiveReview] = useState(true);
   const [neturalReview, setNeturalReview] = useState(true);
   const [negativeReview, setNegativeReview] = useState(true);
   const [expanded, setExpanded] = useState(true);
   const [from_Date, setFrom_Date] = useState("");
   const [to_Date, setTo_Date] = useState("");
+  let twoPersons = false;
   let date_from_to = ["0", "0"];
-  date_from_to[0] = from_Date;
-  date_from_to[1] = to_Date;
   let display = "show-checkboxes";
   let checked1 = "checked";
   let checked2 = "checked";
   let checked3 = "checked";
+  let openion_array = [true, true, true];
+  date_from_to[0] = from_Date;
+  date_from_to[1] = to_Date;
   positiveReview ? (checked1 = "checked") : (checked1 = "");
   neturalReview ? (checked2 = "checked") : (checked2 = "");
   negativeReview ? (checked3 = "checked") : (checked3 = "");
-  let openion_array = [true, true, true];
   openion_array[0] = positiveReview;
   openion_array[1] = neturalReview;
   openion_array[2] = negativeReview;
   let person1;
   let person2;
-  person2 = Get_Img_by_Fullname(person2_name);
-  person1 = Get_Img_by_Fullname(person1_name);
-  let languages_used = Languages_used(Choose_person(person1.Id)[0]);
+  person1 = Get_Img_by_Fullname(state.p1n);
+  person2 = Get_Img_by_Fullname(state.p2n);
+  let languages_used = Languages_used(Choose_person(person1.Id).person_data);
   let selection_options = [];
   let one_option = {};
   one_option = {};
   let languages_used2 = ["", ""];
   let languages_used_by_two;
-  languages_used2[0] = Languages_used(Choose_person(person1.Id)[0]);
+  languages_used2[0] = Languages_used(Choose_person(person1.Id).person_data);
   if (person2 !== undefined) {
-    languages_used2[1] = Languages_used(Choose_person(person2.Id)[0]);
+    languages_used2[1] = Languages_used(Choose_person(person2.Id).person_data);
   }
-  console.log(
-    "Languages_used(Choose_person(person2.Id)[1]);\n=",
-    languages_used2
-  );
   languages_used_by_two = languages_used2[0].concat(languages_used2[1]);
   for (let i = 0; i < listData.length; i++) {
-    one_option = { value: listData[i].Fullname, label: listData[i].Fullname };
+    one_option = {
+      value: Choose_person(Get_Img_by_Fullname(listData[i].Fullname).Id)
+        .person_data,
+      label: listData[i].Fullname,
+    };
     selection_options.push(one_option);
+  }
+  if (person1 !== undefined && person2 !== undefined) {
+    twoPersons = true;
   }
   return (
     <>
@@ -64,7 +68,10 @@ const PersonSelection = ({
         <div className="cell cell-2">
           <Select
             defaultValue={"firstPerson"}
-            onChange={(change) => firsthandle(change)}
+            onChange={(change) => {
+              console.log("change===\n", change);
+              changeState(change.label, change.value, state.p2n, state.p2d);
+            }}
             options={selection_options}
           />
         </div>
@@ -72,7 +79,9 @@ const PersonSelection = ({
         <div className="cell cell-4">
           <Select
             defaultValue={"firstPerson"}
-            onChange={(change) => secondhandle(change)}
+            onChange={(change) =>
+              changeState(state.p1n, state.p1d, change.label, change.value)
+            }
             options={selection_options}
           />
         </div>
@@ -82,7 +91,7 @@ const PersonSelection = ({
           <div className="person-card">
             <img
               className="person-card-img"
-              alt={person1_name}
+              alt={state.p1n}
               src={person1.Image}
             />
             <div className="person-card-desc">
@@ -100,7 +109,7 @@ const PersonSelection = ({
               <div className="person-card">
                 <img
                   className="person-card-img"
-                  alt={person1_name}
+                  alt={state.p1n}
                   src={person1.Image}
                 />
                 <div className="person-card-desc">
@@ -115,7 +124,7 @@ const PersonSelection = ({
               <div className="person-card2">
                 <img
                   className="person-card-img"
-                  alt={person2_name}
+                  alt={state.p2n}
                   src={person2.Image}
                 />
                 <div className="person-card-desc">
