@@ -6,6 +6,9 @@ import {
   Get_Img_by_Fullname,
   Languages_used,
   Choose_person,
+  removeDuplicates,
+  Filter_data_by_language,
+  Filter_by_languages,
 } from "../../pages/filtring_function";
 // secondhandle,
 // person1_name,
@@ -13,13 +16,13 @@ import {
 // twoPersons,
 // changeState(p1n, p1d, p2n, p2d)
 const PersonSelection = ({ state, changeState }) => {
-  console.log("state=============================\n", state);
   const [positiveReview, setPositiveReview] = useState(true);
   const [neturalReview, setNeturalReview] = useState(true);
   const [negativeReview, setNegativeReview] = useState(true);
-  const [expanded, setExpanded] = useState(true);
+  const [expanded, setExpanded] = useState(false);
   const [from_Date, setFrom_Date] = useState("");
   const [to_Date, setTo_Date] = useState("");
+
   let twoPersons = false;
   let date_from_to = ["0", "0"];
   let display = "show-checkboxes";
@@ -27,6 +30,7 @@ const PersonSelection = ({ state, changeState }) => {
   let checked2 = "checked";
   let checked3 = "checked";
   let openion_array = [true, true, true];
+  expanded ? (display = "hide-checkboxes") : (display = "show-checkboxes");
   date_from_to[0] = from_Date;
   date_from_to[1] = to_Date;
   positiveReview ? (checked1 = "checked") : (checked1 = "");
@@ -50,6 +54,7 @@ const PersonSelection = ({ state, changeState }) => {
     languages_used2[1] = Languages_used(Choose_person(person2.Id).person_data);
   }
   languages_used_by_two = languages_used2[0].concat(languages_used2[1]);
+  languages_used = removeDuplicates(languages_used_by_two);
   for (let i = 0; i < listData.length; i++) {
     one_option = {
       value: Choose_person(Get_Img_by_Fullname(listData[i].Fullname).Id)
@@ -61,6 +66,8 @@ const PersonSelection = ({ state, changeState }) => {
   if (person1 !== undefined && person2 !== undefined) {
     twoPersons = true;
   }
+  // setLanguagesSelected(languages_used_by_two);
+  const [languagesSelected, setLanguagesSelected] = useState(languages_used2);
   return (
     <>
       <div className="year-selection">
@@ -69,7 +76,6 @@ const PersonSelection = ({ state, changeState }) => {
           <Select
             defaultValue={"firstPerson"}
             onChange={(change) => {
-              console.log("change===\n", change);
               changeState(change.label, change.value, state.p2n, state.p2d);
             }}
             options={selection_options}
@@ -280,7 +286,9 @@ const PersonSelection = ({ state, changeState }) => {
                 </div>
                 <div className={display}>
                   <label className="language-options">
-                    {languages_used.map((lan) => languages(lan))}
+                    {languages_used.map((lan) =>
+                      languages(lan, languagesSelected, setLanguagesSelected)
+                    )}
                   </label>
                 </div>
               </div>
@@ -291,13 +299,19 @@ const PersonSelection = ({ state, changeState }) => {
     </>
   );
 };
-const languages = (lan) => {
+const languages = (lan, languagesSelected, setLanguagesSelected) => {
+  let checked = "checked";
+  languagesSelected.includes(lan) ? (checked = "checked") : (checked = "");
   return (
     <div className="languages">
       <div className="languages-name">{lan}</div>
       <div className="languages-option">
         <label className="rocker rocker-small">
-          <input type="checkbox" />
+          <input
+            type="checkbox"
+            onChange={() => Filter_by_languages(lan, setLanguagesSelected)}
+            checked={checked}
+          />
           <span className="switch-left">Yes</span>
           <span className="switch-right">No</span>
         </label>

@@ -230,3 +230,12 @@ export const Get_Img_by_Fullname = (Fullname) => {
   }
   return res;
 };
+
+export const removeDuplicates = (arr) => {
+  return arr.filter((item, index) => arr.indexOf(item) === index);
+};
+
+export const Filter_by_languages = (lan, setLanguagesSelected) => {
+  setLanguagesSelected(lan);
+  console.log("lan==\n", lan);
+};
