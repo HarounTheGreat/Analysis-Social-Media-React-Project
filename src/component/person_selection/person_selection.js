@@ -81,7 +81,6 @@ const PersonSelection = ({ state, changeState }) => {
     onoff
   );
   console.log("data_filtred_by_language=\n", data_filtred_by_language);
-  changeState({});
   return (
     <>
       <div className="year-selection">
