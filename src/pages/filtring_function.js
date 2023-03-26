@@ -253,14 +253,11 @@ export const Filter_by_languages = (
   setOnOff(onoff);
 };
 
-export const filtring = (date, opinion, state, languages_used, onoff) => {
-  let res = [];
-  console.log("date=\n", date);
-  console.log("opinion=\n", opinion);
-  console.log("state=\n", state);
-  console.log("languages_used=\n", languages_used);
-  console.log("onoff=\n", onoff);
+export const filtring = (date, opinion, state, selectedLanguages) => {
+  let res = [date, opinion, selectedLanguages];
+  return res;
 };
+// (date, opinion, state, selectedLanguages)
 
 // let res;
 // let languages = [];

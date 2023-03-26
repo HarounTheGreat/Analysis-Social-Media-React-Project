@@ -54,13 +54,15 @@ const PersonSelection = ({ state, changeState }) => {
   if (person1 !== undefined && person2 !== undefined) {
     twoPersons = true;
   }
-  let init_onoff = [];
+  let int_selectedLanguages = {};
   for (let i = 0; i < languages_used.length; i++) {
-    init_onoff.push("on");
+    int_selectedLanguages[languages_used[i]] = true;
   }
-  const [onoff, setOnOff] = useState(init_onoff);
-  let finalResult = filtring(date, opinion, state, languages_used, onoff);
-  console.log("finalResult=\n", finalResult);
+  const [selectedLanguages, setSelectedLanguages] = useState(
+    int_selectedLanguages
+  );
+  let x = filtring(date, opinion, state, selectedLanguages);
+  console.log("X=\n", x);
   return (
     <>
       <div className="year-selection">
@@ -302,7 +304,7 @@ const PersonSelection = ({ state, changeState }) => {
                 <div className={display}>
                   <label className="language-options">
                     {languages_used.map((lan) =>
-                      languages(lan, languages_used, onoff, setOnOff)
+                      Languages(lan, selectedLanguages, setSelectedLanguages)
                     )}
                   </label>
                 </div>
@@ -315,13 +317,11 @@ const PersonSelection = ({ state, changeState }) => {
     </>
   );
 };
-const languages = (lan, languages_used, onoff, setOnOff) => {
-  // let checked = "checked";
-  // if (onoff[languages_used.indexOf(lan)] === "on") {
-  //   checked = "checked";
-  // } else {
-  //   checked = "";
-  // }
+const Languages = (lan, selectedLanguages, setSelectedLanguages) => {
+  let checked = "checked";
+  if (!selectedLanguages[lan]) {
+    checked = "";
+  }
   return (
     <div className="languages">
       <div className="languages-name">{lan}</div>
@@ -329,15 +329,14 @@ const languages = (lan, languages_used, onoff, setOnOff) => {
         <label className="rocker rocker-small">
           <input
             type="checkbox"
-            onChange={(e) => {
-              Filter_by_languages(
+            onClick={(e) => {
+              Change_selectedLanguages(
                 lan,
-                languages_used,
-                onoff,
-                setOnOff,
-                e.target.value
+                selectedLanguages,
+                setSelectedLanguages
               );
             }}
+            checked={checked}
           />
           <span className="switch-left">Yes</span>
           <span className="switch-right">No</span>
@@ -346,9 +345,15 @@ const languages = (lan, languages_used, onoff, setOnOff) => {
     </div>
   );
 };
-const Change_onoff = (onoff, setOnoff, position, onORoff) => {
-  onoff[position] = onORoff;
-  setOnoff(onoff);
+const Change_selectedLanguages = (
+  lan,
+  selectedLanguages,
+  setSelectedLanguages
+) => {
+  var R = !selectedLanguages[lan];
+  setSelectedLanguages((selectedLanguages) => ({
+    ...selectedLanguages,
+    ...(selectedLanguages[lan] = R),
+  }));
 };
-
 export default PersonSelection;
