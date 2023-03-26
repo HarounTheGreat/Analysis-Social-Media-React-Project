@@ -67,7 +67,6 @@ export const Filter_data_by_language = (data, Languages_used) => {
   for (let i = 0; i < data.length; i++) {
     position = Languages_used.indexOf(data[i].Language);
     if (position !== -1) {
-      console.log("position=\n", position);
       res[position].push(data[i]);
     }
   }
@@ -254,21 +253,28 @@ export const Filter_by_languages = (
   setOnOff(onoff);
 };
 
-export const filtring_by_language = (state, languages_used, onoff) => {
-  let res;
-  let languages = [];
-  let data = [];
-  for (let i = 0; i < languages_used.length; i++) {
-    if (onoff[i] === "on") {
-      languages.push(languages_used[i]);
-    }
-  }
-  if (state.p2d !== undefined) {
-    data = state.p1d.concat(state.p2d);
-  } else {
-    data = state.p1d;
-  }
-  res = Filter_data_by_language(data, languages);
-  res = res.flat(1);
-  return res;
+export const filtring = (date, opinion, state, languages_used, onoff) => {
+  let res = [];
+  console.log("date=\n", date);
+  console.log("opinion=\n", opinion);
+  console.log("state=\n", state);
+  console.log("languages_used=\n", languages_used);
+  console.log("onoff=\n", onoff);
 };
+
+// let res;
+// let languages = [];
+// let data = [];
+// for (let i = 0; i < languages_used.length; i++) {
+//   if (onoff[i] === "on") {
+//     languages.push(languages_used[i]);
+//   }
+// }
+// if (state.p2d !== undefined) {
+//   data = state.p1d.concat(state.p2d);
+// } else {
+//   data = state.p1d;
+// }
+// res = Filter_data_by_language(data, languages);
+// res = res.flat(1);
+// return res;

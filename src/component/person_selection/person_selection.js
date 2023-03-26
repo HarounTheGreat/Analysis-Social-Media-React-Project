@@ -9,7 +9,7 @@ import {
   removeDuplicates,
   Filter_data_by_language,
   Filter_by_languages,
-  filtring_by_language,
+  filtring,
 } from "../../pages/filtring_function";
 // secondhandle,
 // person1_name,
@@ -17,30 +17,18 @@ import {
 // twoPersons,
 // changeState(p1n, p1d, p2n, p2d)
 const PersonSelection = ({ state, changeState }) => {
-  const [positiveReview, setPositiveReview] = useState(true);
-  const [neturalReview, setNeturalReview] = useState(true);
-  const [negativeReview, setNegativeReview] = useState(true);
+  const [opinion, setOpinion] = useState({
+    positive: true,
+    netural: true,
+    negative: true,
+  });
   const [expanded, setExpanded] = useState(false);
-  const [from_Date, setFrom_Date] = useState("");
-  const [to_Date, setTo_Date] = useState("");
+  const [date, setDate] = useState({ from: "", to: "" });
   let twoPersons = false;
-  let date_from_to = ["0", "0"];
-  let display = "show-checkboxes";
-  let checked1 = "checked";
-  let checked2 = "checked";
-  let checked3 = "checked";
-  let openion_array = [true, true, true];
-  expanded ? (display = "hide-checkboxes") : (display = "show-checkboxes");
-  date_from_to[0] = from_Date;
-  date_from_to[1] = to_Date;
-  positiveReview ? (checked1 = "checked") : (checked1 = "");
-  neturalReview ? (checked2 = "checked") : (checked2 = "");
-  negativeReview ? (checked3 = "checked") : (checked3 = "");
-  openion_array[0] = positiveReview;
-  openion_array[1] = neturalReview;
-  openion_array[2] = negativeReview;
   let person1;
   let person2;
+  let display = "show-checkboxes";
+  expanded ? (display = "hide-checkboxes") : (display = "show-checkboxes");
   person1 = Get_Img_by_Fullname(state.p1n);
   person2 = Get_Img_by_Fullname(state.p2n);
   let languages_used = Languages_used(Choose_person(person1.Id).person_data);
@@ -66,21 +54,13 @@ const PersonSelection = ({ state, changeState }) => {
   if (person1 !== undefined && person2 !== undefined) {
     twoPersons = true;
   }
-  // setLanguagesSelected(languages_used_by_two);
-  const [languagesSelected, setLanguagesSelected] = useState(
-    languages_used_by_two
-  );
   let init_onoff = [];
-  for (let i = 0; i < languagesSelected.length; i++) {
+  for (let i = 0; i < languages_used.length; i++) {
     init_onoff.push("on");
   }
   const [onoff, setOnOff] = useState(init_onoff);
-  let data_filtred_by_language = filtring_by_language(
-    state,
-    languages_used,
-    onoff
-  );
-  console.log("data_filtred_by_language=\n", data_filtred_by_language);
+  let finalResult = filtring(date, opinion, state, languages_used, onoff);
+  console.log("finalResult=\n", finalResult);
   return (
     <>
       <div className="year-selection">
@@ -170,8 +150,10 @@ const PersonSelection = ({ state, changeState }) => {
                   type="date"
                   min="2019-01-01"
                   max="2021-12-31"
-                  onChange={(e) => setFrom_Date(e.target.value)}
-                  value={from_Date}
+                  onChange={(e) =>
+                    setDate({ from: e.target.value, to: date.to })
+                  }
+                  value={date.from}
                 />
               </div>
               <div className="slicer-date-from">
@@ -181,8 +163,10 @@ const PersonSelection = ({ state, changeState }) => {
                   type="date"
                   min="2019-01-01"
                   max="2021-12-31"
-                  onChange={(e) => setTo_Date(e.target.value)}
-                  value={to_Date}
+                  onChange={(e) =>
+                    setDate({ from: date.from, to: e.target.value })
+                  }
+                  value={date.to}
                 />
               </div>
             </div>
@@ -197,8 +181,14 @@ const PersonSelection = ({ state, changeState }) => {
                   type="checkbox"
                   id="scales"
                   name="scales"
-                  onChange={() => setPositiveReview(!positiveReview)}
-                  checked={checked1}
+                  onChange={() =>
+                    setOpinion({
+                      positive: !opinion.positive,
+                      netural: opinion.netural,
+                      negative: opinion.negative,
+                    })
+                  }
+                  checked={opinion.positive ? "checked" : ""}
                 />
                 <svg viewBox="0 0 35.6 35.6">
                   <circle
@@ -227,8 +217,14 @@ const PersonSelection = ({ state, changeState }) => {
                   type="checkbox"
                   id="scales"
                   name="scales"
-                  onChange={() => setNeturalReview(!neturalReview)}
-                  checked={checked2}
+                  onChange={() =>
+                    setOpinion({
+                      positive: opinion.positive,
+                      netural: !opinion.netural,
+                      negative: opinion.negative,
+                    })
+                  }
+                  checked={opinion.netural ? "checked" : ""}
                 />
                 <svg viewBox="0 0 35.6 35.6">
                   <circle
@@ -257,8 +253,14 @@ const PersonSelection = ({ state, changeState }) => {
                   type="checkbox"
                   id="scales"
                   name="scales"
-                  onChange={() => setNegativeReview(!negativeReview)}
-                  checked={checked3}
+                  onChange={() =>
+                    setOpinion({
+                      positive: opinion.positive,
+                      netural: opinion.netural,
+                      negative: !opinion.negative,
+                    })
+                  }
+                  checked={opinion.negative ? "checked" : ""}
                 />
                 <svg viewBox="0 0 35.6 35.6">
                   <circle
@@ -308,6 +310,7 @@ const PersonSelection = ({ state, changeState }) => {
             </form>
           </div>
         </div>
+        <button> Search </button>
       </div>
     </>
   );
