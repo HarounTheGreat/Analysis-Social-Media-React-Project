@@ -66,7 +66,10 @@ export const Filter_data_by_language = (data, Languages_used) => {
   }
   for (let i = 0; i < data.length; i++) {
     position = Languages_used.indexOf(data[i].Language);
-    res[position].push(data[i]);
+    if (position !== -1) {
+      console.log("position=\n", position);
+      res[position].push(data[i]);
+    }
   }
   return res;
 };
@@ -235,7 +238,37 @@ export const removeDuplicates = (arr) => {
   return arr.filter((item, index) => arr.indexOf(item) === index);
 };
 
-export const Filter_by_languages = (lan, setLanguagesSelected) => {
-  setLanguagesSelected(lan);
-  console.log("lan==\n", lan);
+export const Filter_by_languages = (
+  lan,
+  languages_used,
+  onoff,
+  setOnOff,
+  type
+) => {
+  const position = languages_used.indexOf(lan);
+  if (onoff[position] === type) {
+    onoff[position] = "off";
+  } else {
+    onoff[position] = "on";
+  }
+  setOnOff(onoff);
+};
+
+export const filtring_by_language = (state, languages_used, onoff) => {
+  let res;
+  let languages = [];
+  let data = [];
+  for (let i = 0; i < languages_used.length; i++) {
+    if (onoff[i] === "on") {
+      languages.push(languages_used[i]);
+    }
+  }
+  if (state.p2d !== undefined) {
+    data = state.p1d.concat(state.p2d);
+  } else {
+    data = state.p1d;
+  }
+  res = Filter_data_by_language(data, languages);
+  res = res.flat(1);
+  return res;
 };

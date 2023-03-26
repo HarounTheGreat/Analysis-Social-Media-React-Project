@@ -36,7 +36,6 @@ const Bar_chart = () => {
     p2n: p2n,
     p2d: p2d,
   });
-  // console.log("--------------\n", state);
   const changeState = (p1n, p1d, p2n, p2d) => {
     setState({
       p1n: p1n,
