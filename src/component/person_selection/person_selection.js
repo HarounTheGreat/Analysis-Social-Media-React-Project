@@ -63,29 +63,33 @@ const PersonSelection = ({ state, changeState, conststate }) => {
   );
   return (
     <>
-      <div className="year-selection">
-        <div className="cell cell-1">First Person</div>
-        <div className="cell cell-2">
-          <Select
-            defaultValue={"firstPerson"}
-            onChange={(change) => {
-              changeState(change.label, change.value, state.p2n, state.p2d);
-            }}
-            options={selection_options}
-          />
-        </div>
-        <div className="cell cell-3">Second Person</div>
-        <div className="cell cell-4">
-          <Select
-            defaultValue={"firstPerson"}
-            onChange={(change) =>
-              changeState(state.p1n, state.p1d, change.label, change.value)
-            }
-            options={selection_options}
-          />
-        </div>
-      </div>
       <div className="person-selection">
+        <div className="select-two-persons">
+          <div className="two-persons">
+            <div className="two-persons-text">First Person</div>
+          </div>
+          <div className="select-persons">
+            <Select
+              defaultValue={"firstPerson"}
+              onChange={(change) => {
+                changeState(change.label, change.value, state.p2n, state.p2d);
+              }}
+              options={selection_options}
+            />
+          </div>
+          <div className="two-persons">
+            <div className="two-persons-text">Second Person</div>
+          </div>
+          <div className="select-persons">
+            <Select
+              defaultValue={"firstPerson"}
+              onChange={(change) =>
+                changeState(state.p1n, state.p1d, change.label, change.value)
+              }
+              options={selection_options}
+            />
+          </div>
+        </div>
         {!twoPersons && (
           <div className="person-card">
             <img
@@ -312,7 +316,14 @@ const PersonSelection = ({ state, changeState, conststate }) => {
           <div></div>
         </div>
         <div className="filtring-button">
-          <div className="fancy">
+          <div
+            className="fancy"
+            onClick={() => {
+              console.log("conststate=\n", conststate);
+              let x = filtring(date, opinion, conststate, selectedLanguages);
+              changeState(state.p1n, x, state.p2n, state.p2d);
+            }}
+          >
             <span className="top-key"></span>
             <span className="text">Buy Tickets</span>
             <span className="bottom-key-1"></span>
@@ -325,11 +336,7 @@ const PersonSelection = ({ state, changeState, conststate }) => {
 };
 // ====================
 // <button
-// onClick={() => {
-//   console.log("conststate=\n", conststate);
-//   let x = filtring(date, opinion, conststate, selectedLanguages);
-//   changeState(state.p1n, x, state.p2n, state.p2d);
-// }}
+
 // >
 // Search
 // </button>

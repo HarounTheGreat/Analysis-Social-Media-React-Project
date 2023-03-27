@@ -15,16 +15,31 @@
   width: 20%;
   box-shadow: 10px 10px;
 }
-.year-selection {
-  margin-left: auto;
-  margin-right: auto;
-  display: grid;
-  grid-template-columns: 20% 30% 20% 30%;
-}
-.cell {
-  /* margin-top: 2%; */
-  margin-bottom: 4%;
+.select-two-persons {
+  height: 40px;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 1%;
+  display: flex;
+  gap: 1em;
   font-weight: bold;
+}
+.two-persons {
+  flex-basis: 25%;
+  margin: auto;
+  background-color: white;
+  height: 100%;
+  box-shadow: 3px 3px 10px;
+}
+.two-persons-text {
+  padding-top: 4%;
+  padding-top: auto;
+  padding-bottom: auto;
+}
+.select-persons {
+  flex-basis: 25%;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .two-images {
   display: flex;
@@ -420,6 +435,18 @@ input:checked:focus + .switch-left + .switch-right {
   gap: 1em;
   row-gap: 1em;
 }
+.languages-name {
+  flex-basis: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: "Nunito", sans-serif;
+  font-size: 25px;
+}
+.languages-option {
+  flex-basis: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
 /* ====================================== */
 
 .multiselect {
@@ -523,7 +550,7 @@ input:checked:focus + .switch-left + .switch-right {
 }
 
 .fancy {
-  background-color: transparent;
+  background-color: #fff;
   border: 2px solid #000;
   border-radius: 0;
   box-sizing: border-box;
@@ -576,7 +603,7 @@ input:checked:focus + .switch-left + .switch-right {
   top: -2px;
   left: 0.625rem;
   position: absolute;
-  background: #e8e8e8;
+  background: #ff2897;
   transition: width 0.5s ease-out, left 0.3s ease-out;
 }
 
@@ -586,7 +613,7 @@ input:checked:focus + .switch-left + .switch-right {
   right: 1.875rem;
   bottom: -2px;
   position: absolute;
-  background: #e8e8e8;
+  background: #ff2897;
   transition: width 0.5s ease-out, right 0.3s ease-out;
 }
 
@@ -596,7 +623,7 @@ input:checked:focus + .switch-left + .switch-right {
   right: 0.625rem;
   bottom: -2px;
   position: absolute;
-  background: #e8e8e8;
+  background: #ff2897;
   transition: width 0.5s ease-out, right 0.3s ease-out;
 }
 
