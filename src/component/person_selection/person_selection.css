@@ -569,7 +569,8 @@ input:checked:focus + .switch-left + .switch-right {
   text-transform: none;
   transition: all 0.3s ease-in-out;
   user-select: none;
-  font-size: 13px;
+  font-size: 18px;
+  width: 400px;
 }
 
 .fancy::before {
@@ -586,6 +587,7 @@ input:checked:focus + .switch-left + .switch-right {
 }
 
 .fancy .text {
+  text-align: center;
   font-size: 1.125em;
   line-height: 1.33333em;
   padding-left: 2em;
@@ -596,7 +598,9 @@ input:checked:focus + .switch-left + .switch-right {
   text-decoration: none;
   color: black;
 }
-
+.text {
+  margin-left: 10%;
+}
 .fancy .top-key {
   height: 2px;
   width: 1.5625rem;

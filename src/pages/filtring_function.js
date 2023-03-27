@@ -277,21 +277,19 @@ export const filtring_by_language = (data, languages) => {
   }
   return res;
 };
-export const filtring = (
-  date,
-  opinion,
-  state,
-  selectedLanguages,
-  changeState
-) => {
+export const filtring = (date, opinion, state, selectedLanguages) => {
   let from = date.from;
   let to = date.to;
   let res = state;
   if (date.from === "-") from = "2020-03-01";
   if (date.to === "-") to = "2024-03-01";
+  console.log("res=\n", res);
   res = filtring_by_date(res, from, to);
+  console.log("filtring_by_date(res)=\n", res);
   res = filtring_by_type(res, opinion);
+  console.log("filtring_by_type(res)=\n", res);
   res = filtring_by_language(res, selectedLanguages);
+  console.log("filtring_by_language(res)=\n", res);
   return res;
 };
 // (date, opinion, state, selectedLanguages)

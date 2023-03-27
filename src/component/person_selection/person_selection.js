@@ -326,6 +326,7 @@ const PersonSelection = ({ state, changeState, conststate }) => {
                 conststate.p1d,
                 selectedLanguages
               );
+              changeState(state.p1n, x, state.p2n, state.p2d);
               let y = filtring(
                 date,
                 opinion,
@@ -336,7 +337,7 @@ const PersonSelection = ({ state, changeState, conststate }) => {
             }}
           >
             <span className="top-key"></span>
-            <span className="text">Buy Tickets</span>
+            <span className="text">Search</span>
             <span className="bottom-key-1"></span>
             <span className="bottom-key-2"></span>
           </div>
@@ -345,13 +346,6 @@ const PersonSelection = ({ state, changeState, conststate }) => {
     </>
   );
 };
-// ====================
-// <button
-
-// >
-// Search
-// </button>
-// ====================
 const Languages = (lan, selectedLanguages, setSelectedLanguages) => {
   let checked = "checked";
   if (!selectedLanguages[lan]) {
