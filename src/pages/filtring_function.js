@@ -6,13 +6,14 @@ export const filtring_by_date = (data, from_Date, to_Date, language) => {
     var dateCheck = "02-07-2021";
     var d1 = from_Date.split("-");
     var d2 = to_Date.split("-");
-    var c;
+    var c = ["", "", ""];
     var from = new Date(d1[0], parseInt(d1[1]) - 1, d1[2]); // -1 because months are from 0 to 11
     var to = new Date(d2[0], parseInt(d2[1]) - 1, d2[2]);
     var check;
     for (let i = 0; i < data.length; i++) {
-      dateCheck = data[i].Year;
-      c = dateCheck.split("-");
+      // dateCheck = data[i].Year;
+      // c = dateCheck.split("-");
+      c = data[i].year;
       check = new Date(c[0], parseInt(c[1]) - 1, c[2]);
       if (check > from && check < to) {
         filtring_data.push(data[i]);
@@ -252,9 +253,49 @@ export const Filter_by_languages = (
   }
   setOnOff(onoff);
 };
+export const filtring_by_type = (data, type) => {
+  let res = [];
+  let opinion = [type.positive, type.netural, type.negative];
+  if (opinion[0]) opinion.push("P");
+  if (opinion[1]) opinion.push("O");
+  if (opinion[2]) opinion.push("N");
+  for (let i = 0; i < data.length; i++) {
+    if (opinion.includes(data[i].comment_type)) res.push(data[i]);
+  }
+  return res;
+};
+export const filtring_by_language = (data, languages) => {
+  let res = [];
+  let selectedlanguages = [];
+  for (const property in languages) {
+    if (languages[property]) {
+      selectedlanguages.push(property);
+    }
+  }
+  for (let i = 0; i < data.length; i++) {
+    if (selectedlanguages.includes(data[i].Language)) res.push(data[i]);
+  }
+  return res;
+};
+export const filtring = (
+  date,
+  opinion,
+  state,
+  selectedLanguages,
+  changeState
+) => {
+  let from = date.from;
+  let to = date.to;
+  let res = state.p1d;
+  console.log("opinion\n", opinion);
+  console.log("date\n", date);
+  console.log("res\n", res);
+  if (date.from === "-") from = "2020-03-01";
+  if (date.to === "-") to = "2024-03-01";
+  res = filtring_by_date(state.p1d, from, to);
+  res = filtring_by_type(res, opinion);
+  res = filtring_by_language(res, selectedLanguages);
 
-export const filtring = (date, opinion, state, selectedLanguages) => {
-  let res = [date, opinion, selectedLanguages];
   return res;
 };
 // (date, opinion, state, selectedLanguages)

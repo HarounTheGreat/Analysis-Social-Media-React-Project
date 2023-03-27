@@ -16,14 +16,14 @@ import {
 // person2_name,
 // twoPersons,
 // changeState(p1n, p1d, p2n, p2d)
-const PersonSelection = ({ state, changeState }) => {
+const PersonSelection = ({ state, changeState, conststate }) => {
   const [opinion, setOpinion] = useState({
     positive: true,
     netural: true,
     negative: true,
   });
   const [expanded, setExpanded] = useState(false);
-  const [date, setDate] = useState({ from: "", to: "" });
+  const [date, setDate] = useState({ from: "-", to: "-" });
   let twoPersons = false;
   let person1;
   let person2;
@@ -61,8 +61,6 @@ const PersonSelection = ({ state, changeState }) => {
   const [selectedLanguages, setSelectedLanguages] = useState(
     int_selectedLanguages
   );
-  let x = filtring(date, opinion, state, selectedLanguages);
-  console.log("X=\n", x);
   return (
     <>
       <div className="year-selection">
@@ -150,8 +148,8 @@ const PersonSelection = ({ state, changeState }) => {
                 <input
                   className="slicer-date-from-date"
                   type="date"
-                  min="2019-01-01"
-                  max="2021-12-31"
+                  min="2000-01-01"
+                  max="2024-12-31"
                   onChange={(e) =>
                     setDate({ from: e.target.value, to: date.to })
                   }
@@ -163,8 +161,8 @@ const PersonSelection = ({ state, changeState }) => {
                 <input
                   className="slicer-date-from-date"
                   type="date"
-                  min="2019-01-01"
-                  max="2021-12-31"
+                  min="2000-01-01"
+                  max="2024-12-31"
                   onChange={(e) =>
                     setDate({ from: date.from, to: e.target.value })
                   }
@@ -312,7 +310,15 @@ const PersonSelection = ({ state, changeState }) => {
             </form>
           </div>
         </div>
-        <button> Search </button>
+        <button
+          onClick={() => {
+            console.log("conststate=\n", conststate);
+            let x = filtring(date, opinion, conststate, selectedLanguages);
+            changeState(state.p1n, x, state.p2n, state.p2d);
+          }}
+        >
+          Search
+        </button>
       </div>
     </>
   );

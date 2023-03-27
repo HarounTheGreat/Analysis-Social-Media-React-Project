@@ -30,6 +30,12 @@ const Bar_chart = () => {
   let p1d = person1.person_data;
   let p2n = undefined;
   let p2d = undefined;
+  const conststate = {
+    p1n: p1n,
+    p1d: p1d,
+    p2n: p2n,
+    p2d: p2d,
+  };
   const [state, setState] = useState({
     p1n: p1n,
     p1d: p1d,
@@ -87,7 +93,11 @@ const Bar_chart = () => {
   return (
     <div className="bar_chart">
       <h1>Bar chart</h1>
-      <PersonSelection changeState={changeState} state={state} />
+      <PersonSelection
+        changeState={changeState}
+        state={state}
+        conststate={conststate}
+      />
       <Bar options={options} data={data} />
     </div>
   );
