@@ -137,192 +137,203 @@ const PersonSelection = ({ state, changeState, conststate }) => {
             </div>
           </>
         )}
-      </div>
-      <div className="slicer">
-        <div className="slicer-choose-date">
-          <div className="slicer-date">
-            <div className="slicer-date-title">Date</div>
-            <div className="slicer-date-option">
-              <div className="slicer-date-from">
-                <div className="slicer-date-from-title">From</div>
-                <input
-                  className="slicer-date-from-date"
-                  type="date"
-                  min="2000-01-01"
-                  max="2024-12-31"
-                  onChange={(e) =>
-                    setDate({ from: e.target.value, to: date.to })
-                  }
-                  value={date.from}
-                />
-              </div>
-              <div className="slicer-date-from">
-                <div className="slicer-date-from-title">To</div>
-                <input
-                  className="slicer-date-from-date"
-                  type="date"
-                  min="2000-01-01"
-                  max="2024-12-31"
-                  onChange={(e) =>
-                    setDate({ from: date.from, to: e.target.value })
-                  }
-                  value={date.to}
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="slicer-opinion">
-          <div className="slicer-opinion-title">Opinion</div>
-          <div className="slicer-opinion-box">
-            <div className="slicer-opinion-box1">
-              <div className="checkbox-wrapper-31">
-                <input
-                  type="checkbox"
-                  id="scales"
-                  name="scales"
-                  onChange={() =>
-                    setOpinion({
-                      positive: !opinion.positive,
-                      netural: opinion.netural,
-                      negative: opinion.negative,
-                    })
-                  }
-                  checked={opinion.positive ? "checked" : ""}
-                />
-                <svg viewBox="0 0 35.6 35.6">
-                  <circle
-                    className="background"
-                    cx="17.8"
-                    cy="17.8"
-                    r="17.8"
-                  ></circle>
-                  <circle
-                    className="stroke"
-                    cx="17.8"
-                    cy="17.8"
-                    r="14.37"
-                  ></circle>
-                  <polyline
-                    className="check"
-                    points="11.78 18.12 15.55 22.23 25.17 12.87"
-                  ></polyline>
-                </svg>
-              </div>
-              <div className="slicer-opinion-option">Positive</div>
-            </div>
-            <div className="slicer-opinion-box2">
-              <div className="checkbox-wrapper-31">
-                <input
-                  type="checkbox"
-                  id="scales"
-                  name="scales"
-                  onChange={() =>
-                    setOpinion({
-                      positive: opinion.positive,
-                      netural: !opinion.netural,
-                      negative: opinion.negative,
-                    })
-                  }
-                  checked={opinion.netural ? "checked" : ""}
-                />
-                <svg viewBox="0 0 35.6 35.6">
-                  <circle
-                    className="background"
-                    cx="17.8"
-                    cy="17.8"
-                    r="17.8"
-                  ></circle>
-                  <circle
-                    className="stroke"
-                    cx="17.8"
-                    cy="17.8"
-                    r="14.37"
-                  ></circle>
-                  <polyline
-                    className="check"
-                    points="11.78 18.12 15.55 22.23 25.17 12.87"
-                  ></polyline>
-                </svg>
-              </div>
-              <div className="slicer-opinion-option">Netural</div>
-            </div>
-            <div className="slicer-opinion-box3">
-              <div className="checkbox-wrapper-31">
-                <input
-                  type="checkbox"
-                  id="scales"
-                  name="scales"
-                  onChange={() =>
-                    setOpinion({
-                      positive: opinion.positive,
-                      netural: opinion.netural,
-                      negative: !opinion.negative,
-                    })
-                  }
-                  checked={opinion.negative ? "checked" : ""}
-                />
-                <svg viewBox="0 0 35.6 35.6">
-                  <circle
-                    className="background"
-                    cx="17.8"
-                    cy="17.8"
-                    r="17.8"
-                  ></circle>
-                  <circle
-                    className="stroke"
-                    cx="17.8"
-                    cy="17.8"
-                    r="14.37"
-                  ></circle>
-                  <polyline
-                    className="check"
-                    points="11.78 18.12 15.55 22.23 25.17 12.87"
-                  ></polyline>
-                </svg>
-              </div>
-              <div className="slicer-opinion-option">Negative</div>
-            </div>
-          </div>
-        </div>
-        <div className="slicer-language">
-          <div className="slicer-language-title">Language</div>
-          <div className="slicer-language-options">
-            <form>
-              <div className="multiselect">
-                <div
-                  className="selectBox"
-                  onClick={() => setExpanded(!expanded)}
-                >
-                  <select>
-                    <option>Choose Languages</option>
-                  </select>
-                  <div className="overSelect"></div>
+
+        <div className="slicer">
+          <div></div>
+          <div className="slicer-choose-date">
+            <div className="slicer-date">
+              <div className="slicer-date-title">Date</div>
+              <div className="slicer-date-option">
+                <div className="slicer-date-from">
+                  <div className="slicer-date-from-title">From :</div>
+                  <input
+                    className="slicer-date-from-date"
+                    type="date"
+                    min="2000-01-01"
+                    max="2024-12-31"
+                    onChange={(e) =>
+                      setDate({ from: e.target.value, to: date.to })
+                    }
+                    value={date.from}
+                  />
                 </div>
-                <div className={display}>
-                  <label className="language-options">
-                    {languages_used.map((lan) =>
-                      Languages(lan, selectedLanguages, setSelectedLanguages)
-                    )}
-                  </label>
+                <div className="slicer-date-from">
+                  <div className="slicer-date-from-title">To :</div>
+                  <input
+                    className="slicer-date-from-date"
+                    type="date"
+                    min="2000-01-01"
+                    max="2024-12-31"
+                    onChange={(e) =>
+                      setDate({ from: date.from, to: e.target.value })
+                    }
+                    value={date.to}
+                  />
                 </div>
               </div>
-            </form>
+            </div>
+          </div>
+          <div className="slicer-opinion">
+            <div className="slicer-opinion-title">Opinion</div>
+            <div></div>
+            <div className="slicer-opinion-box">
+              <div className="slicer-opinion-box1">
+                <div className="checkbox-wrapper-31">
+                  <input
+                    type="checkbox"
+                    id="scales"
+                    name="scales"
+                    onChange={() =>
+                      setOpinion({
+                        positive: !opinion.positive,
+                        netural: opinion.netural,
+                        negative: opinion.negative,
+                      })
+                    }
+                    checked={opinion.positive ? "checked" : ""}
+                  />
+                  <svg viewBox="0 0 35.6 35.6">
+                    <circle
+                      className="background"
+                      cx="17.8"
+                      cy="17.8"
+                      r="17.8"
+                    ></circle>
+                    <circle
+                      className="stroke"
+                      cx="17.8"
+                      cy="17.8"
+                      r="14.37"
+                    ></circle>
+                    <polyline
+                      className="check"
+                      points="11.78 18.12 15.55 22.23 25.17 12.87"
+                    ></polyline>
+                  </svg>
+                </div>
+                <div className="slicer-opinion-option">Positive</div>
+              </div>
+              <div className="slicer-opinion-box2">
+                <div className="checkbox-wrapper-31">
+                  <input
+                    type="checkbox"
+                    id="scales"
+                    name="scales"
+                    onChange={() =>
+                      setOpinion({
+                        positive: opinion.positive,
+                        netural: !opinion.netural,
+                        negative: opinion.negative,
+                      })
+                    }
+                    checked={opinion.netural ? "checked" : ""}
+                  />
+                  <svg viewBox="0 0 35.6 35.6">
+                    <circle
+                      className="background"
+                      cx="17.8"
+                      cy="17.8"
+                      r="17.8"
+                    ></circle>
+                    <circle
+                      className="stroke"
+                      cx="17.8"
+                      cy="17.8"
+                      r="14.37"
+                    ></circle>
+                    <polyline
+                      className="check"
+                      points="11.78 18.12 15.55 22.23 25.17 12.87"
+                    ></polyline>
+                  </svg>
+                </div>
+                <div className="slicer-opinion-option">Netural</div>
+              </div>
+              <div className="slicer-opinion-box3">
+                <div className="checkbox-wrapper-31">
+                  <input
+                    type="checkbox"
+                    id="scales"
+                    name="scales"
+                    onChange={() =>
+                      setOpinion({
+                        positive: opinion.positive,
+                        netural: opinion.netural,
+                        negative: !opinion.negative,
+                      })
+                    }
+                    checked={opinion.negative ? "checked" : ""}
+                  />
+                  <svg viewBox="0 0 35.6 35.6">
+                    <circle
+                      className="background"
+                      cx="17.8"
+                      cy="17.8"
+                      r="17.8"
+                    ></circle>
+                    <circle
+                      className="stroke"
+                      cx="17.8"
+                      cy="17.8"
+                      r="14.37"
+                    ></circle>
+                    <polyline
+                      className="check"
+                      points="11.78 18.12 15.55 22.23 25.17 12.87"
+                    ></polyline>
+                  </svg>
+                </div>
+                <div className="slicer-opinion-option">Negative</div>
+              </div>
+            </div>
+          </div>
+          <div className="slicer-language">
+            <div className="slicer-language-title">Language</div>
+            <div className="slicer-language-options">
+              <form>
+                <div className="multiselect">
+                  <div
+                    className="selectBox"
+                    onClick={() => setExpanded(!expanded)}
+                  >
+                    Choose Languages
+                  </div>
+                  <div className={display}>
+                    <label className="language-options">
+                      {languages_used.map((lan) =>
+                        Languages(lan, selectedLanguages, setSelectedLanguages)
+                      )}
+                    </label>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div></div>
+        </div>
+        <div className="filtring-button">
+          <div className="fancy">
+            <span className="top-key"></span>
+            <span className="text">Buy Tickets</span>
+            <span className="bottom-key-1"></span>
+            <span className="bottom-key-2"></span>
           </div>
         </div>
-        <button
-          onClick={() => {
-            console.log("conststate=\n", conststate);
-            let x = filtring(date, opinion, conststate, selectedLanguages);
-            changeState(state.p1n, x, state.p2n, state.p2d);
-          }}
-        >
-          Search
-        </button>
       </div>
     </>
   );
 };
+// ====================
+// <button
+// onClick={() => {
+//   console.log("conststate=\n", conststate);
+//   let x = filtring(date, opinion, conststate, selectedLanguages);
+//   changeState(state.p1n, x, state.p2n, state.p2d);
+// }}
+// >
+// Search
+// </button>
+// ====================
 const Languages = (lan, selectedLanguages, setSelectedLanguages) => {
   let checked = "checked";
   if (!selectedLanguages[lan]) {

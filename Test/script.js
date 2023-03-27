@@ -1,7 +1,9 @@
-var arr = ["apple", "mango", "apple", "orange", "mango", "mango"];
-
-function removeDuplicates(arr) {
-  return arr.filter((item, index) => arr.indexOf(item) === index);
-}
-
-console.log(removeDuplicates(arr));
+$(".dropdown-el").click(function (e) {
+  e.preventDefault();
+  e.stopPropagation();
+  $(this).toggleClass("expanded");
+  $("#" + $(e.target).attr("for")).prop("checked", true);
+});
+$(document).click(function () {
+  $(".dropdown-el").removeClass("expanded");
+});
