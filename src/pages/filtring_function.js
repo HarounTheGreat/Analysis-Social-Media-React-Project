@@ -286,16 +286,12 @@ export const filtring = (
 ) => {
   let from = date.from;
   let to = date.to;
-  let res = state.p1d;
-  console.log("opinion\n", opinion);
-  console.log("date\n", date);
-  console.log("res\n", res);
+  let res = state;
   if (date.from === "-") from = "2020-03-01";
   if (date.to === "-") to = "2024-03-01";
-  res = filtring_by_date(state.p1d, from, to);
+  res = filtring_by_date(res, from, to);
   res = filtring_by_type(res, opinion);
   res = filtring_by_language(res, selectedLanguages);
-
   return res;
 };
 // (date, opinion, state, selectedLanguages)

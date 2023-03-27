@@ -320,8 +320,19 @@ const PersonSelection = ({ state, changeState, conststate }) => {
             className="fancy"
             onClick={() => {
               console.log("conststate=\n", conststate);
-              let x = filtring(date, opinion, conststate, selectedLanguages);
-              changeState(state.p1n, x, state.p2n, state.p2d);
+              let x = filtring(
+                date,
+                opinion,
+                conststate.p1d,
+                selectedLanguages
+              );
+              let y = filtring(
+                date,
+                opinion,
+                conststate.p2d,
+                selectedLanguages
+              );
+              changeState(state.p1n, x, state.p2n, y);
             }}
           >
             <span className="top-key"></span>

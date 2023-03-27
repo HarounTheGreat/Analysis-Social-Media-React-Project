@@ -84,7 +84,7 @@ const Bar_chart = () => {
         backgroundColor: "rgba(255, 99, 132, 0.5)",
       },
       {
-        label: person1.name,
+        label: state.p2n,
         data: dataset2,
         backgroundColor: "rgba(53, 162, 235, 0.5)",
       },
