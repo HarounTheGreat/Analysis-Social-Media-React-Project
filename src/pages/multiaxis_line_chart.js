@@ -52,8 +52,15 @@ const Multiaxis_line_chart = () => {
     "2024-07-01"
   );
   console.log("final_data1=\n", final_data1);
-  let final_data2 = final_data1;
+  let final_data2 = undefined;
   twoPersons = state.p2n !== undefined;
+  if (twoPersons) {
+    final_data2 = calculate_data_by_type_and_month(.
+      state.p2d,
+      "2019-07-01",
+      "2024-07-01"
+    );
+  }
   const options = {
     responsive: true,
     interaction: {
