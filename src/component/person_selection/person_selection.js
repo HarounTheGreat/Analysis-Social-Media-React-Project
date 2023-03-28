@@ -3,20 +3,15 @@ import React, { useState } from "react";
 import listData from "../services/listData";
 import "./person_selection.css";
 import {
-  Get_Img_by_Fullname,
-  Languages_used,
   Choose_person,
-  removeDuplicates,
-  Filter_data_by_language,
-  Filter_by_languages,
+  All_Languages_used,
   filtring,
 } from "../../pages/filtring_function";
-// secondhandle,
-// person1_name,
-// person2_name,
-// twoPersons,
-// changeState(p1n, p1d, p2n, p2d)
-const PersonSelection = ({ state, changeState, conststate }) => {
+const PersonSelection = ({ state, changeState }) => {
+  const [selectedPersons, setSelectedPersons] = useState({
+    person1: Choose_person(state.p1n, state.p1n),
+    person2: Choose_person(state.p2n, state.p2n),
+  });
   const [opinion, setOpinion] = useState({
     positive: true,
     netural: true,
@@ -24,43 +19,37 @@ const PersonSelection = ({ state, changeState, conststate }) => {
   });
   const [expanded, setExpanded] = useState(false);
   const [date, setDate] = useState({ from: "-", to: "-" });
+  let int_selectedLanguages = {};
   let twoPersons = false;
-  let person1;
-  let person2;
   let display = "show-checkboxes";
-  expanded ? (display = "hide-checkboxes") : (display = "show-checkboxes");
-  person1 = Get_Img_by_Fullname(state.p1n);
-  person2 = Get_Img_by_Fullname(state.p2n);
-  let languages_used = Languages_used(Choose_person(person1.Id).person_data);
+  let languages_used;
   let selection_options = [];
   let one_option = {};
-  one_option = {};
-  let languages_used2 = ["", ""];
-  let languages_used_by_two;
-  languages_used2[0] = Languages_used(Choose_person(person1.Id).person_data);
-  if (person2 !== undefined) {
-    languages_used2[1] = Languages_used(Choose_person(person2.Id).person_data);
-  }
-  languages_used_by_two = languages_used2[0].concat(languages_used2[1]);
-  languages_used = removeDuplicates(languages_used_by_two);
+  if (selectedPersons.person2 === undefined)
+    languages_used = All_Languages_used(
+      selectedPersons.person1.person_data,
+      undefined
+    );
+  else
+    languages_used = All_Languages_used(
+      selectedPersons.person1.person_data,
+      selectedPersons.person2.person_data
+    );
   for (let i = 0; i < listData.length; i++) {
     one_option = {
-      value: Choose_person(Get_Img_by_Fullname(listData[i].Fullname).Id)
-        .person_data,
+      value: listData[i].Fullname,
       label: listData[i].Fullname,
     };
     selection_options.push(one_option);
   }
-  if (person1 !== undefined && person2 !== undefined) {
-    twoPersons = true;
-  }
-  let int_selectedLanguages = {};
+  twoPersons = selectedPersons.person2 !== undefined;
   for (let i = 0; i < languages_used.length; i++) {
     int_selectedLanguages[languages_used[i]] = true;
   }
   const [selectedLanguages, setSelectedLanguages] = useState(
     int_selectedLanguages
   );
+  expanded ? (display = "hide-checkboxes") : (display = "show-checkboxes");
   return (
     <>
       <div className="person-selection">
@@ -72,7 +61,11 @@ const PersonSelection = ({ state, changeState, conststate }) => {
             <Select
               defaultValue={"firstPerson"}
               onChange={(change) => {
-                changeState(change.label, change.value, state.p2n, state.p2d);
+                let change1 = {
+                  person1: Choose_person(change.label, change.label),
+                  person2: selectedPersons.person2,
+                };
+                setSelectedPersons(change1);
               }}
               options={selection_options}
             />
@@ -83,9 +76,13 @@ const PersonSelection = ({ state, changeState, conststate }) => {
           <div className="select-persons">
             <Select
               defaultValue={"firstPerson"}
-              onChange={(change) =>
-                changeState(state.p1n, state.p1d, change.label, change.value)
-              }
+              onChange={(change) => {
+                let change2 = {
+                  person1: selectedPersons.person1,
+                  person2: Choose_person(change.label, change.label),
+                };
+                setSelectedPersons(change2);
+              }}
               options={selection_options}
             />
           </div>
@@ -94,14 +91,18 @@ const PersonSelection = ({ state, changeState, conststate }) => {
           <div className="person-card">
             <img
               className="person-card-img"
-              alt={state.p1n}
-              src={person1.Image}
+              alt={selectedPersons.person1.Fullname}
+              src={selectedPersons.person1.Image}
             />
             <div className="person-card-desc">
-              <div className="person-card-fullname">{person1.Fullname}</div>
-              <div className="person-card-title">{person1.Status}</div>
+              <div className="person-card-fullname">
+                {selectedPersons.person1.Fullname}
+              </div>
+              <div className="person-card-title">
+                {selectedPersons.person1.Status}
+              </div>
               <div className="person-card-description">
-                {person1.Description}
+                {selectedPersons.person1.Description}
               </div>
             </div>
           </div>
@@ -112,14 +113,18 @@ const PersonSelection = ({ state, changeState, conststate }) => {
               <div className="person-card">
                 <img
                   className="person-card-img"
-                  alt={state.p1n}
-                  src={person1.Image}
+                  alt={selectedPersons.person1.Fullname}
+                  src={selectedPersons.person1.Image}
                 />
                 <div className="person-card-desc">
-                  <div className="person-card-fullname">{person1.Fullname}</div>
-                  <div className="person-card-title">{person1.Status}</div>
+                  <div className="person-card-fullname">
+                    {selectedPersons.person1.Fullname}
+                  </div>
+                  <div className="person-card-title">
+                    {selectedPersons.person1.Status}
+                  </div>
                   <div className="person-card-description">
-                    {person1.Description}
+                    {selectedPersons.person1.Description}
                   </div>
                 </div>
               </div>
@@ -127,14 +132,18 @@ const PersonSelection = ({ state, changeState, conststate }) => {
               <div className="person-card2">
                 <img
                   className="person-card-img"
-                  alt={state.p2n}
-                  src={person2.Image}
+                  alt={selectedPersons.person2.Fullname}
+                  src={selectedPersons.person2.Image}
                 />
                 <div className="person-card-desc">
-                  <div className="person-card-fullname">{person2.Fullname}</div>
-                  <div className="person-card-title">{person2.Status}</div>
+                  <div className="person-card-fullname">
+                    {selectedPersons.person2.Fullname}
+                  </div>
+                  <div className="person-card-title">
+                    {selectedPersons.person2.Status}
+                  </div>
                   <div className="person-card-description">
-                    {person2.Description}
+                    {selectedPersons.person2.Description}
                   </div>
                 </div>
               </div>
@@ -144,36 +153,34 @@ const PersonSelection = ({ state, changeState, conststate }) => {
 
         <div className="slicer">
           <div></div>
-          <div className="slicer-choose-date">
-            <div className="slicer-date">
-              <div className="slicer-date-title">Date</div>
-              <div className="slicer-date-option">
-                <div className="slicer-date-from">
-                  <div className="slicer-date-from-title">From :</div>
-                  <input
-                    className="slicer-date-from-date"
-                    type="date"
-                    min="2000-01-01"
-                    max="2024-12-31"
-                    onChange={(e) =>
-                      setDate({ from: e.target.value, to: date.to })
-                    }
-                    value={date.from}
-                  />
-                </div>
-                <div className="slicer-date-from">
-                  <div className="slicer-date-from-title">To :</div>
-                  <input
-                    className="slicer-date-from-date"
-                    type="date"
-                    min="2000-01-01"
-                    max="2024-12-31"
-                    onChange={(e) =>
-                      setDate({ from: date.from, to: e.target.value })
-                    }
-                    value={date.to}
-                  />
-                </div>
+          <div className="slicer-date">
+            <div className="slicer-date-title">Date</div>
+            <div className="slicer-date-option">
+              <div className="slicer-date-from">
+                <div className="slicer-date-from-title">From :</div>
+                <input
+                  className="slicer-date-from-date"
+                  type="date"
+                  min="2000-01-01"
+                  max="2024-12-31"
+                  onChange={(e) =>
+                    setDate({ from: e.target.value, to: date.to })
+                  }
+                  value={date.from}
+                />
+              </div>
+              <div className="slicer-date-from">
+                <div className="slicer-date-from-title">To :</div>
+                <input
+                  className="slicer-date-from-date"
+                  type="date"
+                  min="2000-01-01"
+                  max="2024-12-31"
+                  onChange={(e) =>
+                    setDate({ from: date.from, to: e.target.value })
+                  }
+                  value={date.to}
+                />
               </div>
             </div>
           </div>
@@ -319,21 +326,22 @@ const PersonSelection = ({ state, changeState, conststate }) => {
           <div
             className="fancy"
             onClick={() => {
-              console.log("conststate=\n", conststate);
-              let x = filtring(
-                date,
-                opinion,
-                conststate.p1d,
-                selectedLanguages
+              changeState(
+                selectedPersons.person1.Fullname,
+                filtring(
+                  date,
+                  opinion,
+                  selectedPersons.person1.person_data,
+                  selectedLanguages
+                ),
+                selectedPersons.person2.Fullname,
+                filtring(
+                  date,
+                  opinion,
+                  selectedPersons.person2.person_data,
+                  selectedLanguages
+                )
               );
-              changeState(state.p1n, x, state.p2n, state.p2d);
-              let y = filtring(
-                date,
-                opinion,
-                conststate.p2d,
-                selectedLanguages
-              );
-              changeState(state.p1n, x, state.p2n, y);
             }}
           >
             <span className="top-key"></span>
@@ -347,10 +355,6 @@ const PersonSelection = ({ state, changeState, conststate }) => {
   );
 };
 const Languages = (lan, selectedLanguages, setSelectedLanguages) => {
-  let checked = "checked";
-  if (!selectedLanguages[lan]) {
-    checked = "";
-  }
   return (
     <div className="languages">
       <div className="languages-name">{lan}</div>
@@ -365,7 +369,7 @@ const Languages = (lan, selectedLanguages, setSelectedLanguages) => {
                 setSelectedLanguages
               );
             }}
-            checked={checked}
+            checked={selectedLanguages[lan]}
           />
           <span className="switch-left">Yes</span>
           <span className="switch-right">No</span>

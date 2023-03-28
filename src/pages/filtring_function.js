@@ -38,6 +38,20 @@ export const Languages_used = (Y) => {
   return res;
 };
 
+export const All_Languages_used = (X, Y) => {
+  let R = [];
+  for (let i = 0; i < X.length; i++) {
+    R.push(X[i].Language);
+  }
+  if (Y !== undefined)
+    for (let i = 0; i < Y.length; i++) {
+      R.push(Y[i].Language);
+    }
+  let res;
+  res = R.filter((item, index) => R.indexOf(item) === index);
+  return res;
+};
+
 // returns number of comments Example
 // Languages_used = [en , fr , ar , hi]
 // function returns [200,24,5,20]
@@ -144,19 +158,29 @@ export const calculate_data_by_type_and_month = (
   return res;
 };
 
-export const Choose_person = (personId) => {
-  personId = parseInt(personId);
+export const Choose_person = (personId, fullname) => {
   let person_data;
-  let name;
   let res = [];
-  for (let i = 0; i < listData.length; i++) {
-    if (listData[i].Id === personId) {
-      res = listData[i];
-      name = listData[i].Fullname;
-    }
+  if (fullname === undefined && personId === undefined) {
+    return undefined;
   }
-  person_data = require("../component/data/" + res.Name + ".json");
-  return { person_data: person_data, name: name };
+  if (fullname === undefined) {
+    personId = parseInt(personId);
+    for (let i = 0; i < listData.length; i++) {
+      if (listData[i].Id === personId) {
+        res = listData[i];
+      }
+    }
+    person_data = require("../component/data/" + res.Name + ".json");
+  } else {
+    for (let i = 0; i < listData.length; i++) {
+      if (listData[i].Fullname === fullname) {
+        res = listData[i];
+      }
+    }
+    person_data = require("../component/data/" + res.Name + ".json");
+  }
+  return { ...res, person_data: person_data };
 };
 
 // Months
@@ -224,20 +248,6 @@ export const Get_personID_by_Fullname = (Fullname) => {
   return res;
 };
 
-export const Get_Img_by_Fullname = (Fullname) => {
-  let res;
-  for (let i = 0; i < listData.length; i++) {
-    if (listData[i].Fullname === Fullname) {
-      res = listData[i];
-    }
-  }
-  return res;
-};
-
-export const removeDuplicates = (arr) => {
-  return arr.filter((item, index) => arr.indexOf(item) === index);
-};
-
 export const Filter_by_languages = (
   lan,
   languages_used,
@@ -283,13 +293,9 @@ export const filtring = (date, opinion, state, selectedLanguages) => {
   let res = state;
   if (date.from === "-") from = "2020-03-01";
   if (date.to === "-") to = "2024-03-01";
-  console.log("res=\n", res);
   res = filtring_by_date(res, from, to);
-  console.log("filtring_by_date(res)=\n", res);
   res = filtring_by_type(res, opinion);
-  console.log("filtring_by_type(res)=\n", res);
   res = filtring_by_language(res, selectedLanguages);
-  console.log("filtring_by_language(res)=\n", res);
   return res;
 };
 // (date, opinion, state, selectedLanguages)
