@@ -94,9 +94,9 @@ export const calculate_data_by_type = (X) => {
   let a = 0;
   let type = "O";
   for (let i = 0; i < X.length; i++) {
-    type = X[i].an;
+    type = X[i].comment_type;
     if (type === "P") {
-      p = X[i].Year.substring(5, 7);
+      p = X[i].year[1];
       a = parseInt(p);
       switch (a) {
         case 1:

@@ -28,6 +28,7 @@ ChartJS.register(
   Legend
 );
 const Multiaxis_line_chart = () => {
+  let twoPersons = false;
   let { personId } = useParams();
   let person1 = Choose_person(personId);
   console.log("person1=\n", person1);
@@ -45,40 +46,14 @@ const Multiaxis_line_chart = () => {
       p2d: p2d,
     });
   };
-  // const [fromYear, setFromYear] = useState(null);
-  // const [toYear, setToYear] = useState(null);
-  // let from_date = "2000-01-01";
-  // let to_date = "2024-12-31";
-  // const selection_options = [
-  //   { value: "2019", label: "2019" },
-  //   { value: "2020", label: "2020" },
-  //   { value: "2021", label: "2021" },
-  //   { value: "2022", label: "2022" },
-  // ];
-  // if (fromYear !== null) {
-  //   from_date = fromYear.value + "-01-01";
-  // }
-  // if (toYear !== null) {
-  //   to_date = toYear.value + "-12-31";
-  // }
-  // let final_data1;
-  // let final_data2;
-  // final_data1 = calculate_data_by_type_and_month(
-  //   trump_data,
-  //   from_date,
-  //   to_date
-  // );
-  // final_data2 = calculate_data_by_type_and_month(
-  //   obama_data,
-  //   from_date,
-  //   to_date
-  // );
   let final_data1 = calculate_data_by_type_and_month(
     state.p1d,
     "2019-07-01",
     "2024-07-01"
   );
+  console.log("final_data1=\n", final_data1);
   let final_data2 = final_data1;
+  twoPersons = state.p2n !== undefined;
   const options = {
     responsive: true,
     interaction: {
@@ -126,14 +101,14 @@ const Multiaxis_line_chart = () => {
     labels,
     datasets: [
       {
-        label: "Trump",
+        label: state.p1n,
         data: final_data1,
         borderColor: "rgb(255, 99, 132)",
         backgroundColor: "rgb(255, 99, 132)",
         yAxisID: "y1",
       },
       {
-        label: "Obama",
+        label: state.p2n,
         data: final_data2,
         borderColor: "rgb(53, 162, 235)",
         backgroundColor: "rgba(53, 162, 235, 0.5)",
@@ -142,11 +117,17 @@ const Multiaxis_line_chart = () => {
   };
 
   return (
-    <div className="multiaxis_line_chart">
+    <>
       <h1>Multiaxis Line Chart</h1>
-      <PersonSelection changeState={changeState} state={state} />
-      <Line options={options} data={data} />
-    </div>
+      <PersonSelection
+        changeState={changeState}
+        state={state}
+        twoPersons={twoPersons}
+      />
+      <div className="multiaxis_line_chart">
+        <Line options={options} data={data} />
+      </div>
+    </>
   );
 };
 export default Multiaxis_line_chart;

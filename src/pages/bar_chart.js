@@ -25,7 +25,7 @@ ChartJS.register(
 const Bar_chart = () => {
   let { personId } = useParams();
   let person1 = Choose_person(personId);
-  console.log("person1=\n", person1);
+  let twoPersons = false;
   const [state, setState] = useState({
     p1n: person1.Fullname,
     p1d: person1.person_data,
@@ -40,6 +40,7 @@ const Bar_chart = () => {
       p2d: p2d,
     });
   };
+  twoPersons = state.p2n !== undefined;
   const options = {
     responsive: true,
     plugins: {
@@ -81,11 +82,17 @@ const Bar_chart = () => {
     ],
   };
   return (
-    <div className="bar_chart">
+    <>
       <h1>Bar chart</h1>
-      <PersonSelection changeState={changeState} state={state} />
-      <Bar options={options} data={data} />
-    </div>
+      <PersonSelection
+        changeState={changeState}
+        state={state}
+        twoPersons={twoPersons}
+      />
+      <div className="bar_chart">
+        <Bar options={options} data={data} />
+      </div>
+    </>
   );
 };
 export default Bar_chart;
