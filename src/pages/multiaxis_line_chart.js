@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import { calculate_data_by_type_and_month } from "./filtring_function";
 import Select from "react-select";
 import Navbar from "../component/Navbar/Navbar";
-
+import PersonSelection from "../component/person_selection/person_selection";
+import { Link, useParams } from "react-router-dom";
+import { Choose_person, months } from "./filtring_function";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -25,36 +27,58 @@ ChartJS.register(
   Tooltip,
   Legend
 );
-const Multiaxis_line_chart = ({ trump_data, obama_data }) => {
-  const [fromYear, setFromYear] = useState(null);
-  const [toYear, setToYear] = useState(null);
-  let from_date = "2000-01-01";
-  let to_date = "2024-12-31";
-  const selection_options = [
-    { value: "2019", label: "2019" },
-    { value: "2020", label: "2020" },
-    { value: "2021", label: "2021" },
-    { value: "2022", label: "2022" },
-  ];
-  if (fromYear !== null) {
-    from_date = fromYear.value + "-01-01";
-  }
-  if (toYear !== null) {
-    to_date = toYear.value + "-12-31";
-  }
-  let final_data1;
-  let final_data2;
-  final_data1 = calculate_data_by_type_and_month(
-    trump_data,
-    from_date,
-    to_date
+const Multiaxis_line_chart = () => {
+  let { personId } = useParams();
+  let person1 = Choose_person(personId);
+  console.log("person1=\n", person1);
+  const [state, setState] = useState({
+    p1n: person1.Fullname,
+    p1d: person1.person_data,
+    p2n: undefined,
+    p2d: undefined,
+  });
+  const changeState = (p1n, p1d, p2n, p2d) => {
+    setState({
+      p1n: p1n,
+      p1d: p1d,
+      p2n: p2n,
+      p2d: p2d,
+    });
+  };
+  // const [fromYear, setFromYear] = useState(null);
+  // const [toYear, setToYear] = useState(null);
+  // let from_date = "2000-01-01";
+  // let to_date = "2024-12-31";
+  // const selection_options = [
+  //   { value: "2019", label: "2019" },
+  //   { value: "2020", label: "2020" },
+  //   { value: "2021", label: "2021" },
+  //   { value: "2022", label: "2022" },
+  // ];
+  // if (fromYear !== null) {
+  //   from_date = fromYear.value + "-01-01";
+  // }
+  // if (toYear !== null) {
+  //   to_date = toYear.value + "-12-31";
+  // }
+  // let final_data1;
+  // let final_data2;
+  // final_data1 = calculate_data_by_type_and_month(
+  //   trump_data,
+  //   from_date,
+  //   to_date
+  // );
+  // final_data2 = calculate_data_by_type_and_month(
+  //   obama_data,
+  //   from_date,
+  //   to_date
+  // );
+  let final_data1 = calculate_data_by_type_and_month(
+    state.p1d,
+    "2019-07-01",
+    "2024-07-01"
   );
-  final_data2 = calculate_data_by_type_and_month(
-    obama_data,
-    from_date,
-    to_date
-  );
-
+  let final_data2 = final_data1;
   const options = {
     responsive: true,
     interaction: {
@@ -119,25 +143,8 @@ const Multiaxis_line_chart = ({ trump_data, obama_data }) => {
 
   return (
     <div className="multiaxis_line_chart">
-      <h1>Trump vs Obama </h1>
-      <div className="year_selection">
-        <div className="cell cell-1">From</div>
-        <div className="cell cell-2">
-          <Select
-            defaultValue={fromYear}
-            onChange={setFromYear}
-            options={selection_options}
-          />
-        </div>
-        <div className="cell cell-3">to</div>
-        <div className="cell cell-4">
-          <Select
-            defaultValue={toYear}
-            onChange={setToYear}
-            options={selection_options}
-          />
-        </div>
-      </div>
+      <h1>Multiaxis Line Chart</h1>
+      <PersonSelection changeState={changeState} state={state} />
       <Line options={options} data={data} />
     </div>
   );

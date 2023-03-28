@@ -45,12 +45,7 @@ function App() {
           />
           <Route
             path=":personId/multiaxis_line_chart"
-            element={
-              <Multiaxis_line_chart
-                trump_data={trump_data}
-                obama_data={obama_data}
-              />
-            }
+            element={<Multiaxis_line_chart />}
           />
           <Route path=":productId" element={<SinglePerson />} />
           <Route path="*" element={<Error />} />

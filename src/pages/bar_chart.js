@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./chart.css";
 import Navbar from "../component/Navbar/Navbar";
-import { months, Get_personID_by_Fullname } from "./filtring_function";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -11,7 +10,7 @@ import {
   Tooltip,
   Legend,
 } from "chart.js";
-import { Choose_person } from "./filtring_function";
+import { Choose_person, months } from "./filtring_function";
 import { Link, useParams } from "react-router-dom";
 import { Bar } from "react-chartjs-2";
 import PersonSelection from "../component/person_selection/person_selection";
