@@ -10,7 +10,10 @@ const Navbar = ({ idnumber }) => {
           </Link>
         </li>
         <li>
-          <Link style={{ textDecoration: "none" }} to="/area_chart">
+          <Link
+            style={{ textDecoration: "none" }}
+            to={`/${idnumber}/area_chart`}
+          >
             Area Chart
           </Link>
         </li>
@@ -23,42 +26,66 @@ const Navbar = ({ idnumber }) => {
           </Link>
         </li>
         <li>
-          <Link style={{ textDecoration: "none" }} to="/bubble_chart">
+          <Link
+            style={{ textDecoration: "none" }}
+            to={`/${idnumber}/bubble_chart`}
+          >
             Bubble Chart
           </Link>
         </li>
         <li>
-          <Link style={{ textDecoration: "none" }} to="/column_chart">
+          <Link
+            style={{ textDecoration: "none" }}
+            to={`/${idnumber}/column_chart`}
+          >
             Column Chart
           </Link>
         </li>
         <li>
-          <Link style={{ textDecoration: "none" }} to="/doughnut_chart">
+          <Link
+            style={{ textDecoration: "none" }}
+            to={`/${idnumber}/doughnut_chart`}
+          >
             Doughnut Chart
           </Link>
         </li>
         <li>
-          <Link style={{ textDecoration: "none" }} to="/line_chart">
+          <Link
+            style={{ textDecoration: "none" }}
+            to={`/${idnumber}/line_chart`}
+          >
             Line Chart
           </Link>
         </li>
         <li>
-          <Link style={{ textDecoration: "none" }} to="/pie_chart">
+          <Link
+            style={{ textDecoration: "none" }}
+            to={`/${idnumber}/pie_chart`}
+          >
             Pie Chart
           </Link>
         </li>
         <li>
-          <Link style={{ textDecoration: "none" }} to="/stacked_bar_charts">
+          <Link
+            style={{ textDecoration: "none" }}
+            to={`/${idnumber}/stacked_bar_charts`}
+          >
             Stacked Bar Charts
           </Link>
         </li>
         <li>
-          <Link style={{ textDecoration: "none" }} to="/analyse_by_language">
+          <Link
+            style={{ textDecoration: "none" }}
+            to={`/${idnumber}/analyse_by_language`}
+          >
             Analyse by Language
           </Link>
         </li>
         <li>
-          <Link style={{ textDecoration: "none" }} to="/multiaxis_line_chart">
+          <Link
+            style={{ textDecoration: "none" }}
+            to={`/${idnumber}/multiaxis_line_chart`}
+          >
             Multiaxis Line Chart
           </Link>
         </li>

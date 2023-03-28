@@ -24,27 +24,27 @@ function App() {
           <Route path="/" element={<Home />} />
           {/* <Route path="/services" element={<Dashboard data={trump} />} /> */}
           <Route path=":personId/bar_chart" element={<Bar_chart />} />
-          <Route path="/bubble_chart" element={<Bubble_chart />} />
+          <Route path=":personId/bubble_chart" element={<Bubble_chart />} />
           <Route
-            path="/Doughnut_chart"
+            path=":personId/Doughnut_chart"
             element={<Doughnut_chart trump_data={trump_data} />}
           />
           <Route
-            path="/line_chart"
+            path=":personId/line_chart"
             element={
               <Line_chart trump_data={trump_data} obama_data={obama_data} />
             }
           />
           <Route
-            path="/analyse_by_language"
+            path=":personId/analyse_by_language"
             element={<Analyse_by_language trump_data={trump_data} />}
           />
           <Route
-            path="/pie_chart"
+            path=":personId/pie_chart"
             element={<Pie_chart trump_data={trump_data} />}
           />
           <Route
-            path="/multiaxis_line_chart"
+            path=":personId/multiaxis_line_chart"
             element={
               <Multiaxis_line_chart
                 trump_data={trump_data}
