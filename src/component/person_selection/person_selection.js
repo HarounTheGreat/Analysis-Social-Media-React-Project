@@ -38,9 +38,18 @@ const PersonSelection = ({ state, changeState, twoPersons }) => {
     "November",
     "December",
   ];
-  const years = [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023];
+  const years = [
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+  ];
   let yearsOptions = [];
-  let monthsOptions = [];
+  let monthsOptions = [{ value: "All", label: "All" }];
   for (let i = 1; i < months.length + 1; i++) {
     one_option = {
       value: i < 10 ? "0" + i.toString() : i.toString(),
@@ -80,7 +89,6 @@ const PersonSelection = ({ state, changeState, twoPersons }) => {
     int_selectedLanguages
   );
   expanded ? (display = "hide-checkboxes") : (display = "show-checkboxes");
-  console.log("Date=\n", date);
   return (
     <div className="person-selection">
       <div className="select-two-persons">
@@ -190,7 +198,7 @@ const PersonSelection = ({ state, changeState, twoPersons }) => {
               <div className="slicer-date-from-title">Year :</div>
               <Select
                 className="slicer-date-from-date"
-                defaultValue={"All"}
+                defaultValue={"2023"}
                 onChange={(change) => {
                   setDate((date) => ({ ...date, year: change.value }));
                 }}

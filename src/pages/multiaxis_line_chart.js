@@ -31,7 +31,6 @@ const Multiaxis_line_chart = () => {
   let twoPersons = false;
   let { personId } = useParams();
   let person1 = Choose_person(personId);
-  console.log("person1=\n", person1);
   const [state, setState] = useState({
     p1n: person1.Fullname,
     p1d: person1.person_data,
@@ -51,7 +50,6 @@ const Multiaxis_line_chart = () => {
     "2019-07-01",
     "2024-07-01"
   );
-  console.log("final_data1=\n", final_data1);
   let final_data2 = undefined;
   twoPersons = state.p2n !== undefined;
   if (twoPersons) {

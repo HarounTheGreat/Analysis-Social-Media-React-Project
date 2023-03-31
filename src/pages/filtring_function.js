@@ -294,6 +294,10 @@ export const filtring = (date, opinion, state, selectedLanguages) => {
   // if (date.from === "-") from = "2020-03-01";
   // if (date.to === "-") to = "2024-03-01";
   res = Filtring_by_Year(date, state);
+  console.log("date.month !== All=\n", date.month !== "All");
+  if (date.month !== "All") {
+    res = Filtring_by_Month(date, state);
+  }
   // res = filtring_by_type(res, opinion);
   // res = filtring_by_language(res, selectedLanguages);
   return res;
@@ -301,5 +305,18 @@ export const filtring = (date, opinion, state, selectedLanguages) => {
 
 export const Filtring_by_Year = (date, data) => {
   const year = date.year;
-  const month = date.month;
+  let res = [];
+  for (let i = 0; i < data.length; i++) {
+    if (data[i].year[0] === year) res.push(data[i]);
+  }
+  return res;
+};
+export const Filtring_by_Month = (date, data) => {
+  const month = date.month.toString();
+  let res = [];
+  for (let i = 0; i < data.length; i++) {
+    if (data[i].year[1] === month) res.push(data[i]);
+  }
+  console.log("Filtring_by_Month=\n", res);
+  return res;
 };
