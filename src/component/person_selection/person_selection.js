@@ -115,6 +115,8 @@ const PersonSelection = ({ state, changeState, twoPersons }) => {
           <Select
             defaultValue={"firstPerson"}
             onChange={(change) => {
+              console.log("=============");
+              twoPersons = true;
               let change2 = {
                 person1: selectedPersons.person1,
                 person2: Choose_person(change.label, change.label),
@@ -360,22 +362,36 @@ const PersonSelection = ({ state, changeState, twoPersons }) => {
         <div
           className="fancy"
           onClick={() => {
-            changeState(
-              selectedPersons.person1.Fullname,
-              filtring(
-                date,
-                opinion,
-                selectedPersons.person1.person_data,
-                selectedLanguages
-              ),
-              selectedPersons.person2.Fullname,
-              filtring(
-                date,
-                opinion,
-                selectedPersons.person2.person_data,
-                selectedLanguages
-              )
-            );
+            console.log("date=\n", date);
+            if (selectedPersons.person2 === undefined)
+              changeState(
+                selectedPersons.person1.Fullname,
+                filtring(
+                  date,
+                  opinion,
+                  selectedPersons.person1.person_data,
+                  selectedLanguages
+                ),
+                undefined,
+                undefined
+              );
+            else
+              changeState(
+                selectedPersons.person1.Fullname,
+                filtring(
+                  date,
+                  opinion,
+                  selectedPersons.person1.person_data,
+                  selectedLanguages
+                ),
+                selectedPersons.person2.Fullname,
+                filtring(
+                  date,
+                  opinion,
+                  selectedPersons.person2.person_data,
+                  selectedLanguages
+                )
+              );
           }}
         >
           <span className="top-key"></span>

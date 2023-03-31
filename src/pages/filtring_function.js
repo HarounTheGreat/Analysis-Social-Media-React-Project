@@ -291,10 +291,10 @@ export const filtring = (date, opinion, state, selectedLanguages) => {
   let from = date.year;
   let to = date.to;
   let res = state;
+  console.log("===", label(date));
   // if (date.from === "-") from = "2020-03-01";
   // if (date.to === "-") to = "2024-03-01";
   res = Filtring_by_Year(date, state);
-  console.log("date.month !== All=\n", date.month !== "All");
   if (date.month !== "All") {
     res = Filtring_by_Month(date, state);
   }
@@ -304,7 +304,8 @@ export const filtring = (date, opinion, state, selectedLanguages) => {
 };
 
 export const Filtring_by_Year = (date, data) => {
-  const year = date.year;
+  let year;
+  date.year === "All" ? (year = "2023") : (year = date.year);
   let res = [];
   for (let i = 0; i < data.length; i++) {
     if (data[i].year[0] === year) res.push(data[i]);
@@ -312,11 +313,54 @@ export const Filtring_by_Year = (date, data) => {
   return res;
 };
 export const Filtring_by_Month = (date, data) => {
+  if (date.month === "All") {
+    return data;
+  }
   const month = date.month.toString();
   let res = [];
   for (let i = 0; i < data.length; i++) {
     if (data[i].year[1] === month) res.push(data[i]);
   }
-  console.log("Filtring_by_Month=\n", res);
+  return res;
+};
+
+export const label = (date) => {
+  const month = date.month;
+  let i = 0;
+  let res = [];
+  let calender31 = ["01", "03", "05", "07", "08", "10", "12"];
+  let calender30 = ["04", "06", "09", "11"];
+  let calender28 = ["02"];
+  if (month === "All")
+    res = [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December",
+    ];
+  else {
+    console.log("month=\n", month);
+    console.log("month.includes(calender31)=\n", month.includes(calender31));
+    if (calender31.includes(month))
+      for (i = 1; i < 32; i++) {
+        res.push(i.toString());
+      }
+    if (calender30.includes(month))
+      for (i = 1; i < 31; i++) {
+        res.push(i.toString());
+      }
+    if (calender28.includes(month))
+      for (i = 1; i < 29; i++) {
+        res.push(i.toString());
+      }
+  }
   return res;
 };
