@@ -18,12 +18,44 @@ const PersonSelection = ({ state, changeState, twoPersons }) => {
     negative: true,
   });
   const [expanded, setExpanded] = useState(false);
-  const [date, setDate] = useState({ from: "-", to: "-" });
+  const [date, setDate] = useState({ year: "All", month: "All" });
   let int_selectedLanguages = {};
   let display = "show-checkboxes";
   let languages_used;
   let selection_options = [];
   let one_option = {};
+  const months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
+  const years = [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023];
+  let yearsOptions = [];
+  let monthsOptions = [];
+  for (let i = 1; i < months.length + 1; i++) {
+    one_option = {
+      value: i < 10 ? "0" + i.toString() : i.toString(),
+      label: months[i - 1],
+    };
+    monthsOptions.push(one_option);
+  }
+  for (let i = 0; i < years.length; i++) {
+    one_option = {
+      value: years[i],
+      label: years[i],
+    };
+    yearsOptions.push(one_option);
+  }
+  one_option = {};
   if (selectedPersons.person2 === undefined)
     languages_used = All_Languages_used(
       selectedPersons.person1.person_data,
@@ -48,6 +80,7 @@ const PersonSelection = ({ state, changeState, twoPersons }) => {
     int_selectedLanguages
   );
   expanded ? (display = "hide-checkboxes") : (display = "show-checkboxes");
+  console.log("Date=\n", date);
   return (
     <div className="person-selection">
       <div className="select-two-persons">
@@ -154,27 +187,25 @@ const PersonSelection = ({ state, changeState, twoPersons }) => {
           <div className="slicer-date-title">Date</div>
           <div className="slicer-date-option">
             <div className="slicer-date-from">
-              <div className="slicer-date-from-title">From :</div>
-              <input
+              <div className="slicer-date-from-title">Year :</div>
+              <Select
                 className="slicer-date-from-date"
-                type="date"
-                min="2000-01-01"
-                max="2024-12-31"
-                onChange={(e) => setDate({ from: e.target.value, to: date.to })}
-                value={date.from}
+                defaultValue={"All"}
+                onChange={(change) => {
+                  setDate((date) => ({ ...date, year: change.value }));
+                }}
+                options={yearsOptions}
               />
             </div>
             <div className="slicer-date-from">
-              <div className="slicer-date-from-title">To :</div>
-              <input
+              <div className="slicer-date-from-title">Month :</div>
+              <Select
                 className="slicer-date-from-date"
-                type="date"
-                min="2000-01-01"
-                max="2024-12-31"
-                onChange={(e) =>
-                  setDate({ from: date.from, to: e.target.value })
-                }
-                value={date.to}
+                defaultValue={"firstPerson"}
+                onChange={(change) => {
+                  setDate((date) => ({ ...date, month: change.value }));
+                }}
+                options={monthsOptions}
               />
             </div>
           </div>

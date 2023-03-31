@@ -288,31 +288,18 @@ export const filtring_by_language = (data, languages) => {
   return res;
 };
 export const filtring = (date, opinion, state, selectedLanguages) => {
-  let from = date.from;
+  let from = date.year;
   let to = date.to;
   let res = state;
-  if (date.from === "-") from = "2020-03-01";
-  if (date.to === "-") to = "2024-03-01";
-  res = filtring_by_date(res, from, to);
-  res = filtring_by_type(res, opinion);
-  res = filtring_by_language(res, selectedLanguages);
+  // if (date.from === "-") from = "2020-03-01";
+  // if (date.to === "-") to = "2024-03-01";
+  res = Filtring_by_Year(date, state);
+  // res = filtring_by_type(res, opinion);
+  // res = filtring_by_language(res, selectedLanguages);
   return res;
 };
-// (date, opinion, state, selectedLanguages)
 
-// let res;
-// let languages = [];
-// let data = [];
-// for (let i = 0; i < languages_used.length; i++) {
-//   if (onoff[i] === "on") {
-//     languages.push(languages_used[i]);
-//   }
-// }
-// if (state.p2d !== undefined) {
-//   data = state.p1d.concat(state.p2d);
-// } else {
-//   data = state.p1d;
-// }
-// res = Filter_data_by_language(data, languages);
-// res = res.flat(1);
-// return res;
+export const Filtring_by_Year = (date, data) => {
+  const year = date.year;
+  const month = date.month;
+};
