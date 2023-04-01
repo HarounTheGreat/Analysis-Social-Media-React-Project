@@ -6,7 +6,7 @@ import { Doughnut } from "react-chartjs-2";
 import "./chart.css";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import Calcul from "../component/clacul";
-import { filtring_by_date } from "./filtring_function";
+import { filtring_by_date } from "../component/filtring_function";
 let language = undefined;
 ChartJS.register(ArcElement, Tooltip, Legend);
 

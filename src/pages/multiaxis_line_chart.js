@@ -1,10 +1,13 @@
 import React, { useState } from "react";
-import { calculate_data_by_type_and_month } from "./filtring_function";
 import Select from "react-select";
 import Navbar from "../component/Navbar/Navbar";
 import PersonSelection from "../component/person_selection/person_selection";
 import { Link, useParams } from "react-router-dom";
-import { Choose_person, months } from "./filtring_function";
+import {
+  calculate_data_by_type_and_month,
+  Choose_person,
+  months,
+} from "../component/filtring_function";
 import {
   Chart as ChartJS,
   CategoryScale,

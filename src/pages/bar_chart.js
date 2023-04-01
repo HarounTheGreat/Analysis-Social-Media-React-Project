@@ -10,7 +10,7 @@ import {
   Tooltip,
   Legend,
 } from "chart.js";
-import { Choose_person, months } from "./filtring_function";
+import { Choose_person, months } from "../component/filtring_function";
 import { Link, useParams } from "react-router-dom";
 import { Bar } from "react-chartjs-2";
 import PersonSelection from "../component/person_selection/person_selection";
@@ -66,6 +66,7 @@ const Bar_chart = () => {
   ];
   const dataset1 = months(state.p1d);
   const dataset2 = months(state.p2d);
+  console.log("dataset1=\n", dataset1);
   const data = {
     labels,
     datasets: [

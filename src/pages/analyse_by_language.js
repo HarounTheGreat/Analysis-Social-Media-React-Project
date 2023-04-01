@@ -2,7 +2,7 @@ import {
   filtring_by_date,
   Filter_data_by_language,
   Languages_used,
-} from "./filtring_function";
+} from "../component/filtring_function";
 import Navbar from "../component/Navbar/Navbar";
 import React from "react";
 import Pie_chart from "./pie_chart";

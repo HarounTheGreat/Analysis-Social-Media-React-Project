@@ -2,7 +2,10 @@ import React from "react";
 import "./chart.css";
 import Navbar from "../component/Navbar/Navbar";
 
-import { Languages_used, Comment_by_language } from "./filtring_function";
+import {
+  Languages_used,
+  Comment_by_language,
+} from "../component/filtring_function";
 import {
   Chart as ChartJS,
   CategoryScale,

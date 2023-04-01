@@ -1,5 +1,5 @@
 // return fillring data without change the data structur
-import listData from "../component/services/listData";
+import listData from "./services/listData";
 export const filtring_by_date = (data, from_Date, to_Date, language) => {
   let filtring_data = [];
   if (language === undefined) {

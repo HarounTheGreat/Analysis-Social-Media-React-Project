@@ -6,7 +6,7 @@ import {
   Choose_person,
   All_Languages_used,
   filtring,
-} from "../../pages/filtring_function";
+} from "../filtring_function";
 const PersonSelection = ({ state, changeState, twoPersons }) => {
   const [selectedPersons, setSelectedPersons] = useState({
     person1: Choose_person(state.p1n, state.p1n),
