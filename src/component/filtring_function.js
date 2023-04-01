@@ -291,7 +291,6 @@ export const filtring = (date, opinion, state, selectedLanguages) => {
   let from = date.year;
   let to = date.to;
   let res = state;
-  console.log("===", label(date));
   // if (date.from === "-") from = "2020-03-01";
   // if (date.to === "-") to = "2024-03-01";
   res = Filtring_by_Year(date, state);
@@ -347,8 +346,6 @@ export const label = (date) => {
       "December",
     ];
   else {
-    console.log("month=\n", month);
-    console.log("month.includes(calender31)=\n", month.includes(calender31));
     if (calender31.includes(month))
       for (i = 1; i < 32; i++) {
         res.push(i.toString());
@@ -361,6 +358,21 @@ export const label = (date) => {
       for (i = 1; i < 29; i++) {
         res.push(i.toString());
       }
+  }
+  return res;
+};
+
+export const Data_by_Day = (labels, month, data) => {
+  let res = [];
+  for (let i = 0; i < labels.length; i++) {
+    res.push(0);
+  }
+  console.log("month\n", month);
+  for (let i = 0; i < data.length; i++) {
+    if (month === data[i].year[1]) {
+      res[parseInt(data[i].year[2]) - 1] =
+        res[parseInt(data[i].year[2]) - 1] + 1;
+    }
   }
   return res;
 };

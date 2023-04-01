@@ -6,8 +6,11 @@ import {
   Choose_person,
   All_Languages_used,
   filtring,
+  label,
+  Data_by_Day,
 } from "../filtring_function";
-const PersonSelection = ({ state, changeState, twoPersons }) => {
+const PersonSelection = ({ state, changeState }) => {
+  const [twoPersons, setTwoPersons] = useState(false);
   const [selectedPersons, setSelectedPersons] = useState({
     person1: Choose_person(state.p1n, state.p1n),
     person2: Choose_person(state.p2n, state.p2n),
@@ -116,7 +119,7 @@ const PersonSelection = ({ state, changeState, twoPersons }) => {
             defaultValue={"firstPerson"}
             onChange={(change) => {
               console.log("=============");
-              twoPersons = true;
+              setTwoPersons(true);
               let change2 = {
                 person1: selectedPersons.person1,
                 person2: Choose_person(change.label, change.label),
@@ -362,36 +365,54 @@ const PersonSelection = ({ state, changeState, twoPersons }) => {
         <div
           className="fancy"
           onClick={() => {
+            let labels;
+            let p2d;
+            let p2n;
+            let result;
             console.log("date=\n", date);
-            if (selectedPersons.person2 === undefined)
-              changeState(
-                selectedPersons.person1.Fullname,
-                filtring(
-                  date,
-                  opinion,
-                  selectedPersons.person1.person_data,
-                  selectedLanguages
-                ),
-                undefined,
-                undefined
+            labels = label(date);
+            let dataset2;
+            let dataset1 = Data_by_Day(
+              labels,
+              date.month,
+              selectedPersons.person1.person_data
+            );
+            if (selectedPersons.person2 === undefined) {
+              p2d = undefined;
+              p2n = undefined;
+              dataset2 = undefined;
+            } else {
+              dataset2 = Data_by_Day(
+                labels,
+                date.month,
+                selectedPersons.person2.person_data
               );
-            else
-              changeState(
-                selectedPersons.person1.Fullname,
-                filtring(
-                  date,
-                  opinion,
-                  selectedPersons.person1.person_data,
-                  selectedLanguages
-                ),
-                selectedPersons.person2.Fullname,
-                filtring(
-                  date,
-                  opinion,
-                  selectedPersons.person2.person_data,
-                  selectedLanguages
-                )
+              result = {
+                labels: labels,
+                dataset1: dataset1,
+                dataset2: dataset2,
+              };
+              p2d = filtring(
+                date,
+                opinion,
+                selectedPersons.person2.person_data,
+                selectedLanguages
               );
+              p2n = selectedPersons.person2.Fullname;
+            }
+            console.log("result=\n", result);
+            changeState(
+              selectedPersons.person1.Fullname,
+              filtring(
+                date,
+                opinion,
+                selectedPersons.person1.person_data,
+                selectedLanguages
+              ),
+              p2n,
+              p2d,
+              result
+            );
           }}
         >
           <span className="top-key"></span>
